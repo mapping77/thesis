@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  20 FEB 2022 16:28
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  20 FEB 2022 18:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2809,25 +2809,18 @@ LaTeX Font Warning: Font shape `TU/ntxtlf/bx/n' undefined
 File: fig1.pdf Graphic file (type pdf)
 <use fig1.pdf>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 194.
+(Font)              scaled to size 10.53937pt on input line 202.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 194.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 202.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 194.
-
-
-LaTeX Warning: Reference `asymptotic' on page 9 undefined on input line 194.
-
-
-LaTeX Warning: Reference `asymptotic' on page 9 undefined on input line 194.
-
-[9] [10]) (./Tex/Chap_Polaron.tex [11] [12
-
-]
+(Font)              scaled to size 10.53937pt on input line 202.
+ [9] [10] [11]) (./Tex/Chap_Polaron.tex [12]
 第3章
-) (./Tex/Chap_SummaryandOutlook.tex [13] [14
+) (./Tex/Chap_SummaryandOutlook.tex [13
+
+] [14
 
 ]
 第4章
@@ -3528,7 +3521,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DC1967F3E553966CC5DA00FB47195E1C.
+(rerunfilecheck)             Checksum: A256BBC2801139BA1C40FB0723B22AC6.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3538,17 +3531,14 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 42242 strings out of 492970
- 850484 string characters out of 6133938
- 914563 words of memory out of 5000000
- 45548 multiletter control sequences out of 15000+600000
+ 42246 strings out of 492970
+ 850559 string characters out of 6133938
+ 914719 words of memory out of 5000000
+ 45552 multiletter control sequences out of 15000+600000
  621725 words of font info for 181 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,21n,94p,10449b,2192s stack positions out of 5000i,500n,10000p,200000b,80000s

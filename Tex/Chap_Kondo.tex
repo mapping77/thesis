@@ -186,7 +186,15 @@ U_{s,t}(x_1)=\gamma_{s,t}\delta(x_1).
 在本节中我们基于前面讨论1+1与1+2体系的哈密顿量与变分波函数，准确地求解了体系的能谱并加以分析。由于自旋交换相互作用哈密顿量依然保持有空间反演不变性，因此我们只考虑具有偶宇称的本征解，奇宇称的解不受自旋交换相互作用的影响。
 
 \subsection{一个杂质与一个费米子}
-在1+1体系里，通过选取自旋单重态与自旋三重态通道，自旋交换部分已经被对角化，在各个通道内，自旋交换交换相互作用等价于纯的接触势，只不过接触势的符号受到自旋通道的影响。在如图~\ref{fig:fig1}~所示，我们展示了1+1两体中自旋单重态与自旋三重态通道的解，对应自洽方程（\ref{eq_t}与\ref{eq_s}），接下来我们来理解总这一能谱中得到的信息。
+在1+1体系里，通过选取自旋单重态与自旋三重态通道，
+\begin{equation}
+\begin{split}
+    |s\rangle &= \frac{1}{\sqrt{2}}(|\uparrow\Downarrow - \downarrow\Uparrow\rangle),\\
+    |t\rangle &= \frac{1}{\sqrt{2}}(|\uparrow\Downarrow + \downarrow\Uparrow\rangle),\\
+\end{split}
+\end{equation}
+
+自旋交换部分已经被对角化，在各个通道内，自旋交换交换相互作用等价于纯的接触势，只不过接触势的符号受到自旋通道的影响。在如图~\ref{fig:fig1}~所示，我们展示了1+1两体中自旋单重态与自旋三重态通道的解，对应自洽方程（\ref{eq_t}与\ref{eq_s}），接下来我们来理解总这一能谱中得到的信息。
 
 \begin{figure}[!htbp]
     \centering
@@ -199,7 +207,41 @@ U_{s,t}(x_1)=\gamma_{s,t}\delta(x_1).
 
 对于自旋三重态通道的解，对角化后的自旋交换相互作用强度为$\gamma_t=J/2$，因此只有在$J<0$的时候才存在束缚态，如图~\ref{fig:fig1}~中最下面的蓝色虚线所示，当我们从$J=0$往负方向调节$J\to-\infty$时候，束缚态的能量不断降低，在$J\sim -\infty$附近其渐近行为是$E_t\rightarrow -J^2/8$。我们称这种态为lower attractive branch。类似地，在束缚态的上面，有一系列repulsive upper branch，它们的能量随$J\to-\infty$而趋近于谐振子的奇数能级处。
 
-在$1/J=0$附近，我们看到不论单重态还是三重态的repulsive upper branch 能量都具有很好的线性行为，这表明此处可用微扰论来描述。具体地，我们假设渐近行为是：
+在$1/J=0$附近，我们看到不论单重态还是三重态的repulsive upper branch 能量都具有很好的线性行为，这表明此处可用微扰论来描述。具体地，我们以两体接触势$\gamma\delta(x)$为例（因为在三重态和多重态通道或中自旋交换相互作用被自动对角化为接触势），假设渐近行为是：
+\begin{equation}
+    E_m(\gamma) \simeq  (2m+1)\omega - \frac{A_m}{\gamma}.
+\end{equation}
+其中线性修正的系数$A_m$为待定。我们知道对于两体接触势来讲，势能部分哈密顿量带来波函数的边界条件，对任意$\gamma$：
+\begin{equation}
+    \gamma\psi_\gamma(0) = \frac{\psi'_\gamma(0)}{M}.
+\end{equation}
+根据Hellmann-Feynman定理，单参数哈密顿量能量对其参数的导数为：
+\begin{equation}
+\begin{split}
+    \frac{dE(\gamma)}{d(1/J)} = -{}_\gamma\langle\psi| \gamma^2\delta(x) |\psi\rangle_\gamma
+\end{split}
+\end{equation}
+其中$|\psi\rangle_\gamma$为接触势强度为$\gamma$时对应的某个本征解波函数，$E(\gamma)$为对应的本征能量，因此upper branch渐近行为的线性系数可由此计算：
+\begin{equation}
+\begin{split}
+    A_m &= \lim_{\gamma\to \infty} -\frac{\partial E(\gamma)}{\partial \frac{1}{\gamma} }\\
+    \quad &= \lim_{\gamma\to \infty} \int dx \gamma\psi_\gamma(x)\delta(x)\gamma\psi_\gamma(x) \\
+    \quad &= \lim_{\gamma\to \infty} \gamma\psi_\gamma(0)\cdot \gamma\psi_\gamma(0). 
+\end{split}
+\end{equation}
+最终我们得到单重态与三重态通道内upper branch的渐近行为：
+\begin{equation}
+E_{s/t,n} \simeq (2n+1)\omega -\frac{\phi^{'}_{2n+1}(0)^2}{M^2\gamma_{s/t}}. \label{asymptotic}
+\end{equation}
+其中$\phi'_n=d\phi_n(x)/dx$是谐振子本征波函数导数。在图~\ref{fig:fig1}~中，绿线代表了我们用此微扰论计算得到的线性行为，跟严格解的数值结果相一致。对应地，当$1/J=0$时候，系统的零阶未微扰波函数为：
+\begin{equation}
+|\Psi\rangle_{s/t,n} = \phi_{2n+1}(x) \cdot sgn(x)\left| s/t \right>, \label{asymptotic_wf}
+\end{equation}
+其中$|s\rangle = \frac{1}{\sqrt{2}}(|\uparrow\Downarrow - \downarrow\Uparrow\rangle)$，$|t\rangle = \frac{1}{\sqrt{2}}(|\uparrow\Downarrow + \downarrow\Uparrow\rangle)$ 具有自旋电荷分离的形式。
+综上我们发现对于1+1体系，系统可以通过考虑各个通道中单粒子在接触势中的来图像方便地理解。最终的能谱也跟纯接触势中的1+1体系\cite{busch1998two}具有类似的行为。但是，随着我们在系统中再添加一个费米子，上面简单的单粒子图像便不再成立，能谱变得更加丰富，其中由自旋交换相互作用导致的新物理出现，这是完全不同于初接触相互作用体系的新特性。在接下来的章节中们将对此详细介绍。
+
+\subsection{一个杂质与两个费米子}
+
 
 
 
