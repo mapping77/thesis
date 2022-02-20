@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Tmp/Thesis.aux
+The style file: Biblio/gbt7714-numerical.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 150 items from 100.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Biblio/ref.bib
+You've used 15 entries,
+            4948 wiz_defined-function locations,
+            1104 strings with 12154 characters,
+and the built_in function-call counts, 171858 in all, are:
+= -- 4900
+> -- 19434
+< -- 22774
++ -- 6155
+- -- 2184
+* -- 1564
+:= -- 24190
+add.period$ -- 75
+call.type$ -- 15
+change.case$ -- 30
+chr.to.int$ -- 5627
+cite$ -- 15
+duplicate$ -- 315
+empty$ -- 2177
+format.name$ -- 562
+if$ -- 44105
+int.to.chr$ -- 2
+int.to.str$ -- 16
+missing$ -- 0
+newline$ -- 121
+num.names$ -- 45
+pop$ -- 7986
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 18480
+stack$ -- 0
+substring$ -- 9882
+swap$ -- 17
+text.length$ -- 307
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 195
+warning$ -- 0
+while$ -- 370
+width$ -- 0
+write$ -- 299
