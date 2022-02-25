@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{19}
 \providecommand{\biband}{和}
 \providecommand{\bibetal}{等}
 \providecommand{\natexlab}[1]{#1}
@@ -153,5 +153,39 @@ Andrei~N, Furuya~K, Lowenstein~J.
 \newblock
   \url{https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.55.331}.
 \newblock DOI: \doi{https://doi.org/10.1103/RevModPhys.55.331}.
+
+\bibitem[Z{\"u}rn {\bibetal}(2012)Z{\"u}rn, Serwane, Lompe, Wenz, Ries, Bohn,
+  and Jochim]{zurn2012fermionization}
+Z{\"u}rn~G, Serwane~F, Lompe~T, et~al.
+\newblock Fermionization of two distinguishable fermions [J/OL].
+\newblock Physical review letters, 2012, 108\penalty0 (7): 075303.
+\newblock
+  \url{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.108.075303}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.108.075303}.
+
+\bibitem[Busch {\bibetal}(1998)Busch, Englert, Rza{\.z}ewski, and
+  Wilkens]{busch1998two}
+Busch~T, Englert~B~G, Rza{\.z}ewski~K, et~al.
+\newblock Two cold atoms in a harmonic trap [J/OL].
+\newblock Foundations of Physics, 1998, 28\penalty0 (4): 549-559.
+\newblock \url{https://link.springer.com/article/10.1023/A:1018705520999}.
+\newblock DOI: \doi{https://doi.org/10.1023/A:1018705520999}.
+
+\bibitem[Mahan(2000)]{mahanmany}
+Mahan~G.
+\newblock Many-particle physics, (kluwer academic/plenum publishers, new york,
+  2000). [J/OL].
+\newblock 2000.
+\newblock \url{https://link.springer.com/book/10.1007/978-1-4757-5714-9}.
+\newblock DOI: \doi{https://doi.org/10.1007/978-1-4757-5714-9}.
+
+\bibitem[Cui {\bibetal}(2014)Cui and Ho]{cui2014ground}
+Cui~X, Ho~T~L.
+\newblock Ground-state ferromagnetic transition in strongly repulsive
+  one-dimensional fermi gases [J/OL].
+\newblock Physical Review A, 2014, 89\penalty0 (2): 023611.
+\newblock
+  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.89.023611}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.89.023611}.
 
 \end{thebibliography}
