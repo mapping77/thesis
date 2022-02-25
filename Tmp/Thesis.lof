@@ -3,6 +3,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces 一个杂质与一个费米子的1+1体系在$S_{tot,z}=0$子希尔伯特空间的能谱随自旋交换相互作用强度的变化。蓝色虚线（红色散点线）代表自旋三重态（自旋单重态）通道中的本征解。绿色实线代表强相互作用附近的微扰论渐近行为。其横纵坐标$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }}{10}{figure.caption.16}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces 一个杂质与两个个费米子的1+2体系在$S_{tot,z}=1/2$子希尔伯特空间的能谱随自旋交换相互作用与无自旋交换的接触相互作用强度的变化。a（1）代表的是带自旋交换相互作用1+2体系。我们用红色的点来标记其中特殊的$S_{tot=3/2}$的铁磁态。剩下的态都是$S_{tot}=1/2$的态。a（2）代表的是带纯接触势的1+2体系的能谱。其中$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }}{13}{figure.caption.17}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces 铁磁（$J>0$）与反铁磁（$J<0$）耦合下整个体系平移对应的自旋单重态与自旋三重态能量后的能谱。其中a（1）代表能谱减掉$\frac {-9J^2}{8}$后的行为，b（1）代表了a（1）中灰色区域的放大。a（2）代表能谱减掉$\frac {-J^2}{8}$后的行为，可以看到基态依然随着$|J|$增大而能量越来越低，不再饱和到某一有限值。b（2）代表了a（2）中灰色区域的放大，从第一激发态开始，能量最终饱和在有限值。其中$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }}{14}{figure.caption.18}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 能量$E=5\omega $附近三支repulsive branch的能量对比。其中蓝色散点图代表数值严格对角化的结果，黑色虚线代表$1/J=0$附近微扰论的结果。\relax }}{20}{figure.caption.19}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

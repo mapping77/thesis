@@ -322,7 +322,172 @@ q_{kk'} &= \delta_{kk'}  \frac{1}{L}\sum_p \frac{1}{E-E_k-E_p}\\
 
 值得一提的是，我们在自旋交换体系中发现的铁磁态与之前发现的自旋1/2费米子体系中的铁磁态\cite{cui2014ground}有很大不同，之前发现的铁磁态不会被s波相互作用所影响，其能量不随着相互作用变化。
 
-除了上面讨论的铁磁态在$J>0$的时候是三体upper repulsive branch外，体系还有别的repulsive branch吗？要回答这个问题我们需要寻找能量随着相互作用$J\to\infty$而趋向于有限数值。我们仔细观察能谱，在能量$E=3\omega$附近有一支branch与能量不断降低的attractive branch发生能级排斥，$E=5\omega$附近有两条也发生能级排斥，发生能级排斥的位置最终逐渐饱和在有限值（随着$J\to\infty$能级排斥的能量区间越来越小，超过导致画图取点的分辨率），再加上已经发现的铁磁branch一共三条repulsive branch。受到铁磁态的启发，我们发现在$1/J=0$的极限情况下。铁磁的波函数为
+除了上面讨论的铁磁态在$J>0$的时候是三体upper repulsive branch外，体系还有别的repulsive branch吗？要回答这个问题我们需要寻找能量随着相互作用$J\to\infty$而趋向于有限数值。我们仔细观察能谱，在能量$E=3\omega$附近有一支branch与能量不断降低的attractive branch发生能级排斥，$E=5\omega$附近有两条也发生能级排斥，发生能级排斥的位置最终逐渐饱和在有限值（随着$J\to\infty$能级排斥的能量区间越来越小，超过导致画图取点的分辨率），再加上已经发现的铁磁branch一共三条repulsive branch。受到铁磁态的启发，我们发现在$1/J=0$的极限情况下。铁磁态的波函数为
+\begin{equation}
+\Psi_{3,FM}(x_1,x_2)=\frac{1}{\sqrt{6}}\left|\begin{array}{cc}\psi_m(x_1) & \psi_n(x_2) \\\psi_m(x_1) & \psi_n(x_2)\end{array}\right| \left(|\uparrow\downarrow\Uparrow\rangle+|\downarrow\uparrow\Uparrow\rangle+|\uparrow\uparrow\Downarrow\rangle\right)
+\end{equation}
+其中$\psi_i(x)$为发生费米化之后谐振子的能级：
+\begin{equation}
+\psi_i(x) = \phi_{i}(x) \cdot sgn(x) 
+\end{equation}
+费米化之后的能级从低到高排布为：
+\begin{equation}
+E = 1.5\omega, 3.5\omega, 5.5\omega, ...
+\end{equation}
+如果选取最低的两个能级$E=1.5\omega, 3.5\omega$，恰好就是对应的铁磁态的能量。
+
+但这仅仅是一支repulsive的能量，如何求解剩下的两支呢？由于1+2的三体体系存在内部的自旋结构，我们考虑费米子的全同交换反对称性，发现可以构造出三个三体波函数：
+\begin{equation}
+    \begin{split}
+        &\left|\psi\right>^{(1)}_{deg} =  \frac{1}{\sqrt{2}} (\psi_1(x_1)\psi_3(x_2)- \psi_3(x_1)\psi_1(x_2)) \left|\uparrow \uparrow \Downarrow \right>\\
+        &\left|\psi\right>^{(2)}_{deg} = \frac{1}{\sqrt{2}}\psi_1(x_1)\psi_3(x_2)\left|\uparrow \downarrow \Uparrow \right> - \frac{1}{\sqrt{2}}\psi_3(x_1)\psi_1(x_2)\left|\downarrow \uparrow \Uparrow \right>\\
+        &\left|\psi\right>^{(3)}_{deg} = \frac{1}{\sqrt{2}}\psi_1(x_1)\psi_3(x_2)\left|\downarrow \uparrow \Uparrow \right> - \frac{1}{\sqrt{2}}\psi_3(x_1)\psi_1(x_2)\left|\uparrow \downarrow \Uparrow \right>\\
+    \end{split}
+\end{equation}
+其中$\psi_i(x)$定义如前。这些波函数都满足$1/J=0$的情况下的边界条件：
+\begin{equation}
+    \psi(x_1\sigma_1,x_2\sigma_2) = 0 \quad \text{if} \quad x_i =0
+\end{equation}
+这表明，构造出的三个态是$1/J=0$时候体系简并态，简并的能量为$5\omega$。但是这仅仅是极限点处的三个本征态，当$1/J$成为非零的微扰项之后，此时upper branch的三重简并打开，这时候铁磁repulsive branch就是对应的打开简并后的零阶波函数。
+
+基于这个图像，我们可以在1+2体系中再一次利用$1/J=0$附近的微扰论计算，去求解三支repulsuve branch的能量，这时候虽然与能谱上面降落下来的attractive branch仍有一定耦合，导致能级排斥现象的产生，但是这时候对应的attractive branch是非常深的束缚态，在空间上非常局域，这些态与repulsive branch的波函数交叠非常小，这大大提高了这些激发态的寿命，这一稳定性机理非常类似于{\color{red} upper branch实验观测待补充 }，为实验室观察这些态创造良好的条件。具体地，我们假设这些简并态能量打开简并的方式如下：
+\begin{equation}
+    E_m(J) = E_0 - \frac{\kappa_m }{J} \quad \text{with}  \quad m =1,2,3  \label{E3m}
+\end{equation}
+对应的零阶波函数为之前构造简并波函数的线性叠加，叠加洗漱我们待定为$a_{mn}$：
+    \begin{equation}
+        \left|\psi^{(m)}_{\infty} \right> = \sum_n a_{mn} \left|\psi^{(n)}_{deg}\right>
+    \end{equation}
+当$1/J\neq=0$时候，我们假设这时候的本征repulsive branch波函数写为：
+    \begin{equation}
+        \begin{split}
+            \left|\psi^{(m)}_J\right> &=  \psi^{(m)}_{J1}\left|\uparrow \uparrow \Downarrow \right> + \psi^{(m)}_{J2} \left|\uparrow \downarrow \Uparrow \right>  +\psi^{(m)}_{J3} \left|\downarrow \uparrow \Uparrow \right> \equiv\left(
+            \begin{array}{c}
+                \psi_{J1}^{(m)} \\
+                \psi_{J2}^{(m)}\\
+                \psi_{J3}^{(m)}
+            \end{array}
+            \right)\\
+        \end{split} \label{eq2}
+    \end{equation} 
+自然地，当$1/J\to0$时候，我们有：
+\begin{equation}
+    \lim_{1/J\to0} \left|\psi^{(m)}_J\right>  = \left|\psi^{(m)}_{\infty} \right>
+\end{equation}
+这将最终用来决定$a_{mn}$。
+从方程（~\ref{E3m}~）的定义中，我们再一次利用Hellmann-Feynman定理得到$\kappa$满足：
+    \begin{equation}
+        \begin{split}
+            \kappa_m \delta_{mn} &= \lim_{J\to \infty} \left<\psi^{(m)}_J\right| \frac{\partial\hat{H}}{\partial(\frac{-1}{J})} \left|\psi^{(n)}_{J}\right>\\
+                &= \lim_{J\to \infty} \left<\psi^{(m)}_J\right| 2J^2(\delta(x_1)\hat{S_1}\cdot \hat{S_0}+\delta(x_2)\hat{S_2}\cdot \hat{S_0}) \left|\psi^{(n)}_{J}\right>\\
+                &= \lim_{J\to \infty} \int  dx_2 \Psi^{(m)\dagger}_J(0,x_2) 2J^2 \hat{S_1}\cdot \hat{S_0} \Psi^{(n)}_J(0,x_2) \\
+                &\quad + \int dx_1 \Psi^{(m)\dagger}_J(x_1,0) 2J^2 \hat{S_2}\cdot \hat{S_0} \Psi^{(n)}_J(x_1,0) \\
+        \end{split} \label{kappam}
+    \end{equation}
+将$\left|\psi^{(m)}_J\right>$满足的薛定谔方程：
+\begin{equation}
+\hat{H} \left|\psi^{(m)}_J\right> = E_m(J)\left|\psi^{(m)}_J\right>
+\end{equation}
+左右两边分别对$x_1,x_2$求积分得到边界条件：
+    \begin{equation}
+        \begin{split}
+            &\frac{1}{2M}\partial_{x_1} \Psi^{(m)}_J(x_1,x_2)|_{x_1=0^-}^{x_1=0^+}= 2J \hat{S_1}\cdot \hat{S_0}\Psi^{(m)}_J(0,x_2) \\
+            &\frac{1}{2M}\partial_{x_2} \Psi^{(m)}_J(x_1,x_2)|_{x_2=0^-}^{x_2=0^+}= 2J \hat{S_2}\cdot \hat{S_0} \Psi^{(m)}_J(x_1,0)
+        \end{split}
+    \end{equation}
+将上述边界条件满足的方程带入到方程（~\ref{kappam}~）中，我们化简得到：
+\begin{equation}\label{kappammid}
+    \begin{split}
+            \kappa_m \delta_{mn} &=  (\frac{1}{2M})^2 \int dx_2 \partial_{x_1} \Psi^{m\dagger}_{\infty}(x_1,x_2) |^{x_1=0^+}_{x_1 = 0^-} \frac{1}{2\hat{S_1}\cdot \hat{S_0}} \partial_{x_1} \Psi^{n}_{\infty}(x_1,x_2) |^{x_1=0^+}_{x_1 = 0^-}\\
+            & \quad +  (\frac{1}{2M})^2 \int dx_1 \partial_{x_2} \Psi^{m\dagger}_{\infty}(x_1,x_2) |^{x_2=0^+}_{x_2 = 0^-} \frac{1}{2\hat{S_1}\cdot \hat{S_0}} \partial_{x_2} \Psi^{n}_{\infty}(x_1,x_2) |^{x_2=0^+}_{x_2 = 0^-}\\
+           &= \frac{1}{M^2}(a_{m1},a_{m2},a_{m3}) \int dx
+            \left(
+            \begin{array}{c}
+                \frac{4(B-A)^2}{3} \quad \frac{8B(B-A)}{3}  \quad \frac{8A(A-B)}{3}\\
+                \frac{8B(B-A)}{3} \quad 4 A^2+\frac{4 B^2}{3}  \quad -\frac{16AB}{3} \\
+                \frac{8A(A-B)}{3} \quad  -\frac{16AB}{3} \quad \frac{4 A^2}{3}+4 B^2
+            \end{array}
+            \right) 
+            \left(
+            \begin{array}{c}
+                a_{n1}\\
+                a_{n2}\\
+                a_{n3}\\
+            \end{array}
+            \right)\\
+    \end{split}
+\end{equation} 
+其中，我们记：
+\begin{equation}
+\begin{split}
+A &= \frac{1}{\sqrt{2}}\phi_1'(0)\psi_3(x)\\
+B &= \frac{1}{\sqrt{2}} \phi_3'(0)\psi_1(x)
+\end{split}
+\end{equation}
+将具体函数带入并求积分：
+\begin{equation}
+\begin{split}
+    \int dx A^2 &= \frac{(M\omega)^\frac{3}{2}}{\sqrt{\pi}}\\
+    \int dx B^2 &= \frac{3 (M\omega)^\frac{3}{2} }{2\sqrt{\pi}} \\
+    \int dx AB = 0
+\end{split}
+\end{equation}
+最终将上式带入方程（~\ref{kappammid}~）得到：
+\begin{equation}\label{kappammat}
+    \kappa_m \delta_{mn} =  \omega \sqrt{\frac{\omega}{M}}\frac{1}{\sqrt{\pi}} \cdot(a_{m1},a_{m2},a_{m3})
+            \left(
+            \begin{array}{c}
+                \frac{10}{3} \quad 4  \quad \frac{8}{3}\\
+                4 \quad 6 \quad 0 \\
+                \frac{8}{3} \quad 0 \quad \frac{22}{3}
+            \end{array}
+            \right) 
+            \left(
+            \begin{array}{c}
+                a_{n1}\\
+                a_{n2}\\
+                a_{n3}\\
+            \end{array}
+            \right)   
+\end{equation} 
+由此关系，可以发现要求解的$\kappa_{m}$正好是方程右边矩阵的三个本征解，对应的本征矢量即为要求解的$a_{mn}$。
+
+通过对角化方程（~\ref{kappammat}~）右边的矩阵，我们得到三个本征矢量（为归一化）：
+\begin{equation}
+        \left(
+            \begin{array}{c}
+            1\\
+            1\\
+            1\\
+            \end{array}
+        \right),
+        \left(
+            \begin{array}{c}
+            \frac{1}{2} \left(\sqrt{7}-3\right)\\
+            \frac{1}{2} \left(1-\sqrt{7}\right)\\
+            1\\
+            \end{array}
+        \right),
+        \left(
+            \begin{array}{c}
+            \frac{1}{2} \left(-\sqrt{7}-3\right)\\
+            \frac{1}{2} \left(\sqrt{7}+1\right)\\
+            1\\
+            \end{array}
+        \right)\\
+\end{equation}
+
+其中第一个本征矢量恰好对应之前发现的铁磁态。与之相伴的本征值为（以$ \omega \sqrt{\frac{\omega}{M}}$为量纲）：
+\begin{equation}
+\kappa_m= \frac{10}{\sqrt{\pi}},\frac{2}{3\sqrt{\pi}} \left(2 \sqrt{7}+5\right),\frac{2}{3\sqrt{\pi}} \left(5-2 \sqrt{7}\right) 
+\end{equation}
+我们将上述微扰论的结果与之前的严格对角化的数值结果进行比较，如图（~\ref{fig:fig4}~所示：
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{fig4.pdf}
+    \bicaption{能量$E=5\omega$附近三支repulsive branch的能量对比。其中蓝色散点图代表数值严格对角化的结果，黑色虚线代表$1/J=0$附近微扰论的结果。}{Energy comparison of numerical exact diagonalization result and $1/J=0$ nearby perturbation result on repulsive branches aroud $E=5\omega$. Blue dotted line mark energy from perturbation and black dash line mark energy from numeric. The units of $E$ and $J$ are respectively $\omega$ and $\sqrt{\omega/M}$.  }
+    \label{fig:fig4}
+\end{figure}
 
 
 
