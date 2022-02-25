@@ -201,7 +201,7 @@ U_{s,t}(x_1)=\gamma_{s,t}\delta(x_1).
     \label{fig:fig1}
 \end{figure}
 
-自旋交换部分已经被对角化，在各个通道内，自旋交换交换相互作用等价于纯的接触势，只不过接触势的符号受到自旋通道的影响。在如图~\ref{fig:fig1}~所示，我们展示了1+1两体中自旋单重态与自旋三重态通道的解，对应自洽方程（\ref{eq_t}与\ref{eq_s}），接下来我们来理解总这一能谱中得到的信息。
+自旋交换部分已经被对角化，在各个通道内，自旋交换交换相互作用等价于纯的接触势，只不过接触势的符号受到自旋通道的影响。在如图~\ref{fig:fig1}~所示，我们展示了1+1两体中自旋单重态与自旋三重态通道的解，对应自洽方程（\ref{eq_t}与\ref{eq_s}），接下来我们来理解从这一能谱中得到的信息。
 
 
 
@@ -235,7 +235,7 @@ U_{s,t}(x_1)=\gamma_{s,t}\delta(x_1).
 \begin{equation}
 E_{s/t,n} \simeq (2n+1)\omega -\frac{\phi^{'}_{2n+1}(0)^2}{M^2\gamma_{s/t}}. \label{asymptotic}
 \end{equation}
-其中$\phi'_n=d\phi_n(x)/dx$是谐振子本征波函数导数。在图~\ref{fig:fig1}~中，绿线代表了我们用此微扰论计算得到的线性行为，跟严格解的数值结果相一致。对应地，当$1/J=0$时候，系统的零阶未微扰波函数为：
+其中$\phi'_n=d\phi_n(x)/dx$是谐振子本征波函数导数。在图~\ref{fig:fig1}~中，绿线代表了我们用此微扰论计算得到的线性行为，跟严格解的数值结果相一致。对应地，当$1/J=0$时候，系统的零阶未微扰波函数为\cite{zurn2012fermionization}：
 \begin{equation}
 |\Psi\rangle_{s/t,n} = \phi_{2n+1}(x) \cdot sgn(x)\left| s/t \right>, \label{asymptotic_wf}
 \end{equation}
@@ -243,18 +243,84 @@ E_{s/t,n} \simeq (2n+1)\omega -\frac{\phi^{'}_{2n+1}(0)^2}{M^2\gamma_{s/t}}. \la
 综上我们发现对于1+1体系，系统可以通过考虑各个通道中单粒子在接触势中的来图像方便地理解。最终的能谱也跟纯接触势中的1+1体系\cite{busch1998two}具有类似的行为。但是，随着我们在系统中再添加一个费米子，上面简单的单粒子图像便不再成立，能谱变得更加丰富，其中由自旋交换相互作用导致的新物理出现，这是完全不同于纯接触相互作用体系的新特性。在接下来的章节中们将对此详细介绍。
 
 \subsection{一个杂质与两个费米子}
+
+\begin{figure}[!htbp]
+    \centering
+    %\includegraphics[width=0.7\textwidth]{fig2.pdf}
+    \bicaption{一个杂质与两个个费米子的1+2体系在$S_{tot,z}=1/2$子希尔伯特空间的能谱随自旋交换相互作用与无自旋交换的接触相互作用强度的变化。a（1）代表的是带自旋交换相互作用1+2体系。我们用红色的点来标记其中特殊的$S_{tot=3/2}$的铁磁态。剩下的态都是$S_{tot}=1/2$的态。a（2）代表的是带纯接触势的1+2体系的能谱。其中$E$与$J$的量纲为$\omega$与$\sqrt{\omega/M}$。}{(Color online).(a1) Energy spectrum of two fermions and one impurity with spin-exchange interaction in the $S_{tot,z}=1/2$ subspace. The FM states with $S_{tot}=3/2$ are highlighted by red color, and the rest are all with total spin $S_{tot}=1/2$. (a2) Same as (a1) except that the interaction between fermions and impurity is a pure contact type without spin-exchange, see text. }
+    \label{fig:fig2}
+\end{figure}
 根据前面章节讨论的一个杂质与两个费米子体系的变分求解，我们将关注点放在$S_{tot,z}=1/2$的封闭子希尔伯特空间中，图~\ref{fig:fig2}~展示了我们求解得到的三体能谱。可以清楚地看到，跟纯接触势的三体体系相比，带有自旋交换相互作用的三体体系能谱拥有更丰富的结构，接下来我们着重介绍由自旋交换相互作用带来的新奇特性。
 
 首先，类似于1+1体系中attractive 与 repulsive branch的定义，我们将1+2体系里随着相互作用$|J|$从$0$到$\infty$，对应的本征能量趋近于$-\infty$的态称为attractive branch，将随着$|J|\to\infty$其本征能量趋近于有限数值的态称为upper branch。当然，这里的1+2体系都是处于谐振子势场中，如果取$\omega\to 0$，lower branch将过渡到一维少体束缚态（对于有限的$\omega$，当lower branch比较深的时候其行为已经非常接近一维接触势的束缚态了），upper branch将过渡到散射态。
 
-具体地，图~\ref{fig:fig2}~a（1）中在铁磁（$J<0$）与反铁磁（$J>0$）两种情况下，我们注意到体系都有attractive branch，这是自然的。对应不同的磁性结构。
+具体地，图~\ref{fig:fig2}~a（1）中在铁磁（$J<0$）与反铁磁（$J>0$）两种情况下，我们注意到体系都有attractive branch，这是自然的。对应不同的磁性结构。作为对比，图~\ref{fig:fig2}~a（2）中展示的纯接触势的能谱则仅在$J<0$的情况下才有attractive branch。这是由自旋交换相互作用导致的最直接的能谱变化。进一步地，我们考虑强耦合极限下$|J|\to \infty$，lower branch的行为。
+
+在铁磁耦合的情况下，随着$J\to+\infty$，我们发现，这些lower branch的渐近行为都是
+\begin{equation}
+E\sim\frac{-9J^2}{8}+C
+\end{equation}
+这个能量恰好是一个自旋单重束缚态的渐近行为。我们将$J>0$的能谱偏移$\frac{-9J^2}{8}$，结合我们对1+1体系的了解，图~\ref{fig:fig3}~a（1，2）中，我们看到减掉自旋单重态束缚能之后，剩余的能量趋近于$1.5\omega,3.5\omega...$。这些有限值远小于已经形成的自旋单重束缚态的能量。
+
+鉴于能量上如此特殊的行为，我们得到物理图像上的启发，强铁磁耦合极限下，1+2体系中的两个费米子，其中一个被杂质束缚住，与杂质构成自旋单重束缚态，也可以说杂质自旋被其中一个费米子屏蔽。另一个费米子在已经形成的束缚态二聚体的影响下，只能形成repulsive branch，不能被进一步被二聚体所束缚，就好像这个可以束缚费米子的自旋被屏蔽了一样。从行为上很像掺杂金属中，局域杂质被费米面附近的电子所屏蔽，出现近藤单态类似\cite{mahanmany}。不过近藤屏蔽效应是一个典型的多体效应，不同于我们此处的少体物理，但是在我们的少体体系中，我们可以进一步添加巡游费米子来实现一个多体体系。随着添加费米子我们发现的这一图像还是否成立，以及与最终如何跟多体里面近藤屏蔽效应有何联系与区别，这些开放的问题都有待后续进一步的研究。
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.7\textwidth]{fig2.pdf}
-    \bicaption{一个杂质与两个个费米子的1+2体系在$S_{tot,z}=1/2$子希尔伯特空间的能谱随自旋交换相互作用与无自旋交换的接触相互作用强度的变化。a（1）代表的是带自旋交换相互作用1+2体系。我们用红色的点来标记其中特殊的$S_{tot=3/2}$的铁磁态。剩下的态都是$S_{tot}=1/2$的态。a（2）代表的是带纯接触势的1+2体系的能谱。}{(Color online).(a1) Energy spectrum of two fermions and one impurity with spin-exchange interaction in the $S_{tot,z}=1/2$ subspace. The FM states with $S_{tot}=3/2$ are highlighted by red color, and the rest are all with total spin $S_{tot}=1/2$. (a2) Same as (a1) except that the interaction between fermions and impurity is a pure contact type without spin-exchange, see text. }
-    \label{fig:fig2}
+    %\includegraphics[width=0.7\textwidth]{fig3.pdf}
+    \bicaption{铁磁（$J>0$）与反铁磁（$J<0$）耦合下整个体系平移对应的自旋单重态与自旋三重态能量后的能谱。其中a（1）代表能谱减掉$\frac{-9J^2}{8}$后的行为，b（1）代表了a（1）中灰色区域的放大。a（2）代表能谱减掉$\frac{-J^2}{8}$后的行为，可以看到基态依然随着$|J|$增大而能量越来越低，不再饱和到某一有限值。b（2）代表了a（2）中灰色区域的放大，从第一激发态开始，能量最终饱和在有限值。其中$E$与$J$的量纲为$\omega$与$\sqrt{\omega/M}$。}{a（1） Energies of deep bound states  for large and positive $J$, shifted by the spin-singlet binding energy $-9J^2/8$. All shifted energies saturate to a finite value, signifying the Kondo screening effect (see text).a（2） Energies of deep bound states  for large and negative $J$, shifted by the spin-triplet binding energy $-J^2/8$. The lowest bound state does not saturate as in b（1）, showing the absence of screening effect for FM coupling. b（1,2） show the magnified plot for the shaded region in b（1,2）, illustrating the asymptotic behavior towards odd harmonic levels. The units of $E$ and $J$ are respectively $\omega$ and $\sqrt{\omega/M}$.  }
+    \label{fig:fig3}
 \end{figure}
+
+而在反铁磁情况下，基态branch的行为不同于铁磁情况。如图~\ref{fig:fig3}~a（2）所示，我们看到随着$J\to-\infty$，基态branch在减掉自旋三重束缚态二聚体能量$\frac{-J^2}{8}$之后依然越来越低，没有饱和在有限值。这表明此能量不仅由一个自旋三重束缚态贡献，剩下的那个费米子继续被二聚体所束缚，继续形成三体束缚态，导致能量进一步降低。除此之外，基态上面的激发态在减掉二聚体能量后最终趋向于有限的数值，如图~\ref{fig:fig3}~b（2）所示。
+
+通过比较铁磁耦合与反铁磁耦合两种情况下基态的性质，我们发现对于一个杂质与两个费米子的1+2体系，铁磁耦合下，系统最多只能形成两体束缚态，局域的磁性杂质被一个费米子屏蔽之后无法再束缚更多的费米子。而对于反铁磁耦合，系统可以形成三体束缚态，局域杂质束缚了一个费米子之后还能继续束缚第二个费米子，导致能量比两体束缚态能量更低。这种特殊的少体关联效应是自旋交换相互作用所独有的。
+
+为了进一步确认这种反铁磁耦合下系统的三体束缚态行为，我们考虑撤掉谐振子外势，考虑在一个一维自由体系，原点处固定一个自旋1/2的局域杂质，另有两个自旋1/2的全通费米子，长度为$L$，采用周期性边界条件，系统的哈密顿量为：
+\begin{equation}
+        \hat{H} = \sum_{j=1}^{2}  -\frac{1}{2M} \frac{\partial^2}{\partial x_{j}^2} + 2J\cdot\sum_{j=1}^2\delta(x_j){\hat{\Vector{S}}}_j\cdot {\hat{\Vector{S}}}.
+\end{equation}
+写在动量空间下的二次量子化哈密顿量为：
+\begin{equation}\label{eq:free1+2}
+\begin{split}
+        \hat{H} &= \sum_{\Vector{k},\sigma}\epsilon_{\Vector{k},\sigma} \hat{C}^\dagger_{\Vector{k},\sigma} \hat{C}_{\Vector{k},\sigma}  + \sum_{\Vector{k}',\Vector{k}} \frac{J}{L} ( \hat{C}_{\Vector{k}'\uparrow}^\dagger  \hat{C}_{\Vector{k}\downarrow} \hat{S}_- + h.c. \\
+        & \quad \quad +   (\hat{C}_{\Vector{k}'\uparrow}^\dagger  \hat{C}_{\Vector{k}\uparrow}-\hat{C}_{\Vector{k}'\downarrow}^\dagger  \hat{C}_{\Vector{k}\downarrow}) \hat{S}_{z} ).
+\end{split}
+\end{equation}
+其中$\epsilon_{\Vector{k}} = \frac{\Vector{k}^2}{2M}$。在周期边界条件下，动量$\Vector{k} = \frac{2\pi\cdot n}{L}, n=0, \pm1, \pm2,...$。
+在一维的情况下，对于纯接触势不需要做重整化，因此我们可以直接计算。由于方程（\ref{eq:free1+2}）在形式上很类似于方程（\ref{eq:H2}），唯一的不同在于写在了不同的基矢表象下，对此我们依然采用矩阵对角化（\ref{final_eq}）的办法，唯一的修改在于将其中的$\phi_m(0)$换为$\frac{1}{\sqrt{L}}$，$E_m$换为$\epsilon_{\Vector{k}}$，相应地，矩阵元变为：
+\begin{equation}
+\begin{split}
+e_{kk'} &= \frac{1}{L}\frac{1}{E-E_k-E_{k'}}\\
+q_{kk'} &= \delta_{kk'}  \frac{1}{L}\sum_p \frac{1}{E-E_k-E_p}\\
+\end{split}
+\end{equation}
+
+在进行具体的数值计算之前，我们还需进一步讨论体系的特征尺度。在带有谐振子外势的体系中，系统有两个特征长度，分别是相互作用决定的$\frac{1}{MJ}$以及谐振子特征长度$\frac{1}{\sqrt{M\omega}}$。去掉谐振子之后的自由体系，仅有相互作用决定的特征长度$\frac{1}{MJ}$。因此我们用这个特征长度来做无量纲化，我们把具备这种特性的体系称为普适性体系。我们关心的物理是体系基态的束缚行为，对应的短程高能的物理，因此体系长度的选择于我们要考察的物理是不相关的，我们取足够大的动量截断$k_{\Lambda}/(MJ)=50$。{\color{red} 待补充 }
+
+除了上面讨论的attractive branch的行为以外，我们还发现在能谱中有这样一类特殊的激发态。首先我们在能谱中将$S_{tot}=3/2$的态标记为红色。而且我们注意到这些$S_{tot}=3/2$的特殊态只在$J<0$的情况下成为lower attractive branch，在$J>0$的情况下趋向于有限值。如此特殊的行为也是很容易理解的，因为在$J>0$的区域，形成lower attractive branch的前提是其中一个费米子与杂质形成自旋单重二聚体束缚态，对应二聚体总的自旋为零，因此无法继续与剩下的费米子形成总自旋$S_{tot}=3/2$的自旋结构。由于自旋旋转对称性的保护，红色的$S_{tot}=3/2$与蓝色的$S_{tot}=1/2$的态之间永远正交，没有任何耦合，不会发生能级排斥现象。而且在$J>0$的情况下形成了upper repulsiev branch，我们称为铁磁repulsive branch。
+
+如果我们仔细去考虑这支特殊的$S_tot=3/2$的铁磁branch的自旋部分，构型有三种：
+\begin{equation}
+    \begin{split} 
+    |1\rangle &= |\uparrow\downarrow\Uparrow\rangle\\
+    |2\rangle &= |\downarrow\uparrow\Uparrow\rangle\\
+    |3\rangle &= |\uparrow\uparrow\Downarrow\rangle\\
+    \end{split}
+\end{equation} 
+受到1+1中波函数自旋与空间分离的启发，其中铁磁要求任意一对自旋之间形成自旋三重态。我们构造$S_tot=3/2$的自旋波函数：
+\begin{equation}
+\Psi_{3,FM}(x_1,x_2)=\frac{1}{\sqrt{6}}\left|\begin{array}{cc}\psi_1(x_1) & \psi_1(x_2) \\\psi_2(x_1) & \psi_2(x_2)\end{array}\right| \left(|\uparrow\downarrow\Uparrow\rangle+|\downarrow\uparrow\Uparrow\rangle+|\uparrow\uparrow\Downarrow\rangle\right),
+\end{equation}
+其中自旋部分关于两个费米的自旋交换为对称，空间部分关于两个费米子交换为反对称。在这特殊的自旋构型下，相互作用中的自旋部分再一次地被对角化，自旋交换相互作用退化为纯的接触相互作用$U_t(x_i)=\gamma_t\delta(x_i)$，只影响波函数中的空间部分。其中$\psi_{1,2}$代表1+1体系中自旋三重态解的空间部分。我们巧妙的构造了这一特殊波函数，带入到薛定谔方程中：
+\begin{equation}
+\hat{H}\Psi_{3,FM}(x_1,x_2) = (E_1(J)+E_2(J))\Psi_{3,FM}(x_1,x_2)
+\end{equation}
+其中$E_1(J), E_2(J)$为1+1体系中自旋交换相互作用为$J$时候对应的自旋三重态本征能量。这时候三体体系是两体体系简单的相加。如果选取图~\ref{fig:fig2}~中三重态的基态与第一激发态，相加得到的三体能量即为铁磁态在整个相互作用区间的本征能量。$J\to-\infty$时，三体能量渐近行为是$E\to-\frac{J^2}{8}+1.5$；$J=0$时，$E=1.5+1.5=3$；$J\to\infty$时，$E\to1.5+3.5=5$。
+
+值得一提的是，我们在自旋交换体系中发现的铁磁态与之前发现的自旋1/2费米子体系中的铁磁态\cite{cui2014ground}有很大不同，之前发现的铁磁态不会被s波相互作用所影响，其能量不随着相互作用变化。
+
+除了上面讨论的铁磁态在$J>0$的时候是三体upper repulsive branch外，体系还有别的repulsive branch吗？要回答这个问题我们需要寻找能量随着相互作用$J\to\infty$而趋向于有限数值。我们仔细观察能谱，在能量$E=3\omega$附近有一支branch与能量不断降低的attractive branch发生能级排斥，$E=5\omega$附近有两条也发生能级排斥，发生能级排斥的位置最终逐渐饱和在有限值（随着$J\to\infty$能级排斥的能量区间越来越小，超过导致画图取点的分辨率），再加上已经发现的铁磁branch一共三条repulsive branch。受到铁磁态的启发，我们发现在$1/J=0$的极限情况下。铁磁的波函数为
+
 
 
 \section{小结与展望}\label{sec:spex-summary}

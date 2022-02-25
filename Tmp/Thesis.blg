@@ -10,44 +10,46 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Biblio/ref.bib
-You've used 16 entries,
+Warning--empty journal in mahanmany
+You've used 19 entries,
             4948 wiz_defined-function locations,
-            1114 strings with 12429 characters,
-and the built_in function-call counts, 182923 in all, are:
-= -- 5209
-> -- 20685
-< -- 24258
-+ -- 6554
-- -- 2313
-* -- 1663
-:= -- 25736
-add.period$ -- 80
-call.type$ -- 16
-change.case$ -- 32
-chr.to.int$ -- 5994
-cite$ -- 16
-duplicate$ -- 336
-empty$ -- 2316
-format.name$ -- 597
-if$ -- 46952
+            1136 strings with 13195 characters,
+and the built_in function-call counts, 207633 in all, are:
+= -- 6039
+> -- 23348
+< -- 27339
++ -- 7392
+- -- 2644
+* -- 1931
+:= -- 29233
+add.period$ -- 95
+call.type$ -- 19
+change.case$ -- 38
+chr.to.int$ -- 6755
+cite$ -- 20
+duplicate$ -- 399
+empty$ -- 2747
+format.name$ -- 672
+if$ -- 53302
 int.to.chr$ -- 2
-int.to.str$ -- 17
+int.to.str$ -- 20
 missing$ -- 0
-newline$ -- 128
-num.names$ -- 48
-pop$ -- 8535
+newline$ -- 149
+num.names$ -- 57
+pop$ -- 9591
 preamble$ -- 1
-purify$ -- 16
+purify$ -- 19
 quote$ -- 0
-skip$ -- 19643
+skip$ -- 22338
 stack$ -- 0
-substring$ -- 10512
-swap$ -- 18
-text.length$ -- 326
+substring$ -- 12020
+swap$ -- 21
+text.length$ -- 372
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 208
-warning$ -- 0
-while$ -- 394
+type$ -- 247
+warning$ -- 1
+while$ -- 451
 width$ -- 0
-write$ -- 318
+write$ -- 371
+(There was 1 warning)

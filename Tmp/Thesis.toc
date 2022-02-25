@@ -13,20 +13,20 @@
 \contentsline {section}{\numberline {2.3}结果}{9}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}一个杂质与一个费米子}{9}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}一个杂质与两个费米子}{12}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}小结与展望}{13}{section.2.4}
-\contentsline {chapter}{\numberline {第3章\hspace {.3em}}极化子-分子转变的本质}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}引言}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}模型}{15}{section.3.2}
-\contentsline {section}{\numberline {3.3}结果}{15}{section.3.3}
-\contentsline {section}{\numberline {3.4}小结与展望}{15}{section.3.4}
-\contentsline {chapter}{\numberline {第4章\hspace {.3em}}总结与展望}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}概述}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}1}{17}{section.4.2}
-\contentsline {section}{\numberline {4.3}2}{17}{section.4.3}
-\contentsline {section}{\numberline {4.4}3}{17}{section.4.4}
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{19}{appendix.A}
-\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{19}{section.A.1}
-\contentsline {section}{\numberline {A.2}测试公式编号 $\Lambda ,\lambda ,\theta ,\mathaccentV {bar}B16{\Lambda },\sqrt {S_{NN}}$}{19}{section.A.2}
-\contentsline {chapter}{参考文献}{21}{section*.18}
-\contentsline {chapter}{致谢}{23}{appendix*.20}
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{25}{appendix*.21}
+\contentsline {section}{\numberline {2.4}小结与展望}{17}{section.2.4}
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}极化子-分子转变的本质}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}引言}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}模型}{19}{section.3.2}
+\contentsline {section}{\numberline {3.3}结果}{19}{section.3.3}
+\contentsline {section}{\numberline {3.4}小结与展望}{19}{section.3.4}
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}总结与展望}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}概述}{21}{section.4.1}
+\contentsline {section}{\numberline {4.2}1}{21}{section.4.2}
+\contentsline {section}{\numberline {4.3}2}{21}{section.4.3}
+\contentsline {section}{\numberline {4.4}3}{21}{section.4.4}
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{23}{appendix.A}
+\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{23}{section.A.1}
+\contentsline {section}{\numberline {A.2}测试公式编号 $\Lambda ,\lambda ,\theta ,\mathaccentV {bar}B16{\Lambda },\sqrt {S_{NN}}$}{23}{section.A.2}
+\contentsline {chapter}{参考文献}{25}{section*.19}
+\contentsline {chapter}{致谢}{29}{appendix*.21}
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{31}{appendix*.22}
