@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{20}
 \providecommand{\biband}{和}
 \providecommand{\bibetal}{等}
 \providecommand{\natexlab}[1]{#1}
@@ -187,5 +187,12 @@ Cui~X, Ho~T~L.
 \newblock
   \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.89.023611}.
 \newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.89.023611}.
+
+\bibitem[Yosida(1966)]{Yosida}
+Yosida~K.
+\newblock Bound state due to the $s\ensuremath{-}d$ exchange interaction
+  [J/OL].
+\newblock Phys. Rev., 1966, 147: 223-227.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRev.147.223}.
 
 \end{thebibliography}

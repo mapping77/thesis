@@ -84,8 +84,10 @@
 \newlabel{kappammat}{{2.56}{21}{一个杂质与两个费米子}{equation.2.3.56}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces 能量$E=5\omega $附近三支repulsive branch的能量对比。其中蓝色散点图代表数值严格对角化的结果，黑色虚线代表$1/J=0$附近微扰论的结果。其中能量$E$与相互作用强度$J$的量纲为$\omega $和$\sqrt  {\omega /M}$。\relax }}{22}{figure.caption.19}}
 \newlabel{fig:fig4}{{2.4}{22}{能量$E=5\omega $附近三支repulsive branch的能量对比。其中蓝色散点图代表数值严格对角化的结果，黑色虚线代表$1/J=0$附近微扰论的结果。其中能量$E$与相互作用强度$J$的量纲为$\omega $和$\sqrt {\omega /M}$。\relax }{figure.caption.19}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}小结与展望}{23}{section.2.4}}
-\newlabel{sec:spex-summary}{{2.4}{23}{小结与展望}{section.2.4}{}}
+\citation{Yosida}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}多体扩展}{23}{subsection.2.3.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}小结与展望}{24}{section.2.4}}
+\newlabel{sec:spex-summary}{{2.4}{24}{小结与展望}{section.2.4}{}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {第3章\hspace  {.3em}}极化子-分子转变的本质}{25}{chapter.3}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
@@ -132,6 +134,7 @@
 \bibcite{busch1998two}{{17}{1998}{{Busch {等}}}{{Busch, Englert, Rza{\.z}ewski, and Wilkens}}}
 \bibcite{mahanmany}{{18}{2000}{{Mahan}}{{}}}
 \bibcite{cui2014ground}{{19}{2014}{{Cui {等}}}{{Cui and Ho}}}
+\bibcite{Yosida}{{20}{1966}{{Yosida}}{{}}}
 \@writefile{toc}{\contentsline {chapter}{致谢}{35}{appendix*.22}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}

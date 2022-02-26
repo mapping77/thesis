@@ -12,45 +12,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Biblio/ref.bib
 Warning--I didn't find a database entry for "Andrei-Furuya-Lowenstein"
 Warning--empty journal in mahanmany
-You've used 19 entries,
+You've used 20 entries,
             4948 wiz_defined-function locations,
-            1138 strings with 13243 characters,
-and the built_in function-call counts, 207633 in all, are:
-= -- 6039
-> -- 23348
-< -- 27339
-+ -- 7392
-- -- 2644
-* -- 1931
-:= -- 29233
-add.period$ -- 95
-call.type$ -- 19
-change.case$ -- 38
-chr.to.int$ -- 6755
-cite$ -- 20
-duplicate$ -- 399
-empty$ -- 2747
-format.name$ -- 672
-if$ -- 53302
+            1148 strings with 13424 characters,
+and the built_in function-call counts, 211940 in all, are:
+= -- 6196
+> -- 23775
+< -- 27854
++ -- 7534
+- -- 2683
+* -- 1986
+:= -- 29846
+add.period$ -- 99
+call.type$ -- 20
+change.case$ -- 40
+chr.to.int$ -- 6882
+cite$ -- 21
+duplicate$ -- 420
+empty$ -- 2854
+format.name$ -- 684
+if$ -- 54419
 int.to.chr$ -- 2
-int.to.str$ -- 20
+int.to.str$ -- 21
 missing$ -- 0
-newline$ -- 149
-num.names$ -- 57
-pop$ -- 9591
+newline$ -- 155
+num.names$ -- 60
+pop$ -- 9781
 preamble$ -- 1
-purify$ -- 19
+purify$ -- 20
 quote$ -- 0
-skip$ -- 22338
+skip$ -- 22786
 stack$ -- 0
-substring$ -- 12020
-swap$ -- 21
-text.length$ -- 372
+substring$ -- 12283
+swap$ -- 22
+text.length$ -- 382
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 247
+type$ -- 260
 warning$ -- 1
-while$ -- 451
+while$ -- 466
 width$ -- 0
-write$ -- 371
+write$ -- 387
 (There were 2 warnings)
