@@ -246,7 +246,7 @@ E_{s/t,n} \simeq (2n+1)\omega -\frac{\phi^{'}_{2n+1}(0)^2}{M^2\gamma_{s/t}}. \la
 
 \begin{figure}[!htbp]
     \centering
-    %\includegraphics[width=0.7\textwidth]{fig2.pdf}
+    \includegraphics[width=0.7\textwidth]{fig2.pdf}
     \bicaption{一个杂质与两个个费米子的1+2体系在$S_{tot,z}=1/2$子希尔伯特空间的能谱随自旋交换相互作用与无自旋交换的接触相互作用强度的变化。a（1）代表的是带自旋交换相互作用1+2体系。我们用红色的点来标记其中特殊的$S_{tot=3/2}$的铁磁态。剩下的态都是$S_{tot}=1/2$的态。a（2）代表的是带纯接触势的1+2体系的能谱。其中$E$与$J$的量纲为$\omega$与$\sqrt{\omega/M}$。}{(Color online).(a1) Energy spectrum of two fermions and one impurity with spin-exchange interaction in the $S_{tot,z}=1/2$ subspace. The FM states with $S_{tot}=3/2$ are highlighted by red color, and the rest are all with total spin $S_{tot}=1/2$. (a2) Same as (a1) except that the interaction between fermions and impurity is a pure contact type without spin-exchange, see text. }
     \label{fig:fig2}
 \end{figure}
@@ -266,7 +266,7 @@ E\sim\frac{-9J^2}{8}+C
 
 \begin{figure}[!htbp]
     \centering
-    %\includegraphics[width=0.7\textwidth]{fig3.pdf}
+    \includegraphics[width=0.7\textwidth]{fig3.pdf}
     \bicaption{铁磁（$J>0$）与反铁磁（$J<0$）耦合下整个体系平移对应的自旋单重态与自旋三重态能量后的能谱。其中a（1）代表能谱减掉$\frac{-9J^2}{8}$后的行为，b（1）代表了a（1）中灰色区域的放大。a（2）代表能谱减掉$\frac{-J^2}{8}$后的行为，可以看到基态依然随着$|J|$增大而能量越来越低，不再饱和到某一有限值。b（2）代表了a（2）中灰色区域的放大，从第一激发态开始，能量最终饱和在有限值。其中$E$与$J$的量纲为$\omega$与$\sqrt{\omega/M}$。}{a（1） Energies of deep bound states  for large and positive $J$, shifted by the spin-singlet binding energy $-9J^2/8$. All shifted energies saturate to a finite value, signifying the Kondo screening effect (see text).a（2） Energies of deep bound states  for large and negative $J$, shifted by the spin-triplet binding energy $-J^2/8$. The lowest bound state does not saturate as in b（1）, showing the absence of screening effect for FM coupling. b（1,2） show the magnified plot for the shaded region in b（1,2）, illustrating the asymptotic behavior towards odd harmonic levels. The units of $E$ and $J$ are respectively $\omega$ and $\sqrt{\omega/M}$.  }
     \label{fig:fig3}
 \end{figure}
@@ -371,7 +371,7 @@ E = 1.5\omega, 3.5\omega, 5.5\omega, ...
         \end{split} \label{eq2}
     \end{equation} 
 自然地，当$1/J\to0$时候，我们有：
-\begin{equation}
+\begin{equation}\label{infcond}
     \lim_{1/J\to0} \left|\psi^{(m)}_J\right>  = \left|\psi^{(m)}_{\infty} \right>
 \end{equation}
 这将最终用来决定$a_{mn}$。
@@ -392,15 +392,19 @@ E = 1.5\omega, 3.5\omega, 5.5\omega, ...
     \begin{equation}
         \begin{split}
             &\frac{1}{2M}\partial_{x_1} \Psi^{(m)}_J(x_1,x_2)|_{x_1=0^-}^{x_1=0^+}= 2J \hat{S_1}\cdot \hat{S_0}\Psi^{(m)}_J(0,x_2) \\
-            &\frac{1}{2M}\partial_{x_2} \Psi^{(m)}_J(x_1,x_2)|_{x_2=0^-}^{x_2=0^+}= 2J \hat{S_2}\cdot \hat{S_0} \Psi^{(m)}_J(x_1,0)
+            &\frac{1}{2M}\partial_{x_2} \Psi^{(m)}_J(x_1,x_2)|_{x_2=0^-}^{x_2=0^+}= 2J \hat{S_2}\cdot \hat{S_0} \Psi^{(m)}_J(x_1,0)\\
         \end{split}
     \end{equation}
-将上述边界条件满足的方程带入到方程（~\ref{kappam}~）中，我们化简得到：
+将上述边界条件满足的方程带入到方程（~\ref{kappam}~）中，然后取$J\to\infty$的极限，我们得到：
 \begin{equation}\label{kappammid}
     \begin{split}
             \kappa_m \delta_{mn} &=  (\frac{1}{2M})^2 \int dx_2 \partial_{x_1} \Psi^{m\dagger}_{\infty}(x_1,x_2) |^{x_1=0^+}_{x_1 = 0^-} \frac{1}{2\hat{S_1}\cdot \hat{S_0}} \partial_{x_1} \Psi^{n}_{\infty}(x_1,x_2) |^{x_1=0^+}_{x_1 = 0^-}\\
             & \quad +  (\frac{1}{2M})^2 \int dx_1 \partial_{x_2} \Psi^{m\dagger}_{\infty}(x_1,x_2) |^{x_2=0^+}_{x_2 = 0^-} \frac{1}{2\hat{S_1}\cdot \hat{S_0}} \partial_{x_2} \Psi^{n}_{\infty}(x_1,x_2) |^{x_2=0^+}_{x_2 = 0^-}\\
-           &= \frac{1}{M^2}(a_{m1},a_{m2},a_{m3}) \int dx
+    \end{split}
+\end{equation} 
+继而我们再带入之前假设的方程（~\ref{infcond}~）带入上式得到：
+\begin{equation}
+           \kappa_m \delta_{mn} = \frac{1}{M^2}(a_{m1},a_{m2},a_{m3}) \int dx
             \left(
             \begin{array}{c}
                 \frac{4(B-A)^2}{3} \quad \frac{8B(B-A)}{3}  \quad \frac{8A(A-B)}{3}\\
@@ -415,8 +419,7 @@ E = 1.5\omega, 3.5\omega, 5.5\omega, ...
                 a_{n3}\\
             \end{array}
             \right)\\
-    \end{split}
-\end{equation} 
+\end{equation}
 其中，我们记：
 \begin{equation}
 \begin{split}
@@ -481,13 +484,15 @@ B &= \frac{1}{\sqrt{2}} \phi_3'(0)\psi_1(x)
 \begin{equation}
 \kappa_m= \frac{10}{\sqrt{\pi}},\frac{2}{3\sqrt{\pi}} \left(2 \sqrt{7}+5\right),\frac{2}{3\sqrt{\pi}} \left(5-2 \sqrt{7}\right) 
 \end{equation}
-我们将上述微扰论的结果与之前的严格对角化的数值结果进行比较，如图（~\ref{fig:fig4}~所示：
+我们将上述微扰论的结果与之前的严格对角化的数值结果进行比较，如图（~\ref{fig:fig4}~所示，两种方法得到的能量行为一致。
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{fig4.pdf}
-    \bicaption{能量$E=5\omega$附近三支repulsive branch的能量对比。其中蓝色散点图代表数值严格对角化的结果，黑色虚线代表$1/J=0$附近微扰论的结果。}{Energy comparison of numerical exact diagonalization result and $1/J=0$ nearby perturbation result on repulsive branches aroud $E=5\omega$. Blue dotted line mark energy from perturbation and black dash line mark energy from numeric. The units of $E$ and $J$ are respectively $\omega$ and $\sqrt{\omega/M}$.  }
+    \bicaption{能量$E=5\omega$附近三支repulsive branch的能量对比。其中蓝色散点图代表数值严格对角化的结果，黑色虚线代表$1/J=0$附近微扰论的结果。其中能量$E$与相互作用强度$J$的量纲为$\omega$和$\sqrt{\omega/M}$。}{Energy comparison of numerical exact diagonalization result and $1/J=0$ nearby perturbation result on repulsive branches aroud $E=5\omega$. Blue dotted line mark energy from perturbation and black dash line mark energy from numeric. The units of $E$ and $J$ are respectively $\omega$ and $\sqrt{\omega/M}$.  }
     \label{fig:fig4}
 \end{figure}
+
+
 
 
 
