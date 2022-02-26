@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  26 FEB 2022 15:15
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  26 FEB 2022 20:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2829,15 +2829,25 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 [20]
 File: fig4.pdf Graphic file (type pdf)
 <use fig4.pdf>
- [21]) (./Tex/Chap_Polaron.tex [22]
-第3章
-) (./Tex/Chap_SummaryandOutlook.tex [23
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 504.
 
-] [24
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 504.
+
+
+Package natbib Warning: Citation `Andrei-Furuya-Lowenstein' on page 21 undefine
+d on input line 504.
+
+[21] [22]) (./Tex/Chap_Polaron.tex [23] [24
+
+]
+第3章
+) (./Tex/Chap_SummaryandOutlook.tex [25] [26
 
 ]
 第4章
-)) [25] [26
+)) [27] [28
 
 ] (./Tex/Appendix.tex
 附录 A
@@ -2907,24 +2917,27 @@ Overfull \hbox (24.63742pt too wide) in paragraph at lines 36--37
 []\T1/ntxtlf/m/n/12.045 mathcal: $[]$, math-scr: $[]$, boldsym-bol: $[]$. 
  []
 
-) [27
+) [29
 
-] [28
+] [30
 
-] (Tmp/Thesis.bbl [29
+] (Tmp/Thesis.bbl [31
 
 
-] [30]) (./Tex/Backmatter.tex [31] [32
+] [32]) (./Tex/Backmatter.tex [33] [34
 
-] [33]
-[34
+] [35]
+[36
 
-] [35] [36
+] [37] [38
 
 ])
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
- (Tmp/Thesis.aux)
+(Tmp/Thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
@@ -2942,12 +2955,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 42308 strings out of 492970
- 853373 string characters out of 6133938
+ 42311 strings out of 492970
+ 853433 string characters out of 6133938
  912808 words of memory out of 5000000
- 45611 multiletter control sequences out of 15000+600000
- 624533 words of font info for 182 fonts, out of 8000000 for 9000
+ 45614 multiletter control sequences out of 15000+600000
+ 627333 words of font info for 183 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,22n,94p,10449b,2212s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Tmp/Thesis.pdf (54 pages).
+Output written on Tmp/Thesis.pdf (56 pages).

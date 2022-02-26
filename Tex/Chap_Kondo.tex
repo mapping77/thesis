@@ -484,17 +484,42 @@ B &= \frac{1}{\sqrt{2}} \phi_3'(0)\psi_1(x)
 \begin{equation}
 \kappa_m= \frac{10}{\sqrt{\pi}},\frac{2}{3\sqrt{\pi}} \left(2 \sqrt{7}+5\right),\frac{2}{3\sqrt{\pi}} \left(5-2 \sqrt{7}\right) 
 \end{equation}
-我们将上述微扰论的结果与之前的严格对角化的数值结果进行比较，如图（~\ref{fig:fig4}~所示，两种方法得到的能量行为一致。
+我们将上述微扰论的结果与之前的严格对角化的数值结果进行比较，如图（~\ref{fig:fig4}~）所示，两种方法得到的能量行为一致。
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{fig4.pdf}
     \bicaption{能量$E=5\omega$附近三支repulsive branch的能量对比。其中蓝色散点图代表数值严格对角化的结果，黑色虚线代表$1/J=0$附近微扰论的结果。其中能量$E$与相互作用强度$J$的量纲为$\omega$和$\sqrt{\omega/M}$。}{Energy comparison of numerical exact diagonalization result and $1/J=0$ nearby perturbation result on repulsive branches aroud $E=5\omega$. Blue dotted line mark energy from perturbation and black dash line mark energy from numeric. The units of $E$ and $J$ are respectively $\omega$ and $\sqrt{\omega/M}$.  }
     \label{fig:fig4}
 \end{figure}
+以上讨论基于$E=5$附近的三支repulsive branch给出微扰计算，同样的方法可以应用到其余更高激发态上面去。综合上述讨论，我们完成了对能谱中强耦合条件下三体repsulsive 与 attractive branch的讨论，其中非平凡的关联效应进一步给出。我们在最后再讨论一下弱耦合下基态的行为。
 
+在若耦合情况下$|J|\to0^{\pm}$，我们看到体系基态的能量行为，如图\ref{fig:fig2}~（a1，2）所示：
+\begin{equation}
+    E(J)\sim -cJ^2
+\end{equation}
+其随相互作用强固$J$变化的平方律的行为不同于纯接触势下线性律的行为，其原因在于极限情况下空间部分两个费米子占据谐振子的基态能级，自旋部分两费米子形成自旋单态，体系没有简并，一旦$J\neq0$，作为微扰项的自旋交换相互作用在基态上的期望值为零，这意味着平均场能量修正为零，最低阶的修正来自于二阶过程（从基态虚跃迁到高谐振子轨道）。
 
+而对于弱耦合情况下的1+1体系的基态，单个费米子占据最低能级的谐振子轨道，微扰的自旋交换相互作用在其中的平均场贡献非零，导致能量的最低阶修正为随$J$的线性律。
 
-
-
+中所周知，近藤模型在一定条件下可以用贝特假设的办法得到严格解\cite{Andrei-Furuya-Lowenstein}。在假设费米子的动能符合$\epsilon_{\Vector{k}}\propto|\Vector{k}|$的线性色散下，我们得到近藤模型基态的能量方程为：
+\begin{equation}
+    \begin{split}
+        &\quad E_{gs}(J)-E_{gs}(J=0) \\
+        &= D\cdot\left( \int\frac{1}{2c}\frac{\Theta(2\Lambda-2)-\pi}{\cosh\frac{\pi}{c}\Lambda}d\Lambda +i\ln\frac{1-\frac{iJ}{2}}{1+\frac{iJ}{2}} \right)
+        \end{split}
+\end{equation}
+其中有：
+\begin{equation}
+    \begin{split}
+    \Theta(x) &= -2\arctan(\frac{x}{c})\\
+    c &= \frac{2J}{1-\frac{3J^2}{4}}\\
+    \end{split}
+\end{equation}
+$D$是自由费米子的密度。相互作用$J$由$k_F/M$无量纲化。
+这表明近藤模型基态的能量在$J\sim0$修正律为：
+\begin{equation}
+    E_{gs}(J)-E_{gs}(J=0) \propto J^3
+\end{equation}
+这与我们的少体1+1与1+2体系中的线性行为与平方行为都有很大的不同，对此的一个可能的解释在于我们的体系处在一个谐振子外势当中，谐振子的存在导致能级由自由空间的连续能级变为分立的谐振子能级。另外由于我们的体系是少体体系，少体中的弱耦合对应条件是$|J|\ll \sqrt{\omega/M}$（其中$\omega$为谐振子特征频率），近藤模型是多体体系，多体体系中弱耦合条件对应$|J|\ll \sqrt{E_F/M}$（其中$E_F$为多体体系的费米能量）。换句话讲少体体系的弱相互作用意味着自旋交换能量远小于单粒子激发的能隙，近藤模型中弱相互作用则要求自旋交换能量远小于费米能级，因此两种情况下的能量行为有较大不同。在{\color{red}附录}。
 \section{小结与展望}\label{sec:spex-summary}
 
