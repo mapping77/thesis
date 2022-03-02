@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  26 FEB 2022 22:30
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  1 MAR 2022 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2793,14 +2793,14 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 ] [11]) [12] (./Tex/Mainmatter.tex
 (./Tex/Chap_Intro.tex
 第1章
-) (./Tex/Chap_Kondo.tex [1
+[1
 
 
-] [2
+]) (./Tex/Chap_Kondo.tex [2]
+第2章
+[3
 
 ]
-第2章
-[3]
 
 LaTeX Font Warning: Font shape `TU/ntxtlf/bx/n' undefined
 (Font)              using `TU/ntxtlf/m/n' instead on input line 16.
@@ -2839,15 +2839,18 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 Package natbib Warning: Citation `Andrei-Furuya-Lowenstein' on page 21 undefine
 d on input line 504.
 
-[21] [22] [23]) (./Tex/Chap_Polaron.tex [24]
-第3章
-) (./Tex/Chap_SummaryandOutlook.tex [25
+[21] [22] [23] [24]
+File: fig5.pdf Graphic file (type pdf)
+<use fig5.pdf>
+ [25] [26]) (./Tex/Chap_Polaron.tex [27] [28
 
-] [26
+]
+第3章
+) (./Tex/Chap_SummaryandOutlook.tex [29] [30
 
 ]
 第4章
-)) [27] [28
+)) [31] [32
 
 ] (./Tex/Appendix.tex
 附录 A
@@ -2917,19 +2920,19 @@ Overfull \hbox (24.63742pt too wide) in paragraph at lines 36--37
 []\T1/ntxtlf/m/n/12.045 mathcal: $[]$, math-scr: $[]$, boldsym-bol: $[]$. 
  []
 
-) [29
+) [33
 
-] [30
+] [34
 
-] (Tmp/Thesis.bbl [31
+] (Tmp/Thesis.bbl [35
 
 
-] [32]) (./Tex/Backmatter.tex [33] [34
+] [36]) (./Tex/Backmatter.tex [37] [38
 
-] [35]
-[36
+] [39]
+[40
 
-] [37] [38
+] [41] [42
 
 ])
 
@@ -2941,7 +2944,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C6D971AD0CA81A4A177AB16B74FA4F47.
+(rerunfilecheck)             Checksum: F9F922C7F51FADAF63C796F7C5845DBF.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2955,12 +2958,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 42327 strings out of 492970
- 854508 string characters out of 6133938
- 912834 words of memory out of 5000000
- 45630 multiletter control sequences out of 15000+600000
+ 42362 strings out of 492970
+ 856724 string characters out of 6133938
+ 913066 words of memory out of 5000000
+ 45664 multiletter control sequences out of 15000+600000
  627333 words of font info for 183 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,22n,94p,10449b,2212s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Tmp/Thesis.pdf (56 pages).
+Output written on Tmp/Thesis.pdf (60 pages).
