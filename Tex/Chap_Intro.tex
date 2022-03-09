@@ -2,16 +2,82 @@
 
 \section{冷原子概述}
 
-
 \section{冷原子基本实验技术}
 
 \section{少体严格解}\label{sec:fewbody}
 
-伴随着冷原子平台实验技术的进步，各个凝聚态研究领域掀起了不同程度的热潮。其中低维少体物理的研究领域有了较大进展。得益于实验中少量原子体系的
-制备、调控与测量，低维少体物理中很多概念诸如少体束缚态、玻色子费米化等理论概念不断地在冷原子实验中被观测到，并进而引发了冷原子特性平台下相关少体物理的理论研究。在本章中我们简要地选取几个一维冷原子少体领域的实验与理论研究进展，以期为接下来的研究提供启发。实际的冷原子少体体系中几个原子被束缚在势阱中，因此我们的内容也主要限制在抛物线型束缚势阱中的一维少体。由于原子间全同性原理，我们将围绕玻色少体体系与费米少体体系分别展开。服从两种统计的少体体系原子之间的相互作用均可以调节，从极弱到极强。从吸引到排斥，带来少体体系丰富的物理相图。
+维度、相互作用、trap、free space、统计、质量比、原子数。
+
+两体的图像给了我们思考多体的落脚点。两体两大图像，free space s 波散射与谐振子势阱下 busch model。
+
+伴随着冷原子平台实验技术的进步，各个凝聚态研究领域掀起了不同程度的热潮。其中少体物理的研究领域有了较大进展。得益于实验中少量原子体系的
+制备、调控与测量，少体物理中很多概念诸如少体束缚态、费米化等理论概念不断地在冷原子实验中被观测到，并进而引发了冷原子特性平台下相关少体物理的理论研究。在本章中我们简要地介绍冷原子少体领域的实验与理论研究进展，以期为接下来的研究提供启发。实际的冷原子少体体系中几个原子被束缚在势阱中，因此我们的内容也主要限制在束缚势阱中的少体体系。由于原子间全同性原理，我们将围绕玻色少体体系与费米少体体系分别展开。舒服的原子数可控程度越来越高，体系的维度可以通过各向异性的势阱实现，原子之间的相互作用均可以调节，从极弱到极强，从吸引到排斥。进一步选取不同的混合体系带来质量比的可调节性，这些丰富的可调节实验条件为少体体系带来丰富的物理。
 
 
-少体物理之所以重要很大原因在于存在严格解。对于量子力学发展初期的谐振子严格解与氢原子模型严格解的理解，几乎构成了我们理解量子力学的基石。进一步地，1998年T. Busch给出了又一个少体体系严格解：任意维度下两个全同玻色子在谐振子势场下的能谱。以一维为例，系统的哈密顿量可以写为：
+\subsection{玻色子少体}
+
+可控少体玻色子实验
+
+
+少体物理之所以重要很大原因在于存在严格解。对于量子力学发展初期的谐振子严格解与氢原子模型严格解的理解，几乎构成了我们理解量子力学的基石。进一步地，
+在玻色子少体体系中，无相互作用极限下体系处于BEC极限。所有的玻色子位于体系的基态。而一旦打开玻色子之间相互作用之后，新奇的物理现象就出现了。早在1960年，M. Girardeau提出对于玻色子体系：
+\begin{equation}
+\hat{\mathcal{H}}=\sum_{i=1}^{N}\left[-\frac{1}{2} \frac{\partial^{2}}{\partial x_{i}^{2}}+\frac{1}{2} x_{i}^{2}\right]+g \sum_{i<j} \delta\left(x_{i}-x_{j}\right)
+\end{equation}
+在强排斥极限$g\to+\infty$下等价于新的带有边界条件的无相互作用哈密顿量：
+\begin{equation}
+\begin{split}
+\hat{\mathcal{H}}&=\sum_{i=1}^{N}\left[-\frac{1}{2} \frac{\partial^{2}}{\partial x_{i}^{2}}+\frac{1}{2} x_{i}^{2}\right]\\
+&\quad \phi_{x_i=x_j}=0\\
+\end{split}
+\end{equation}
+进一步E. Lieb与找到了整个相互作用区间的严格解。Petrov研究了细香烟类型的BEC低温强相互作用下类似于T-G气体。不过上述理论都是基于自由空间，冷原子实验中通常伴随着外界的势阱。2001年Girardeau M D与合作者研究了谐振子外势存在下，强排斥N玻色子体系基态波函数可以写为Jastrow形式：
+\begin{equation}
+\phi(\boldsymbol{r})=C_{N}\left(\prod^{N} \prod^{N}\left|x_{i}-x_{j}\right|\right) \mathrm{e}^{-\sum_{i} x_{i}^{2} / 2}
+\end{equation}
+进一步，这个体系的单粒子密度矩阵：
+\begin{equation}
+\rho^{(1)}\left(x, x^{\prime}\right)=\int \phi\left(x, \ldots, x_{N}\right) \phi\left(x^{\prime}, \ldots, x_{N}\right) \mathrm{d} x_{2} \ldots \mathrm{d} x_{N}
+\end{equation}
+其对角部分为体系的密度分布，换到动量空间为：
+\begin{equation}
+n(k)=\frac{1}{2 \pi} \int \mathrm{d} x \int \mathrm{d} x^{\prime} \rho\left(x, x^{\prime}\right) \exp \left[-\mathrm{i} k\left(x-x^{\prime}\right)\right]
+\end{equation}
+对于有5个粒子的少体体系，其密度分布如图所示：
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.6\textwidth]{chap1tgrho.png}
+    \bicaption{摘自1D tg rho}{Reprinted from 1D tg rho}
+    \label{chap1tgrho}
+\end{figure}
+不仅限于强相互作用极限，在趋向于这个极限的过程，利用严格解的办法{\color{red}Deuretzbacher F给出了少体体系费米化的过程}。
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.6\textwidth]{chap1tgn.png}
+    \bicaption{摘自1D tg n}{Reprinted from 1D tg n}
+    \label{chap1tgn}
+\end{figure}
+最终T-G气体在实验中被观测到。
+
+
+\subsection{费米少体实验}
+实验中最早制备出费米子少体体系可以追溯到2005年，在较深的光晶格体系中观测到两费米子形成的分子态\cite{EsslingerFermiSea,Esslinger1DMol,Esslinger3DMol,Hecker3DMol}。如图~\ref{chap1mol}~所示，
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.6\textwidth]{chap1mol.png}
+    \bicaption{摘自 Esslinger1DMol}{Reprinted Esslinger1DMol}
+    \label{chap1mol}
+\end{figure}
+
+然后沿着另外一个思路，精确制备少体体系\cite{SerwaneDeterministic,WenzFermiSeaOnebyOne,zurn2012fermionization,Zurn2013Pairing,MurmannSpinChain,MurmannTwoFermionDoubleWell}。
+
+
+
+\subsection{费米少体理论}
+
+少体物理之所以重要是因为可以提供一个可理解的物理图像，甚至某些特殊体系存在严格解。这些少体图像成了我们理解实验的基石。在冷原子领域，有两个经典的两体图像，分别是：自由空间s波散射图像与谐振子势场下s波相互作用两体严格解。由于本届内容关在存在外势的相关少体物理，因此我们从介绍后者出发。
+
+1998年T. Busch给出了又一个少体体系严格解：任意维度下两个全同玻色子在谐振子势场下的能谱。虽然是玻色子体系，但是这个严格解对费米子体系同样重要，我们以一维为例简单介绍，系统的哈密顿量可以写为：
 \begin{equation}
 \hat{\mathcal{H}}=-\frac{\hbar}{2 m}\left(\frac{\partial^{2}}{\partial x^{2}}+\frac{\partial^{2}}{\partial y^{2}}\right)+\frac{m \omega^{2}}{2}\left(x^{2}+y^{2}\right)+g \delta(x-y)
 \end{equation}
@@ -47,18 +113,105 @@ $mathcal{H}_{X}$在谐振子基矢下对角化，其中奇宇称的谐振子能�
 \end{figure}
 其中当$g\to-\infty$时候，基态能量渐近行为是$E_g\to-\frac{g^2}{2}$，称为lower branch。其余的随着$g\to\infty$本征能量饱和在奇数谐振子能量的态称为upper branch。这个少体体系的严格解在后续的实验与理论发展中起了很重要的做用。{\color{red}后续有一些进一步的推广。}
 
-
-\subsection{玻色少体体系}
-在玻色子少体体系中，无相互作用极限下体系处于BEC极限。所有的玻色子位于体系的基态。而一旦打开玻色子之间相互作用之后，新奇的物理现象就出现了。在这里我们主要讨论T-G气体与费米化。
+1D, 2D, 3D Busch l=0,l>0 及一些扩展。
 
 
-\subsection{费米少体体系}
 
 
-有了上面介绍的量子少体研究进展，将有几个可扩展的方向，比如改变相互作用，dipole、库伦、以及自旋交换相互作用，这将是下一章节介绍的。
+
+
+
+Blume, Petrov
+
+Hui Hu三体严格解。高温virial 展开链接少体羽多体！
+
+
+有了上面介绍的量子少体研究进展，将有几个可扩展的方向，比如改变相互作用，dipole、库伦、以及自旋交换相互作用，而自旋交换相互作用这将是下一章节介绍的。
 
 \section{自旋交换相互作用}\label{sec:spin-exchange}
-在超冷原子实验平台中，原子作为一个整体
+在超冷原子实验平台中，原子整体作为基本粒子，但是具有内禀自由度。分为内部电子轨道自由度和核自旋自由度。在冷原子实验平台发展初期，冷却囚禁的原子主要集中在碱金属一族，最外层只有一个电子。后续随着实验技术的进步，碱土金属一族的原子进入到大家的视野{\color{red} AE原子体系制备 }。这类冷原子最外层有两个电子，基态${}^1S_0$与激发态${}^3P_0$都具有较长的寿命（选择定则），称为轨道自由度。由于不同内部电子结构的原子间相互作用不同，因此不同轨道天然地带来了不同的原子间相互作用。进一步，由于体系温度极低，轨道电子的总角动量$J$为零，碱土金属元素的核自旋自由度可以发挥重大的作用。这就为碱土金属原子作为量子模拟的平台带来丰富的可能性。
+
+最早在碱土金属中做量子模拟的可以追溯到2010年理论想法，基于当时对于费米型碱土金属原子的冷却与调控，A. V. Gorshkov提出了利用这一平台来模拟SU(N)相关的物理。具体地，从两体散射来讲，原子间的相互作用仅与价电子排布有关而与核自旋无关。由于费米子的全同性原理，两体散射中轨道自由的与核自旋自由度整体满足交换反对称特性，因此两体散射通道分为
+
+光晶格中费米型碱土金属原子服从的哈密顿量为：
+\begin{equation}
+\begin{aligned}
+\hat{H}=& \sum_{\alpha m} \int \mathrm{d}^{3} \mathbf{r} \hat{\Psi}_{\alpha m}^{\dagger}(\mathbf{r})\left(-\frac{\hbar^{2}}{2 M} \nabla^{2}+V_{\alpha,opt}(\mathbf{r})\right) \hat{\Psi}_{\alpha m}(\mathbf{r}) \\
+&+\hbar \omega_{0} \int \mathrm{d}^{3} \mathbf{r}\left(\hat{\rho}_{e}(\mathbf{r})-\hat{\rho}_{g}(\mathbf{r})\right)+ \sum_{\alpha, m<m^{\prime}} g_{\alpha \alpha} \int \mathrm{d}^{3} \mathbf{r} \hat{\rho}_{\alpha m}(\mathbf{r}) \hat{\rho}_{\alpha m^{\prime}}(\mathbf{r})  \\
+&+ g_{e g^+} \int \mathrm{d}^{3} \mathbf{r} \hat{\rho}_{eg^+}(\mathbf{r}) \hat{\rho}_{eg^+}(\mathbf{r})+g_{e g^-} \int \mathrm{d}^{3} \mathbf{r} \hat{\rho}_{eg^-}(\mathbf{r}) \hat{\rho}_{eg^-}(\mathbf{r})\\
+\end{aligned}
+\end{equation}
+其中$\alpha=g({^1S_0})$或者$e({}^3P_0)$代表不同电子内态的原子。$m=-I,...,I$对应核自旋分量。$eg^+$与$eg^-$对应散射通道：
+\begin{equation}
+|eg^{\pm}\rangle = \frac{|ge\rangle\pm|eg\rangle}{\sqrt{2}}\otimes\frac{|\uparrow\downarrow\rangle\mp|\downarrow\uparrow \rangle}{\sqrt{2}}
+\end{equation}
+
+由于因此表征原子间相互作用参数仅需要四个通道的相互作用常数$g_{gg},g_{ee},g_{eg^+},g_{eg^-}$。如图~\ref{eg}~
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{eg.png}
+    \bicaption{摘自SU(N)}{Reprinted from SU(N)}
+    \label{eg}
+\end{figure}
+如果将$\hat{\rho}_{eg^\pm}$展开，我们得到不同轨道原子间的相互作用$\hat{V}_{eg}$分成了自旋交换与自旋守恒的两项：
+\begin{equation}
+\begin{aligned}
+\hat{V}_{eg^+} &= g_{e g^+} \int \mathrm{d}^{3} \mathbf{r} \hat{\rho}_{eg^+}(\mathbf{r}) \hat{\rho}_{eg^+}(\mathbf{r})+g_{e g^-} \int \mathrm{d}^{3} \mathbf{r} \hat{\rho}_{eg^-}(\mathbf{r}) \hat{\rho}_{eg^-}(\mathbf{r})\\
+\quad &= \frac{g_{e g}^{+}+g_{e g}^{-}}{2} \int \mathrm{d}^{3} \mathbf{r} \rho_{e}(\mathbf{r}) \rho_{g}(\mathbf{r}) \\ 
+&\quad \quad + \frac{g_{e g}^{+}-g_{e g}^{-}}{2} \sum_{m m^{\prime}} \int \mathrm{d}^{3} \mathbf{r} \Psi_{g m}^{\dagger}(\mathbf{r}) \Psi_{e m^{\prime}}^{\dagger}(\mathbf{r}) \Psi_{g m^{\prime}}(\mathbf{r}) \Psi_{e m}(\mathbf{r})
+\end{aligned}
+\end{equation}
+最后，将整个二次量子化哈密顿量在光晶格紧束缚近似下写为：
+\begin{equation}
+\begin{aligned}
+\hat{H}=&-\sum_{\langle j, i\rangle \alpha, m} J_{\alpha}\left(c_{i \alpha m}^{\dagger} c_{j \alpha m}+\text { h.c. }\right)+\sum_{j, \alpha} \frac{U_{\alpha \alpha}}{2} n_{j \alpha}\left(n_{j \alpha}-1\right) \\
+&+V \sum_{j} n_{j e} n_{j g}+V_{e x} \sum_{j, m, m^{\prime}} c_{j g m}^{\dagger} c_{j e m^{\prime}}^{\dagger} c_{j g m^{\prime}} c_{j e m}
+\end{aligned}
+\end{equation}
+其中$\hat{n}_{j\alpha}=\sum_m \hat{n}_{j\alpha m}$，$V=\left(U_{e g}^{+}+U_{e g}^{-}\right) / 2$与$V_{ex}=\left(U_{e g}^{+}-U_{e g}^{-}\right) / 2$分别描述不同轨道原子间的自旋不变与自旋交换相互作用，其中：
+\begin{equation}
+U_{eg^\pm} = g_{eg^\pm} \int \mathrm{d}^{3} \mathbf{r} w_e^2(\mathbf{r})w_g^2(\mathbf{r})
+\end{equation}
+有了上述丰富的轨道间相互作用与核自旋SU(N)自由度，这一模型可以用来模拟众多凝聚态物理中强关联多体模型，比如近藤晶格模型、自旋链模型、自旋液体等。
+
+紧接着于2014年，F. Scazza与合作者一起在${}^{173}$Yb体系中证实了上述自旋交换相互作用的存在。其思路如图~\ref{egexp}~所示：
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{egexp.png}
+    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \label{egexp}
+\end{figure}
+该实验选取不同电子排布（$g({}^1S_0)$与$e({}^3P_0)$）的${}^{173}$Yb（$I=5/2$）原子，束缚在较深（原子不能自由移动）的光晶格中，在每个格点里面，原子间的相互作用能为：
+\begin{equation}
+U_{X}=\frac{4 \pi \hbar^{2}}{m} a_{X} \int \mathrm{d}^{3} r w_{a}^{2}(\mathbf{r}) w_{b}^{2}(\mathbf{r})
+\end{equation}
+其中$X =gg, ee, eg^+, eg^−$代表不同状态的原子对。装载不同核自旋的$g$轨道原子到光晶格中，平均填充在$\bar{n}=1$与$\bar{n}=2$之间，这样导致部分格点内有一个原子，部分格点内有两个原子。对于有两个原子的格点，用激光将一个原子从g态激发到e态，末态有两个本征态$|eg^\pm\rangle$，本征能量为$U_{eg^\pm}$。如果在体系中加入沿$z$方向的磁场，导致$|eg^\pm\rangle$两态之间有非零的跃迁矩阵元，最终的哈密顿量为：
+\begin{equation}
+H_{e g}=\left(\begin{array}{cc}
+U_{e g}^{+} & \Delta_{B} \\
+\Delta_{B} & U_{e g}^{-}
+\end{array}\right)
+\end{equation}
+其中$\Delta_{B}=\delta g m_{\mathrm{F}} \mu_{\mathrm{B}} B$，$\delta g$为核自旋朗德因子的差值，激光场下末态的本征能量为：
+\begin{equation}
+E_{1,2}=V \pm \sqrt{V_{\mathrm{ex}}^{2}+\Delta_{B}^{2}}
+\end{equation}
+本征波函数为$|eg^\pm\rangle$两态的线性叠加。
+
+通过观测不同磁场下的共振谱，得到不同磁场下末态的能量，如图~\ref{egd}~
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{egexp.png}
+    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \label{egd}
+\end{figure}
+拟合实验中不同磁场喜爱测到的共振峰的位置，最终得到的裸的散射长度为：{\color{red}散射长度数据}。进一步作者将光晶格的深度放浅让原子可以在晶格中动起来，研究演化一段时间后自旋极化的变化来直接观测到了自旋交换相互作用。
+
+与此同时，来自研究者也分别在中观测到了自旋交换相互作用{\color{red}Sr与慕尼黑}。
+
+进一步地，上述实验中发现的裸的自旋交换相互作用都比较小，用来做近藤物理的量子模拟尚有欠缺。因此理论研究者提出利用束缚诱导共振来调节自旋交换相互作用。具体地，
+
+
 
 \section{极化子理论与实验}
 
