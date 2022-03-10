@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{34}
 \providecommand{\biband}{和}
 \providecommand{\bibetal}{等}
 \providecommand{\natexlab}[1]{#1}
@@ -12,6 +12,58 @@
   \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
   \let\eprint\href
 \fi
+
+\bibitem[Sowi{\'n}ski {\bibetal}(2019)Sowi{\'n}ski and
+  Garc{\'\i}a-March]{sowinski2019one}
+Sowi{\'n}ski~T, Garc{\'\i}a-March~M~{\'A}.
+\newblock One-dimensional mixtures of several ultracold atoms: a review [J/OL].
+\newblock Reports on Progress in Physics, 2019, 82\penalty0 (10): 104401.
+\newblock
+  \url{https://iopscience.iop.org/article/10.1088/1361-6633/ab3a80/meta}.
+\newblock DOI: \doi{https://doi.org/10.1088/1361-6633/ab3a80}.
+
+\bibitem[Blume(2012)]{blume2012few}
+Blume~D.
+\newblock Few-body physics with ultracold atomic and molecular systems in traps
+  [J/OL].
+\newblock Reports on Progress in Physics, 2012, 75\penalty0 (4): 046401.
+\newblock
+  \url{https://iopscience.iop.org/article/10.1088/0034-4885/75/4/046401}.
+\newblock DOI: \doi{https://doi.org/10.1088/0034-4885/75/4/046401}.
+
+\bibitem[Nielsen {\bibetal}(2001)Nielsen, Fedorov, Jensen, and
+  Garrido]{nielsen2001three}
+Nielsen~E, Fedorov~D~V, Jensen~A~S, et~al.
+\newblock The three-body problem with short-range interactions [J/OL].
+\newblock Physics Reports, 2001, 347\penalty0 (5): 373-459.
+\newblock
+  \url{https://www.sciencedirect.com/science/article/pii/S0370157300001071}.
+\newblock DOI: \doi{https://doi.org/10.1016/S0370-1573(00)00107-1}.
+
+\bibitem[Braaten {\bibetal}(2006)Braaten and Hammer]{braaten2006universality}
+Braaten~E, Hammer~H~W.
+\newblock Universality in few-body systems with large scattering length [J/OL].
+\newblock Physics Reports, 2006, 428\penalty0 (5-6): 259-390.
+\newblock
+  \url{https://www.sciencedirect.com/science/article/pii/S0370157306000822}.
+\newblock DOI: \doi{https://doi.org/10.1016/j.physrep.2006.03.001}.
+
+\bibitem[K\"ohler {\bibetal}(2006)K\"ohler, G\'oral, and
+  Julienne]{KohlerMolFRRMP}
+K\"ohler~T, G\'oral~K, Julienne~P~S.
+\newblock Production of cold molecules via magnetically tunable feshbach
+  resonances [J/OL].
+\newblock Rev. Mod. Phys., 2006, 78: 1311-1361.
+\newblock \url{https://link.aps.org/doi/10.1103/RevModPhys.78.1311}.
+
+\bibitem[Greiner {\bibetal}(2002)Greiner, Mandel, Esslinger, H{\"a}nsch, and
+  Bloch]{greiner2002quantum}
+Greiner~M, Mandel~O, Esslinger~T, et~al.
+\newblock Quantum phase transition from a superfluid to a mott insulator in a
+  gas of ultracold atoms [J/OL].
+\newblock nature, 2002, 415\penalty0 (6867): 39-44.
+\newblock \url{https://www.nature.com/articles/415039a}.
+\newblock DOI: \doi{https://doi.org/10.1038/415039a}.
 
 \bibitem[K\"ohl {\bibetal}(2005)K\"ohl, Moritz, St\"oferle, G\"unter, and
   Esslinger]{EsslingerFermiSea}
@@ -38,6 +90,14 @@ St\"oferle~T, Moritz~H, G\"unter~K, et~al.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.96.030401}.
 \newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.96.030401}.
 
+\bibitem[Ospelkaus {\bibetal}(2006)Ospelkaus, Ospelkaus, Humbert, Ernst,
+  Sengstock, and Bongs]{Ospelkaus3DMol}
+Ospelkaus~C, Ospelkaus~S, Humbert~L, et~al.
+\newblock Ultracold heteronuclear molecules in a 3d optical lattice [J/OL].
+\newblock Phys. Rev. Lett., 2006, 97: 120402.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.97.120402}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.97.120402}.
+
 \bibitem[Thalhammer {\bibetal}(2006)Thalhammer, Winkler, Lang, Schmid, Grimm,
   and Denschlag]{Hecker3DMol}
 Thalhammer~G, Winkler~K, Lang~F, et~al.
@@ -46,6 +106,14 @@ Thalhammer~G, Winkler~K, Lang~F, et~al.
 \newblock Phys. Rev. Lett., 2006, 96: 050402.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.96.050402}.
 \newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.96.050402}.
+
+\bibitem[Sala {\bibetal}(2013)Sala, Z\"urn, Lompe, Wenz, Murmann, Serwane,
+  Jochim, and Saenz]{SalaCIRMol}
+Sala~S, Z\"urn~G, Lompe~T, et~al.
+\newblock Coherent molecule formation in anharmonic potentials near
+  confinement-induced resonances [J/OL].
+\newblock Phys. Rev. Lett., 2013, 110: 203202.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.110.203202}.
 
 \bibitem[Serwane {\bibetal}(2011)Serwane, Zürn, Lompe, Ottenstein, Wenz, and
   Jochim]{SerwaneDeterministic}
@@ -62,6 +130,7 @@ Wenz~A~N, Zürn~G, Murmann~S, et~al.
   a time [J/OL].
 \newblock Science, 2013, 342\penalty0 (6157): 457-460.
 \newblock \url{https://www.science.org/doi/abs/10.1126/science.1240516}.
+\newblock DOI: \doi{https://doi.org/10.1126/science.1240516}.
 
 \bibitem[Z{\"u}rn {\bibetal}(2012)Z{\"u}rn, Serwane, Lompe, Wenz, Ries, Bohn,
   and Jochim]{zurn2012fermionization}
@@ -78,6 +147,7 @@ Z\"urn~G, Wenz~A~N, Murmann~S, et~al.
 \newblock Pairing in few-fermion systems with attractive interactions [J/OL].
 \newblock Phys. Rev. Lett., 2013, 111: 175302.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.111.175302}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.111.175302}.
 
 \bibitem[Murmann {\bibetal}(2015{\natexlab{a}})Murmann, Deuretzbacher, Z\"urn,
   Bjerlin, Reimann, Santos, Lompe, and Jochim]{MurmannSpinChain}
@@ -96,5 +166,134 @@ Murmann~S, Bergschneider~A, Klinkhamer~V~M, et~al.
 \newblock Phys. Rev. Lett., 2015, 114: 080402.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.114.080402}.
 \newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.114.080402}.
+
+\bibitem[Rontani(2012)]{RontaniTunneling}
+Rontani~M.
+\newblock Tunneling theory of two interacting atoms in a trap [J/OL].
+\newblock Phys. Rev. Lett., 2012, 108: 115302.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.108.115302}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.108.115302}.
+
+\bibitem[Pagano {\bibetal}(2014)Pagano, Mancini, Cappellini, Lombardi,
+  Sch{\"a}fer, Hu, Liu, Catani, Sias, Inguscio, et~al.]{pagano2014one}
+Pagano~G, Mancini~M, Cappellini~G, et~al.
+\newblock A one-dimensional liquid of fermions with tunable spin [J/OL].
+\newblock Nature Physics, 2014, 10\penalty0 (3): 198-201.
+\newblock \url{https://www.nature.com/articles/nphys2878}.
+\newblock DOI: \doi{https://doi.org/10.1038/nphys2878}.
+
+\bibitem[Idziaszek {\bibetal}(2006)Idziaszek and Calarco]{Idziaszek2bdynamics}
+Idziaszek~Z, Calarco~T.
+\newblock Analytical solutions for the dynamics of two trapped interacting
+  ultracold atoms [J/OL].
+\newblock Phys. Rev. A, 2006, 74: 022712.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.74.022712}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.74.022712}.
+
+\bibitem[Olshanii {\bibetal}(2001)Olshanii and
+  Pricoupenko]{OlshaniiRigorous2001}
+Olshanii~M, Pricoupenko~L.
+\newblock Rigorous approach to the problem of ultraviolet divergencies in
+  dilute bose gases [J/OL].
+\newblock Phys. Rev. Lett., 2001, 88: 010402.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.88.010402}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.88.010402}.
+
+\bibitem[Petrov(2003)]{Petrov2003unitary3b}
+Petrov~D~S.
+\newblock Three-body problem in fermi gases with short-range interparticle
+  interaction [J/OL].
+\newblock Phys. Rev. A, 2003, 67: 010703.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.67.010703}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.67.010703}.
+
+\bibitem[Werner {\bibetal}(2006{\natexlab{a}})Werner and
+  Castin]{Fleix2006prlunitary3b}
+Werner~F, Castin~Y.
+\newblock Unitary quantum three-body problem in a harmonic trap [J/OL].
+\newblock Phys. Rev. Lett., 2006, 97: 150401.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.97.150401}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.97.150401}.
+
+\bibitem[Werner {\bibetal}(2006{\natexlab{b}})Werner and
+  Castin]{Felix2006praunitary3b}
+Werner~F, Castin~Y.
+\newblock Unitary gas in an isotropic harmonic trap: Symmetry properties and
+  applications [J/OL].
+\newblock Phys. Rev. A, 2006, 74: 053604.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.74.053604}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.74.053604}.
+
+\bibitem[Kestner {\bibetal}(2007)Kestner and Duan]{LmDuan2007levelcrossing}
+Kestner~J~P, Duan~L~M.
+\newblock Level crossing in the three-body problem for strongly interacting
+  fermions in a harmonic trap [J/OL].
+\newblock Phys. Rev. A, 2007, 76: 033611.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.76.033611}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.76.033611}.
+
+\bibitem[Stetcu {\bibetal}(2007)Stetcu, Barrett, van Kolck, and
+  Vary]{Stetcu2007}
+Stetcu~I, Barrett~B~R, van Kolck~U, et~al.
+\newblock Effective theory for trapped few-fermion systems [J/OL].
+\newblock Phys. Rev. A, 2007, 76: 063613.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.76.063613}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.76.063613}.
+
+\bibitem[von Stecher {\bibetal}(2008)von Stecher, Greene, and Blume]{Blume2008}
+von Stecher~J, Greene~C~H, Blume~D.
+\newblock Energetics and structural properties of trapped two-component fermi
+  gases [J/OL].
+\newblock Phys. Rev. A, 2008, 77: 043619.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.77.043619}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.77.043619}.
+
+\bibitem[Daily {\bibetal}(2010)Daily and Blume]{Blume2010}
+Daily~K~M, Blume~D.
+\newblock Energy spectrum of harmonically trapped two-component fermi gases:
+  Three- and four-particle problem [J/OL].
+\newblock Phys. Rev. A, 2010, 81: 053615.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.81.053615}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.81.053615}.
+
+\bibitem[Liu {\bibetal}(2009)Liu, Hu, and Drummond]{Xiaji2009prl}
+Liu~X~J, Hu~H, Drummond~P~D.
+\newblock Virial expansion for a strongly correlated fermi gas [J/OL].
+\newblock Phys. Rev. Lett., 2009, 102: 160401.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.102.160401}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.102.160401}.
+
+\bibitem[Liu {\bibetal}(2010{\natexlab{a}})Liu, Hu, and Drummond]{Xiaji20103b}
+Liu~X~J, Hu~H, Drummond~P~D.
+\newblock Three attractively interacting fermions in a harmonic trap: Exact
+  solution, ferromagnetism, and high-temperature thermodynamics [J/OL].
+\newblock Phys. Rev. A, 2010, 82: 023619.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.82.023619}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.82.023619}.
+
+\bibitem[Rittenhouse {\bibetal}(2010)Rittenhouse, Mehta, and
+  Greene]{Rittenhouse2010green}
+Rittenhouse~S~T, Mehta~N~P, Greene~C~H.
+\newblock Green's functions and the adiabatic hyperspherical method [J/OL].
+\newblock Phys. Rev. A, 2010, 82: 022706.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.82.022706}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.82.022706}.
+
+\bibitem[Liu {\bibetal}(2010{\natexlab{b}})Liu, Hu, and Drummond]{Xiaij2D3b}
+Liu~X~J, Hu~H, Drummond~P~D.
+\newblock Exact few-body results for strongly correlated quantum gases in two
+  dimensions [J/OL].
+\newblock Phys. Rev. B, 2010, 82: 054524.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.82.054524}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.82.054524}.
+
+\bibitem[Gharashi {\bibetal}(2012)Gharashi, Daily, and Blume]{blume2012}
+Gharashi~S~E, Daily~K~M, Blume~D.
+\newblock Three $s$-wave-interacting fermions under anisotropic harmonic
+  confinement: Dimensional crossover of energetics and virial coefficients
+  [J/OL].
+\newblock Phys. Rev. A, 2012, 86: 042702.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.86.042702}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.86.042702}.
 
 \end{thebibliography}
