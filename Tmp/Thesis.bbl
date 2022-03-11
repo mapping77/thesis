@@ -1,4 +1,4 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{45}
 \providecommand{\biband}{和}
 \providecommand{\bibetal}{等}
 \providecommand{\natexlab}[1]{#1}
@@ -263,7 +263,7 @@ Liu~X~J, Hu~H, Drummond~P~D.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.102.160401}.
 \newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.102.160401}.
 
-\bibitem[Liu {\bibetal}(2010{\natexlab{a}})Liu, Hu, and Drummond]{Xiaji20103b}
+\bibitem[Liu {\bibetal}(2010)Liu, Hu, and Drummond]{Xiaji20103b}
 Liu~X~J, Hu~H, Drummond~P~D.
 \newblock Three attractively interacting fermions in a harmonic trap: Exact
   solution, ferromagnetism, and high-temperature thermodynamics [J/OL].
@@ -279,21 +279,108 @@ Rittenhouse~S~T, Mehta~N~P, Greene~C~H.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.82.022706}.
 \newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.82.022706}.
 
-\bibitem[Liu {\bibetal}(2010{\natexlab{b}})Liu, Hu, and Drummond]{Xiaij2D3b}
-Liu~X~J, Hu~H, Drummond~P~D.
-\newblock Exact few-body results for strongly correlated quantum gases in two
-  dimensions [J/OL].
-\newblock Phys. Rev. B, 2010, 82: 054524.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.82.054524}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.82.054524}.
+\bibitem[D’Amico {\bibetal}(2014)D’Amico and Rontani]{d2014three}
+D’Amico~P, Rontani~M.
+\newblock Three interacting atoms in a one-dimensional trap: a benchmark system
+  for computational approaches [J/OL].
+\newblock Journal of Physics B: Atomic, Molecular and Optical Physics, 2014,
+  47\penalty0 (6): 065303.
+\newblock
+  \url{https://iopscience.iop.org/article/10.1088/0953-4075/47/6/065303/meta}.
+\newblock DOI: \doi{https://doi.org/10.1088/0953-4075/47/6/065303}.
 
-\bibitem[Gharashi {\bibetal}(2012)Gharashi, Daily, and Blume]{blume2012}
-Gharashi~S~E, Daily~K~M, Blume~D.
-\newblock Three $s$-wave-interacting fermions under anisotropic harmonic
-  confinement: Dimensional crossover of energetics and virial coefficients
-  [J/OL].
-\newblock Phys. Rev. A, 2012, 86: 042702.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.86.042702}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.86.042702}.
+\bibitem[Loft {\bibetal}(2015)Loft, Dehkharghani, Mehta, Volosniev, and
+  Zinner]{loft2015variational}
+Loft~N~J~S, Dehkharghani~A~S, Mehta~N~P, et~al.
+\newblock A variational approach to repulsively interacting three-fermion
+  systems in a one-dimensional harmonic trap [J/OL].
+\newblock The European Physical Journal D, 2015, 69\penalty0 (3): 1-17.
+\newblock \url{https://link.springer.com/article/10.1140/epjd/e2015-50845-9}.
+\newblock DOI: \doi{https://doi.org/10.1140/epjd/e2015-50845-9}.
+
+\bibitem[Andersen {\bibetal}(2016)Andersen, Dehkharghani, Volosniev, Lindgren,
+  and Zinner]{andersen2016interpolatory}
+Andersen~M~E~S, Dehkharghani~A, Volosniev~A, et~al.
+\newblock An interpolatory ansatz captures the physics of one-dimensional
+  confined fermi systems [J/OL].
+\newblock Scientific reports, 2016, 6\penalty0 (1): 1-13.
+\newblock \url{https://www.nature.com/articles/srep28362}.
+\newblock DOI: \doi{https://doi.org/10.1038/srep28362}.
+
+\bibitem[Bellotti {\bibetal}(2017)Bellotti, Dehkharghani, and
+  Zinner]{bellotti2017comparing}
+Bellotti~F~F, Dehkharghani~A~S, Zinner~N~T.
+\newblock Comparing numerical and analytical approaches to strongly interacting
+  two-component mixtures in one dimensional traps [J/OL].
+\newblock The European Physical Journal D, 2017, 71\penalty0 (2): 1-10.
+\newblock \url{https://link.springer.com/article/10.1140/epjd/e2017-70650-8}.
+\newblock DOI: \doi{https://doi.org/10.1140/epjd/e2017-70650-8}.
+
+\bibitem[Landau(1933)]{landau1933bewegung}
+Landau~L.
+\newblock {\"U}ber die bewegung der elektronen in kristalgitter [J].
+\newblock Phys. Z. Sowjetunion, 1933, 3: 644-645.
+
+\bibitem[Pekar(1946)]{pekar1946autolocalization}
+Pekar~S.
+\newblock Autolocalization of the electron in an inertially polarizable
+  dielectric medium [J].
+\newblock Zh. Eksp. Teor. Fiz, 1946, 16: 335.
+
+\bibitem[Fr{\"o}hlich {\bibetal}(1950)Fr{\"o}hlich, Pelzer, and
+  Zienau]{frohlich1950xx}
+Fr{\"o}hlich~H, Pelzer~H, Zienau~S.
+\newblock Xx. properties of slow electrons in polar materials [J/OL].
+\newblock The London, Edinburgh, and Dublin Philosophical Magazine and Journal
+  of Science, 1950, 41\penalty0 (314): 221-242.
+\newblock \url{https://www.tandfonline.com/doi/abs/10.1080/14786445008521794}.
+\newblock DOI: \doi{https://doi.org/10.1080/14786445008521794}.
+
+\bibitem[Fr{\"o}hlich(1954)]{frohlich1954electrons}
+Fr{\"o}hlich~H.
+\newblock Electrons in lattice fields [J/OL].
+\newblock Advances in Physics, 1954, 3\penalty0 (11): 325-361.
+\newblock \url{https://www.tandfonline.com/doi/abs/10.1080/00018735400101213}.
+\newblock DOI: \doi{https://doi.org/10.1080/00018735400101213}.
+
+\bibitem[Feynman(1955)]{feynman1955slow}
+Feynman~R~P.
+\newblock Slow electrons in a polar crystal [J/OL].
+\newblock Physical Review, 1955, 97\penalty0 (3): 660.
+\newblock \url{https://journals.aps.org/pr/abstract/10.1103/PhysRev.97.660}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRev.97.660}.
+
+\bibitem[Mahan(2000)]{mahanmany}
+Mahan~G.
+\newblock Many-particle physics, (kluwer academic/plenum publishers, new york,
+  2000). [J/OL].
+\newblock 2000.
+\newblock \url{https://link.springer.com/book/10.1007/978-1-4757-5714-9}.
+\newblock DOI: \doi{https://doi.org/10.1007/978-1-4757-5714-9}.
+
+\bibitem[Schirotzek {\bibetal}(2009)Schirotzek, Wu, Sommer, and
+  Zwierlein]{Schirotzekobservation}
+Schirotzek~A, Wu~C~H, Sommer~A, et~al.
+\newblock Observation of fermi polarons in a tunable fermi liquid of ultracold
+  atoms [J/OL].
+\newblock Phys. Rev. Lett., 2009, 102: 230402.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.102.230402}.
+
+\bibitem[Kohstall {\bibetal}(2012)Kohstall, Zaccanti, Jag, Trenkwalder,
+  Massignan, Bruun, Schreck, and Grimm]{kohstall2012metastability}
+Kohstall~C, Zaccanti~M, Jag~M, et~al.
+\newblock Metastability and coherence of repulsive polarons in a strongly
+  interacting fermi mixture [J/OL].
+\newblock Nature, 2012, 485\penalty0 (7400): 615-618.
+\newblock \url{https://www.nature.com/articles/nature11065}.
+\newblock DOI: \doi{https://doi.org/10.1038/nature11065}.
+
+\bibitem[Koschorreck {\bibetal}(2012)Koschorreck, Pertot, Vogt, Fr{\"o}hlich,
+  Feld, and K{\"o}hl]{koschorreck2012attractive}
+Koschorreck~M, Pertot~D, Vogt~E, et~al.
+\newblock Attractive and repulsive fermi polarons in two dimensions [J/OL].
+\newblock Nature, 2012, 485\penalty0 (7400): 619-622.
+\newblock \url{https://www.nature.com/articles/nature11151}.
+\newblock DOI: \doi{https://doi.org/10.1038/nature11151}.
 
 \end{thebibliography}

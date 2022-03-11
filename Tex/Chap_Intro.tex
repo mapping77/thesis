@@ -2,7 +2,18 @@
 
 \section{冷原子概述}
 
+
+杂质物理，其中少体体系与多体体系
+
 \section{冷原子基本实验技术}
+
+冷却囚禁费米子技术
+
+光晶格
+
+Feshbach resonance
+
+Confiment induced resonance
 
 \section{费米子少体体系}\label{sec:fewbody}
 伴随着冷原子平台实验技术的进步，各个凝聚态研究领域掀起了不同程度的热潮。其中少体物理的研究领域有了较大进展。得益于实验中少量原子体系的
@@ -115,31 +126,144 @@ $mathcal{H}_{X}$在谐振子基矢下对角化，其中奇宇称的谐振子能�
 
 
 
-如果在两体体系中再加入一个费米子，我们记为AAB型的费米子三体体系，仅在A-B费米子之间有s波散射相互作用。哈密顿量为：
+如果在两体体系中再加入一个费米子，我们记为$\uparrow\downarrow\uparrow$的费米子三体体系，仅在不同自旋费米子之间有s波散射相互作用\cite{OlshaniiRigorous2001,Petrov2003unitary3b,Fleix2006prlunitary3b,Felix2006praunitary3b,LmDuan2007levelcrossing,Stetcu2007,Blume2008,Blume2010,Xiaji2009prl,Xiaji20103b,Rittenhouse2010green}。我们用Bethe-Peierls条件代替：
 \begin{equation}
- \hat{H} = 
+\psi\left(\mathbf{r}_{1}, \mathbf{r}_{2}, \mathbf{r}_{3}\right)=\left(\frac{1}{r_{i j}}-\frac{1}{a}\right) A\left(\mathbf{R}_{i j}, \mathbf{r}_{k}\right)+O\left(r_{i j}\right)
 \end{equation}
-这种体系的求解通常借助于HyperSphere坐标：
+其中$r_{i j} \equiv\left|\mathbf{r}_{i}-\mathbf{r}_{j}\right| \rightarrow 0$，$\mathbf{R}_{ij}$为两原子的质心位置。
+
+这种体系的求解通常借助于HyperSphere框架，先引入Jacobi坐标：
+\begin{equation}
+\begin{split}
+\Vector{r}&=\Vector{r}_{2}-\Vector{r}_{1}\\
+\boldsymbol{\rho}&=\left(2 \mathbf{r}_{3}-\mathbf{r}_{1}-\mathbf{r}_{2}\right) / \sqrt{3}\\
+\Vector{C}&=\left(\Vector{r}_{1}+\Vector{r}_{2}+\Vector{r}_{3}\right) / 3\\
+\end{split}
+\end{equation}
+然后定义Hyperradius与Hyperangle：
+\begin{equation}
+\begin{split}
+R&=\sqrt{\left(r^{2}+\rho^{2}\right) / 2}\\
+\alpha&=\arctan (r / \rho)\\
+\end{split}
+\end{equation}
+这时候谐振子外势只出现在$R$的薛定谔方程中。考虑波函数形式：
+\begin{equation}
+\psi\left(\mathbf{r}_{1}, \mathbf{r}_{2}, \mathbf{r}_{3}\right)=\psi_{\mathrm{c} . \mathrm{m} .}(\mathbf{C}) F(R)(1+\hat{Q}) \frac{1}{r \rho} \varphi(\alpha) Y_{l}^{m}(\boldsymbol{\rho} / \rho)
+\end{equation}
+其中$Y_l^m$为角动量为l的球谐函数。l为三体内部相对角动量。将上式带入薛定谔方程得到$\alpha$满足：
+\begin{equation}
+\begin{gathered}
+-\varphi^{\prime \prime}(\alpha)+\frac{l(l+1)}{\cos ^{2} \alpha} \varphi(\alpha)=s^{2} \varphi(\alpha) \\
+\varphi(\pi / 2)=0 \\
+\varphi^{\prime}(0)+\eta(-1)^{l} \frac{4}{\sqrt{3}} \varphi(\pi / 3)=0
+\end{gathered}
+\end{equation}
+其中$\eta=-1$。对任意l，可以解得一系列$s_{l,n},n=0,1,2,3...$均为实数。如图~\ref{Sv}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1Sv.png}
+    \bicaption{摘自Fleix2006prlunitary3bPRL}{Reprinted}
+    \label{Sv}
+\end{figure}
+将解到的$s_{l,n}$带入：
+\begin{equation}
+\left[-\frac{\hbar^{2}}{2 m}\left(\frac{d^{2}}{d R^{2}}+\frac{1}{R} \frac{d}{d R}\right)+U(R)\right] F(R)=\left(E-E_{\mathrm{c} . \mathrm{m} .}\right) F(R)
+\end{equation}
+其中$U(R)=\hbar^{2} s^{2} /\left(2 m R^{2}\right)+m \omega^{2} R^{2} / 2$。即可求得三体本征解。基于上述框架当s波相互作用处于幺正极限$a\to+\infty$时候能谱为：
+\begin{equation}
+E=E_{\mathrm{c} . \mathrm{m} .}+\left(s_{l, n}+1+2 q\right) \hbar \omega
+\end{equation}
+
+Duan用格林函数的方法数值求解了整个相互作用区间。
+\begin{equation}
+\begin{aligned}
+\Psi(\mathbf{x}, \mathbf{y})=& \int d \mathbf{x}^{\prime} d \mathbf{y}^{\prime} G_{E}^{(2)}\left(\mathbf{x}, \mathbf{y} ; \mathbf{x}^{\prime}, \mathbf{y}^{\prime}\right)\times \sum_{\pm} \frac{\mp \hbar^{2} f\left(\mathbf{r}^{\prime}{ }_{\perp, \pm}\right)}{m_{0}} \delta\left(\mathbf{r}^{\prime}{ }_{\pm}\right)\\
+G_{E}^{(2)}\left(\mathbf{x}, \mathbf{y} ; \mathbf{x}^{\prime}, \mathbf{y}^{\prime}\right)&=\sum_{\lambda_{1} \lambda_{2}} \frac{\psi_{\lambda_{1}}(\mathbf{x}) \psi_{\lambda_{2}}(\mathbf{y}) \psi_{\lambda_{1}}^{*}\left(\mathbf{x}^{\prime}\right) \psi_{\lambda_{2}}^{*}\left(\mathbf{y}^{\prime}\right)}{E_{\lambda_{1}}+E_{\lambda_{2}}-E}\\
+\end{aligned}
+\end{equation}
+其中$\psi_\lambda(\Vector{r}) = R_{nl}(r)Y_l^m(\theta,\phi)$，$\lambda = (n,l,m),n=0,1,2...,l=0,1,2...$，边界条件为：
+\begin{equation}
+\Psi(\mathbf{x}, \mathbf{y}) \simeq \mp \frac{f\left(\mathbf{r}_{\perp, \pm}\right)}{4 \pi \mathbf{r}_{\pm}}\left(1-\frac{\mathbf{r}_{\pm}}{a}\right) \text { for } \mathbf{r}_{\pm} \rightarrow 0
+\end{equation}
+其能谱如图~\ref{duan}~所示，通过跟两体能量的比较作者进一步发现了能级交叉。
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1duan.png}
+    \bicaption{摘自Fleix2006prlunitary3bPRL}{Reprinted}
+    \label{duan}
+\end{figure}
+
+后续研究者Xiaji则用2b本征波函数展开求解了整个相互作用区间的严格解，采用的波函数为：
+\begin{equation}
+\begin{split}
+\psi_{3 b}^{\mathrm{rel}}(\mathbf{r}, \rho)&=\left(1-\mathcal{P}_{13}\right) \chi(\mathbf{r}, \rho)\\
+\chi(\mathbf{r}, \rho)&=\sum a_{n} \psi_{2 b}^{\mathrm{rel}}\left(r ; v_{l, n}\right) R_{n l}(\rho) Y_{l}^{m}(\hat{\rho})\\
+\end{split}
+\end{equation}
+其中$\psi_{2 b}^{\mathrm{rel}}$代表费米子1，2相对运动的波函数，对应能量为$E_{2b}=(2v_{l,n}+3/2)\hbar\omega$，而$R_{nl}(\rho Y^m_l(\hat{\rho}))$，其中$l,m$是系统的好量子数，代表了相对角动量与其沿z方向的分量。其物理图像非常清晰，将其中一个$\uparrow$费米子与$\downarrow$费米子结合在一起成为二聚体，第三个费米子相对于这个二聚体的运动由$a_n$所描述。最终求解方程：
+\begin{equation}
+\begin{split}
+&\frac{2 \Gamma\left(-v_{l, n}\right)}{\Gamma\left(-v_{l, n}-1 / 2\right)} a_{n}+\frac{(-1)^{l}}{\sqrt{\pi}} \sum_{n^{\prime}} C_{n n^{\prime}} a_{n^{\prime}}=\left(\frac{d}{a}\right) a_{n}\\
+&C_{n n^{\prime}} \equiv \int_{0}^{\infty} \rho^{2} d \rho R_{n l}(\rho) R_{n^{\prime} l}\left(\frac{\rho}{2}\right) \psi_{2 b}^{\mathrm{rel}}\left(\frac{\sqrt{3} \rho}{2} ; v_{l, n^{\prime}}\right)\\
+\end{split}
+\end{equation}
+其能谱如图~\ref{xiaji}~所示。
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1xiaji.png}
+    \bicaption{摘自Fleix2006prlunitary3bPRL}{Reprinted}
+    \label{xiaoji}
+\end{figure}
+与此同时，研究者Xiaji还研究了二维体系下，三体精确解，采用类似的办法，
+\begin{equation}
+\begin{split}
+\psi_{3 f}^{r e l}&=\left(1-\mathcal{P}_{13}\right) \chi(\mathbf{r}, \vec{\rho})\\
+\chi(\mathbf{r}, \vec{\rho})&=\sum_{n} a_{n}^{f} \psi_{2 p}^{r e l}\left(\mathbf{r} ; \nu_{m, n}\right) R_{n m}(\rho) \frac{e^{i m \varphi}}{\sqrt{2 \pi}}\\
+\end{split}
+\end{equation}
+得到整个相互作用的能谱。
+
+进一步Blume研究了从三维到二维一维的渡越，通过研究各项异性的谐振子束缚势能，作者系统地求得了体系的能谱。
+
+而在严格一维体系里面，三费米子的严格求解则由\cite{Rittenhouse2010green,d2014three,loft2015variational,andersen2016interpolatory,bellotti2017comparing}给出。
+采用的波函数为：
+\begin{equation}
+\begin{split}
+\psi_{3 F}(x, y)&=\left(1-\boldsymbol{P}_{13}\right) \Omega(x, y)\\
+\Omega(x, y)&=\sum_{n=0}^{\infty} a_{n} \psi_{n}^{2b}(x) R_{n}(y)\\
+\psi_{n}^{2b}(x)&=\Gamma\left(-v_{n}\right) \mathrm{e}^{-\frac{x^{2}}{2}} U\left(-v_{n}, \frac{1}{2}, x^{2}\right)\\
+\end{split}
+\end{equation}
+其中$\psi_{n}^{2b}(x)$为两体相互作用在谐振势中的解，$R_{n}(y)$为谐振子的本征解。类似地，带入到Bethe–Peierls边界条件中得到耦合方程：
+\begin{equation}
+\begin{aligned}
+&2 g \sum_{n} a_{n}\left[\sqrt{\pi} \frac{\Gamma\left(-v_{n}\right)}{\Gamma\left(-v_{n}+1 / 2\right)} R_{n}(y)-\psi_{n}\left(\frac{\sqrt{3}}{2} y\right) R_{n}\left(-\frac{y}{2}\right)\right] \\
+&=-4 \sqrt{\pi} \sum_{n} a_{n} R_{n}(y)
+\end{aligned}
+\end{equation}
+相应地能谱如图~\ref{1d3b}~所示。
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap11d3b.png}
+    \bicaption{摘自Fleix2006prlunitary3bPRL}{Reprinted}
+    \label{1d3b}
+\end{figure}
 
 
-3体3DFFX,1/a=0
-HyperSphere coordinate
-2006Castin 
-Seth2010 all d green Hyperradius.
-A-D picture
-Blume2010\cite{OlshaniiRigorous2001,Petrov2003unitary3b,Fleix2006prlunitary3b,Felix2006praunitary3b,LmDuan2007levelcrossing,Stetcu2007,Blume2008,Blume2010,Xiaji2009prl,Xiaji20103b,Rittenhouse2010green}
+在严格一维体系中，很多问题通过bethe ansatz可以得到严格解，但是bethe ansatz的结果很多时候物理上并不直观。仅在某些极限下有清楚的物理图像，在这其中，得益于实验上的启发，自旋链模型研究颇多。从两体能谱我们得知费米子在$g\to\infty$时有upper branch，
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1spinchain.png}
+    \bicaption{摘自Fleix2006prlunitary3bPRL}{Reprinted}
+    \label{spinchain}
+\end{figure}
+
+
+在三体中继续增加一个费米子到四体体系则有两种加法，一种是3+1，一种是2+2，三维、二维、一维有研究。
 
 
 
-
-三体四体基态能量修正引入。a{ad}, a{dd}
-
-Petrov, Parish, four body bound state.
-
-维度约化\cite{Xiaij2D3b,blume2012}
-
-
-1D三体，1，2密度关联，
 
 1D少体高自旋少体，自旋链
 
@@ -162,6 +286,8 @@ FermionParing 少体in1D
 有了上面介绍的量子少体研究进展，将有几个可扩展的方向，比如改变相互作用，dipole、库伦、以及自旋交换相互作用，而自旋交换相互作用这将是下一章节介绍的。
 
 \section{自旋交换相互作用}\label{sec:spin-exchange}
+
+\subsection{自旋交换实验}
 在超冷原子实验平台中，原子整体作为基本粒子，但是具有内禀自由度。分为内部电子轨道自由度和核自旋自由度。在冷原子实验平台发展初期，冷却囚禁的原子主要集中在碱金属一族，最外层只有一个电子。后续随着实验技术的进步，碱土金属一族的原子进入到大家的视野{\color{red} AE原子体系制备 }。这类冷原子最外层有两个电子，基态${}^1S_0$与激发态${}^3P_0$都具有较长的寿命（选择定则），称为轨道自由度。由于不同内部电子结构的原子间相互作用不同，因此不同轨道天然地带来了不同的原子间相互作用。进一步，由于体系温度极低，轨道电子的总角动量$J$为零，碱土金属元素的核自旋自由度可以发挥重大的作用。这就为碱土金属原子作为量子模拟的平台带来丰富的可能性。
 
 最早在碱土金属中做量子模拟的可以追溯到2010年理论想法，基于当时对于费米型碱土金属原子的冷却与调控，A. V. Gorshkov提出了利用这一平台来模拟SU(N)相关的物理。具体地，从两体散射来讲，原子间的相互作用仅与价电子排布有关而与核自旋无关。由于费米子的全同性原理，两体散射中轨道自由的与核自旋自由度整体满足交换反对称特性，因此两体散射通道分为
@@ -242,10 +368,102 @@ E_{1,2}=V \pm \sqrt{V_{\mathrm{ex}}^{2}+\Delta_{B}^{2}}
 
 与此同时，来自研究者也分别在中观测到了自旋交换相互作用{\color{red}Sr与慕尼黑}。
 
+
+\subsection{自旋交换理论}
+
 进一步地，上述实验中发现的裸的自旋交换相互作用都比较小，用来做近藤物理的量子模拟尚有欠缺。因此理论研究者提出利用束缚诱导共振来调节自旋交换相互作用。具体地，
 
 
 
 \section{极化子理论与实验}
+
+极化子是一个杂质物理中比较古老的概念。早在固体物理中就有研究大极化子与小极化子\cite{landau1933bewegung,pekar1946autolocalization,frohlich1950xx,frohlich1954electrons,feynman1955slow,mahanmany}，对应的是电子在晶格中运动，电子的单粒子性质被晶格声子激发所修饰，改变其有效质量、寿命等。严格说属于玻色极化子。如果将背景原子改为多体费米体系，就得到费米极化子。理论上，极化子是典型的费米液体。近年来，随着冷原子中Imblanced 费米混合气体的制备，极化子作为其中的极端体系，进入研究者的视野，结合冷原子体系特有的控制、操控、观测能力，极化子的研究迎来新的阶段，我们将围绕相关研究的实验与理论展开。
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1fp.png}
+    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \label{fp}
+\end{figure}
+
+\subsection{极化子实验}
+超冷原子中极化子物理研究的启发来自于population-imblanced混合费米气体。其中少数原子成为杂质，多数原子构成背景。费米极化子最早的直接实验证据来自MIT研究组\cite{Schirotzekobservation}。实验上制备${}^6$Li。
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1fpE.png}
+    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \label{fpE}
+\end{figure}
+进一步分析能谱，提取出准粒子剩余
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1fpZ.png}
+    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \label{fpZ}
+\end{figure}
+
+后续实验进一步观测到upper branch\cite{kohstall2012metastability,}：
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1upfp.png}
+    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \label{upfp}
+\end{figure}
+
+降低维度观测到2D极化子low与up\cite{koschorreck2012attractive}。
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap12dfp.png}
+    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \label{2dfp}
+\end{figure}
+
+超快Ramesy spectroscopy
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1fpultra.png}
+    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \label{fpultra}
+\end{figure}
+
+有限温度polaron
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1fpT.png}
+    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \label{fpT}
+\end{figure}
+
+
+
+
+\subsection{极化子理论}
+理论方面关注整个相互作用可调区间，冷原子中费米极化子的研究最早可追溯到Chevy变分波函数，在整个相互作用区间都很好的成立。
+
+
+V-ph
+chevy
+3D
+2D
+1D
+
+RF
+
+MC
+
+拓扑极化子
+
+最新进展
+
+
+
+
+
+
+
+
+
+
+
+
 
 

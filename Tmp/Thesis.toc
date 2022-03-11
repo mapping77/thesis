@@ -3,12 +3,16 @@
 \contentsline {section}{\numberline {1.2}冷原子基本实验技术}{1}{section.1.2}
 \contentsline {section}{\numberline {1.3}费米子少体体系}{1}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}费米少体实验}{1}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}费米少体理论}{1}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}自旋交换相互作用}{4}{section.1.4}
-\contentsline {section}{\numberline {1.5}极化子理论与实验}{7}{section.1.5}
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{9}{appendix.A}
-\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{9}{section.A.1}
-\contentsline {section}{\numberline {A.2}测试公式编号 $\Lambda ,\lambda ,\theta ,\mathaccentV {bar}B16{\Lambda },\sqrt {S_{NN}}$}{9}{section.A.2}
-\contentsline {chapter}{参考文献}{11}{section*.21}
-\contentsline {chapter}{致谢}{15}{appendix*.23}
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{17}{appendix*.24}
+\contentsline {subsection}{\numberline {1.3.2}费米少体理论}{2}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}自旋交换相互作用}{8}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}自旋交换实验}{8}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}自旋交换理论}{12}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}极化子理论与实验}{12}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}极化子实验}{12}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}极化子理论}{16}{subsection.1.5.2}
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{17}{appendix.A}
+\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{17}{section.A.1}
+\contentsline {section}{\numberline {A.2}测试公式编号 $\Lambda ,\lambda ,\theta ,\mathaccentV {bar}B16{\Lambda },\sqrt {S_{NN}}$}{17}{section.A.2}
+\contentsline {chapter}{参考文献}{19}{section*.33}
+\contentsline {chapter}{致谢}{25}{appendix*.35}
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{27}{appendix*.36}
