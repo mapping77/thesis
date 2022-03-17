@@ -20,125 +20,163 @@
 \citation{sowinski2019one,blume2012few}
 \citation{nielsen2001three,braaten2006universality,KohlerMolFRRMP}
 \citation{greiner2002quantum,EsslingerFermiSea,Esslinger1DMol,Esslinger3DMol,Ospelkaus3DMol,Hecker3DMol,SalaCIRMol}
-\citation{SerwaneDeterministic,WenzFermiSeaOnebyOne,zurn2012fermionization,Zurn2013Pairing,MurmannSpinChain,MurmannTwoFermionDoubleWell,RontaniTunneling}
-\citation{pagano2014one}
+\citation{Esslinger3DMol}
+\citation{Esslinger3DMol}
+\citation{Esslinger3DMol}
+\citation{Esslinger3DMol}
+\citation{SerwaneDeterministic,zurn2012fermionization,WenzFermiSeaOnebyOne,Zurn2013Pairing,MurmannSpinChain,MurmannTwoFermionDoubleWell,RontaniTunneling}
+\citation{SerwaneDeterministic}
+\citation{SerwaneDeterministic}
+\citation{SerwaneDeterministic}
+\citation{SerwaneDeterministic}
 \HyPL@Entry{18<</S/D>>}
 \@writefile{toc}{\contentsline {chapter}{\numberline {第1章\hspace  {.3em}}绪论}{1}{chapter.1}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
 \newlabel{chap:kondo}{{1}{1}{绪论}{chapter.1}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.1}冷原子概述}{1}{section.1.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.2}冷原子基本实验技术}{1}{section.1.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}费米子少体体系}{1}{section.1.3}}
-\newlabel{sec:fewbody}{{1.3}{1}{费米子少体体系}{section.1.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}费米少体实验}{1}{subsection.1.3.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces 摘自 Esslinger1DMol\relax }}{2}{figure.caption.16}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}费米子少体体系}{1}{section.1.2}}
+\newlabel{sec:fewbody}{{1.2}{1}{费米子少体体系}{section.1.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}费米少体实验}{1}{subsection.1.2.1}}
+\citation{zurn2012fermionization}
+\citation{zurn2012fermionization}
+\citation{zurn2012fermionization}
+\citation{zurn2012fermionization}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces 三维光晶格中的Feshbach分子态。散点代表不同晶格深度的实验数据。实线代表理论数据。摘自 \cite  {Esslinger3DMol}\relax }}{2}{figure.caption.16}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{chap1mol}{{1.1}{2}{摘自 Esslinger1DMol\relax }{figure.caption.16}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.2}费米少体理论}{2}{subsection.1.3.2}}
-\citation{Idziaszek2bdynamics}
+\newlabel{3dmol}{{1.1}{2}{三维光晶格中的Feshbach分子态。散点代表不同晶格深度的实验数据。实线代表理论数据。摘自 \cite {Esslinger3DMol}\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces 图A表示降低深度使原子漏出来制备少体的示意图。图B为实验测到的少体体系平均粒子数与方差。 摘自 \cite  {SerwaneDeterministic} \relax }}{2}{figure.caption.17}}
+\newlabel{deter}{{1.2}{2}{图A表示降低深度使原子漏出来制备少体的示意图。图B为实验测到的少体体系平均粒子数与方差。 摘自 \cite {SerwaneDeterministic} \relax }{figure.caption.17}{}}
+\citation{WenzFermiSeaOnebyOne}
+\citation{WenzFermiSeaOnebyOne}
+\citation{WenzFermiSeaOnebyOne}
+\citation{WenzFermiSeaOnebyOne}
+\citation{MurmannSpinChain}
+\citation{MurmannSpinChain}
+\citation{MurmannSpinChain}
+\citation{MurmannSpinChain}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces 不同的有效一维相互作用下两体费米子隧穿几率。谐振子势阱中两体体系的能量决定了隧穿几率。其中在共振点处相互作用费米子$\delimiter "3222378 \delimiter "3223379 $能量等于无相互作用全同费米子$\delimiter "3222378 \delimiter "3222378 $能量，发生费米化。 摘自 \cite  {zurn2012fermionization} \relax }}{3}{figure.caption.18}}
+\newlabel{ferminization}{{1.3}{3}{不同的有效一维相互作用下两体费米子隧穿几率。谐振子势阱中两体体系的能量决定了隧穿几率。其中在共振点处相互作用费米子$\uparrow \downarrow $能量等于无相互作用全同费米子$\uparrow \uparrow $能量，发生费米化。 摘自 \cite {zurn2012fermionization} \relax }{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces  图A为谐振子势阱中1+N体系能谱示意图。图B为实验测得的rf脉冲谱。图C为能量密度。摘自 \cite  {WenzFermiSeaOnebyOne} \relax }}{4}{figure.caption.19}}
+\newlabel{fermisea}{{1.4}{4}{图A为谐振子势阱中1+N体系能谱示意图。图B为实验测得的rf脉冲谱。图C为能量密度。摘自 \cite {WenzFermiSeaOnebyOne} \relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces  不同少体体系$\delimiter "3223379 $原子隧穿几率随一维有效相互作用的变化，a为(2,1)，b为(3,1)，c为(2,2)。散点为实验测得数据。线条代表不同的自旋链模型计算得到的隧穿几率。摘自 \cite  {MurmannSpinChain} \relax }}{4}{figure.caption.20}}
+\newlabel{chap1spinchainexp}{{1.5}{4}{不同少体体系$\downarrow $原子隧穿几率随一维有效相互作用的变化，a为(2,1)，b为(3,1)，c为(2,2)。散点为实验测得数据。线条代表不同的自旋链模型计算得到的隧穿几率。摘自 \cite {MurmannSpinChain} \relax }{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}费米少体理论}{5}{subsection.1.2.2}}
+\citation{blume2012few}
 \citation{OlshaniiRigorous2001,Petrov2003unitary3b,Fleix2006prlunitary3b,Felix2006praunitary3b,LmDuan2007levelcrossing,Stetcu2007,Blume2008,Blume2010,Xiaji2009prl,Xiaji20103b,Rittenhouse2010green}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces 摘自1D少体势阱\relax }}{3}{figure.caption.17}}
-\newlabel{chap1fig1}{{1.2}{3}{摘自1D少体势阱\relax }{figure.caption.17}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces 摘自Fleix2006prlunitary3bPRL\relax }}{4}{figure.caption.18}}
-\newlabel{Sv}{{1.3}{4}{摘自Fleix2006prlunitary3bPRL\relax }{figure.caption.18}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces 摘自Fleix2006prlunitary3bPRL\relax }}{5}{figure.caption.19}}
-\newlabel{duan}{{1.4}{5}{摘自Fleix2006prlunitary3bPRL\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces 摘自1D少体势阱\relax }}{6}{figure.caption.21}}
+\newlabel{chap1busch}{{1.6}{6}{摘自1D少体势阱\relax }{figure.caption.21}{}}
+\citation{Fleix2006prlunitary3b}
+\citation{Fleix2006prlunitary3b}
+\citation{Fleix2006prlunitary3b}
+\citation{Fleix2006prlunitary3b}
+\citation{Fleix2006prlunitary3b}
+\citation{Fleix2006prlunitary3b}
+\citation{Fleix2006prlunitary3b}
+\citation{LmDuan2007levelcrossing}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces 幺正极限下$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $三体体系$s_{l,n}$数值结果。摘自\cite  {Fleix2006prlunitary3b} \relax }}{8}{figure.caption.22}}
+\newlabel{Sv}{{1.7}{8}{幺正极限下$\uparrow \downarrow \uparrow $三体体系$s_{l,n}$数值结果。摘自\cite {Fleix2006prlunitary3b} \relax }{figure.caption.22}{}}
+\citation{LmDuan2007levelcrossing}
+\citation{LmDuan2007levelcrossing}
+\citation{LmDuan2007levelcrossing}
+\citation{LmDuan2007levelcrossing}
+\citation{LmDuan2007levelcrossing}
+\citation{LmDuan2007levelcrossing}
+\citation{Xiaji2009prl}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces 三维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $能谱。摘自\cite  {LmDuan2007levelcrossing}\relax }}{9}{figure.caption.23}}
+\newlabel{duancrossing}{{1.8}{9}{三维下三费米子体系$\uparrow \downarrow \uparrow $能谱。摘自\cite {LmDuan2007levelcrossing}\relax }{figure.caption.23}{}}
+\citation{Xiaji2009prl}
+\citation{Xiaji2009prl}
+\citation{Xiaji2009prl}
+\citation{Xiaji2009prl}
+\citation{Xiaji2009prl}
+\citation{Xiaji2009prl}
+\citation{Xiaji20103b}
+\citation{blume2012}
 \citation{Rittenhouse2010green,d2014three,loft2015variational,andersen2016interpolatory,bellotti2017comparing}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces 摘自Fleix2006prlunitary3bPRL\relax }}{6}{figure.caption.20}}
-\newlabel{xiaoji}{{1.5}{6}{摘自Fleix2006prlunitary3bPRL\relax }{figure.caption.20}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces 摘自Fleix2006prlunitary3bPRL\relax }}{7}{figure.caption.21}}
-\newlabel{1d3b}{{1.6}{7}{摘自Fleix2006prlunitary3bPRL\relax }{figure.caption.21}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces 摘自Fleix2006prlunitary3bPRL\relax }}{8}{figure.caption.22}}
-\newlabel{spinchain}{{1.7}{8}{摘自Fleix2006prlunitary3bPRL\relax }{figure.caption.22}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}自旋交换相互作用}{8}{section.1.4}}
-\newlabel{sec:spin-exchange}{{1.4}{8}{自旋交换相互作用}{section.1.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.1}自旋交换实验}{8}{subsection.1.4.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces 摘自SU(N)\relax }}{10}{figure.caption.23}}
-\newlabel{eg}{{1.8}{10}{摘自SU(N)\relax }{figure.caption.23}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.9}{\ignorespaces 摘自SU(N) exp\relax }}{10}{figure.caption.24}}
-\newlabel{egexp}{{1.9}{10}{摘自SU(N) exp\relax }{figure.caption.24}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.10}{\ignorespaces 摘自SU(N) exp\relax }}{11}{figure.caption.25}}
-\newlabel{egd}{{1.10}{11}{摘自SU(N) exp\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.9}{\ignorespaces 二维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $的能谱。摘自\cite  {Xiaji2009prl}\relax }}{10}{figure.caption.24}}
+\newlabel{xiaji3d}{{1.9}{10}{二维下三费米子体系$\uparrow \downarrow \uparrow $的能谱。摘自\cite {Xiaji2009prl}\relax }{figure.caption.24}{}}
+\citation{d2014three}
+\citation{d2014three}
+\citation{d2014three}
+\citation{d2014three}
+\citation{d2014three}
+\citation{d2014three}
+\citation{Blume2010,blume2012few}
+\citation{Guan2009exact,ma2009mathematical,Lewenstein2013spinchain,volosniev2014strongly,Busch013spinchain,CuiHo2014,Santos2014spinchain,Puhan2015spinchain,Yang2016effective}
+\citation{Guan2009exact}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.10}{\ignorespaces 一维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $的能谱。摘自\cite  {d2014three} \relax }}{11}{figure.caption.25}}
+\newlabel{1d3b}{{1.10}{11}{一维下三费米子体系$\uparrow \downarrow \uparrow $的能谱。摘自\cite {d2014three} \relax }{figure.caption.25}{}}
+\citation{Guan2009exact,Santos2014spinchain,Yang2016effective}
+\citation{Santos2014spinchain}
+\citation{Santos2014spinchain}
+\citation{Santos2014spinchain}
+\citation{Santos2014spinchain}
+\citation{gorshkov2010two}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.11}{\ignorespaces 少体自旋1/2费米子体系无限大排斥附近的自旋链有效模型。摘自\cite  {Santos2014spinchain} \relax }}{13}{figure.caption.26}}
+\newlabel{spinchainth}{{1.11}{13}{少体自旋1/2费米子体系无限大排斥附近的自旋链有效模型。摘自\cite {Santos2014spinchain} \relax }{figure.caption.26}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}自旋交换相互作用}{13}{section.1.3}}
+\newlabel{sec:spin-exchange}{{1.3}{13}{自旋交换相互作用}{section.1.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}test}{13}{subsection.1.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.12}{\ignorespaces 摘自SU(N)\relax }}{14}{figure.caption.27}}
+\newlabel{eg}{{1.12}{14}{摘自SU(N)\relax }{figure.caption.27}{}}
+\citation{scazza2014observation}
+\citation{scazza2014observation}
+\citation{scazza2014observation}
+\citation{scazza2014observation}
+\citation{scazza2014observation}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.13}{\ignorespaces 图A代表单原子与双原子初态到末态的跃迁。图B代表末态的能谱。摘自\cite  {scazza2014observation}\relax }}{15}{figure.caption.28}}
+\newlabel{egexp}{{1.13}{15}{图A代表单原子与双原子初态到末态的跃迁。图B代表末态的能谱。摘自\cite {scazza2014observation}\relax }{figure.caption.28}{}}
+\citation{scazza2014observation,cappellini2014direct}
+\citation{cappellini2014direct}
+\citation{cappellini2014direct}
+\citation{cappellini2014direct}
+\citation{cappellini2014direct}
+\citation{scazza2014observation,cappellini2014direct}
+\citation{zhang2014spectroscopic}
+\citation{zhang2016kondo,cheng2017enhancing,zhang2018control,ji2018confinement,zhang2020tight,zhang2020controlling}
+\citation{riegger2018localized}
+\citation{riegger2018localized,zhang2020controlling,}
+\citation{riegger2018localized,zhang2020controlling,}
+\citation{riegger2018localized,zhang2020controlling,}
+\citation{riegger2018localized,zhang2020controlling,}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.14}{\ignorespaces 图a代表实验测到的吸收谱，不同的峰代表了不同的末态。图b代表观测到自旋交换体系的的自旋动力学。摘自\cite  {cappellini2014direct}\relax }}{16}{figure.caption.29}}
+\newlabel{egd}{{1.14}{16}{图a代表实验测到的吸收谱，不同的峰代表了不同的末态。图b代表观测到自旋交换体系的的自旋动力学。摘自\cite {cappellini2014direct}\relax }{figure.caption.29}{}}
 \citation{landau1933bewegung,pekar1946autolocalization,frohlich1950xx,frohlich1954electrons,feynman1955slow,mahanmany}
 \citation{Schirotzekobservation}
-\citation{kohstall2012metastability,}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.15}{\ignorespaces 图a代表准一维体系z方向上自旋相关的晶格制造巡游费米子与局域费米子。图b代表自旋交换发生的过程。图c，d分别代表实验测量与理论预测的束缚诱导增强下的自旋交换动力学。摘自\cite  {riegger2018localized,zhang2020controlling,}\relax }}{17}{figure.caption.30}}
+\newlabel{CIRspexexp}{{1.15}{17}{图a代表准一维体系z方向上自旋相关的晶格制造巡游费米子与局域费米子。图b代表自旋交换发生的过程。图c，d分别代表实验测量与理论预测的束缚诱导增强下的自旋交换动力学。摘自\cite {riegger2018localized,zhang2020controlling,}\relax }{figure.caption.30}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}极化子理论与实验}{17}{section.1.4}}
+\citation{kohstall2012metastability,Scazzarepulsive}
 \citation{koschorreck2012attractive}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.2}自旋交换理论}{12}{subsection.1.4.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.5}极化子理论与实验}{12}{section.1.5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.11}{\ignorespaces 摘自SU(N) exp\relax }}{12}{figure.caption.26}}
-\newlabel{fp}{{1.11}{12}{摘自SU(N) exp\relax }{figure.caption.26}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.5.1}极化子实验}{12}{subsection.1.5.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.12}{\ignorespaces 摘自SU(N) exp\relax }}{13}{figure.caption.27}}
-\newlabel{fpE}{{1.12}{13}{摘自SU(N) exp\relax }{figure.caption.27}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.13}{\ignorespaces 摘自SU(N) exp\relax }}{13}{figure.caption.28}}
-\newlabel{fpZ}{{1.13}{13}{摘自SU(N) exp\relax }{figure.caption.28}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.14}{\ignorespaces 摘自SU(N) exp\relax }}{14}{figure.caption.29}}
-\newlabel{upfp}{{1.14}{14}{摘自SU(N) exp\relax }{figure.caption.29}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.15}{\ignorespaces 摘自SU(N) exp\relax }}{15}{figure.caption.30}}
-\newlabel{2dfp}{{1.15}{15}{摘自SU(N) exp\relax }{figure.caption.30}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.16}{\ignorespaces 摘自SU(N) exp\relax }}{15}{figure.caption.31}}
-\newlabel{fpultra}{{1.16}{15}{摘自SU(N) exp\relax }{figure.caption.31}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.17}{\ignorespaces 摘自SU(N) exp\relax }}{16}{figure.caption.32}}
-\newlabel{fpT}{{1.17}{16}{摘自SU(N) exp\relax }{figure.caption.32}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.5.2}极化子理论}{16}{subsection.1.5.2}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {附录 A\hspace  {.3em}}中国科学院大学学位论文撰写要求}{17}{appendix.A}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.16}{\ignorespaces 摘自SU(N) exp\relax }}{18}{figure.caption.31}}
+\newlabel{fp}{{1.16}{18}{摘自SU(N) exp\relax }{figure.caption.31}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.1}极化子实验}{18}{subsection.1.4.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.17}{\ignorespaces 摘自SU(N) exp\relax }}{18}{figure.caption.32}}
+\newlabel{fpE}{{1.17}{18}{摘自SU(N) exp\relax }{figure.caption.32}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.18}{\ignorespaces 摘自SU(N) exp\relax }}{19}{figure.caption.33}}
+\newlabel{fpZ}{{1.18}{19}{摘自SU(N) exp\relax }{figure.caption.33}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.2}极化子理论}{19}{subsection.1.4.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.19}{\ignorespaces 摘自SU(N) exp\relax }}{20}{figure.caption.34}}
+\newlabel{upfp}{{1.19}{20}{摘自SU(N) exp\relax }{figure.caption.34}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.20}{\ignorespaces 摘自SU(N) exp\relax }}{21}{figure.caption.35}}
+\newlabel{2dfp}{{1.20}{21}{摘自SU(N) exp\relax }{figure.caption.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.21}{\ignorespaces 摘自SU(N) exp\relax }}{21}{figure.caption.36}}
+\newlabel{fpultra}{{1.21}{21}{摘自SU(N) exp\relax }{figure.caption.36}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.22}{\ignorespaces 摘自SU(N) exp\relax }}{22}{figure.caption.37}}
+\newlabel{fpT}{{1.22}{22}{摘自SU(N) exp\relax }{figure.caption.37}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {附录 A\hspace  {.3em}}中国科学院大学学位论文撰写要求}{23}{appendix.A}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{17}{section.A.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.2}测试公式编号 $\Lambda ,\lambda ,\theta ,\mathaccentV {bar}B16{\Lambda },\sqrt  {S_{NN}}$}{17}{section.A.2}}
-\newlabel{sec:testmath}{{A.2}{17}{测试公式编号 \texorpdfstring {$\Lambda ,\lambda ,\theta ,\bar {\Lambda },\sqrt {S_{NN}}$}{$\textLambda ,\textlambda ,\texttheta ,\bar {\textLambda },\sqrt {S_{NN}}$}}{section.A.2}{}}
-\newlabel{eq:appedns}{{A.1}{17}{测试公式编号 \texorpdfstring {$\Lambda ,\lambda ,\theta ,\bar {\Lambda },\sqrt {S_{NN}}$}{$\textLambda ,\textlambda ,\texttheta ,\bar {\textLambda },\sqrt {S_{NN}}$}}{equation.A.2.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{23}{section.A.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.2}测试公式编号 $\Lambda ,\lambda ,\theta ,\mathaccentV {bar}B16{\Lambda },\sqrt  {S_{NN}}$}{23}{section.A.2}}
+\newlabel{sec:testmath}{{A.2}{23}{测试公式编号 \texorpdfstring {$\Lambda ,\lambda ,\theta ,\bar {\Lambda },\sqrt {S_{NN}}$}{$\textLambda ,\textlambda ,\texttheta ,\bar {\textLambda },\sqrt {S_{NN}}$}}{section.A.2}{}}
+\newlabel{eq:appedns}{{A.1}{23}{测试公式编号 \texorpdfstring {$\Lambda ,\lambda ,\theta ,\bar {\Lambda },\sqrt {S_{NN}}$}{$\textLambda ,\textlambda ,\texttheta ,\bar {\textLambda },\sqrt {S_{NN}}$}}{equation.A.2.1}{}}
 \bibdata{Biblio/ref}
-\bibcite{sowinski2019one}{{1}{2019}{{Sowi{\'n}ski {等}}}{{Sowi{\'n}ski and Garc{\'\i }a-March}}}
-\bibcite{blume2012few}{{2}{2012}{{Blume}}{{}}}
-\bibcite{nielsen2001three}{{3}{2001}{{Nielsen {等}}}{{Nielsen, Fedorov, Jensen, and Garrido}}}
-\bibcite{braaten2006universality}{{4}{2006}{{Braaten {等}}}{{Braaten and Hammer}}}
-\bibcite{KohlerMolFRRMP}{{5}{2006}{{K\"ohler {等}}}{{K\"ohler, G\'oral, and Julienne}}}
-\bibcite{greiner2002quantum}{{6}{2002}{{Greiner {等}}}{{Greiner, Mandel, Esslinger, H{\"a}nsch, and Bloch}}}
-\bibcite{EsslingerFermiSea}{{7}{2005}{{K\"ohl {等}}}{{K\"ohl, Moritz, St\"oferle, G\"unter, and Esslinger}}}
-\bibcite{Esslinger1DMol}{{8}{2005}{{Moritz {等}}}{{Moritz, St\"oferle, G\"unter, K\"ohl, and Esslinger}}}
-\bibcite{Esslinger3DMol}{{9}{2006}{{St\"oferle {等}}}{{St\"oferle, Moritz, G\"unter, K\"ohl, and Esslinger}}}
-\bibcite{Ospelkaus3DMol}{{10}{2006}{{Ospelkaus {等}}}{{Ospelkaus, Ospelkaus, Humbert, Ernst, Sengstock, and Bongs}}}
-\bibcite{Hecker3DMol}{{11}{2006}{{Thalhammer {等}}}{{Thalhammer, Winkler, Lang, Schmid, Grimm, and Denschlag}}}
-\@writefile{toc}{\contentsline {chapter}{参考文献}{19}{section*.33}}
-\bibcite{SalaCIRMol}{{12}{2013}{{Sala {等}}}{{Sala, Z\"urn, Lompe, Wenz, Murmann, Serwane, Jochim, and Saenz}}}
-\bibcite{SerwaneDeterministic}{{13}{2011}{{Serwane {等}}}{{Serwane, Zürn, Lompe, Ottenstein, Wenz, and Jochim}}}
-\bibcite{WenzFermiSeaOnebyOne}{{14}{2013}{{Wenz {等}}}{{Wenz, Zürn, Murmann, Brouzos, Lompe, and Jochim}}}
-\bibcite{zurn2012fermionization}{{15}{2012}{{Z{\"u}rn {等}}}{{Z{\"u}rn, Serwane, Lompe, Wenz, Ries, Bohn, and Jochim}}}
-\bibcite{Zurn2013Pairing}{{16}{2013}{{Z\"urn {等}}}{{Z\"urn, Wenz, Murmann, Bergschneider, Lompe, and Jochim}}}
-\bibcite{MurmannSpinChain}{{17}{2015{}}{{Murmann {等}}}{{Murmann, Deuretzbacher, Z\"urn, Bjerlin, Reimann, Santos, Lompe, and Jochim}}}
-\bibcite{MurmannTwoFermionDoubleWell}{{18}{2015{}}{{Murmann {等}}}{{Murmann, Bergschneider, Klinkhamer, Z\"urn, Lompe, and Jochim}}}
-\bibcite{RontaniTunneling}{{19}{2012}{{Rontani}}{{}}}
-\bibcite{pagano2014one}{{20}{2014}{{Pagano {等}}}{{Pagano, Mancini, Cappellini, Lombardi, Sch{\"a}fer, Hu, Liu, Catani, Sias, Inguscio, et~al.}}}
-\bibcite{Idziaszek2bdynamics}{{21}{2006}{{Idziaszek {等}}}{{Idziaszek and Calarco}}}
-\bibcite{OlshaniiRigorous2001}{{22}{2001}{{Olshanii {等}}}{{Olshanii and Pricoupenko}}}
-\bibcite{Petrov2003unitary3b}{{23}{2003}{{Petrov}}{{}}}
-\bibcite{Fleix2006prlunitary3b}{{24}{2006{}}{{Werner {等}}}{{Werner and Castin}}}
-\bibcite{Felix2006praunitary3b}{{25}{2006{}}{{Werner {等}}}{{Werner and Castin}}}
-\bibcite{LmDuan2007levelcrossing}{{26}{2007}{{Kestner {等}}}{{Kestner and Duan}}}
-\bibcite{Stetcu2007}{{27}{2007}{{Stetcu {等}}}{{Stetcu, Barrett, van Kolck, and Vary}}}
-\bibcite{Blume2008}{{28}{2008}{{von Stecher {等}}}{{von Stecher, Greene, and Blume}}}
-\bibcite{Blume2010}{{29}{2010}{{Daily {等}}}{{Daily and Blume}}}
-\bibcite{Xiaji2009prl}{{30}{2009}{{Liu {等}}}{{Liu, Hu, and Drummond}}}
-\bibcite{Xiaji20103b}{{31}{2010}{{Liu {等}}}{{Liu, Hu, and Drummond}}}
-\bibcite{Rittenhouse2010green}{{32}{2010}{{Rittenhouse {等}}}{{Rittenhouse, Mehta, and Greene}}}
-\bibcite{d2014three}{{33}{2014}{{D’Amico {等}}}{{D’Amico and Rontani}}}
-\bibcite{loft2015variational}{{34}{2015}{{Loft {等}}}{{Loft, Dehkharghani, Mehta, Volosniev, and Zinner}}}
-\bibcite{andersen2016interpolatory}{{35}{2016}{{Andersen {等}}}{{Andersen, Dehkharghani, Volosniev, Lindgren, and Zinner}}}
-\bibcite{bellotti2017comparing}{{36}{2017}{{Bellotti {等}}}{{Bellotti, Dehkharghani, and Zinner}}}
-\bibcite{landau1933bewegung}{{37}{1933}{{Landau}}{{}}}
-\bibcite{pekar1946autolocalization}{{38}{1946}{{Pekar}}{{}}}
-\bibcite{frohlich1950xx}{{39}{1950}{{Fr{\"o}hlich {等}}}{{Fr{\"o}hlich, Pelzer, and Zienau}}}
-\bibcite{frohlich1954electrons}{{40}{1954}{{Fr{\"o}hlich}}{{}}}
-\bibcite{feynman1955slow}{{41}{1955}{{Feynman}}{{}}}
-\bibcite{mahanmany}{{42}{2000}{{Mahan}}{{}}}
-\bibcite{Schirotzekobservation}{{43}{2009}{{Schirotzek {等}}}{{Schirotzek, Wu, Sommer, and Zwierlein}}}
-\bibcite{kohstall2012metastability}{{44}{2012}{{Kohstall {等}}}{{Kohstall, Zaccanti, Jag, Trenkwalder, Massignan, Bruun, Schreck, and Grimm}}}
-\bibcite{koschorreck2012attractive}{{45}{2012}{{Koschorreck {等}}}{{Koschorreck, Pertot, Vogt, Fr{\"o}hlich, Feld, and K{\"o}hl}}}
-\@writefile{toc}{\contentsline {chapter}{致谢}{25}{appendix*.35}}
+\@writefile{toc}{\contentsline {chapter}{参考文献}{25}{section*.38}}
+\@writefile{toc}{\contentsline {chapter}{致谢}{25}{appendix*.39}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{27}{appendix*.36}}
+\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{27}{appendix*.40}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}

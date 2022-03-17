@@ -1,4 +1,4 @@
-\begin{thebibliography}{45}
+\begin{thebibliography}{65}
 \providecommand{\biband}{和}
 \providecommand{\bibetal}{等}
 \providecommand{\natexlab}[1]{#1}
@@ -123,15 +123,6 @@ Serwane~F, Zürn~G, Lompe~T, et~al.
 \newblock \url{https://www.science.org/doi/abs/10.1126/science.1201351}.
 \newblock DOI: \doi{https://doi.org/10.1126/science.1201351}.
 
-\bibitem[Wenz {\bibetal}(2013)Wenz, Zürn, Murmann, Brouzos, Lompe, and
-  Jochim]{WenzFermiSeaOnebyOne}
-Wenz~A~N, Zürn~G, Murmann~S, et~al.
-\newblock From few to many: Observing the formation of a fermi sea one atom at
-  a time [J/OL].
-\newblock Science, 2013, 342\penalty0 (6157): 457-460.
-\newblock \url{https://www.science.org/doi/abs/10.1126/science.1240516}.
-\newblock DOI: \doi{https://doi.org/10.1126/science.1240516}.
-
 \bibitem[Z{\"u}rn {\bibetal}(2012)Z{\"u}rn, Serwane, Lompe, Wenz, Ries, Bohn,
   and Jochim]{zurn2012fermionization}
 Z{\"u}rn~G, Serwane~F, Lompe~T, et~al.
@@ -140,6 +131,15 @@ Z{\"u}rn~G, Serwane~F, Lompe~T, et~al.
 \newblock
   \url{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.108.075303}.
 \newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.108.075303}.
+
+\bibitem[Wenz {\bibetal}(2013)Wenz, Zürn, Murmann, Brouzos, Lompe, and
+  Jochim]{WenzFermiSeaOnebyOne}
+Wenz~A~N, Zürn~G, Murmann~S, et~al.
+\newblock From few to many: Observing the formation of a fermi sea one atom at
+  a time [J/OL].
+\newblock Science, 2013, 342\penalty0 (6157): 457-460.
+\newblock \url{https://www.science.org/doi/abs/10.1126/science.1240516}.
+\newblock DOI: \doi{https://doi.org/10.1126/science.1240516}.
 
 \bibitem[Z\"urn {\bibetal}(2013)Z\"urn, Wenz, Murmann, Bergschneider, Lompe,
   and Jochim]{Zurn2013Pairing}
@@ -173,22 +173,6 @@ Rontani~M.
 \newblock Phys. Rev. Lett., 2012, 108: 115302.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.108.115302}.
 \newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.108.115302}.
-
-\bibitem[Pagano {\bibetal}(2014)Pagano, Mancini, Cappellini, Lombardi,
-  Sch{\"a}fer, Hu, Liu, Catani, Sias, Inguscio, et~al.]{pagano2014one}
-Pagano~G, Mancini~M, Cappellini~G, et~al.
-\newblock A one-dimensional liquid of fermions with tunable spin [J/OL].
-\newblock Nature Physics, 2014, 10\penalty0 (3): 198-201.
-\newblock \url{https://www.nature.com/articles/nphys2878}.
-\newblock DOI: \doi{https://doi.org/10.1038/nphys2878}.
-
-\bibitem[Idziaszek {\bibetal}(2006)Idziaszek and Calarco]{Idziaszek2bdynamics}
-Idziaszek~Z, Calarco~T.
-\newblock Analytical solutions for the dynamics of two trapped interacting
-  ultracold atoms [J/OL].
-\newblock Phys. Rev. A, 2006, 74: 022712.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.74.022712}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.74.022712}.
 
 \bibitem[Olshanii {\bibetal}(2001)Olshanii and
   Pricoupenko]{OlshaniiRigorous2001}
@@ -279,6 +263,15 @@ Rittenhouse~S~T, Mehta~N~P, Greene~C~H.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.82.022706}.
 \newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.82.022706}.
 
+\bibitem[Gharashi {\bibetal}(2012)Gharashi, Daily, and Blume]{blume2012}
+Gharashi~S~E, Daily~K~M, Blume~D.
+\newblock Three $s$-wave-interacting fermions under anisotropic harmonic
+  confinement: Dimensional crossover of energetics and virial coefficients
+  [J/OL].
+\newblock Phys. Rev. A, 2012, 86: 042702.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.86.042702}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.86.042702}.
+
 \bibitem[D’Amico {\bibetal}(2014)D’Amico and Rontani]{d2014three}
 D’Amico~P, Rontani~M.
 \newblock Three interacting atoms in a one-dimensional trap: a benchmark system
@@ -315,6 +308,177 @@ Bellotti~F~F, Dehkharghani~A~S, Zinner~N~T.
 \newblock The European Physical Journal D, 2017, 71\penalty0 (2): 1-10.
 \newblock \url{https://link.springer.com/article/10.1140/epjd/e2017-70650-8}.
 \newblock DOI: \doi{https://doi.org/10.1140/epjd/e2017-70650-8}.
+
+\bibitem[Guan {\bibetal}(2009)Guan, Chen, Wang, and Ma]{Guan2009exact}
+Guan~L, Chen~S, Wang~Y, et~al.
+\newblock Exact solution for infinitely strongly interacting fermi gases in
+  tight waveguides [J/OL].
+\newblock Phys. Rev. Lett., 2009, 102: 160402.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.102.160402}.
+
+\bibitem[Ma {\bibetal}(2009)Ma, Chen, Guan, and Wang]{ma2009mathematical}
+Ma~Z~Q, Chen~S, Guan~L, et~al.
+\newblock Mathematical calculation for exact solutions of infinitely strongly
+  interacting fermi gases in tight waveguides [J/OL].
+\newblock Journal of Physics A: Mathematical and Theoretical, 2009, 42\penalty0
+  (38): 385210.
+\newblock
+  \url{https://iopscience.iop.org/article/10.1088/1751-8113/42/38/385210}.
+\newblock DOI: \doi{https://doi.org/10.1088/1751-8113/42/38/385210}.
+
+\bibitem[Sowi\ifmmode~\acute{n}\else \'{n}\fi{}ski
+  {\bibetal}(2013)Sowi\ifmmode~\acute{n}\else \'{n}\fi{}ski, Grass, Dutta, and
+  Lewenstein]{Lewenstein2013spinchain}
+Sowi\ifmmode~\acute{n}\else \'{n}\fi{}ski~T, Grass~T, Dutta~O, et~al.
+\newblock Few interacting fermions in a one-dimensional harmonic trap [J/OL].
+\newblock Phys. Rev. A, 2013, 88: 033607.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.88.033607}.
+
+\bibitem[Volosniev {\bibetal}(2014)Volosniev, Fedorov, Jensen, Valiente, and
+  Zinner]{volosniev2014strongly}
+Volosniev~A, Fedorov~D~V, Jensen~A~S, et~al.
+\newblock Strongly interacting confined quantum systems in one dimension
+  [J/OL].
+\newblock Nature Communications, 2014, 5\penalty0 (1): 1-7.
+\newblock \url{https://www.nature.com/articles/ncomms6300}.
+\newblock DOI: \doi{https://doi.org/10.1038/ncomms6300}.
+
+\bibitem[Bugnion {\bibetal}(2013)Bugnion and Conduit]{Busch013spinchain}
+Bugnion~P~O, Conduit~G~J.
+\newblock Ferromagnetic spin correlations in a few-fermion system [J/OL].
+\newblock Phys. Rev. A, 2013, 87: 060502.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.87.060502}.
+
+\bibitem[Cui {\bibetal}(2014)Cui and Ho]{CuiHo2014}
+Cui~X, Ho~T~L.
+\newblock Ground-state ferromagnetic transition in strongly repulsive
+  one-dimensional fermi gases [J/OL].
+\newblock Phys. Rev. A, 2014, 89: 023611.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.89.023611}.
+
+\bibitem[Deuretzbacher {\bibetal}(2014)Deuretzbacher, Becker, Bjerlin, Reimann,
+  and Santos]{Santos2014spinchain}
+Deuretzbacher~F, Becker~D, Bjerlin~J, et~al.
+\newblock Quantum magnetism without lattices in strongly interacting
+  one-dimensional spinor gases [J/OL].
+\newblock Phys. Rev. A, 2014, 90: 013611.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.90.013611}.
+
+\bibitem[Yang {\bibetal}(2015)Yang, Guan, and Pu]{Puhan2015spinchain}
+Yang~L, Guan~L, Pu~H.
+\newblock Strongly interacting quantum gases in one-dimensional traps [J/OL].
+\newblock Phys. Rev. A, 2015, 91: 043634.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.91.043634}.
+
+\bibitem[Yang {\bibetal}(2016)Yang and Cui]{Yang2016effective}
+Yang~L, Cui~X.
+\newblock Effective spin-chain model for strongly interacting one-dimensional
+  atomic gases with an arbitrary spin [J/OL].
+\newblock Phys. Rev. A, 2016, 93: 013617.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.93.013617}.
+
+\bibitem[Gorshkov {\bibetal}(2010)Gorshkov, Hermele, Gurarie, Xu, Julienne, Ye,
+  Zoller, Demler, Lukin, and Rey]{gorshkov2010two}
+Gorshkov~A~V, Hermele~M, Gurarie~V, et~al.
+\newblock Two-orbital su (n) magnetism with ultracold alkaline-earth atoms
+  [J/OL].
+\newblock Nature physics, 2010, 6\penalty0 (4): 289-295.
+\newblock \url{https://www.nature.com/articles/nphys1535}.
+\newblock DOI: \doi{https://doi.org/10.1038/nphys1535}.
+
+\bibitem[Scazza {\bibetal}(2014)Scazza, Hofrichter, H{\"o}fer, De~Groot, Bloch,
+  and F{\"o}lling]{scazza2014observation}
+Scazza~F, Hofrichter~C, H{\"o}fer~M, et~al.
+\newblock Observation of two-orbital spin-exchange interactions with ultracold
+  su (n)-symmetric fermions [J/OL].
+\newblock Nature Physics, 2014, 10\penalty0 (10): 779-784.
+\newblock \url{https://www.nature.com/articles/nphys3061}.
+\newblock DOI: \doi{https://doi.org/10.1038/nphys3061}.
+
+\bibitem[Cappellini {\bibetal}(2014)Cappellini, Mancini, Pagano, Lombardi,
+  Livi, De~Cumis, Cancio, Pizzocaro, Calonico, Levi,
+  et~al.]{cappellini2014direct}
+Cappellini~G, Mancini~M, Pagano~G, et~al.
+\newblock Direct observation of coherent interorbital spin-exchange dynamics
+  [J/OL].
+\newblock Physical review letters, 2014, 113\penalty0 (12): 120402.
+\newblock
+  \url{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.120402}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.113.120402}.
+
+\bibitem[Zhang {\bibetal}(2014)Zhang, Bishof, Bromley, Kraus, Safronova,
+  Zoller, Rey, and Ye]{zhang2014spectroscopic}
+Zhang~X, Bishof~M, Bromley~S~L, et~al.
+\newblock Spectroscopic observation of su(<i>n</i>)-symmetric interactions in
+  sr orbital magnetism [J/OL].
+\newblock Science, 2014, 345\penalty0 (6203): 1467-1473.
+\newblock \url{https://www.science.org/doi/abs/10.1126/science.1254978}.
+\newblock DOI: \doi{https://doi.org/10.1126/science.1254978}.
+
+\bibitem[Zhang {\bibetal}(2016)Zhang, Zhang, Cheng, Chen, Zhang, and
+  Zhai]{zhang2016kondo}
+Zhang~R, Zhang~D, Cheng~Y, et~al.
+\newblock Kondo effect in alkaline-earth-metal atomic gases with
+  confinement-induced resonances [J/OL].
+\newblock Physical Review A, 2016, 93\penalty0 (4): 043601.
+\newblock
+  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.93.043601}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.93.043601}.
+
+\bibitem[Cheng {\bibetal}(2017)Cheng, Zhang, Zhang, and
+  Zhai]{cheng2017enhancing}
+Cheng~Y, Zhang~R, Zhang~P, et~al.
+\newblock Enhancing kondo coupling in alkaline-earth-metal atomic gases with
+  confinement-induced resonances in mixed dimensions [J/OL].
+\newblock Physical Review A, 2017, 96\penalty0 (6): 063605.
+\newblock
+  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.96.063605}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.96.063605}.
+
+\bibitem[Zhang {\bibetal}(2018)Zhang and Zhang]{zhang2018control}
+Zhang~R, Zhang~P.
+\newblock Control of spin-exchange interaction between alkali-earth-metal atoms
+  via confinement-induced resonances in a quasi-(1+ 0)-dimensional system
+  [J/OL].
+\newblock Physical Review A, 2018, 98\penalty0 (4): 043627.
+\newblock
+  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.043627}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.98.043627}.
+
+\bibitem[Ji {\bibetal}(2018)Ji, Zhang, Zhang, and Zhang]{ji2018confinement}
+Ji~Q, Zhang~R, Zhang~X, et~al.
+\newblock Confinement-induced resonance of alkaline-earth-metal-like atoms in
+  anisotropic quasi-one-dimensional traps [J/OL].
+\newblock Physical Review A, 2018, 98\penalty0 (5): 053613.
+\newblock
+  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.053613}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.98.053613}.
+
+\bibitem[Zhang {\bibetal}(2020{\natexlab{a}})Zhang and Zhang]{zhang2020tight}
+Zhang~R, Zhang~P.
+\newblock Tight-binding kondo model and spin-exchange collision rate of
+  alkaline-earth-metal atoms in a mixed-dimensional optical lattice [J/OL].
+\newblock Physical Review A, 2020, 101\penalty0 (1): 013636.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.101.013636}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.101.013636}.
+
+\bibitem[Zhang {\bibetal}(2020{\natexlab{b}})Zhang, Cheng, Zhang, and
+  Zhai]{zhang2020controlling}
+Zhang~R, Cheng~Y, Zhang~P, et~al.
+\newblock Controlling the interaction of ultracold alkaline-earth atoms [J/OL].
+\newblock Nature Reviews Physics, 2020, 2\penalty0 (4): 213-220.
+\newblock \url{https://www.nature.com/articles/s42254-020-0157-9}.
+\newblock DOI: \doi{https://doi.org/10.1038/s42254-020-0157-9}.
+
+\bibitem[Riegger {\bibetal}(2018)Riegger, Oppong, H{\"o}fer, Fernandes, Bloch,
+  and F{\"o}lling]{riegger2018localized}
+Riegger~L, Oppong~N~D, H{\"o}fer~M, et~al.
+\newblock Localized magnetic moments with tunable spin exchange in a gas of
+  ultracold fermions [J/OL].
+\newblock Physical review letters, 2018, 120\penalty0 (14): 143601.
+\newblock
+  \url{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.143601}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.120.143601}.
 
 \bibitem[Landau(1933)]{landau1933bewegung}
 Landau~L.
@@ -374,6 +538,14 @@ Kohstall~C, Zaccanti~M, Jag~M, et~al.
 \newblock Nature, 2012, 485\penalty0 (7400): 615-618.
 \newblock \url{https://www.nature.com/articles/nature11065}.
 \newblock DOI: \doi{https://doi.org/10.1038/nature11065}.
+
+\bibitem[Scazza {\bibetal}(2017)Scazza, Valtolina, Massignan, Recati, Amico,
+  Burchianti, Fort, Inguscio, Zaccanti, and Roati]{Scazzarepulsive}
+Scazza~F, Valtolina~G, Massignan~P, et~al.
+\newblock Repulsive fermi polarons in a resonant mixture of ultracold
+  $^{6}\mathrm{Li}$ atoms [J/OL].
+\newblock Phys. Rev. Lett., 2017, 118: 083602.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.118.083602}.
 
 \bibitem[Koschorreck {\bibetal}(2012)Koschorreck, Pertot, Vogt, Fr{\"o}hlich,
   Feld, and K{\"o}hl]{koschorreck2012attractive}
