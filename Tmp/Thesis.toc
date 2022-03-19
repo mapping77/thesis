@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {1.3}自旋交换相互作用}{13}{section.1.3}
 \contentsline {section}{\numberline {1.4}极化子理论与实验}{17}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}极化子实验}{18}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}极化子理论}{19}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.2}极化子理论}{18}{subsection.1.4.2}
 \contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{23}{appendix.A}
 \contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{23}{section.A.1}
 \contentsline {section}{\numberline {A.2}测试公式编号 $\Lambda ,\lambda ,\theta ,\mathaccentV {bar}B16{\Lambda },\sqrt {S_{NN}}$}{23}{section.A.2}

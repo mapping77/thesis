@@ -414,38 +414,42 @@ a_{e g}^{-}& = 219.5 a_0\\
 
 \section{极化子理论与实验}
 
-极化子是一个杂质物理中比较古老的概念。早在固体物理中就有研究大极化子与小极化子\cite{landau1933bewegung,pekar1946autolocalization,frohlich1950xx,frohlich1954electrons,feynman1955slow,mahanmany}，对应的是电子在晶格中运动，电子的单粒子性质被晶格声子激发所修饰，改变其有效质量、寿命等。严格说属于玻色极化子。如果将背景原子改为多体费米体系，就得到费米极化子。理论上，极化子是典型的费米液体。近年来，随着冷原子中Imblanced 费米混合气体的制备，极化子作为其中的极端体系，进入研究者的视野，结合冷原子体系特有的控制、操控、观测能力，极化子的研究迎来新的阶段，我们将围绕相关研究的实验与理论展开。
+极化子是一个杂质物理中比较古老的概念。早在固体物理中就有研究大极化子与小极化子\cite{landau1933bewegung,pekar1946autolocalization,frohlich1950xx,frohlich1954electrons,feynman1955slow,mahanmany}，对应的是电子在晶格中运动，电子的单粒子性质被晶格声子激发所修饰，改变其有效质量、寿命等。严格说晶格里的极化子属于玻色极化子。如果将背景原子改为多体费米体系，就得到费米极化子。理论上，极化子是典型的费米液体。近年来，随着冷原子中Imblanced 费米混合气体的制备，极化子作为其中的极端体系，进入研究者的视野，结合冷原子体系特有的控制、操控、观测能力，极化子的研究迎来新的阶段，我们将围绕相关研究的实验与理论展开。
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{chap1fp.png}
-    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \bicaption{费米极化子的示意图。相互作用从弱变强依次从极化子变到分子。摘自\cite{Schirotzekobservation}}{Illustration of fermi polaron. As interaction goes strong, impurity goes from polaron to molecule. Reprinted from \cite{Schirotzekobservation}p}
     \label{fp}
 \end{figure}
 
 \subsection{极化子实验}
-超冷原子中极化子物理研究的启发来自于population-imblanced混合费米气体。其中少数原子成为杂质，多数原子构成背景。费米极化子最早的直接实验证据来自MIT研究组\cite{Schirotzekobservation}。实验上制备${}^6$Li。
+超冷原子中极化子物理研究的启发来自于population-imblanced混合费米气体。其中少数原子成为杂质，多数原子构成背景。杂质原子的单粒子性质被背景费米海上的粒子-空穴激发所重整化，如图~\ref{fp}~所示。费米极化子最早的直接实验证据来自MIT研究组\cite{Schirotzekobservation}。实验上制备含有$10^6$个$|1\rangle{}^6$Li原子的体系。然后通过双光子过程将大约$2\%$的$|1\rangle$原子激发到$|3\rangle$。调节$|1\rangle$与$|2\rangle$之间的相互做作用，然后通过测量$3|\rangle$到$|2\rangle$的rf谱，通过谱峰的位置来给出极化子的能量，如图~\ref{fpE}~所示。
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{chap1fpE.png}
-    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \bicaption{图a为实验测到的（散点）以及理论预测（黑色实线）的费米极化子能量随相互作用变化曲线。图b为rf谱峰的位置随杂质密度的变化。摘自\cite{Schirotzekobservation}}{Fig(a) for measured and predicted energy of fermi polaron upon interaction. Fig(b) for rf spectrum peak position upon impurity densuty. Reprinted from\cite{Schirotzekobservation}}
     \label{fpE}
 \end{figure}
-进一步分析能谱，提取出准粒子剩余
+
+可以看到，即使在共振点处，理论计算的能量与实验测到的能量也符合很好。并且谱峰的位置受杂质密度变化影响较小，处于低密度区间。进一步分析rf谱的面积，提取出准粒子剩余，如图~\ref{fpZ}~所示。
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.7\textwidth]{chap1fpZ.png}
-    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \includegraphics[width=0.6\textwidth]{chap1fpZ.png}
+    \bicaption{准粒子剩余随着相互作用与密度的变化。摘自\cite{Schirotzekobservation}}{Quasiparticle residue as a function of interaction and impurity densuty. Reprinted from \cite{Schirotzekobservation}}
     \label{fpZ}
 \end{figure}
 
-后续实验进一步观测到upper branch\cite{kohstall2012metastability,Scazzarepulsive}：
+
+进一步实验\cite{kohstall2012metastability}采用不同的体系，制备少量${}^{40}$K与大量${}^{6}$Li的混合气，通过rf pulse将与Li原子无相互作用的$|0\rangle\equiv\left|F=9 / 2, m_{\mathrm{F}}=-7 / 2\right\rangle$激发到与Li原子有Feshbach共振调节相互作用的$|1\rangle \equiv\left|F=9 / 2, m_{\mathrm{F}}=-5 / 2\right\rangle$。观测到在吸引极化子之上还有一支排斥极化子，这是一个激发态，杂质原子间的相互作用越过共振点，从低能有效散射角度来看杂质原子与背景之间互相排斥，其根源来自于少体体系里的upper branch。如图~\ref{upfp}~所示 ：
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.7\textwidth]{chap1upfp.png}
-    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \includegraphics[width=0.6\textwidth]{chap1upfp.png}
+    \bicaption{图a（弱）与b（强）为不同rf场强下测到的吸收谱。\cite{kohstall2012metastability}}{Fig(a) and Fig(b) for transition spectrum measured under weak and strong rf power. Reprinted from \cite{kohstall2012metastability}}
     \label{upfp}
 \end{figure}
+后续在纯${}^{6}$Li体系中也观测到了排斥极化子\cite{Scazzarepulsive}。
 
+我们知道在低维体系中密度涨落会扮演更重要的角色。那对于二维体系的费米极化子会是如何呢？研究者在${}^{40}$K二维光晶格中实现了二维费米极化子，并观测到了attractive branch与repulsive branch。
 降低维度观测到2D极化子low与up\cite{koschorreck2012attractive}。
 \begin{figure}[!htbp]
     \centering

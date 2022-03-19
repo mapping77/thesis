@@ -10,7 +10,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Biblio/ref.bib
-Warning--I didn't find a database entry for ""
 Warning--empty journal in mahanmany
 You've used 65 entries,
             4948 wiz_defined-function locations,
@@ -53,4 +52,4 @@ warning$ -- 1
 while$ -- 1420
 width$ -- 0
 write$ -- 1182
-(There were 2 warnings)
+(There was 1 warning)
