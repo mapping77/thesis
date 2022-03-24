@@ -32,6 +32,7 @@
 \citation{riegger2018localized,zhang2020controlling}
 \citation{Schirotzekobservation}
 \citation{Schirotzekobservation}
+\citation{Schirotzekobservation}
 \citation{sowinski2019one,blume2012few}
 \citation{nielsen2001three,braaten2006universality,KohlerMolFRRMP}
 \citation{greiner2002quantum,EsslingerFermiSea,Esslinger1DMol,Esslinger3DMol,Ospelkaus3DMol,Hecker3DMol,SalaCIRMol}
@@ -173,24 +174,28 @@
 \citation{Schirotzekobservation}
 \citation{Schirotzekobservation}
 \citation{Schirotzekobservation}
-\citation{kohstall2012metastability,Scazzarepulsive}
+\citation{kohstall2012metastability}
+\citation{kohstall2012metastability}
+\citation{kohstall2012metastability}
+\citation{kohstall2012metastability}
+\citation{kohstall2012metastability}
+\citation{Scazzarepulsive}
 \citation{koschorreck2012attractive}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.16}{\ignorespaces 费米极化子的示意图。相互作用从弱变强依次从极化子变到分子。摘自\cite  {Schirotzekobservation}\relax }}{18}{figure.caption.31}}
 \newlabel{fp}{{1.16}{18}{费米极化子的示意图。相互作用从弱变强依次从极化子变到分子。摘自\cite {Schirotzekobservation}\relax }{figure.caption.31}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.4.1}极化子实验}{18}{subsection.1.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.2}极化子理论}{18}{subsection.1.4.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.17}{\ignorespaces 图a为实验测到的（散点）以及理论预测（黑色实线）的费米极化子能量随相互作用变化曲线。图b为rf谱峰的位置随杂质密度的变化。摘自\cite  {Schirotzekobservation}\relax }}{19}{figure.caption.32}}
 \newlabel{fpE}{{1.17}{19}{图a为实验测到的（散点）以及理论预测（黑色实线）的费米极化子能量随相互作用变化曲线。图b为rf谱峰的位置随杂质密度的变化。摘自\cite {Schirotzekobservation}\relax }{figure.caption.32}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.18}{\ignorespaces 准粒子剩余随着相互作用与密度的变化。摘自\cite  {Schirotzekobservation}\relax }}{19}{figure.caption.33}}
 \newlabel{fpZ}{{1.18}{19}{准粒子剩余随着相互作用与密度的变化。摘自\cite {Schirotzekobservation}\relax }{figure.caption.33}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.19}{\ignorespaces 摘自SU(N) exp\relax }}{20}{figure.caption.34}}
-\newlabel{upfp}{{1.19}{20}{摘自SU(N) exp\relax }{figure.caption.34}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.19}{\ignorespaces 图a（弱）与b（强）为不同rf场强下测到的吸收谱。\cite  {kohstall2012metastability}\relax }}{20}{figure.caption.34}}
+\newlabel{upfp}{{1.19}{20}{图a（弱）与b（强）为不同rf场强下测到的吸收谱。\cite {kohstall2012metastability}\relax }{figure.caption.34}{}}
+\citation{cetina2016ultrafast}
+\citation{YanBoiling}
+\citation{Darkwah2019}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.20}{\ignorespaces 摘自SU(N) exp\relax }}{21}{figure.caption.35}}
 \newlabel{2dfp}{{1.20}{21}{摘自SU(N) exp\relax }{figure.caption.35}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.21}{\ignorespaces 摘自SU(N) exp\relax }}{21}{figure.caption.36}}
-\newlabel{fpultra}{{1.21}{21}{摘自SU(N) exp\relax }{figure.caption.36}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.22}{\ignorespaces 摘自SU(N) exp\relax }}{22}{figure.caption.37}}
-\newlabel{fpT}{{1.22}{22}{摘自SU(N) exp\relax }{figure.caption.37}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.2}极化子理论}{21}{subsection.1.4.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {附录 A\hspace  {.3em}}中国科学院大学学位论文撰写要求}{23}{appendix.A}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
@@ -210,7 +215,7 @@
 \bibcite{d2014three}{{9}{2014}{{D’Amico {等}}}{{D’Amico and Rontani}}}
 \bibcite{Santos2014spinchain}{{10}{2014}{{Deuretzbacher {等}}}{{Deuretzbacher, Becker, Bjerlin, Reimann, and Santos}}}
 \bibcite{scazza2014observation}{{11}{2014}{{Scazza {等}}}{{Scazza, Hofrichter, H{\"o}fer, De~Groot, Bloch, and F{\"o}lling}}}
-\@writefile{toc}{\contentsline {chapter}{参考文献}{25}{section*.38}}
+\@writefile{toc}{\contentsline {chapter}{参考文献}{25}{section*.36}}
 \bibcite{cappellini2014direct}{{12}{2014}{{Cappellini {等}}}{{Cappellini, Mancini, Pagano, Lombardi, Livi, De~Cumis, Cancio, Pizzocaro, Calonico, Levi, et~al.}}}
 \bibcite{riegger2018localized}{{13}{2018}{{Riegger {等}}}{{Riegger, Oppong, H{\"o}fer, Fernandes, Bloch, and F{\"o}lling}}}
 \bibcite{zhang2020controlling}{{14}{2020{}}{{Zhang {等}}}{{Zhang, Cheng, Zhang, and Zhai}}}
@@ -262,12 +267,9 @@
 \bibcite{frohlich1954electrons}{{60}{1954}{{Fr{\"o}hlich}}{{}}}
 \bibcite{feynman1955slow}{{61}{1955}{{Feynman}}{{}}}
 \bibcite{mahanmany}{{62}{2000}{{Mahan}}{{}}}
-\bibcite{kohstall2012metastability}{{63}{2012}{{Kohstall {等}}}{{Kohstall, Zaccanti, Jag, Trenkwalder, Massignan, Bruun, Schreck, and Grimm}}}
-\bibcite{Scazzarepulsive}{{64}{2017}{{Scazza {等}}}{{Scazza, Valtolina, Massignan, Recati, Amico, Burchianti, Fort, Inguscio, Zaccanti, and Roati}}}
-\bibcite{koschorreck2012attractive}{{65}{2012}{{Koschorreck {等}}}{{Koschorreck, Pertot, Vogt, Fr{\"o}hlich, Feld, and K{\"o}hl}}}
-\@writefile{toc}{\contentsline {chapter}{致谢}{33}{appendix*.40}}
+\@writefile{toc}{\contentsline {chapter}{致谢}{31}{appendix*.38}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{35}{appendix*.41}}
+\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{33}{appendix*.39}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}

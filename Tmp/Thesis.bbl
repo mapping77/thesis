@@ -1,4 +1,4 @@
-\begin{thebibliography}{65}
+\begin{thebibliography}{68}
 \providecommand{\biband}{和}
 \providecommand{\bibetal}{等}
 \providecommand{\natexlab}[1]{#1}
@@ -554,5 +554,29 @@ Koschorreck~M, Pertot~D, Vogt~E, et~al.
 \newblock Nature, 2012, 485\penalty0 (7400): 619-622.
 \newblock \url{https://www.nature.com/articles/nature11151}.
 \newblock DOI: \doi{https://doi.org/10.1038/nature11151}.
+
+\bibitem[Cetina {\bibetal}(2016)Cetina, Jag, Lous, Fritsche, Walraven, Grimm,
+  Levinsen, Parish, Schmidt, Knap, et~al.]{cetina2016ultrafast}
+Cetina~M, Jag~M, Lous~R~S, et~al.
+\newblock Ultrafast many-body interferometry of impurities coupled to a fermi
+  sea [J/OL].
+\newblock Science, 2016, 354\penalty0 (6308): 96-99.
+\newblock \url{https://www.science.org/doi/full/10.1126/science.aaf5134}.
+\newblock DOI: \doi{https://doi.org/10.1126/science.aaf5134}.
+
+\bibitem[Yan {\bibetal}(2019)Yan, Patel, Mukherjee, Fletcher, Struck, and
+  Zwierlein]{YanBoiling}
+Yan~Z, Patel~P~B, Mukherjee~B, et~al.
+\newblock Boiling a unitary fermi liquid [J/OL].
+\newblock Phys. Rev. Lett., 2019, 122: 093401.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.122.093401}.
+
+\bibitem[Darkwah~Oppong {\bibetal}(2019)Darkwah~Oppong, Riegger, Bettermann,
+  H\"ofer, Levinsen, Parish, Bloch, and F\"olling]{Darkwah2019}
+Darkwah~Oppong~N, Riegger~L, Bettermann~O, et~al.
+\newblock Observation of coherent multiorbital polarons in a two-dimensional
+  fermi gas [J/OL].
+\newblock Phys. Rev. Lett., 2019, 122: 193604.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.122.193604}.
 
 \end{thebibliography}

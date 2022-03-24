@@ -4,7 +4,9 @@
 
 杂质物理，其中少体体系与多体体系
 
-%\subsection{冷原子基本实验技术}
+冷原子物理作为一个新的平台，很多自身特性使得固体态物理、核物理中很多概念可以得到实验实现。同时平台本身独特的特性使得其他体系所不能研究的比如动力学等有了实验实体。
+
+\subsection{冷原子基本实验技术}
 
 冷却囚禁费米子技术
 
@@ -438,7 +440,7 @@ a_{e g}^{-}& = 219.5 a_0\\
     \bicaption{准粒子剩余随着相互作用与密度的变化。摘自\cite{Schirotzekobservation}}{Quasiparticle residue as a function of interaction and impurity densuty. Reprinted from \cite{Schirotzekobservation}}
     \label{fpZ}
 \end{figure}
-
+通过对于准粒子剩余的测量可以发现随着相互作用增强费米极化子经历一个转变成为分子，也就是发生了极化子-分子准变。
 
 进一步实验\cite{kohstall2012metastability}采用不同的体系，制备少量${}^{40}$K与大量${}^{6}$Li的混合气，通过rf pulse将与Li原子无相互作用的$|0\rangle\equiv\left|F=9 / 2, m_{\mathrm{F}}=-7 / 2\right\rangle$激发到与Li原子有Feshbach共振调节相互作用的$|1\rangle \equiv\left|F=9 / 2, m_{\mathrm{F}}=-5 / 2\right\rangle$。观测到在吸引极化子之上还有一支排斥极化子，这是一个激发态，杂质原子间的相互作用越过共振点，从低能有效散射角度来看杂质原子与背景之间互相排斥，其根源来自于少体体系里的upper branch。如图~\ref{upfp}~所示 ：
 \begin{figure}[!htbp]
@@ -449,8 +451,7 @@ a_{e g}^{-}& = 219.5 a_0\\
 \end{figure}
 后续在纯${}^{6}$Li体系中也观测到了排斥极化子\cite{Scazzarepulsive}。
 
-我们知道在低维体系中密度涨落会扮演更重要的角色。那对于二维体系的费米极化子会是如何呢？研究者在${}^{40}$K二维光晶格中实现了二维费米极化子，并观测到了attractive branch与repulsive branch。
-降低维度观测到2D极化子low与up\cite{koschorreck2012attractive}。
+我们知道在低维体系中密度涨落会扮演更重要的角色。那对于二维体系的费米极化子会是如何呢？研究者在${}^{40}$K二维光晶格中实现了二维费米极化子，并观测到了attractive branch与repulsive branch\cite{koschorreck2012attractive}。
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{chap12dfp.png}
@@ -458,11 +459,25 @@ a_{e g}^{-}& = 219.5 a_0\\
     \label{2dfp}
 \end{figure}
 
+随着实验技术的成熟，对于极化子探索的方向也有所扩展。比如极化子动力学研究\cite{cetina2016ultrafast}、有限温度下的极化子\cite{YanBoiling}、以及利用轨道Feshbach共振调节的极化子等\cite{Darkwah2019}。
+
+除了上述吸引极化子与排斥极化子的研究之外，还有关于极化子-分子转变的研究。在极化子到分子的转变研究中，对于单极化子来说是个一阶转变。最近通过Raman光谱，研究者进一步揭示了存在有限密度和有限温度下极化子到分子的转变会被连续化。通过制备不同内态的${}^{40}$K原子：$|1\rangle$ 作为背景费米海和 $|2\rangle$作为杂质。通过Raman过程将$|2\rangle$激发到$|3\rangle$，跃迁几率是动量依赖的，这是与传统的rf谱很大的不同，收集最终的谱信号并与一定假设下理论预测的Raman能谱去拟合，解析出最终的极化子单粒子性质。其中准粒子剩余如图~\ref{fpsmooth}~所示，可以看到在有限温度以及极化子密度下一阶转变变为了连续转变。
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1smooth.png}
+    \bicaption{拟合Raman谱得到的准粒子剩余$Z$。摘自\cite{Sagi2020}}{Quasiparticle residue obtained from fitting measured Raman Spectrum. Reprinted from\cite{Sagi2020}}
+    \label{fpsmooth}
+\end{figure}
+
+
+
+\begin{comment}
+比如动力学研究\cite{cetina2016ultrafast}，实验者在${}^6$Li费米海中制备两种内态的${}^{40}$K：$|2\rangle,|3\raangle$。其中仅$|3\raangle$K原子与背景费米海有相互作用。从初始状态仅$|2\rangle$态K原子出发，利用$\pi/2$脉冲制备叠加态$|2\rangle+|3\raangle$，然后快速地将相互作用打开，演化不同时间后撤掉相互作用，测量末态的$N_2,N_3$极化分布。
 超快Ramesy spectroscopy
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{chap1fpultra.png}
-    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \bicaption{摘自SU(N) exp}{Reprinted from\cite{cetina2016ultrafast}}
     \label{fpultra}
 \end{figure}
 
@@ -470,25 +485,53 @@ a_{e g}^{-}& = 219.5 a_0\\
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{chap1fpT.png}
-    \bicaption{摘自SU(N) exp}{Reprinted from SU(N) exp}
+    \bicaption{摘自SU(N) exp}{Reprinted from\cite{YanBoiling}}
     \label{fpT}
 \end{figure}
-
+\end{comment}
 
 
 
 \subsection{极化子理论}
-理论方面关注整个相互作用可调区间，冷原子中费米极化子的研究最早可追溯到Chevy变分波函数，在整个相互作用区间都很好的成立。这是个典型的N+1体系。
+理论方面，因为极化子是个在固体物理中很早就有的概念，极化子是典型的费米液体。冷原子物理中Feshbach可调节相互作用带来了对于整个相互作用区间的关注。冷原子中费米极化子的研究最早可追溯到Chevy变分波函数\cite{chevy2006}，这是个典型的N+1体系。系统哈密顿量为：
+\begin{equation}
+\hat{H}=\sum_{k, \sigma} \epsilon_{k} \hat{a}_{k, \sigma}^{\dagger} \hat{a}_{k, \sigma}+\frac{g_{b}}{V_{k, \boldsymbol{k}^{\prime}, q}} \sum_{\boldsymbol{k}+q, 1}^{\dagger} \hat{a}_{\boldsymbol{k}^{\prime}-q, 2}^{\dagger} \hat{a}_{\boldsymbol{k}^{\prime}, 2} \hat{a}_{\boldsymbol{k}, 1}
+\end{equation}
+采用Chevy变分波函数：
+\begin{equation}
+\left|\psi_{0}\right\rangle=\left(\phi_{0} d_{\mathbf{0}}^{\dagger}+\sum_{\mathbf{k}, \mathbf{q}}^{\prime} \phi_{\mathbf{k q}} d_{\mathbf{q}-\mathbf{k}}^{\dagger} u_{\mathbf{k}}^{\dagger} u_{\mathbf{q}}\right)\left|\mathrm{FS} \mathbf{S}_{\uparrow}^{N}\right\rangle
+\end{equation}
+带入到薛定谔方程中得到：
+\begin{equation}
+\begin{split}
+&\left(\epsilon_{k}+\epsilon_{q-k}-\epsilon_{q}\right) \phi_{k, q}+\frac{g_{b}}{V} \sum_{k^{\prime}} \phi_{k^{\prime}, q}+\frac{g_{b}}{V} \phi_{0}=E \phi_{k, q}\\
+&\frac{g_{b}}{V} \sum_{q} \phi_{0}+\frac{g_{b}}{V} \sum_{q, k} \phi_{k, q}=E \phi_{0}\\
+\end{split}
+\end{equation}
+引入辅助变量$\chi(\boldsymbol{q})=\phi_{0}+\sum_{\boldsymbol{k}} \phi_{k, \boldsymbol{q}}$得到能量满足自洽方程：
+\begin{equation}
+E=\sum_{q<k_{F}} \frac{1}{\sum_{k>k_{F}}\left(\frac{1}{\epsilon_{\boldsymbol{k}}+\epsilon_{q-k}-\epsilon_{q}-E}-\frac{1}{2 \epsilon_{\boldsymbol{k}}}\right)-\sum_{k<k_{F}} \frac{1}{2 \epsilon_{k}}},
+\end{equation}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1pmE.png}
+    \bicaption{单粒子空穴近似下的吸引极化子与排斥极化子能量。摘自\cite{massignan2014polarons}}{Energy of attractive and repulsive fermi polarons under 1 p-h approximation. Reprinted from\cite{massignan2014polarons}}
+    \label{fpchevyE}
+\end{figure}
+求解可以得到吸引极化子与排斥极化子能量，如图~\ref{fpchevyE}~所示。另一方面采用T矩阵单粒子空穴激发近似的费曼图计算杂质原子的自能也可以得到上述相同的自洽方程\cite{Combescot20071ph}。令人惊讶的是这样简单的图像在强相互作用的共振处依然可以成立。其背后的原因在于高阶项的抵消作用\cite{Combescot20071ph008full}。
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1pmE.png}
+    \bicaption{极化子-分子转变。摘自\cite{Punk_pm}}{Polaron-molecule transition. Reprinted from\cite{Punk_pm}}
+    \label{pmE}
+\end{figure}
+当相互作用越过共振点，极化子能量越来越低，物理图像上一个杂质原子吸引一个背景费米子形成一个分子，完成极化子到分子的转变。这一转变最早的研究来自于\cite{Mora_pm,Punk_pm,combescot2010analytical}。
+利用新的分子态变分波函数，也可以求得一支被费米海修饰的分子态的能量解，这支分子态能量与极化子能量在$1/k_Fa_S=0.84$处相交，对应体系基态发生了极化子到分子的转变，如图~\ref{pmE}~所示：
+\begin{equation}
+\left|\psi_{0}\right\rangle=\left(\sum_{\mathbf{k}}^{\prime} \xi_{\mathbf{k}} d_{-\mathbf{k}}^{\dagger} u_{\mathbf{k}}^{\dagger}+\sum_{\mathbf{k}^{\prime}, \mathbf{k}, \mathbf{q}}{ }^{\prime} \xi_{\mathbf{k}^{\prime} \mathbf{k q}} d_{\mathbf{q}-\mathbf{k}-\mathbf{k}^{\prime}}^{\dagger} u_{\mathbf{k}^{\prime}}^{\dagger} u_{\mathbf{k}}^{\dagger} u_{\mathbf{q}}\right)\left|\mathrm{FS}_{\uparrow}^{N-1}\right\rangle
+\end{equation}
 
-1973bishop hard core
-
-chevy2006 V-ph
-
-2007Combescot Feynman Diagram, Massignan P
-
-p-m transition Mora C, Punk M, Combescot R.
-
-MC Pilati S,Prokof’ev N, fix node, diag MC
+这一转变点除了上述变分方法的研究之外，利用fixed-node\cite{Prokoffermi,Prokofbold}以及图蒙特卡罗\cite{,VlietinckMC}数值算法可以得到转变点为$1/k_Fa_S=0.9$，相应地极化子的单粒子性质比如有效质量，准粒子剩余等也可以得到。
 
 FRG SchmidtR,
 

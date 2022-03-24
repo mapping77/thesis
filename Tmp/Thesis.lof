@@ -1,26 +1,25 @@
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {1.1}{\ignorespaces 三维光晶格中的Feshbach分子态。散点代表不同晶格深度的实验数据。实线代表理论数据。摘自 \cite {Esslinger3DMol}\relax }}{2}{figure.caption.16}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces 图A表示降低深度使原子漏出来制备少体的示意图。图B为实验测到的少体体系平均粒子数与方差。 摘自 \cite {SerwaneDeterministic} \relax }}{2}{figure.caption.17}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces 图A表示降低深度使原子漏出来制备少体的示意图。图B为实验测到的少体体系平均粒子数与方差。 摘自 \cite {SerwaneDeterministic} \relax }}{3}{figure.caption.17}
 \contentsline {figure}{\numberline {1.3}{\ignorespaces 不同的有效一维相互作用下两体费米子隧穿几率。谐振子势阱中两体体系的能量决定了隧穿几率。其中在共振点处相互作用费米子$\delimiter "3222378 \delimiter "3223379 $能量等于无相互作用全同费米子$\delimiter "3222378 \delimiter "3222378 $能量，发生费米化。 摘自 \cite {zurn2012fermionization} \relax }}{3}{figure.caption.18}
 \contentsline {figure}{\numberline {1.4}{\ignorespaces 图A为谐振子势阱中1+N体系能谱示意图。图B为实验测得的rf脉冲谱。图C为能量密度。摘自 \cite {WenzFermiSeaOnebyOne} \relax }}{4}{figure.caption.19}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces 不同少体体系$\delimiter "3223379 $原子隧穿几率随一维有效相互作用的变化，a为(2,1)，b为(3,1)，c为(2,2)。散点为实验测得数据。线条代表不同的自旋链模型计算得到的隧穿几率。摘自 \cite {MurmannSpinChain} \relax }}{4}{figure.caption.20}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces 不同少体体系$\delimiter "3223379 $原子隧穿几率随一维有效相互作用的变化，a为(2,1)，b为(3,1)，c为(2,2)。散点为实验测得数据。线条代表不同的自旋链模型计算得到的隧穿几率。摘自 \cite {MurmannSpinChain} \relax }}{5}{figure.caption.20}
 \contentsline {figure}{\numberline {1.6}{\ignorespaces 摘自1D少体势阱\relax }}{6}{figure.caption.21}
 \contentsline {figure}{\numberline {1.7}{\ignorespaces 幺正极限下$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $三体体系$s_{l,n}$数值结果。摘自\cite {Fleix2006prlunitary3b} \relax }}{8}{figure.caption.22}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces 三维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $能谱。摘自\cite {LmDuan2007levelcrossing}\relax }}{9}{figure.caption.23}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces 三维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $能谱。摘自\cite {LmDuan2007levelcrossing}\relax }}{10}{figure.caption.23}
 \contentsline {figure}{\numberline {1.9}{\ignorespaces 二维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $的能谱。摘自\cite {Xiaji2009prl}\relax }}{10}{figure.caption.24}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces 一维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $的能谱。摘自\cite {d2014three} \relax }}{11}{figure.caption.25}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces 一维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $的能谱。摘自\cite {d2014three} \relax }}{12}{figure.caption.25}
 \contentsline {figure}{\numberline {1.11}{\ignorespaces 少体自旋1/2费米子体系无限大排斥附近的自旋链有效模型。摘自\cite {Santos2014spinchain} \relax }}{13}{figure.caption.26}
 \contentsline {figure}{\numberline {1.12}{\ignorespaces 摘自SU(N)\relax }}{14}{figure.caption.27}
 \contentsline {figure}{\numberline {1.13}{\ignorespaces 图A代表单原子与双原子初态到末态的跃迁。图B代表末态的能谱。摘自\cite {scazza2014observation}\relax }}{15}{figure.caption.28}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces 图a代表实验测到的吸收谱，不同的峰代表了不同的末态。图b代表观测到自旋交换体系的的自旋动力学。摘自\cite {cappellini2014direct}\relax }}{16}{figure.caption.29}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces 图a代表准一维体系z方向上自旋相关的晶格制造巡游费米子与局域费米子。图b代表自旋交换发生的过程。图c，d分别代表实验测量与理论预测的束缚诱导增强下的自旋交换动力学。摘自\cite {riegger2018localized,zhang2020controlling}\relax }}{17}{figure.caption.30}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces 费米极化子的示意图。相互作用从弱变强依次从极化子变到分子。摘自\cite {Schirotzekobservation}\relax }}{18}{figure.caption.31}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces 图a为实验测到的（散点）以及理论预测（黑色实线）的费米极化子能量随相互作用变化曲线。图b为rf谱峰的位置随杂质密度的变化。摘自\cite {Schirotzekobservation}\relax }}{19}{figure.caption.32}
-\contentsline {figure}{\numberline {1.18}{\ignorespaces 准粒子剩余随着相互作用与密度的变化。摘自\cite {Schirotzekobservation}\relax }}{19}{figure.caption.33}
-\contentsline {figure}{\numberline {1.19}{\ignorespaces 摘自SU(N) exp\relax }}{20}{figure.caption.34}
-\contentsline {figure}{\numberline {1.20}{\ignorespaces 摘自SU(N) exp\relax }}{21}{figure.caption.35}
-\contentsline {figure}{\numberline {1.21}{\ignorespaces 摘自SU(N) exp\relax }}{21}{figure.caption.36}
-\contentsline {figure}{\numberline {1.22}{\ignorespaces 摘自SU(N) exp\relax }}{22}{figure.caption.37}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces 图a代表实验测到的吸收谱，不同的峰代表了不同的末态。图b代表观测到自旋交换体系的的自旋动力学。摘自\cite {cappellini2014direct}\relax }}{17}{figure.caption.29}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces 图a代表准一维体系z方向上自旋相关的晶格制造巡游费米子与局域费米子。图b代表自旋交换发生的过程。图c，d分别代表实验测量与理论预测的束缚诱导增强下的自旋交换动力学。摘自\cite {riegger2018localized,zhang2020controlling}\relax }}{18}{figure.caption.30}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces 费米极化子的示意图。相互作用从弱变强依次从极化子变到分子。摘自\cite {Schirotzekobservation}\relax }}{19}{figure.caption.31}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces 图a为实验测到的（散点）以及理论预测（黑色实线）的费米极化子能量随相互作用变化曲线。图b为rf谱峰的位置随杂质密度的变化。摘自\cite {Schirotzekobservation}\relax }}{20}{figure.caption.32}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces 准粒子剩余随着相互作用与密度的变化。摘自\cite {Schirotzekobservation}\relax }}{20}{figure.caption.33}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces 图a（弱）与b（强）为不同rf场强下测到的吸收谱。\cite {kohstall2012metastability}\relax }}{21}{figure.caption.34}
+\contentsline {figure}{\numberline {1.20}{\ignorespaces 摘自SU(N) exp\relax }}{22}{figure.caption.35}
+\contentsline {figure}{\numberline {1.21}{\ignorespaces 拟合Raman谱得到的准粒子剩余$Z$。摘自\cite {Sagi2020}\relax }}{23}{figure.caption.36}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
