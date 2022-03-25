@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  25 MAR 2022 14:27
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  25 MAR 2022 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2796,16 +2796,16 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 File: chap13dmol.png Graphic file (type bmp)
 <chap13dmol.png>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 28.
+(Font)              scaled to size 10.53937pt on input line 33.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 28.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 28.
+(Font)              scaled to size 10.53937pt on input line 33.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <7> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 28.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 7.0pt on input line 28.
+(Font)              scaled to size 7.0pt on input line 33.
 [1
 
 
@@ -2822,7 +2822,7 @@ File: chap1spinchain.png Graphic file (type bmp)
 
 
 LaTeX Font Warning: Font shape `TU/ntxtlf/bx/n' undefined
-(Font)              using `TU/ntxtlf/m/n' instead on input line 75.
+(Font)              using `TU/ntxtlf/m/n' instead on input line 87.
 
 [4] [5]
 File: chap1busch.png Graphic file (type bmp)
@@ -2832,7 +2832,7 @@ File: chap13fSv.png Graphic file (type bmp)
 <chap13fSv.png>
  [7] [8]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 197.
+(Font)              scaled to size 6.0pt on input line 209.
 File: chap1duan.png Graphic file (type bmp)
 <chap1duan.png>
 File: chap1xiaji.png Graphic file (type bmp)

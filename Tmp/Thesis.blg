@@ -13,7 +13,7 @@ Database file #1: Biblio/ref.bib
 Warning--empty journal in mahanmany
 You've used 79 entries,
             4948 wiz_defined-function locations,
-            1605 strings with 29546 characters,
+            1604 strings with 29491 characters,
 and the built_in function-call counts, 780591 in all, are:
 = -- 21953
 > -- 87589
