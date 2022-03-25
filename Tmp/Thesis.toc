@@ -8,9 +8,9 @@
 \contentsline {section}{\numberline {1.4}极化子理论与实验}{19}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}极化子实验}{19}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}极化子理论}{23}{subsection.1.4.2}
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{25}{appendix.A}
-\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{25}{section.A.1}
-\contentsline {section}{\numberline {A.2}测试公式编号 $\Lambda ,\lambda ,\theta ,\mathaccentV {bar}B16{\Lambda },\sqrt {S_{NN}}$}{25}{section.A.2}
-\contentsline {chapter}{参考文献}{27}{section*.37}
-\contentsline {chapter}{致谢}{35}{appendix*.39}
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{37}{appendix*.40}
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{27}{appendix.A}
+\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{27}{section.A.1}
+\contentsline {section}{\numberline {A.2}测试公式编号 $\Lambda ,\lambda ,\theta ,\mathaccentV {bar}B16{\Lambda },\sqrt {S_{NN}}$}{27}{section.A.2}
+\contentsline {chapter}{参考文献}{29}{section*.39}
+\contentsline {chapter}{致谢}{37}{appendix*.41}
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{39}{appendix*.42}

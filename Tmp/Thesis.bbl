@@ -1,4 +1,4 @@
-\begin{thebibliography}{68}
+\begin{thebibliography}{79}
 \providecommand{\biband}{和}
 \providecommand{\bibetal}{等}
 \providecommand{\natexlab}[1]{#1}
@@ -142,6 +142,40 @@ Schirotzek~A, Wu~C~H, Sommer~A, et~al.
   atoms [J/OL].
 \newblock Phys. Rev. Lett., 2009, 102: 230402.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.102.230402}.
+
+\bibitem[Kohstall {\bibetal}(2012)Kohstall, Zaccanti, Jag, Trenkwalder,
+  Massignan, Bruun, Schreck, and Grimm]{kohstall2012metastability}
+Kohstall~C, Zaccanti~M, Jag~M, et~al.
+\newblock Metastability and coherence of repulsive polarons in a strongly
+  interacting fermi mixture [J/OL].
+\newblock Nature, 2012, 485\penalty0 (7400): 615-618.
+\newblock \url{https://www.nature.com/articles/nature11065}.
+\newblock DOI: \doi{https://doi.org/10.1038/nature11065}.
+
+\bibitem[Ness {\bibetal}(2020)Ness, Shkedrov, Florshaim, Diessel, von
+  Milczewski, Schmidt, and Sagi]{Sagi2020}
+Ness~G, Shkedrov~C, Florshaim~Y, et~al.
+\newblock Observation of a smooth polaron-molecule transition in a degenerate
+  fermi gas [J/OL].
+\newblock Phys. Rev. X, 2020, 10: 041019.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevX.10.041019}.
+
+\bibitem[Massignan {\bibetal}(2014)Massignan, Zaccanti, and
+  Bruun]{massignan2014polarons}
+Massignan~P, Zaccanti~M, Bruun~G~M.
+\newblock Polarons, dressed molecules and itinerant ferromagnetism in ultracold
+  fermi gases [J/OL].
+\newblock Reports on Progress in Physics, 2014, 77\penalty0 (3): 034401.
+\newblock
+  \url{https://iopscience.iop.org/article/10.1088/0034-4885/77/3/034401/meta}.
+\newblock DOI: \doi{https://doi.org/10.1088/0034-4885/77/3/034401}.
+
+\bibitem[Punk {\bibetal}(2009)Punk, Dumitrescu, and Zwerger]{Punk_pm}
+Punk~M, Dumitrescu~P~T, Zwerger~W.
+\newblock Polaron-to-molecule transition in a strongly imbalanced fermi gas
+  [J/OL].
+\newblock Phys. Rev. A, 2009, 80: 053605.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.80.053605}.
 
 \bibitem[Sowi{\'n}ski {\bibetal}(2019)Sowi{\'n}ski and
   Garc{\'\i}a-March]{sowinski2019one}
@@ -530,15 +564,6 @@ Mahan~G.
 \newblock \url{https://link.springer.com/book/10.1007/978-1-4757-5714-9}.
 \newblock DOI: \doi{https://doi.org/10.1007/978-1-4757-5714-9}.
 
-\bibitem[Kohstall {\bibetal}(2012)Kohstall, Zaccanti, Jag, Trenkwalder,
-  Massignan, Bruun, Schreck, and Grimm]{kohstall2012metastability}
-Kohstall~C, Zaccanti~M, Jag~M, et~al.
-\newblock Metastability and coherence of repulsive polarons in a strongly
-  interacting fermi mixture [J/OL].
-\newblock Nature, 2012, 485\penalty0 (7400): 615-618.
-\newblock \url{https://www.nature.com/articles/nature11065}.
-\newblock DOI: \doi{https://doi.org/10.1038/nature11065}.
-
 \bibitem[Scazza {\bibetal}(2017)Scazza, Valtolina, Massignan, Recati, Amico,
   Burchianti, Fort, Inguscio, Zaccanti, and Roati]{Scazzarepulsive}
 Scazza~F, Valtolina~G, Massignan~P, et~al.
@@ -578,5 +603,68 @@ Darkwah~Oppong~N, Riegger~L, Bettermann~O, et~al.
   fermi gas [J/OL].
 \newblock Phys. Rev. Lett., 2019, 122: 193604.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.122.193604}.
+
+\bibitem[Chevy(2006)]{chevy2006}
+Chevy~F.
+\newblock Universal phase diagram of a strongly interacting fermi gas with
+  unbalanced spin populations [J/OL].
+\newblock Phys. Rev. A, 2006, 74: 063628.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.74.063628}.
+
+\bibitem[Combescot {\bibetal}(2007)Combescot, Recati, Lobo, and
+  Chevy]{Combescot20071ph}
+Combescot~R, Recati~A, Lobo~C, et~al.
+\newblock Normal state of highly polarized fermi gases: Simple many-body
+  approaches [J/OL].
+\newblock Phys. Rev. Lett., 2007, 98: 180402.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.98.180402}.
+
+\bibitem[Combescot {\bibetal}(2008)Combescot and
+  Giraud]{Combescot20071ph008full}
+Combescot~R, Giraud~S.
+\newblock Normal state of highly polarized fermi gases: Full many-body
+  treatment [J/OL].
+\newblock Phys. Rev. Lett., 2008, 101: 050404.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.101.050404}.
+
+\bibitem[Mora {\bibetal}(2009)Mora and Chevy]{Mora_pm}
+Mora~C, Chevy~F.
+\newblock Ground state of a tightly bound composite dimer immersed in a fermi
+  sea [J/OL].
+\newblock Phys. Rev. A, 2009, 80: 033607.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.80.033607}.
+
+\bibitem[Combescot {\bibetal}(2010)Combescot, Giraud, and
+  Leyronas]{combescot2010analytical}
+Combescot~R, Giraud~S, Leyronas~X.
+\newblock Analytical theory of the dressed bound state in highly polarized
+  fermi gases [J/OL].
+\newblock EPL (Europhysics Letters), 2010, 88\penalty0 (6): 60007.
+\newblock \url{https://iopscience.iop.org/article/10.1209/0295-5075/88/60007}.
+\newblock DOI: \doi{https://doi.org/10.1209/0295-5075/88/60007}.
+
+\bibitem[Prokof'ev {\bibetal}(2008{\natexlab{a}})Prokof'ev and
+  Svistunov]{Prokoffermi}
+Prokof'ev~N, Svistunov~B.
+\newblock Fermi-polaron problem: Diagrammatic monte carlo method for divergent
+  sign-alternating series [J/OL].
+\newblock Phys. Rev. B, 2008, 77: 020408.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.77.020408}.
+
+\bibitem[Prokof'ev {\bibetal}(2008{\natexlab{b}})Prokof'ev and
+  Svistunov]{Prokofbold}
+Prokof'ev~N~V, Svistunov~B~V.
+\newblock Bold diagrammatic monte carlo: A generic sign-problem tolerant
+  technique for polaron models and possibly interacting many-body problems
+  [J/OL].
+\newblock Phys. Rev. B, 2008, 77: 125101.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.77.125101}.
+
+\bibitem[Vlietinck {\bibetal}(2013)Vlietinck, Ryckebusch, and
+  Van~Houcke]{VlietinckMC}
+Vlietinck~J, Ryckebusch~J, Van~Houcke~K.
+\newblock Quasiparticle properties of an impurity in a fermi gas [J/OL].
+\newblock Phys. Rev. B, 2013, 87: 115133.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.87.115133}.
 
 \end{thebibliography}
