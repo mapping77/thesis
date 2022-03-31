@@ -8,26 +8,14 @@
 
 冷原子物理作为一个新的平台，很多自身特性使得固体态物理、核物理中很多概念可以得到实验实现。同时平台本身独特的特性使得其他体系所不能研究的比如动力学等有了实验实体。
 
+冷却囚禁费米子技术，光晶格，Feshbach resonance，Confiment induced resonance
+
 在本文中我们在绪论部分给出两个研究的背景脉络，常用的研究方法。在后续的章节中基于这个图像我们详细介绍我们工作的动机，主要结果，以及后续展望。
 
-\subsection{冷原子基本实验技术}
-
-冷却囚禁费米子技术
-
-光晶格
-
-Feshbach resonance
-
-Confiment induced resonance
 
 \section{费米子少体体系}\label{sec:fewbody}
 伴随着冷原子平台实验技术的进步，各个凝聚态研究领域掀起了不同程度的热潮。其中少体物理的研究领域有了较大进展。得益于实验中少量原子体系的
 制备、调控与测量，少体物理中很多概念诸如少体束缚态、费米化等理论概念不断地在冷原子实验中被观测到，并进而引发了冷原子特性平台下相关少体物理的理论研究。实际的冷原子少体体系中几个原子被束缚在势阱中，因此我们的内容也主要限制在束缚势阱中的少体体系实验与理论研究进展，以期为接下来的研究提供启发，更细致全面的review可推荐\cite{sowinski2019one,blume2012few}，本章还不会涉及Efimov物理，相关review参见\cite{nielsen2001three,braaten2006universality,KohlerMolFRRMP}。由于原子间全同性原理，我们将围绕玻色少体体系与费米少体体系分别展开。束缚的原子数可控程度越来越高，体系的维度可以通过各向异性的势阱实现，原子之间的相互作用均可以调节，从极弱到极强，从吸引到排斥。进一步选取不同的混合体系带来质量比的可调节性，这些丰富的可调节实验条件为少体体系带来丰富的物理。
-
-
-
-
-
 
 \subsection{费米少体实验}
 实验中最早制备出费米子少体体系可以追溯到2005年，在较深的光晶格体系中,进入到莫特绝缘体区域，制备少体体系\cite{greiner2002quantum,EsslingerFermiSea,Esslinger1DMol,Esslinger3DMol,Ospelkaus3DMol,Hecker3DMol,SalaCIRMol}。如图~\ref{3dmol}~所示，
@@ -94,22 +82,22 @@ Confiment induced resonance
 得到：
 \begin{equation}
 \begin{aligned}
-&H_{\mathrm{CM}}=-\frac{1}{2} \nabla_{R}^{2}+\frac{1}{2} \mathbf{R}^{2}\\
-&H_{r e l}=-\frac{1}{2} \nabla_{r}^{2}+\frac{1}{2} \mathbf{r}^{2}+\sqrt{2} \pi a_{0} \delta^{(3)}(\mathbf{r}) \frac{\partial}{\partial r} r\\
+&H_{\mathrm{CM}}=-\frac{1}{2} \nabla_{R}^{2}+\frac{1}{2} \Vector{R}^{2}\\
+&H_{r e l}=-\frac{1}{2} \nabla_{r}^{2}+\frac{1}{2} \Vector{r}^{2}+\sqrt{2} \pi a_{0} \delta^{(3)}(\Vector{r}) \frac{\partial}{\partial r} r\\
 \end{aligned}
 \end{equation}
 质心运动的部分是自由谐振子。只剩相对运动部分，满足的薛定谔方程为：
 \begin{equation}
-\left(H_{o s c}+\sqrt{2} \pi a_{0} \delta^{(3)}(\mathbf{r}) \frac{\partial}{\partial r} r\right) \Psi(\mathbf{r})=E \Psi(\mathbf{r})
+\left(H_{o s c}+\sqrt{2} \pi a_{0} \delta^{(3)}(\Vector{r}) \frac{\partial}{\partial r} r\right) \Psi(\Vector{r})=E \Psi(\Vector{r})
 \end{equation}
 相对运动部分的$l\neq=0$空间不受相互作用影响，仍为自由谐振子，只考虑$l=0$子空间。波函数展开在谐振子基矢下：
 相应的本征波函数为：
 \begin{equation}
-\Psi(\mathbf{r})=\sum_{n=0}^{\infty} c_{n} \varphi_{n}(\mathbf{r})
+\Psi(\Vector{r})=\sum_{n=0}^{\infty} c_{n} \varphi_{n}(\Vector{r})
 \end{equation}
 带入到薛定谔方程里得到：
 \begin{equation}
-c_{n}\left(E_{n}-E\right)+\sqrt{2} \pi a_{0} \varphi_{n}^{*}(0)\left[\frac{\partial}{\partial r}\left(r \sum_{m=0}^{\infty} c_{m} \varphi_{m}(\mathbf{r})\right)\right]_{r \rightarrow 0}=0
+c_{n}\left(E_{n}-E\right)+\sqrt{2} \pi a_{0} \varphi_{n}^{*}(0)\left[\frac{\partial}{\partial r}\left(r \sum_{m=0}^{\infty} c_{m} \varphi_{m}(\Vector{r})\right)\right]_{r \rightarrow 0}=0
 \end{equation}
 求得$c_n$满足：
 \begin{equation}
@@ -121,7 +109,7 @@ c_{n}=A \frac{\varphi_{n}^{*}(0)}{E_{n}-E}
 \end{equation}
 对应的本征波函数解析形式为：
 \begin{equation}
-\Psi(\mathbf{r})=\frac{1}{2} \pi^{-3} / 2 A e^{-r^{2} / 2} \Gamma(-v) U\left(-v, \frac{3}{2}, r^{2}\right)
+\Psi(\Vector{r})=\frac{1}{2} \pi^{-3} / 2 A e^{-r^{2} / 2} \Gamma(-v) U\left(-v, \frac{3}{2}, r^{2}\right)
 \end{equation}
 其能谱随着散射长度如图~\ref{chap1busch}~所示：
 \begin{figure}[!htbp]
@@ -141,15 +129,15 @@ c_{n}=A \frac{\varphi_{n}^{*}(0)}{E_{n}-E}
 
 我们讨论$\uparrow\downarrow\uparrow$的费米子三体体系，仅在不同自旋费米子之间有s波散射相互作用\cite{OlshaniiRigorous2001,Petrov2003unitary3b,Fleix2006prlunitary3b,Felix2006praunitary3b,LmDuan2007levelcrossing,Stetcu2007,Blume2008,Blume2010,Xiaji2009prl,Xiaji20103b,Rittenhouse2010green}。我们用Bethe-Peierls条件代替：
 \begin{equation}
-\psi\left(\mathbf{r}_{1}, \mathbf{r}_{2}, \mathbf{r}_{3}\right)=\left(\frac{1}{r_{i j}}-\frac{1}{a}\right) A\left(\mathbf{R}_{i j}, \mathbf{r}_{k}\right)+O\left(r_{i j}\right)
+\psi\left(\Vector{r}_{1}, \Vector{r}_{2}, \Vector{r}_{3}\right)=\left(\frac{1}{r_{i j}}-\frac{1}{a}\right) A\left(\Vector{R}_{i j}, \Vector{r}_{k}\right)+O\left(r_{i j}\right)
 \end{equation}
-其中$r_{i j} \equiv\left|\mathbf{r}_{i}-\mathbf{r}_{j}\right| \rightarrow 0$，$\mathbf{R}_{ij}$为两原子的质心位置。
+其中$r_{i j} \equiv\left|\Vector{r}_{i}-\Vector{r}_{j}\right| \rightarrow 0$，$\Vector{R}_{ij}$为两原子的质心位置。
 
 三维情况下这种体系的求解\cite{Fleix2006prlunitary3b}借助于HyperSphere框架，先引入Jacobi坐标：
 \begin{equation}
 \begin{split}
 \Vector{r}&=\Vector{r}_{2}-\Vector{r}_{1}\\
-\boldsymbol{\rho}&=\left(2 \mathbf{r}_{3}-\mathbf{r}_{1}-\mathbf{r}_{2}\right) / \sqrt{3}\\
+\boldsymbol{\rho}&=\left(2 \Vector{r}_{3}-\Vector{r}_{1}-\Vector{r}_{2}\right) / \sqrt{3}\\
 \Vector{C}&=\left(\Vector{r}_{1}+\Vector{r}_{2}+\Vector{r}_{3}\right) / 3\\
 \end{split}
 \end{equation}
@@ -197,24 +185,24 @@ E=E_{\mathrm{c} . \mathrm{m} .}+\left(s_{l, n}+1+2 q\right) \hbar \omega
 对于非幺正极限的相互作用情况，只能完全借助数值方法。Duan\cite{LmDuan2007levelcrossing}用格林函数的方法数值求解了整个相互作用区间。与上述框架稍有不同，哈密顿量为：
 \begin{equation}
 \begin{aligned}
-&{\left[-\frac{\hbar^{2}}{m_{0}}\left(\nabla_{\mathbf{x}}^{2}+\nabla_{\mathbf{y}}^{2}\right)+\frac{1}{4} m_{0} \omega^{2}\left(\mathbf{x}^{2}+\mathbf{y}^{2}\right)-E\right] \Psi(\mathbf{x}, \mathbf{y})} \\
-&\quad=-\sum V\left(\mathbf{r}_{\pm}\right) \Psi(\mathbf{x}, \mathbf{y})
+&{\left[-\frac{\hbar^{2}}{m_{0}}\left(\nabla_{\Vector{x}}^{2}+\nabla_{\Vector{y}}^{2}\right)+\frac{1}{4} m_{0} \omega^{2}\left(\Vector{x}^{2}+\Vector{y}^{2}\right)-E\right] \Psi(\Vector{x}, \Vector{y})} \\
+&\quad=-\sum V\left(\Vector{r}_{\pm}\right) \Psi(\Vector{x}, \Vector{y})
 \end{aligned}
 \end{equation}
 其中$\Vector{y}$为两个$\uparrow$费米子间相对位置。$\frac{\sqrt{\Vector{x}}}{2}$为$\downarrow$费米子相对两$\uparrow$费米子质心的相对位置。波函数在氢原子本征基矢下下展开，求解格林函数并利用边界条件，其中$\Vector{r}_{\pm}=\sqrt{3} \Vector{x} / 2 \pm \Vector{y} / 2$。
 \begin{equation}
 \begin{aligned}
 &\Psi(\Vector{x}, \Vector{y})= \int d \Vector{x}^{\prime} d \Vector{y}^{\prime} G_{E}^{(2)}\left(\Vector{x}, \Vector{y} ; \Vector{x}^{\prime}, \Vector{y}^{\prime}\right)\times \sum_{\pm} \frac{\mp \hbar^{2} f\left(\Vector{r}^{\prime}{ }_{\perp, \pm}\right)}{m_{0}} \delta\left(\Vector{r}^{\prime}{ }_{\pm}\right)\\
-&G_{E}^{(2)}\left(\mathbf{x}, \Vector{y} ; \mathbf{x}^{\prime}, \Vector{y}^{\prime}\right)=\sum_{\lambda_{1} \lambda_{2}} \frac{\psi_{\lambda_{1}}(\Vector{x}) \psi_{\lambda_{2}}(\Vector{y}) \psi_{\lambda_{1}}^{*}\left(\Vector{x}^{\prime}\right) \psi_{\lambda_{2}}^{*}\left(\Vector{y}^{\prime}\right)}{E_{\lambda_{1}}+E_{\lambda_{2}}-E}\\
+&G_{E}^{(2)}\left(\Vector{x}, \Vector{y} ; \Vector{x}^{\prime}, \Vector{y}^{\prime}\right)=\sum_{\lambda_{1} \lambda_{2}} \frac{\psi_{\lambda_{1}}(\Vector{x}) \psi_{\lambda_{2}}(\Vector{y}) \psi_{\lambda_{1}}^{*}\left(\Vector{x}^{\prime}\right) \psi_{\lambda_{2}}^{*}\left(\Vector{y}^{\prime}\right)}{E_{\lambda_{1}}+E_{\lambda_{2}}-E}\\
 \end{aligned}
 \end{equation}
 其中$\psi_\lambda(\Vector{r}) = R_{nl}(r)Y_l^m(\theta,\phi)$，$\lambda = (n,l,m),n=0,1,2...,l=0,1,2...$，$\Vector{r}_{\perp, \pm}=\Vector{x} / 2 \mp \sqrt{3} \Vector{y} / 2$边界条件为：
 \begin{equation}
-\Psi(\Vector{x}, \Vector{y}) \simeq \mp \frac{f\left(\Vector{r}_{\perp, \pm}\right)}{4 \pi \Vector{r}_{\pm}}\left(1-\frac{\mathbf{r}_{\pm}}{a}\right) \text { for } \Vector{r}_{\pm} \rightarrow 0
+\Psi(\Vector{x}, \Vector{y}) \simeq \mp \frac{f\left(\Vector{r}_{\perp, \pm}\right)}{4 \pi \Vector{r}_{\pm}}\left(1-\frac{\Vector{r}_{\pm}}{a}\right) \text { for } \Vector{r}_{\pm} \rightarrow 0
 \end{equation}
-进一步将$f\left(\mathbf{r}_{\perp}\right)$展开：
+进一步将$f\left(\Vector{r}_{\perp}\right)$展开：
 \begin{equation}
-f\left(\mathbf{r}_{\perp}\right)=\Sigma_{\lambda} f_{\lambda} \psi_{\lambda}\left(\mathbf{r}_{\perp}\right)
+f\left(\Vector{r}_{\perp}\right)=\Sigma_{\lambda} f_{\lambda} \psi_{\lambda}\left(\Vector{r}_{\perp}\right)
 \end{equation}
 得到$f_\lambda$满足的矩阵方程：
 \begin{equation}
@@ -222,7 +210,7 @@ f\left(\mathbf{r}_{\perp}\right)=\Sigma_{\lambda} f_{\lambda} \psi_{\lambda}\lef
 \end{equation}
 其中：
 \begin{equation}
-A_{\lambda \lambda^{\prime}}=\int \frac{d \mathbf{r}_{\perp}}{4 \pi d^{3} \hbar \omega} G_{E-E_{\lambda^{\prime}}}\left(\frac{\sqrt{3} \mathbf{r}_{\perp}}{2}, 0\right) \psi_{\lambda}^{*}\left(\mathbf{r}_{\perp}\right) \psi_{\lambda^{\prime}}\left(\frac{-\mathbf{r}_{\perp}}{2}\right)
+A_{\lambda \lambda^{\prime}}=\int \frac{d \Vector{r}_{\perp}}{4 \pi d^{3} \hbar \omega} G_{E-E_{\lambda^{\prime}}}\left(\frac{\sqrt{3} \Vector{r}_{\perp}}{2}, 0\right) \psi_{\lambda}^{*}\left(\Vector{r}_{\perp}\right) \psi_{\lambda^{\prime}}\left(\frac{-\Vector{r}_{\perp}}{2}\right)
 \end{equation}
 最终得到能谱如图~\ref{duancrossing}~所示，通过跟两体能量的比较作者进一步发现了能级交叉。
 \begin{figure}[!htbp]
@@ -236,8 +224,8 @@ A_{\lambda \lambda^{\prime}}=\int \frac{d \mathbf{r}_{\perp}}{4 \pi d^{3} \hbar 
 后续研究者\cite{Xiaji2009prl}则用两体本征波函数作为基矢展开求解了整个相互作用区间的严格解，其采用的展开波函数为：
 \begin{equation}
 \begin{split}
-\psi_{3 b}^{\mathrm{rel}}(\mathbf{r}, \rho)&=\left(1-\mathcal{P}_{13}\right) \chi(\mathbf{r}, \rho)\\
-\chi(\mathbf{r}, \rho)&=\sum a_{n} \psi_{2 b}^{\mathrm{rel}}\left(r ; v_{l, n}\right) R_{n l}(\rho) Y_{l}^{m}(\hat{\rho})\\
+\psi_{3 b}^{\mathrm{rel}}(\Vector{r}, \rho)&=\left(1-\mathcal{P}_{13}\right) \chi(\Vector{r}, \rho)\\
+\chi(\Vector{r}, \rho)&=\sum a_{n} \psi_{2 b}^{\mathrm{rel}}\left(r ; v_{l, n}\right) R_{n l}(\rho) Y_{l}^{m}(\hat{\rho})\\
 \end{split}
 \end{equation}
 其中$\psi_{2 b}^{\mathrm{rel}}$代表费米子1，2相对运动的波函数，对应能量为$E_{2b}=(2v_{l,n}+3/2)\hbar\omega$，而$R_{nl}(\rho Y^m_l(\hat{\rho}))$，其中$l,m$是系统的好量子数，代表了相对角动量与其沿z方向的分量。其物理图像非常清晰，将其中一个$\uparrow$费米子与$\downarrow$费米子结合在一起成为二聚体，第三个费米子相对于这个二聚体的运动由$a_n$所描述。最终求解方程：
@@ -257,8 +245,8 @@ A_{\lambda \lambda^{\prime}}=\int \frac{d \mathbf{r}_{\perp}}{4 \pi d^{3} \hbar 
 与此同时，研究者Xiaji\cite{Xiaji20103b}还研究了二维体系下，三体精确解，采用类似的办法，
 \begin{equation}
 \begin{split}
-\psi_{3 f}^{r e l}&=\left(1-\mathcal{P}_{13}\right) \chi(\mathbf{r}, \vec{\rho})\\
-\chi(\mathbf{r}, \vec{\rho})&=\sum_{n} a_{n}^{f} \psi_{2 p}^{r e l}\left(\mathbf{r} ; \nu_{m, n}\right) R_{n m}(\rho) \frac{e^{i m \varphi}}{\sqrt{2 \pi}}\\
+\psi_{3 f}^{r e l}&=\left(1-\mathcal{P}_{13}\right) \chi(\Vector{r}, \vec{\rho})\\
+\chi(\Vector{r}, \vec{\rho})&=\sum_{n} a_{n}^{f} \psi_{2 p}^{r e l}\left(\Vector{r} ; \nu_{m, n}\right) R_{n m}(\rho) \frac{e^{i m \varphi}}{\sqrt{2 \pi}}\\
 \end{split}
 \end{equation}
 得到整个相互作用的能谱。同时Blume研究了从三维到二维一维的渡越\cite{blume2012}，通过各项异性的谐振子束缚体系的求解来研究维度的渡越。
@@ -319,11 +307,11 @@ A_{\lambda \lambda^{\prime}}=\int \frac{d \mathbf{r}_{\perp}}{4 \pi d^{3} \hbar 
 \end{equation}
 其中$\phi_F$由N个不同谐振子能级波构成。一旦相互作用不在共振处，这些简并的能级就会打开简并，其打开简并的方式恰好可以被自旋链模型所描述。
 \begin{equation}
-H_{\mathrm{eff}}=\sum_{l} \frac{J_{l}}{g}\left(\mathbf{s}_{l} \cdot \mathbf{s}_{l+1}-\frac{1}{4}\right)
+H_{\mathrm{eff}}=\sum_{l} \frac{J_{l}}{g}\left(\Vector{s}_{l} \cdot \Vector{s}_{l+1}-\frac{1}{4}\right)
 \end{equation}
 其中自旋之间的耦合常数满足：
 \begin{equation}
-J_{l}=\left.2 N !\left(\frac{1}{m}\right)^{2} \int d \mathbf{x}\left|\frac{\partial \phi_{F}}{\partial x_{i j}}\right|_{x_{i j}=0}\right|^{2} \theta\left(\cdots<x_{i}=x_{j}<\cdots\right)
+J_{l}=\left.2 N !\left(\frac{1}{m}\right)^{2} \int d \Vector{x}\left|\frac{\partial \phi_{F}}{\partial x_{i j}}\right|_{x_{i j}=0}\right|^{2} \theta\left(\cdots<x_{i}=x_{j}<\cdots\right)
 \end{equation}
 具体的计算参见\cite{Guan2009exact,Santos2014spinchain,Yang2016effective}
 \begin{figure}[!htbp]
@@ -344,9 +332,9 @@ J_{l}=\left.2 N !\left(\frac{1}{m}\right)^{2} \int d \mathbf{x}\left|\frac{\part
 光晶格中费米型碱土金属原子服从的哈密顿量为：
 \begin{equation}
 \begin{aligned}
-\hat{H}=& \sum_{\alpha m} \int \mathrm{d}^{3} \mathbf{r} \hat{\Psi}_{\alpha m}^{\dagger}(\mathbf{r})\left(-\frac{\hbar^{2}}{2 M} \nabla^{2}+V_{\alpha,opt}(\mathbf{r})\right) \hat{\Psi}_{\alpha m}(\mathbf{r}) \\
-&+\hbar \omega_{0} \int \mathrm{d}^{3} \mathbf{r}\left(\hat{\rho}_{e}(\mathbf{r})-\hat{\rho}_{g}(\mathbf{r})\right)+ \sum_{\alpha, m<m^{\prime}} g_{\alpha \alpha} \int \mathrm{d}^{3} \mathbf{r} \hat{\rho}_{\alpha m}(\mathbf{r}) \hat{\rho}_{\alpha m^{\prime}}(\mathbf{r})  \\
-&+ g_{e g^+} \int \mathrm{d}^{3} \mathbf{r} \hat{\rho}_{eg^+}(\mathbf{r}) \hat{\rho}_{eg^+}(\mathbf{r})+g_{e g^-} \int \mathrm{d}^{3} \mathbf{r} \hat{\rho}_{eg^-}(\mathbf{r}) \hat{\rho}_{eg^-}(\mathbf{r})\\
+\hat{H}=& \sum_{\alpha m} \int \mathrm{d}^{3} \Vector{r} \hat{\Psi}_{\alpha m}^{\dagger}(\Vector{r})\left(-\frac{\hbar^{2}}{2 M} \nabla^{2}+V_{\alpha,opt}(\Vector{r})\right) \hat{\Psi}_{\alpha m}(\Vector{r}) \\
+&+\hbar \omega_{0} \int \mathrm{d}^{3} \Vector{r}\left(\hat{\rho}_{e}(\Vector{r})-\hat{\rho}_{g}(\Vector{r})\right)+ \sum_{\alpha, m<m^{\prime}} g_{\alpha \alpha} \int \mathrm{d}^{3} \Vector{r} \hat{\rho}_{\alpha m}(\Vector{r}) \hat{\rho}_{\alpha m^{\prime}}(\Vector{r})  \\
+&+ g_{e g^+} \int \mathrm{d}^{3} \Vector{r} \hat{\rho}_{eg^+}(\Vector{r}) \hat{\rho}_{eg^+}(\Vector{r})+g_{e g^-} \int \mathrm{d}^{3} \Vector{r} \hat{\rho}_{eg^-}(\Vector{r}) \hat{\rho}_{eg^-}(\Vector{r})\\
 \end{aligned}
 \end{equation}
 其中$\alpha=g({^1S_0})$或者$e({}^3P_0)$代表不同电子内态的原子。$m=-I,...,I$对应核自旋分量。$eg^+$与$eg^-$对应散射通道：
@@ -363,9 +351,9 @@ J_{l}=\left.2 N !\left(\frac{1}{m}\right)^{2} \int d \mathbf{x}\left|\frac{\part
 如果将$\hat{\rho}_{eg^\pm}$展开，我们得到不同轨道原子间的相互作用$\hat{V}_{eg}$分成了自旋交换与自旋守恒的两项：
 \begin{equation}
 \begin{aligned}
-\hat{V}_{eg^+} &= g_{e g^+} \int \mathrm{d}^{3} \mathbf{r} \hat{\rho}_{eg^+}(\mathbf{r}) \hat{\rho}_{eg^+}(\mathbf{r})+g_{e g^-} \int \mathrm{d}^{3} \mathbf{r} \hat{\rho}_{eg^-}(\mathbf{r}) \hat{\rho}_{eg^-}(\mathbf{r})\\
-\quad &= \frac{g_{e g}^{+}+g_{e g}^{-}}{2} \int \mathrm{d}^{3} \mathbf{r} \rho_{e}(\mathbf{r}) \rho_{g}(\mathbf{r}) \\ 
-&\quad \quad + \frac{g_{e g}^{+}-g_{e g}^{-}}{2} \sum_{m m^{\prime}} \int \mathrm{d}^{3} \mathbf{r} \Psi_{g m}^{\dagger}(\mathbf{r}) \Psi_{e m^{\prime}}^{\dagger}(\mathbf{r}) \Psi_{g m^{\prime}}(\mathbf{r}) \Psi_{e m}(\mathbf{r})
+\hat{V}_{eg^+} &= g_{e g^+} \int \mathrm{d}^{3} \Vector{r} \hat{\rho}_{eg^+}(\Vector{r}) \hat{\rho}_{eg^+}(\Vector{r})+g_{e g^-} \int \mathrm{d}^{3} \Vector{r} \hat{\rho}_{eg^-}(\Vector{r}) \hat{\rho}_{eg^-}(\Vector{r})\\
+\quad &= \frac{g_{e g}^{+}+g_{e g}^{-}}{2} \int \mathrm{d}^{3} \Vector{r} \rho_{e}(\Vector{r}) \rho_{g}(\Vector{r}) \\ 
+&\quad \quad + \frac{g_{e g}^{+}-g_{e g}^{-}}{2} \sum_{m m^{\prime}} \int \mathrm{d}^{3} \Vector{r} \Psi_{g m}^{\dagger}(\Vector{r}) \Psi_{e m^{\prime}}^{\dagger}(\Vector{r}) \Psi_{g m^{\prime}}(\Vector{r}) \Psi_{e m}(\Vector{r})
 \end{aligned}
 \end{equation}
 最后，将整个二次量子化哈密顿量在光晶格紧束缚近似下写为：
@@ -377,7 +365,7 @@ J_{l}=\left.2 N !\left(\frac{1}{m}\right)^{2} \int d \mathbf{x}\left|\frac{\part
 \end{equation}
 其中$\hat{n}_{j\alpha}=\sum_m \hat{n}_{j\alpha m}$，$V=\left(U_{e g}^{+}+U_{e g}^{-}\right) / 2$与$V_{ex}=\left(U_{e g}^{+}-U_{e g}^{-}\right) / 2$分别描述不同轨道原子间的自旋不变与自旋交换相互作用，其中：
 \begin{equation}
-U_{eg^\pm} = g_{eg^\pm} \int \mathrm{d}^{3} \mathbf{r} w_e^2(\mathbf{r})w_g^2(\mathbf{r})
+U_{eg^\pm} = g_{eg^\pm} \int \mathrm{d}^{3} \Vector{r} w_e^2(\Vector{r})w_g^2(\Vector{r})
 \end{equation}
 有了上述丰富的轨道间相互作用与核自旋SU(N)自由度，这一模型可以用来模拟众多凝聚态物理中强关联多体模型，比如近藤晶格模型、自旋链模型、自旋液体等。
 
@@ -390,7 +378,7 @@ U_{eg^\pm} = g_{eg^\pm} \int \mathrm{d}^{3} \mathbf{r} w_e^2(\mathbf{r})w_g^2(\m
 \end{figure}
 该实验选取不同电子排布（$g({}^1S_0)$与$e({}^3P_0)$）的${}^{173}$Yb（$I=5/2$）原子，束缚在较深（原子不能自由移动）的光晶格中，在每个格点里面，原子间的相互作用能为：
 \begin{equation}
-U_{X}=\frac{4 \pi \hbar^{2}}{m} a_{X} \int \mathrm{d}^{3} r w_{a}^{2}(\mathbf{r}) w_{b}^{2}(\mathbf{r})
+U_{X}=\frac{4 \pi \hbar^{2}}{m} a_{X} \int \mathrm{d}^{3} r w_{a}^{2}(\Vector{r}) w_{b}^{2}(\Vector{r})
 \end{equation}
 其中$X =gg, ee, eg^+, eg^−$代表不同状态的原子对。装载不同核自旋的$g$轨道原子到光晶格中，平均填充在$\bar{n}=1$与$\bar{n}=2$之间，这样导致部分格点内有一个原子，部分格点内有两个原子。对于有两个原子的格点，用激光将一个原子从g态激发到e态，末态有两个本征态$|eg^\pm\rangle$，本征能量为$U_{eg^\pm}$。如果在体系中加入沿$z$方向的磁场，导致$|eg^\pm\rangle$两态之间有非零的跃迁矩阵元，最终的哈密顿量为：
 \begin{equation}
@@ -481,9 +469,9 @@ a_{e g}^{-}& = 219.5 a_0\\
     \label{2dfp}
 \end{figure}
 
-随着实验技术的成熟，对于极化子探索的方向也有所扩展。比如极化子动力学研究\cite{cetina2016ultrafast}、有限温度下的极化子\cite{YanBoiling}、以及利用轨道Feshbach共振调节的极化子等\cite{Darkwah2019}。
+随着实验技术的成熟，对于极化子探索的方向也有所扩展。比如极化子动力学研究\cite{Cetina2015decoherence,cetina2016ultrafast}、有限温度下的极化子\cite{YanBoiling}、以及利用轨道Feshbach共振调节的极化子等\cite{Darkwah2019}。
 
-除了上述吸引极化子与排斥极化子的研究之外，还有关于极化子-分子转变的研究。在极化子到分子的转变研究中，对于单极化子来说是个一阶转变。最近通过Raman光谱，研究者进一步揭示了存在有限密度和有限温度下极化子到分子的转变会被连续化。通过制备不同内态的${}^{40}$K原子：$|1\rangle$ 作为背景费米海和 $|2\rangle$作为杂质。通过Raman过程将$|2\rangle$激发到$|3\rangle$，跃迁几率是动量依赖的，这是与传统的rf谱很大的不同，收集最终的谱信号并与一定假设下理论预测的Raman能谱去拟合，解析出最终的极化子单粒子性质。其中准粒子剩余如图~\ref{fpsmooth}~所示，可以看到在有限温度以及极化子密度下一阶转变变为了连续转变。
+除了上述吸引极化子与排斥极化子的拓展研究之外，还有关于极化子-分子转变的研究。在极化子到分子的转变研究中，对于单极化子来说是个一阶转变。最近通过Raman光谱，研究者进一步揭示了存在有限密度和有限温度下极化子到分子的转变会被连续化。通过制备不同内态的${}^{40}$K原子：$|1\rangle$ 作为背景费米海和 $|2\rangle$作为杂质。通过Raman过程将$|2\rangle$激发到$|3\rangle$，跃迁几率是动量依赖的，这是与传统的rf谱很大的不同，收集最终的谱信号并与一定假设下理论预测的Raman能谱去拟合，解析出最终的极化子单粒子性质。其中准粒子剩余如图~\ref{fpsmooth}~所示，可以看到在有限温度以及极化子密度下一阶转变变为了连续转变。
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{chap1smooth.png}
@@ -521,7 +509,7 @@ a_{e g}^{-}& = 219.5 a_0\\
 \end{equation}
 采用Chevy变分波函数：
 \begin{equation}
-\left|\psi_{0}\right\rangle=\left(\phi_{0} d_{\mathbf{0}}^{\dagger}+\sum_{\mathbf{k}, \mathbf{q}}^{\prime} \phi_{\mathbf{k q}} d_{\mathbf{q}-\mathbf{k}}^{\dagger} u_{\mathbf{k}}^{\dagger} u_{\mathbf{q}}\right)\left|\mathrm{FS} \mathbf{S}_{\uparrow}^{N}\right\rangle
+\left|\psi_{0}\right\rangle=\left(\phi_{0} d_{\Vector{0}}^{\dagger}+\sum_{\Vector{k}, \Vector{q}}^{\prime} \phi_{\Vector{k q}} d_{\Vector{q}-\Vector{k}}^{\dagger} u_{\Vector{k}}^{\dagger} u_{\Vector{q}}\right)\left|\mathrm{FS} \Vector{S}_{\uparrow}^{N}\right\rangle
 \end{equation}
 带入到薛定谔方程中得到：
 \begin{equation}
@@ -536,42 +524,80 @@ E=\sum_{q<k_{F}} \frac{1}{\sum_{k>k_{F}}\left(\frac{1}{\epsilon_{\boldsymbol{k}}
 \end{equation}
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.7\textwidth]{chap1pmE.png}
+    \includegraphics[width=0.7\textwidth]{chap1fpspectrum.png}
     \bicaption{单粒子空穴近似下的吸引极化子与排斥极化子能量。摘自\citep{massignan2014polarons}}{Energy of attractive and repulsive fermi polarons under 1 p-h approximation. Reprinted from\citep{massignan2014polarons}}
     \label{fpchevyE}
 \end{figure}
-求解可以得到吸引极化子与排斥极化子能量，如图~\ref{fpchevyE}~所示。另一方面采用T矩阵单粒子空穴激发近似的费曼图计算杂质原子的自能也可以得到上述相同的自洽方程\cite{Combescot20071ph}。令人惊讶的是这样简单的图像在强相互作用的共振处依然可以成立。其背后的原因在于高阶项的抵消作用\cite{Combescot20071ph008full}。
+求解可以得到吸引极化子与排斥极化子能量，如图~\ref{fpchevyE}~所示。能谱可以分为三部分，吸引极化子、分子连续态、排斥极化子。在弱相互作用区间，基态为极化子态，本征能量为$E_-$，在BCS极限下$E_{-}=2 \pi a n_{\uparrow} / m_{r}$。虽相互作用增强越过共振点，基态变为分子态。杂质原子与背景费米海中任意位置的一个原子配对形成分子，带来一段连续能谱区间，宽度大约为$E_F$。在BEC极限下，$E+{mol}=E_{2b}$。同样的在强相互作用区间，远离基态的激发态中有一支upper brach，代表的是原子之间有效地互相排斥，形成排斥极化子。对应自洽方程的解$E_+$。在BEC极限下，我们有$E_{+}=2 \pi a n_{\uparrow} / m_{r}$。
+另一方面采用T矩阵单粒子空穴激发近似的费曼图计算杂质原子的自能也可以得到上述相同的自洽方程\cite{Combescot20071ph}。
+
+令人惊讶的是这样简单的图像在强相互作用的共振处依然可以成立。其背后的原因在于高阶粒子空穴激发的抵消作用\cite{Combescot20071ph008full}。
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.7\textwidth]{chap1pmE.png}
+    \includegraphics[width=0.5\textwidth]{chap1pmE.png}
     \bicaption{极化子-分子转变。摘自\citep{Punk_pm}}{Polaron-molecule transition. Reprinted from\citep{Punk_pm}}
     \label{pmE}
 \end{figure}
-当相互作用越过共振点，极化子能量越来越低，物理图像上一个杂质原子吸引一个背景费米子形成一个分子，完成极化子到分子的转变。这一转变最早的研究来自于\cite{Mora_pm,Punk_pm,combescot2010analytical}。
+当相互作用越过共振点，极化子能量越来越低，物理图像上一个杂质原子吸引一个背景费米子形成一个分子，完成极化子到分子的转变。这一转变最早的研究来自于\cite{Mora_pm,Punk_pm,combescot2010analytical,Trefzger2012Impurity}。
 利用新的分子态变分波函数，也可以求得一支被费米海修饰的分子态的能量解，这支分子态能量与极化子能量在$1/k_Fa_S=0.84$处相交，对应体系基态发生了极化子到分子的转变，如图~\ref{pmE}~所示：
 \begin{equation}
-\left|\psi_{0}\right\rangle=\left(\sum_{\mathbf{k}}^{\prime} \xi_{\mathbf{k}} d_{-\mathbf{k}}^{\dagger} u_{\mathbf{k}}^{\dagger}+\sum_{\mathbf{k}^{\prime}, \mathbf{k}, \mathbf{q}}{ }^{\prime} \xi_{\mathbf{k}^{\prime} \mathbf{k q}} d_{\mathbf{q}-\mathbf{k}-\mathbf{k}^{\prime}}^{\dagger} u_{\mathbf{k}^{\prime}}^{\dagger} u_{\mathbf{k}}^{\dagger} u_{\mathbf{q}}\right)\left|\mathrm{FS}_{\uparrow}^{N-1}\right\rangle
+\left|\psi_{0}\right\rangle=\left(\sum_{\Vector{k}}^{\prime} \xi_{\Vector{k}} d_{-\Vector{k}}^{\dagger} u_{\Vector{k}}^{\dagger}+\sum_{\Vector{k}^{\prime}, \Vector{k}, \Vector{q}}{ }^{\prime} \xi_{\Vector{k}^{\prime} \Vector{k q}} d_{\Vector{q}-\Vector{k}-\Vector{k}^{\prime}}^{\dagger} u_{\Vector{k}^{\prime}}^{\dagger} u_{\Vector{k}}^{\dagger} u_{\Vector{q}}\right)\left|\mathrm{FS}_{\uparrow}^{N-1}\right\rangle
 \end{equation}
 
-以上变分法
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{chap1MCeffectm.png}
+    \bicaption{极化子-分子转变。摘自\citep{Prokoffermi}}{Polaron-molecule transition. Reprinted from\citep{Prokoffermi}}
+    \label{MCeffectm}
+\end{figure}
+通过改变杂质原子与背景费米子的质量比，我们还可以观察到三聚体的形成\cite{Mathy2011trimers}。
+
+极化子到分子的转变除了上述变分方法的研究之外，利用量子蒙特卡罗算法也可以研究极化子体系。最早在极化气体中利用Fixed-node蒙卡算法可以求得低杂质密度下费米液体行为\cite{Pilati2008phase}。 利用图蒙卡可以得到转变点为$1/k_Fa_S=0.9$，相应地极化子与分子的单粒子性质比如有效质量在转变点附近发散，如图~\ref{MCeffectm}~所示 准粒子剩余等也可以得到\cite{Prokoffermi,Prokofbold,VlietinckMC}。后续对于排斥极化子对应的极化气体中的铁磁关联也有一定的量子蒙特卡罗数值研究\cite{Conduit2009Inhomo,Pilati2010Itinerant,chang2011ferromagnetism}。除了蒙特卡罗数值以外，通过泛函重整化群也可以得到吸引极化子和排斥极化子的谱密度\cite{Schmidt2011excitation}。
+
+在费米极化子实验测量中，最常用的测量手段是rf谱测量。理论上rf谱相应的计算最早来自\cite{Massignan2008Twin}，其原理可用简单的三态模型来阐述，制备少量$|1\rangle$态原子与背景$|2\rangle$态原子，之间的相互作用可以调节。然后用rf脉冲将一部分$|1\rangle$态激发到与1，2体系没有相互作用的$|0\rangle$态，rf激发场的哈密顿量为：
+\begin{equation}
+H_{\mathrm{rf}}=\frac{\Omega}{2} \int \mathrm{d}^{3} r\left[\mathrm{e}^{-\mathrm{i} \omega t} \psi_{1}^{\dagger}(\boldsymbol{r}, t) \psi_{0}(\boldsymbol{r}, t)+\text { h.c. }\right]
+\end{equation}
+在$|1\rangle$态原子数目很小的情况下，线性响应理论成立，rf场诱导的转化几率随频率变化$R(\omega)$：
+\begin{equation}
+R(\omega) \propto-\operatorname{Im} \mathcal{D}(\omega) \equiv-\int \mathrm{d}^{3} r \mathrm{~d}^{3} r^{\prime} \operatorname{Im} \mathcal{D}\left(\boldsymbol{r}, \boldsymbol{r}^{\prime}, \omega\right)
+\end{equation}
+其中$\mathcal{D}(\omega)$为推迟格林函数：
+\begin{equation}
+G(\boldsymbol{r},\boldsymbol{r}^{\prime},t,t^{\prime}) = -\mathrm{i} \theta\left(t-t^{\prime}\right)\left\langle\left[\psi_{1}^{\dagger}(\boldsymbol{r}, t) \psi_{0}(\boldsymbol{r}, t)\right.\right.\left.\left.\psi_{0}^{\dagger}\left(\boldsymbol{r}^{\prime}, t^{\prime}\right) \psi_{1}\left(\boldsymbol{r}^{\prime}, t^{\prime}\right)\right]\right\rangle
+\end{equation}
+的傅立叶变换。仅考虑1，2态原子存在相互作用的情况下，可以得到：
+\begin{equation}
+\begin{split}
+&\operatorname{Im} \mathcal{D}(\omega)=-\frac{1}{2} \int \frac{\mathrm{d}^{3} k}{(2 \pi)^{3}} \int \frac{\mathrm{d} \epsilon}{2 \pi}[f(\epsilon)-f(\epsilon+\tilde{\omega})] \\
+&\quad \times A_{0}(\boldsymbol{k}, \epsilon) A_{1}(\boldsymbol{k}, \epsilon+\tilde{\omega})
+\end{split}
+\end{equation}
+其中$f(x)=[\exp (\beta x)+1]^{-1}$为费米分布。根据转变的方向可将rf谱分为两类：正向与逆向。初始态仅少量$|1\rangle$原子，rf场将与背景有相互作用的$|1\rangle$原子激发到与背景无相互作用的$|0\rangle$原子，此即正向rf谱。若初始态为少量$|0\rangle$
+原子，rf场将与背景无相互作用的$|0\rangle$原子激发到与背景有相互作用的$|1\rangle$原子，此即逆向rf谱。逆向谱的优势在于可以测量整个频率区间的谱相应。
+
+
+除了上述三维的研究之外，低维情况下的极化子也有很多研究，低维下涨落变得更加重要，任意吸引势下都会存在束缚态。在二维下与三维结论蕾丝：极化子-分子转变依然被认为存在\cite{Zollner2011Polarons,Parish2011pm,Lewenstein2013spinchain012High}。吸引极化子与排斥极化子也存在\cite{Schmidt2012fermi,Ngampruetikorn_2012}。但是在一维下，N+1的体系存在贝特假设严格解\cite{mcguire1965interacting,mcguire1966interacting}，但是变分波函数依然可以给出与贝特假设严格解一致的结果，即一维下不存在极化子到分子的转变\cite{Giraud2009highly,Leskinen_2010,Astrakharchik2013trapped}。
+
+
+受到实验上对于费米极化子研究的拓展的启发，理论方面也扩展到关于动力学演化与有限温度下费米极化子的研究。基于实验上对Ramesy信号的测量，Parish利用截断粒子空穴的波函数方法\cite{Parish2016quantum}，发现在短程相互作用下，$t\ll \tau_F$时间内，Ramesy信号具有行为：
+\begin{equation}
+S(t) \simeq 1-\frac{8 e^{-i \pi / 4}\left(m / m_{r}\right)^{3 / 2}}{9 \pi^{3 / 2}}\left(\frac{t}{\tau_{F}}\right)^{\frac{3}{2}}
+\end{equation}
+这与期望中的微扰论平方行为完全不同，并且不依赖于散射长度。长时间行为可以通过数值求解得到。进一步将变分方法利用密度矩阵形式扩展到有限温度，并得到与实验\cite{cetina2016ultrafast}符合很好的动力学\cite{Liu2019variational}，如图~\ref{RamseyParish}~所示：
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1fpRamseyParish.png}
+    \bicaption{Ramesy信号实验与理论的比较。摘自\citep{Liu2019variational}}{Polaron-molecule transition. Reprinted from\citep{Liu2019variational}}
+    \label{RamseyParish}
+\end{figure}
+
+
+另一方面基于有限温度极化子实验的启发\cite{YanBoiling}，吸引极化子、排斥极化子、分子极化子相变以及rf谱测量谱函数等概念在有限温度下的命运也得到了充分的理论研究，随着温度的升高，极化子的准粒子性质被破坏，相干性降低\cite{tajima2018many,Hu2018attractive,mulkerin2019breakdown,Taylor2019thermal,Liu2020Radio,Liu2020theory,Parish2021thermodynamic}。
 
 
 
-这一转变点除了上述变分方法的研究之外，利用量子蒙特卡罗算法也可以研究极化子体系。最早在极化气体中利用Fixed-node蒙卡算法可以求得低杂质密度下费米液体行为\cite{Pilati2008phase}。 利用图蒙卡可以得到转变点为$1/k_Fa_S=0.9$，相应地极化子与分子的单粒子性质比如有效质量在转变点附近发散，准粒子剩余等也可以得到\cite{Prokoffermi,Prokofbold,VlietinckMC}。后续对于排斥极化子对应的极化气体中的铁磁关联也有一定的量子蒙特卡罗数值研究。除了蒙特卡罗数值以外，通过泛函重整化群也可以得到吸引极化子和排斥极化子的谱密度。
 
-FRG SchmidtR,
-
-rf spectrum Massignan P
-
-
-除了上述三维的研究之外，低维情况下的极化子也有研究，在二维下，
-
-2D, 1D
-
-
-拓扑极化子
-
-最新进展
 
 
 

@@ -17,208 +17,72 @@
 \providecommand*\HyPL@Entry[1]{}
 \HyPL@Entry{0<</S/r>>}
 \HyPL@Entry{6<</S/R>>}
-\citation{sowinski2019one,blume2012few}
-\citation{nielsen2001three,braaten2006universality,KohlerMolFRRMP}
-\citation{greiner2002quantum,EsslingerFermiSea,Esslinger1DMol,Esslinger3DMol,Ospelkaus3DMol,Hecker3DMol,SalaCIRMol}
-\citation{Esslinger3DMol}
-\citation{Esslinger3DMol}
-\citation{Esslinger3DMol}
-\citation{Esslinger3DMol}
-\citation{SerwaneDeterministic,zurn2012fermionization,WenzFermiSeaOnebyOne,Zurn2013Pairing,MurmannSpinChain,MurmannTwoFermionDoubleWell,RontaniTunneling}
+\citation{Peng2021Nature}
 \HyPL@Entry{18<</S/D>>}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第1章\hspace  {.3em}}绪论}{1}{chapter.1}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第1章\hspace  {.3em}}极化子-分子转变的本质}{1}{chapter.1}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\newlabel{chap:kondo}{{1}{1}{绪论}{chapter.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.1}冷原子概述}{1}{section.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.1}冷原子基本实验技术}{1}{subsection.1.1.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.2}费米子少体体系}{1}{section.1.2}}
-\newlabel{sec:fewbody}{{1.2}{1}{费米子少体体系}{section.1.2}{}}
-\citation{SerwaneDeterministic}
-\citation{SerwaneDeterministic}
-\citation{SerwaneDeterministic}
-\citation{SerwaneDeterministic}
-\citation{zurn2012fermionization}
-\citation{zurn2012fermionization}
-\citation{zurn2012fermionization}
-\citation{zurn2012fermionization}
-\citation{WenzFermiSeaOnebyOne}
-\citation{WenzFermiSeaOnebyOne}
-\citation{WenzFermiSeaOnebyOne}
-\citation{WenzFermiSeaOnebyOne}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}费米少体实验}{2}{subsection.1.2.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces 三维光晶格中的Feshbach分子态。散点代表不同晶格深度的实验数据。实线代表理论数据。摘自 \citep  {Esslinger3DMol}\relax }}{2}{figure.caption.16}}
+\newlabel{chap2polaron}{{1}{1}{极化子-分子转变的本质}{chapter.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}引言}{1}{section.1.1}}
+\citation{edwards2013smooth}
+\citation{Sagi2020}
+\citation{Cui2020Fermi}
+\citation{edwards2013smooth}
+\citation{Peng2021Nature}
+\citation{Peng2021Nature}
+\citation{Peng2021Nature}
+\citation{Peng2021Nature}
+\citation{shi2018variational}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces  极化子-分子转变的示意图，其中$\delimiter "3223379 $原子为杂质，$\delimiter "3222378 $原子为背景。在弱的相互作用区间，基态处于零动量极化子，物理图像为零动量的杂质被背景费米海上的粒子空穴激发多修饰。到了强相互作用区间，体系基态从$\boldsymbol  {Q}=0$变为了$|\boldsymbol  {Q}|=k_F$，背景费米面上的一个原子与杂质配对形成$M(0)$的分子态，这个原子可以是费米面上任意方向的原子，因此带来了整个费米面的简并度。此时变分波函数$M_{2n}(0)$对应了这一简并中的一个对称破却态。摘自\citep  {Peng2021Nature} \relax }}{4}{figure.caption.16}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{3dmol}{{1.1}{2}{三维光晶格中的Feshbach分子态。散点代表不同晶格深度的实验数据。实线代表理论数据。摘自 \citep {Esslinger3DMol}\relax }{figure.caption.16}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces 图A表示降低深度使原子漏出来制备少体的示意图。图B为实验测到的少体体系平均粒子数与方差。 摘自 \citep  {SerwaneDeterministic} \relax }}{3}{figure.caption.17}}
-\newlabel{deter}{{1.2}{3}{图A表示降低深度使原子漏出来制备少体的示意图。图B为实验测到的少体体系平均粒子数与方差。 摘自 \citep {SerwaneDeterministic} \relax }{figure.caption.17}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces 不同的有效一维相互作用下两体费米子隧穿几率。谐振子势阱中两体体系的能量决定了隧穿几率。其中在共振点处相互作用费米子$\delimiter "3222378 \delimiter "3223379 $能量等于无相互作用全同费米子$\delimiter "3222378 \delimiter "3222378 $能量，发生费米化。 摘自 \citep  {zurn2012fermionization} \relax }}{3}{figure.caption.18}}
-\newlabel{ferminization}{{1.3}{3}{不同的有效一维相互作用下两体费米子隧穿几率。谐振子势阱中两体体系的能量决定了隧穿几率。其中在共振点处相互作用费米子$\uparrow \downarrow $能量等于无相互作用全同费米子$\uparrow \uparrow $能量，发生费米化。 摘自 \citep {zurn2012fermionization} \relax }{figure.caption.18}{}}
-\citation{MurmannSpinChain}
-\citation{MurmannSpinChain}
-\citation{MurmannSpinChain}
-\citation{MurmannSpinChain}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces  图A为谐振子势阱中1+N体系能谱示意图。图B为实验测得的rf脉冲谱。图C为能量密度。摘自 \citep  {WenzFermiSeaOnebyOne} \relax }}{4}{figure.caption.19}}
-\newlabel{fermisea}{{1.4}{4}{图A为谐振子势阱中1+N体系能谱示意图。图B为实验测得的rf脉冲谱。图C为能量密度。摘自 \citep {WenzFermiSeaOnebyOne} \relax }{figure.caption.19}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}费米少体理论}{4}{subsection.1.2.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces  不同少体体系$\delimiter "3223379 $原子隧穿几率随一维有效相互作用的变化，a为(2,1)，b为(3,1)，c为(2,2)。散点为实验测得数据。线条代表不同的自旋链模型计算得到的隧穿几率。摘自 \citep  {MurmannSpinChain} \relax }}{5}{figure.caption.20}}
-\newlabel{chap1spinchainexp}{{1.5}{5}{不同少体体系$\downarrow $原子隧穿几率随一维有效相互作用的变化，a为(2,1)，b为(3,1)，c为(2,2)。散点为实验测得数据。线条代表不同的自旋链模型计算得到的隧穿几率。摘自 \citep {MurmannSpinChain} \relax }{figure.caption.20}{}}
-\citation{blume2012few}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces 摘自1D少体势阱\relax }}{6}{figure.caption.21}}
-\newlabel{chap1busch}{{1.6}{6}{摘自1D少体势阱\relax }{figure.caption.21}{}}
-\citation{OlshaniiRigorous2001,Petrov2003unitary3b,Fleix2006prlunitary3b,Felix2006praunitary3b,LmDuan2007levelcrossing,Stetcu2007,Blume2008,Blume2010,Xiaji2009prl,Xiaji20103b,Rittenhouse2010green}
-\citation{Fleix2006prlunitary3b}
-\citation{Fleix2006prlunitary3b}
-\citation{Fleix2006prlunitary3b}
-\citation{Fleix2006prlunitary3b}
-\citation{Fleix2006prlunitary3b}
-\citation{Fleix2006prlunitary3b}
-\citation{Fleix2006prlunitary3b}
-\citation{LmDuan2007levelcrossing}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces 幺正极限下$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $三体体系$s_{l,n}$数值结果。摘自\cite  {Fleix2006prlunitary3b} \relax }}{8}{figure.caption.22}}
-\newlabel{Sv}{{1.7}{8}{幺正极限下$\uparrow \downarrow \uparrow $三体体系$s_{l,n}$数值结果。摘自\cite {Fleix2006prlunitary3b} \relax }{figure.caption.22}{}}
-\citation{LmDuan2007levelcrossing}
-\citation{LmDuan2007levelcrossing}
-\citation{LmDuan2007levelcrossing}
-\citation{LmDuan2007levelcrossing}
-\citation{LmDuan2007levelcrossing}
-\citation{LmDuan2007levelcrossing}
-\citation{Xiaji2009prl}
-\citation{Xiaji2009prl}
-\citation{Xiaji2009prl}
-\citation{Xiaji2009prl}
-\citation{Xiaji2009prl}
-\citation{Xiaji2009prl}
-\citation{Xiaji2009prl}
-\citation{Xiaji20103b}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces 三维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $能谱。摘自\citep  {LmDuan2007levelcrossing}\relax }}{10}{figure.caption.23}}
-\newlabel{duancrossing}{{1.8}{10}{三维下三费米子体系$\uparrow \downarrow \uparrow $能谱。摘自\citep {LmDuan2007levelcrossing}\relax }{figure.caption.23}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.9}{\ignorespaces 二维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $的能谱。摘自\citep  {Xiaji2009prl}\relax }}{10}{figure.caption.24}}
-\newlabel{xiaji3d}{{1.9}{10}{二维下三费米子体系$\uparrow \downarrow \uparrow $的能谱。摘自\citep {Xiaji2009prl}\relax }{figure.caption.24}{}}
-\citation{blume2012}
-\citation{Rittenhouse2010green,d2014three,loft2015variational,andersen2016interpolatory,bellotti2017comparing}
-\citation{d2014three}
-\citation{d2014three}
-\citation{d2014three}
-\citation{d2014three}
-\citation{d2014three}
-\citation{d2014three}
-\citation{Blume2010,blume2012few}
-\citation{Guan2009exact,ma2009mathematical,Lewenstein2013spinchain,volosniev2014strongly,Busch013spinchain,CuiHo2014,Santos2014spinchain,Puhan2015spinchain,Yang2016effective}
-\citation{Guan2009exact}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.10}{\ignorespaces 一维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $的能谱。摘自\citep  {d2014three} \relax }}{12}{figure.caption.25}}
-\newlabel{1d3b}{{1.10}{12}{一维下三费米子体系$\uparrow \downarrow \uparrow $的能谱。摘自\citep {d2014three} \relax }{figure.caption.25}{}}
-\citation{Guan2009exact,Santos2014spinchain,Yang2016effective}
-\citation{Santos2014spinchain}
-\citation{Santos2014spinchain}
-\citation{Santos2014spinchain}
-\citation{Santos2014spinchain}
-\citation{gorshkov2010two}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.11}{\ignorespaces 少体自旋1/2费米子体系无限大排斥附近的自旋链有效模型。摘自\citep  {Santos2014spinchain} \relax }}{13}{figure.caption.26}}
-\newlabel{spinchainth}{{1.11}{13}{少体自旋1/2费米子体系无限大排斥附近的自旋链有效模型。摘自\citep {Santos2014spinchain} \relax }{figure.caption.26}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}自旋交换相互作用}{13}{section.1.3}}
-\newlabel{sec:spin-exchange}{{1.3}{13}{自旋交换相互作用}{section.1.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.12}{\ignorespaces 摘自SU(N)\relax }}{14}{figure.caption.27}}
-\newlabel{eg}{{1.12}{14}{摘自SU(N)\relax }{figure.caption.27}{}}
-\citation{scazza2014observation}
-\citation{scazza2014observation}
-\citation{scazza2014observation}
-\citation{scazza2014observation}
-\citation{scazza2014observation}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.13}{\ignorespaces 图A代表单原子与双原子初态到末态的跃迁。图B代表末态的能谱。摘自\citep  {scazza2014observation}\relax }}{15}{figure.caption.28}}
-\newlabel{egexp}{{1.13}{15}{图A代表单原子与双原子初态到末态的跃迁。图B代表末态的能谱。摘自\citep {scazza2014observation}\relax }{figure.caption.28}{}}
-\citation{scazza2014observation,cappellini2014direct}
-\citation{cappellini2014direct}
-\citation{cappellini2014direct}
-\citation{cappellini2014direct}
-\citation{cappellini2014direct}
-\citation{scazza2014observation,cappellini2014direct}
-\citation{zhang2014spectroscopic}
-\citation{zhang2016kondo,cheng2017enhancing,zhang2018control,ji2018confinement,zhang2020tight,zhang2020controlling}
-\citation{riegger2018localized}
-\citation{riegger2018localized,zhang2020controlling}
-\citation{riegger2018localized,zhang2020controlling}
-\citation{riegger2018localized,zhang2020controlling}
-\citation{riegger2018localized,zhang2020controlling}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.14}{\ignorespaces 图a代表实验测到的吸收谱，不同的峰代表了不同的末态。图b代表观测到自旋交换体系的的自旋动力学。摘自\citep  {cappellini2014direct}\relax }}{17}{figure.caption.29}}
-\newlabel{egd}{{1.14}{17}{图a代表实验测到的吸收谱，不同的峰代表了不同的末态。图b代表观测到自旋交换体系的的自旋动力学。摘自\citep {cappellini2014direct}\relax }{figure.caption.29}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.15}{\ignorespaces 图a代表准一维体系z方向上自旋相关的晶格制造巡游费米子与局域费米子。图b代表自旋交换发生的过程。图c，d分别代表实验测量与理论预测的束缚诱导增强下的自旋交换动力学。摘自\citep  {riegger2018localized,zhang2020controlling}\relax }}{18}{figure.caption.30}}
-\newlabel{CIRspexexp}{{1.15}{18}{图a代表准一维体系z方向上自旋相关的晶格制造巡游费米子与局域费米子。图b代表自旋交换发生的过程。图c，d分别代表实验测量与理论预测的束缚诱导增强下的自旋交换动力学。摘自\citep {riegger2018localized,zhang2020controlling}\relax }{figure.caption.30}{}}
-\citation{landau1933bewegung,pekar1946autolocalization,frohlich1950xx,frohlich1954electrons,feynman1955slow,mahanmany}
-\citation{Schirotzekobservation}
-\citation{Schirotzekobservation}
-\citation{Schirotzekobservation}
-\citation{Schirotzekobservation}
-\citation{Schirotzekobservation}
-\citation{Schirotzekobservation}
-\citation{Schirotzekobservation}
-\citation{Schirotzekobservation}
-\citation{Schirotzekobservation}
-\citation{Schirotzekobservation}
-\citation{Schirotzekobservation}
-\citation{Schirotzekobservation}
-\citation{Schirotzekobservation}
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}极化子理论与实验}{19}{section.1.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.16}{\ignorespaces 费米极化子的示意图。相互作用从弱变强依次从极化子变到分子。摘自\citep  {Schirotzekobservation}\relax }}{19}{figure.caption.31}}
-\newlabel{fp}{{1.16}{19}{费米极化子的示意图。相互作用从弱变强依次从极化子变到分子。摘自\citep {Schirotzekobservation}\relax }{figure.caption.31}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.1}极化子实验}{19}{subsection.1.4.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.17}{\ignorespaces 图a为实验测到的（散点）以及理论预测（黑色实线）的费米极化子能量随相互作用变化曲线。图b为rf谱峰的位置随杂质密度的变化。摘自\citep  {Schirotzekobservation}\relax }}{20}{figure.caption.32}}
-\newlabel{fpE}{{1.17}{20}{图a为实验测到的（散点）以及理论预测（黑色实线）的费米极化子能量随相互作用变化曲线。图b为rf谱峰的位置随杂质密度的变化。摘自\citep {Schirotzekobservation}\relax }{figure.caption.32}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.18}{\ignorespaces 准粒子剩余随着相互作用与密度的变化。摘自\citep  {Schirotzekobservation}\relax }}{20}{figure.caption.33}}
-\newlabel{fpZ}{{1.18}{20}{准粒子剩余随着相互作用与密度的变化。摘自\citep {Schirotzekobservation}\relax }{figure.caption.33}{}}
-\citation{kohstall2012metastability}
-\citation{kohstall2012metastability}
-\citation{kohstall2012metastability}
-\citation{kohstall2012metastability}
-\citation{kohstall2012metastability}
-\citation{Scazzarepulsive}
-\citation{koschorreck2012attractive}
-\citation{cetina2016ultrafast}
-\citation{YanBoiling}
-\citation{Darkwah2019}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.19}{\ignorespaces 图a（弱）与b（强）为不同rf场强下测到的吸收谱。\citep  {kohstall2012metastability}\relax }}{21}{figure.caption.34}}
-\newlabel{upfp}{{1.19}{21}{图a（弱）与b（强）为不同rf场强下测到的吸收谱。\citep {kohstall2012metastability}\relax }{figure.caption.34}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.20}{\ignorespaces 摘自SU(N) exp\relax }}{22}{figure.caption.35}}
-\newlabel{2dfp}{{1.20}{22}{摘自SU(N) exp\relax }{figure.caption.35}{}}
-\citation{Sagi2020}
-\citation{Sagi2020}
-\citation{Sagi2020}
-\citation{Sagi2020}
-\citation{chevy2006}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.21}{\ignorespaces 拟合Raman谱得到的准粒子剩余$Z$。摘自\citep  {Sagi2020}\relax }}{23}{figure.caption.36}}
-\newlabel{fpsmooth}{{1.21}{23}{拟合Raman谱得到的准粒子剩余$Z$。摘自\citep {Sagi2020}\relax }{figure.caption.36}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.2}极化子理论}{23}{subsection.1.4.2}}
-\citation{massignan2014polarons}
-\citation{massignan2014polarons}
-\citation{massignan2014polarons}
-\citation{massignan2014polarons}
-\citation{Combescot20071ph}
-\citation{Combescot20071ph008full}
-\citation{Punk_pm}
-\citation{Punk_pm}
-\citation{Punk_pm}
-\citation{Punk_pm}
-\citation{Punk_pm}
-\citation{Punk_pm}
-\citation{Mora_pm,Punk_pm,combescot2010analytical}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.22}{\ignorespaces 单粒子空穴近似下的吸引极化子与排斥极化子能量。摘自\citep  {massignan2014polarons}\relax }}{24}{figure.caption.37}}
-\newlabel{fpchevyE}{{1.22}{24}{单粒子空穴近似下的吸引极化子与排斥极化子能量。摘自\citep {massignan2014polarons}\relax }{figure.caption.37}{}}
+\newlabel{polaronillustration}{{1.1}{4}{极化子-分子转变的示意图，其中$\downarrow $原子为杂质，$\uparrow $原子为背景。在弱的相互作用区间，基态处于零动量极化子，物理图像为零动量的杂质被背景费米海上的粒子空穴激发多修饰。到了强相互作用区间，体系基态从$\Vector {Q}=0$变为了$|\Vector {Q}|=k_F$，背景费米面上的一个原子与杂质配对形成$M(0)$的分子态，这个原子可以是费米面上任意方向的原子，因此带来了整个费米面的简并度。此时变分波函数$M_{2n}(0)$对应了这一简并中的一个对称破却态。摘自\citep {Peng2021Nature} \relax }{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}模型}{5}{section.1.2}}
+\newlabel{chap3eq:H}{{1.2}{5}{模型}{equation.1.2.2}{}}
+\newlabel{eq0}{{1.9}{7}{模型}{equation.1.2.9}{}}
+\newlabel{wf_m}{{1.16}{7}{模型}{equation.1.2.14}{}}
+\newlabel{relation}{{1.20}{8}{模型}{equation.1.2.20}{}}
+\newlabel{corr1}{{1.21}{8}{模型}{equation.1.2.21}{}}
+\newlabel{corr2}{{1.22}{8}{模型}{equation.1.2.22}{}}
+\citation{Cui2020Fermi}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}结果}{9}{section.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}3D}{9}{subsection.1.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces 三维下单杂质极化子能量，能量平移两体束缚能$E_{2b}=-1/(ma_s^2)$。\relax }}{9}{figure.caption.17}}
+\newlabel{fig_mol_3D}{{1.2}{9}{三维下单杂质极化子能量，能量平移两体束缚能$E_{2b}=-1/(ma_s^2)$。\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces 不同相互作用下变分波函数的角度分布。我们用($|{\boldsymbol  {k} }|,\theta _k,\phi _k$)表征${\boldsymbol  {k} }$，其中$\theta _k$取值范围是$[0,\pi )$，$\phi _k$取值范围是$[0,2\pi )$。在图例中我们选取 ${\boldsymbol  {k} }=(1.32k_F, 0.53, 0.44),\ {\boldsymbol  {k'} } = (2.64k_F, 0.53, 0.44),\ {\boldsymbol  {q'} }= (k_F, 0, 0.44)$, and ${\boldsymbol  {q} } = (k_F,\theta _q,0.44)$ in $\alpha _{\boldsymbol  {k}\boldsymbol  {q}}\equiv \psi _{\boldsymbol  {k}\boldsymbol  {q}}/\psi _0 $ and $\alpha _{ \boldsymbol  {k}\boldsymbol  {k}'\boldsymbol  {q} \boldsymbol  {q}' }\equiv \psi _{\boldsymbol  {k}\boldsymbol  {k}'\boldsymbol  {q} \boldsymbol  {q}' }/\psi _0$.。 \relax }}{10}{figure.caption.18}}
+\newlabel{fig_wf}{{1.3}{10}{不同相互作用下变分波函数的角度分布。我们用($|{\Vector {k} }|,\theta _k,\phi _k$)表征${\Vector {k} }$，其中$\theta _k$取值范围是$[0,\pi )$，$\phi _k$取值范围是$[0,2\pi )$。在图例中我们选取 ${\Vector {k} }=(1.32k_F, 0.53, 0.44),\ {\Vector {k'} } = (2.64k_F, 0.53, 0.44),\ {\Vector {q'} }= (k_F, 0, 0.44)$, and ${\Vector {q} } = (k_F,\theta _q,0.44)$ in $\alpha _{\Vector {k}\Vector {q}}\equiv \psi _{\Vector {k}\Vector {q}}/\psi _0 $ and $\alpha _{ \Vector {k}\Vector {k}'\Vector {q} \Vector {q}' }\equiv \psi _{\Vector {k}\Vector {k}'\Vector {q} \Vector {q}' }/\psi _0$.。 \relax }{figure.caption.18}{}}
+\citation{Cui2020Fermi}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces (a) 为三维不同相互作用下，$P_5(\boldsymbol  {Q})$(实线)的色散关系。从上到下依次为$1/(k_Fa_s)=0.2,\ 0.5,\ 0.55,\ 0.6,\ 0.7,\ 0.8,\ 0.9,\ 1.2$，能量偏移$E_{\boldsymbol  {Q}=0}$。方形散点描述的是能量的极大值。黑色圆点代表的是$M_4({\boldsymbol  {Q} }_{\rm  M})$解出的能量，其中动量平移了$k_F$。 \relax }}{11}{figure.caption.19}}
+\newlabel{fig_transition_3D}{{1.4}{11}{(a) 为三维不同相互作用下，$P_5(\Vector {Q})$(实线)的色散关系。从上到下依次为$1/(k_Fa_s)=0.2,\ 0.5,\ 0.55,\ 0.6,\ 0.7,\ 0.8,\ 0.9,\ 1.2$，能量偏移$E_{\Vector {Q}=0}$。方形散点描述的是能量的极大值。黑色圆点代表的是$M_4({\Vector {Q} }_{\rm M})$解出的能量，其中动量平移了$k_F$。 \relax }{figure.caption.19}{}}
+\newlabel{E_M}{{1.24}{11}{3D}{equation.1.3.24}{}}
 \citation{Prokoffermi,Prokofbold}
-\citation{VlietinckMC}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.23}{\ignorespaces 极化子-分子转变。摘自\citep  {Punk_pm}\relax }}{25}{figure.caption.38}}
-\newlabel{pmE}{{1.23}{25}{极化子-分子转变。摘自\citep {Punk_pm}\relax }{figure.caption.38}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {附录 A\hspace  {.3em}}中国科学院大学学位论文撰写要求}{27}{appendix.A}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces V-1ph与V-2ph得到的不同动量态的准粒子留数$Z$随相互作用的变化。\relax }}{12}{figure.caption.20}}
+\newlabel{fig_z}{{1.5}{12}{V-1ph与V-2ph得到的不同动量态的准粒子留数$Z$随相互作用的变化。\relax }{figure.caption.20}{}}
+\citation{Peng2021Nature}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.2}2D}{13}{subsection.1.3.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces 二维下V-2ph与V-1ph得到的能量。为了展示差异我们将能量大小平移二体束缚能$E_{2b}=-1/(ma_{2d}^2)$。\relax }}{13}{figure.caption.21}}
+\newlabel{2d_1}{{1.6}{13}{二维下V-2ph与V-1ph得到的能量。为了展示差异我们将能量大小平移二体束缚能$E_{2b}=-1/(ma_{2d}^2)$。\relax }{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces (a)为二维下不同相互作用下$P_5(\boldsymbol  {Q})$（实线）本征能量的色散关系。自上而下$\qopname  \relax o{ln}(k_Fa_{2d})=-0.8,-0.9,-1.0,-1.1,-1.2$。能量偏移$\boldsymbol  {Q}=0$时的能量。黑色小点代表$M_4({\boldsymbol  {Q} }_{\rm  M})$变分波函数得到的能量。其动量关系为$|{\boldsymbol  {Q} }_{\rm  M}|$。(b)为V-Gph得到色散关系。从上到下相互作用强度为$\qopname  \relax o{ln}(k_Fa_{2d})=-0.5, -0.6, -0.7, -0.8, -0.9, -1.0$。同样能量平移$\boldsymbol  {Q}=0$时的能量。其中$Q=|{\boldsymbol  {Q} }|$。 \relax }}{15}{figure.caption.22}}
+\newlabel{2d_2}{{1.7}{15}{(a)为二维下不同相互作用下$P_5(\Vector {Q})$（实线）本征能量的色散关系。自上而下$\ln (k_Fa_{2d})=-0.8,-0.9,-1.0,-1.1,-1.2$。能量偏移$\Vector {Q}=0$时的能量。黑色小点代表$M_4({\Vector {Q} }_{\rm M})$变分波函数得到的能量。其动量关系为$|{\Vector {Q} }_{\rm M}|$。(b)为V-Gph得到色散关系。从上到下相互作用强度为$\ln (k_Fa_{2d})=-0.5, -0.6, -0.7, -0.8, -0.9, -1.0$。同样能量平移$\Vector {Q}=0$时的能量。其中$Q=|{\Vector {Q} }|$。 \relax }{figure.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces V-2ph与V-Gph变分波函数得到的$Q=0$与$Q=k_F$基态能量的随耦合常常数的变化。能量以$E_{2b}=-1/(ma_{2d}^2)$ 为原点。\relax }}{16}{figure.caption.23}}
+\newlabel{2d_3}{{1.8}{16}{V-2ph与V-Gph变分波函数得到的$Q=0$与$Q=k_F$基态能量的随耦合常常数的变化。能量以$E_{2b}=-1/(ma_{2d}^2)$ 为原点。\relax }{figure.caption.23}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}小结与展望}{16}{section.1.4}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {附录 A\hspace  {.3em}}中国科学院大学学位论文撰写要求}{17}{appendix.A}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{27}{section.A.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.2}测试公式编号 $\Lambda ,\lambda ,\theta ,\mathaccentV {bar}B16{\Lambda },\sqrt  {S_{NN}}$}{27}{section.A.2}}
-\newlabel{sec:testmath}{{A.2}{27}{测试公式编号 \texorpdfstring {$\Lambda ,\lambda ,\theta ,\bar {\Lambda },\sqrt {S_{NN}}$}{$\textLambda ,\textlambda ,\texttheta ,\bar {\textLambda },\sqrt {S_{NN}}$}}{section.A.2}{}}
-\newlabel{eq:appedns}{{A.1}{27}{测试公式编号 \texorpdfstring {$\Lambda ,\lambda ,\theta ,\bar {\Lambda },\sqrt {S_{NN}}$}{$\textLambda ,\textlambda ,\texttheta ,\bar {\textLambda },\sqrt {S_{NN}}$}}{equation.A.2.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{17}{section.A.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.2}测试公式编号 $\Lambda ,\lambda ,\theta ,\mathaccentV {bar}B16{\Lambda },\sqrt  {S_{NN}}$}{17}{section.A.2}}
+\newlabel{sec:testmath}{{A.2}{17}{测试公式编号 \texorpdfstring {$\Lambda ,\lambda ,\theta ,\bar {\Lambda },\sqrt {S_{NN}}$}{$\textLambda ,\textlambda ,\texttheta ,\bar {\textLambda },\sqrt {S_{NN}}$}}{section.A.2}{}}
+\newlabel{eq:appedns}{{A.1}{17}{测试公式编号 \texorpdfstring {$\Lambda ,\lambda ,\theta ,\bar {\Lambda },\sqrt {S_{NN}}$}{$\textLambda ,\textlambda ,\texttheta ,\bar {\textLambda },\sqrt {S_{NN}}$}}{equation.A.2.1}{}}
 \bibdata{Biblio/ref}
-\@writefile{toc}{\contentsline {chapter}{参考文献}{29}{section*.39}}
-\@writefile{toc}{\contentsline {chapter}{致谢}{29}{appendix*.40}}
+\bibcite{Peng2021Nature}{{1}{2021}{{Peng {等}}}{{Peng, Liu, Zhang, and Cui}}}
+\bibcite{edwards2013smooth}{{2}{2013}{{Edwards}}{{}}}
+\bibcite{Sagi2020}{{3}{2020}{{Ness {等}}}{{Ness, Shkedrov, Florshaim, Diessel, von Milczewski, Schmidt, and Sagi}}}
+\bibcite{Cui2020Fermi}{{4}{2020}{{Cui}}{{}}}
+\bibcite{shi2018variational}{{5}{2018}{{Shi {等}}}{{Shi, Demler, and Cirac}}}
+\@writefile{toc}{\contentsline {chapter}{参考文献}{19}{section*.24}}
+\@writefile{toc}{\contentsline {chapter}{致谢}{21}{appendix*.26}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{31}{appendix*.41}}
+\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{23}{appendix*.27}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}

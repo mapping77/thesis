@@ -1,27 +1,12 @@
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces 三维光晶格中的Feshbach分子态。散点代表不同晶格深度的实验数据。实线代表理论数据。摘自 \citep {Esslinger3DMol}\relax }}{2}{figure.caption.16}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces 图A表示降低深度使原子漏出来制备少体的示意图。图B为实验测到的少体体系平均粒子数与方差。 摘自 \citep {SerwaneDeterministic} \relax }}{3}{figure.caption.17}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces 不同的有效一维相互作用下两体费米子隧穿几率。谐振子势阱中两体体系的能量决定了隧穿几率。其中在共振点处相互作用费米子$\delimiter "3222378 \delimiter "3223379 $能量等于无相互作用全同费米子$\delimiter "3222378 \delimiter "3222378 $能量，发生费米化。 摘自 \citep {zurn2012fermionization} \relax }}{3}{figure.caption.18}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces 图A为谐振子势阱中1+N体系能谱示意图。图B为实验测得的rf脉冲谱。图C为能量密度。摘自 \citep {WenzFermiSeaOnebyOne} \relax }}{4}{figure.caption.19}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces 不同少体体系$\delimiter "3223379 $原子隧穿几率随一维有效相互作用的变化，a为(2,1)，b为(3,1)，c为(2,2)。散点为实验测得数据。线条代表不同的自旋链模型计算得到的隧穿几率。摘自 \citep {MurmannSpinChain} \relax }}{5}{figure.caption.20}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces 摘自1D少体势阱\relax }}{6}{figure.caption.21}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces 幺正极限下$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $三体体系$s_{l,n}$数值结果。摘自\cite {Fleix2006prlunitary3b} \relax }}{8}{figure.caption.22}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces 三维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $能谱。摘自\citep {LmDuan2007levelcrossing}\relax }}{10}{figure.caption.23}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces 二维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $的能谱。摘自\citep {Xiaji2009prl}\relax }}{10}{figure.caption.24}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces 一维下三费米子体系$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $的能谱。摘自\citep {d2014three} \relax }}{12}{figure.caption.25}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces 少体自旋1/2费米子体系无限大排斥附近的自旋链有效模型。摘自\citep {Santos2014spinchain} \relax }}{13}{figure.caption.26}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces 摘自SU(N)\relax }}{14}{figure.caption.27}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces 图A代表单原子与双原子初态到末态的跃迁。图B代表末态的能谱。摘自\citep {scazza2014observation}\relax }}{15}{figure.caption.28}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces 图a代表实验测到的吸收谱，不同的峰代表了不同的末态。图b代表观测到自旋交换体系的的自旋动力学。摘自\citep {cappellini2014direct}\relax }}{17}{figure.caption.29}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces 图a代表准一维体系z方向上自旋相关的晶格制造巡游费米子与局域费米子。图b代表自旋交换发生的过程。图c，d分别代表实验测量与理论预测的束缚诱导增强下的自旋交换动力学。摘自\citep {riegger2018localized,zhang2020controlling}\relax }}{18}{figure.caption.30}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces 费米极化子的示意图。相互作用从弱变强依次从极化子变到分子。摘自\citep {Schirotzekobservation}\relax }}{19}{figure.caption.31}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces 图a为实验测到的（散点）以及理论预测（黑色实线）的费米极化子能量随相互作用变化曲线。图b为rf谱峰的位置随杂质密度的变化。摘自\citep {Schirotzekobservation}\relax }}{20}{figure.caption.32}
-\contentsline {figure}{\numberline {1.18}{\ignorespaces 准粒子剩余随着相互作用与密度的变化。摘自\citep {Schirotzekobservation}\relax }}{20}{figure.caption.33}
-\contentsline {figure}{\numberline {1.19}{\ignorespaces 图a（弱）与b（强）为不同rf场强下测到的吸收谱。\citep {kohstall2012metastability}\relax }}{21}{figure.caption.34}
-\contentsline {figure}{\numberline {1.20}{\ignorespaces 摘自SU(N) exp\relax }}{22}{figure.caption.35}
-\contentsline {figure}{\numberline {1.21}{\ignorespaces 拟合Raman谱得到的准粒子剩余$Z$。摘自\citep {Sagi2020}\relax }}{23}{figure.caption.36}
-\contentsline {figure}{\numberline {1.22}{\ignorespaces 单粒子空穴近似下的吸引极化子与排斥极化子能量。摘自\citep {massignan2014polarons}\relax }}{24}{figure.caption.37}
-\contentsline {figure}{\numberline {1.23}{\ignorespaces 极化子-分子转变。摘自\citep {Punk_pm}\relax }}{25}{figure.caption.38}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces 极化子-分子转变的示意图，其中$\delimiter "3223379 $原子为杂质，$\delimiter "3222378 $原子为背景。在弱的相互作用区间，基态处于零动量极化子，物理图像为零动量的杂质被背景费米海上的粒子空穴激发多修饰。到了强相互作用区间，体系基态从$\boldsymbol {Q}=0$变为了$|\boldsymbol {Q}|=k_F$，背景费米面上的一个原子与杂质配对形成$M(0)$的分子态，这个原子可以是费米面上任意方向的原子，因此带来了整个费米面的简并度。此时变分波函数$M_{2n}(0)$对应了这一简并中的一个对称破却态。摘自\citep {Peng2021Nature} \relax }}{4}{figure.caption.16}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces 三维下单杂质极化子能量，能量平移两体束缚能$E_{2b}=-1/(ma_s^2)$。\relax }}{9}{figure.caption.17}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces 不同相互作用下变分波函数的角度分布。我们用($|{\boldsymbol {k} }|,\theta _k,\phi _k$)表征${\boldsymbol {k} }$，其中$\theta _k$取值范围是$[0,\pi )$，$\phi _k$取值范围是$[0,2\pi )$。在图例中我们选取 ${\boldsymbol {k} }=(1.32k_F, 0.53, 0.44),\ {\boldsymbol {k'} } = (2.64k_F, 0.53, 0.44),\ {\boldsymbol {q'} }= (k_F, 0, 0.44)$, and ${\boldsymbol {q} } = (k_F,\theta _q,0.44)$ in $\alpha _{\boldsymbol {k}\boldsymbol {q}}\equiv \psi _{\boldsymbol {k}\boldsymbol {q}}/\psi _0 $ and $\alpha _{ \boldsymbol {k}\boldsymbol {k}'\boldsymbol {q} \boldsymbol {q}' }\equiv \psi _{\boldsymbol {k}\boldsymbol {k}'\boldsymbol {q} \boldsymbol {q}' }/\psi _0$.。 \relax }}{10}{figure.caption.18}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces (a) 为三维不同相互作用下，$P_5(\boldsymbol {Q})$(实线)的色散关系。从上到下依次为$1/(k_Fa_s)=0.2,\ 0.5,\ 0.55,\ 0.6,\ 0.7,\ 0.8,\ 0.9,\ 1.2$，能量偏移$E_{\boldsymbol {Q}=0}$。方形散点描述的是能量的极大值。黑色圆点代表的是$M_4({\boldsymbol {Q} }_{\rm M})$解出的能量，其中动量平移了$k_F$。 \relax }}{11}{figure.caption.19}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces V-1ph与V-2ph得到的不同动量态的准粒子留数$Z$随相互作用的变化。\relax }}{12}{figure.caption.20}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces 二维下V-2ph与V-1ph得到的能量。为了展示差异我们将能量大小平移二体束缚能$E_{2b}=-1/(ma_{2d}^2)$。\relax }}{13}{figure.caption.21}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces (a)为二维下不同相互作用下$P_5(\boldsymbol {Q})$（实线）本征能量的色散关系。自上而下$\qopname \relax o{ln}(k_Fa_{2d})=-0.8,-0.9,-1.0,-1.1,-1.2$。能量偏移$\boldsymbol {Q}=0$时的能量。黑色小点代表$M_4({\boldsymbol {Q} }_{\rm M})$变分波函数得到的能量。其动量关系为$|{\boldsymbol {Q} }_{\rm M}|$。(b)为V-Gph得到色散关系。从上到下相互作用强度为$\qopname \relax o{ln}(k_Fa_{2d})=-0.5, -0.6, -0.7, -0.8, -0.9, -1.0$。同样能量平移$\boldsymbol {Q}=0$时的能量。其中$Q=|{\boldsymbol {Q} }|$。 \relax }}{15}{figure.caption.22}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces V-2ph与V-Gph变分波函数得到的$Q=0$与$Q=k_F$基态能量的随耦合常常数的变化。能量以$E_{2b}=-1/(ma_{2d}^2)$ 为原点。\relax }}{16}{figure.caption.23}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
