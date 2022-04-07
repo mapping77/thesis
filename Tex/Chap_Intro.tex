@@ -4,13 +4,7 @@
 
 \section{冷原子概述}
 
-杂质物理，其中少体体系与多体体系
-
-冷原子物理作为一个新的平台，很多自身特性使得固体态物理、核物理中很多概念可以得到实验实现。同时平台本身独特的特性使得其他体系所不能研究的比如动力学等有了实验实体。
-
-冷却囚禁费米子技术，光晶格，Feshbach resonance，Confiment induced resonance
-
-在本文中我们在绪论部分给出两个研究的背景脉络，常用的研究方法。在后续的章节中基于这个图像我们详细介绍我们工作的动机，主要结果，以及后续展望。
+自1995年在实验室中首次在冷原子系统中观测到玻色爱因斯坦凝聚\cite{anderson1995observation,davis1995bose,Bradley1995evidence}以来，冷原子物理的研究已经成长为凝聚态物理中枝繁叶茂的研究领域。将束缚的稀薄原子气体冷却到其德布罗伊波厂与粒子平均距离可以比拟的时候，系统的量子力学效应显现。对于玻色子体系来讲经历相变进入玻色爱因斯坦凝聚。与${}^4$He超流不同的是原子气体之间相互作用很弱，可以用基于微观散射长度表征的有效理论来研究\cite{Dalfovo1999theory,Fetter2009rotating,pethick2008bose,pitaevskii2003bose}。进一步超冷费米气体在实验中制备出来，围绕超冷费米气体研究多体物理量子模拟掀起了又一次的研究热潮\cite{Giorgini2008theory}。这其中涌现了两个关键技术光晶格\cite{Bloch2008many}与Feshbah共振调节原子级有效相互作用\cite{Chin2010feshbach}极大地丰富了实验体系的制备与调节。使得很多固体物理中难以实现的体系可以人工地制造出来（如低维体系\cite{Cazalilla2011one,Guan2013fermi}），很多参数区间可以得到探索。在本文中我们将围绕以下介绍的近期实验体系展开相关背景研究介绍，为后须工作做好铺垫。
 
 
 \section{费米子少体体系}\label{sec:fewbody}
@@ -597,8 +591,87 @@ S(t) \simeq 1-\frac{8 e^{-i \pi / 4}\left(m / m_{r}\right)^{3 / 2}}{9 \pi^{3 / 2
 
 
 
+\section{本征热化假说}
+热化一直是统计物理中很基础的概念。统计物理中（经典与量子）宏观数目自由度体系在到达热力学平衡态之后，体系热力学性质可以仅用几个参数来描述（如温度、压强、化学势等），宏观可观测量由热力学统计分布给出。为什么宏观体系可以仅用几个参数来描述？宏观体系是如何到达热力学平衡态的？如何在量子力学的层面去理解这一热化现象？基于这些非常基本的问题，用来理解量子系统热化现象的假说——本征热化假说被提出。我们在这一节中详细介绍一下目前的研究进展。更加详细的讨论参见\cite{d2016quantum,deutsch2018eigenstate}。
+
+一个孤立体系的量子力学的演化是幺正的，从初态出发，初态在不同本征态上的权重是不随时间变化的。但是最终随着长时间的演化，系统的宏观可观测量不依赖于初态的权重分布。仅有几个参数所确定。此时一个自然的想法被提出来———本征热化假说\cite{Deutsch1991quantum,Srednicki1994chaos,srednicki1999approach}。其核心思想为对于能量处于$\bar{E}=\langle\psi_I|\hat{H}|\psi_I\rangle$附近的本征态，其局域算符的平均值是一样的。我们用形式化的语言来表述，考虑一个孤立系统$\hat{H}$，本征态于本征能量：$\hat{H}|m\rangle=E_m|m\rangle$。从任意初态出发时间演化得到t时刻波函数：
+\begin{equation}
+|\psi(t)\rangle=\sum_{m} C_{m} \mathrm{e}^{-i E_{m} t}|m\rangle
+\end{equation}
+其中$C_m = \langle m | \psi_I\rangle$，出于方便我们取$\hbar=1$。对某个局域算法可观测量$\hat{O}$来说，t时刻观测期望值为：
+\begin{equation}
+\begin{aligned}
+O(t) & \equiv\langle\psi(t)|\hat{O}| \psi(t)\rangle=\sum_{m, n} C_{m}^{*} C_{n} e^{i\left(E_{m}-E_{n}\right) t} O_{m n} \\
+&=\sum_{m}\left|C_{m}\right|^{2} O_{m m}+\sum_{m, n \neq m} C_{m}^{*} C_{n} e^{i\left(E_{m}-E_{n}\right) t} O_{m n}
+\end{aligned}
+\end{equation}
+其中$O_{m n}=\langle m|\hat{O}| n\rangle$。如果体系最终热化，则局域算符的长时间平均应该等于微正则系综平均，并且$O(t)$的长时间行为应该围绕这一平均值做热力学涨落。此时根据本征热化假说，对于热化的体系，$O_{mn}$满足：
+\begin{equation}
+O_{m n}=O(\bar{E}) \delta_{m n}+e^{-S(\bar{E}) / 2} f_{O}(\bar{E}, \omega) R_{m n}
+\end{equation}
+其中$\bar{E} \equiv\left(E_{m}+E_{n}\right) / 2, \omega \equiv E_{n}-E_{m}$。$S(E)$是能量为E时候的热力学熵。$O(\bar{E})$与$f_{O}(\bar{E}, \omega)$为光滑单值函数。$R_{m n}$为随机变量，满足$\overline{\left|R_{m n}\right|^{2}}=1$。这一假设目前没有严格的证明。但是有很多数值上的验证。其中对角元部分与长时间平均的平均值有关，非对角元部分则与围绕平均值涨落有关。考虑$O(t)$的长时间平均，在这里我们考虑广义的封闭系统，将对称性考虑进去之后，系统没有简并，这个假设是合理的，因此：
+\begin{equation}
+\bar{O} \equiv \lim _{t_{0} \rightarrow \infty} \frac{1}{t_{0}} \int_{0}^{t_{0}} d t O(t)=\sum_{m}\left|C_{m}\right|^{2} O_{m m}=\operatorname{Tr}\left[\hat{\rho}_{\mathrm{DE}} \hat{O}\right]
+\end{equation}
+其中$\hat{\rho}_{DE}$为对角系综。我们定义初态的能量方差为：
+\begin{equation}
+\delta E \equiv \sqrt{\left\langle\psi_{I}\left|\hat{H}^{2}\right| \psi_{I}\right\rangle-\left\langle\psi_{I}|\hat{H}| \psi_{I}\right\rangle^{2}}
+\end{equation}
+如果方差很小，那么就会有：
+\begin{equation}
+\bar{O} \simeq O(\langle E\rangle) \simeq O_{\mathrm{ME}}
+\end{equation}
+进一步，我们量化这一差异，考虑泰勒展开：
+\begin{equation}
+O_{m m} \approx O(\langle E\rangle)+\left.\left(E_{m}-\langle E\rangle\right) \frac{d O}{d E}\right|_{\langle E\rangle}+\left.\frac{1}{2}\left(E_{m}-\langle E\rangle\right)^{2} \frac{d^{2} O}{d E^{2}}\right|_{\langle E\rangle}
+\end{equation}
+将其带入长时间平均得到：
+\begin{equation}
+\bar{O} \approx O(\langle E\rangle)+\frac{1}{2}(\delta E)^{2} O^{\prime \prime}(\langle E\rangle) \approx O_{\mathrm{ME}}+\frac{1}{2}\left[(\delta E)^{2}-\left(\delta E_{\mathrm{ME}}\right)^{2}\right] O^{\prime \prime}(\langle E\rangle)
+\end{equation}
+其中$\delta_{ME}$为微正则系综的能量涨落标准差。而对于仅有局域相互作用的孤立系统来说$\delta E$为：
+\begin{equation}
+\begin{array}{r}
+\delta E \equiv \sqrt{\langle\psi_{I}|\hat{H}^{2}| \psi_{I}\rangle-\langle\psi_{I}|\hat{H}| \psi_{I}\rangle^{2}}=\sqrt{\langle\psi_{I}|\hat{H}_{1}^{2}| \psi_{I}\rangle-\langle\psi_{I}|\hat{H}_{1}| \psi_{I}\rangle^{2}} \\
+=\sqrt{\sum_{j_{1}, j_{2}}\left[\langle\psi_{I}|\hat{h}_{j_{1}} \hat{h}_{j_{2}}| \psi_{I}\rangle-\langle\psi_{I}|\hat{h}_{j_{1}}| \psi_{I}\rangle\langle\psi_{I}|\hat{h}_{j_{2}}| \psi_{I}\rangle\right]}
+\end{array}
+\end{equation}
+其中$\hat{H}=\hat{H}_{0}+\hat{H}_{1}$，$\hat{H}_{1}=\sum_{j} \hat{h}_{j}$仅有局域关联的算符。因此通常情况下有：
+\begin{equation}
+\delta E \sim \sqrt{V}
+\end{equation}
+继而有$\delta E / E \sim 1 / \sqrt{V}$。因此这一差异在热力学极限下趋近于0。
+
+我们然后计算局域算符平方的长时间涨落：
+\begin{equation}
+\begin{aligned}
+\sigma_{O}^{2} & \equiv \lim _{t_{0} \rightarrow \infty} \frac{1}{t_{0}} \int_{0}^{t_{0}} d t[O(t)]^{2}-(\bar{O})^{2} \\
+&=\lim _{t_{0} \rightarrow \infty} \frac{1}{t_{0}} \int_{0}^{t_{0}} d t \sum_{m, n, p, q} O_{m n} O_{p q} C_{m}^{*} C_{n} C_{p}^{*} C_{q} \mathrm{e}^{i\left(E_{m}-E_{n}+E_{p}-E_{q}\right) t}-(\bar{O})^{2} \\
+&=\sum_{m, n \neq m}\left|C_{m}\right|^{2}\left|C_{n}\right|^{2}\left|O_{m n}\right|^{2} \leq \max \left|O_{m n}\right|^{2} \sum_{m, n}\left|C_{m}\right|^{2}\left|C_{n}\right|^{2}=\max \left|O_{m n}\right|^{2} \propto \exp [-S(\bar{E})]
+\end{aligned}
+\end{equation}
+可以看到这一涨落由非对角元控制，且随系统体积被指数压低。我们接着去看局域算符涨落的方差：
+\begin{equation}
+\overline{\delta O^{2}}=\lim _{t_{0} \rightarrow \infty} \frac{1}{t_{0}} \int_{0}^{t_{0}} d t\left\langle\psi(t)\left|(\hat{O}-\bar{O})^{2}\right| \psi(t)\right\rangle=\sum_{m}\left|C_{m}\right|^{2}\left(O^{2}\right)_{m m}-\bar{O}^{2}
+\end{equation}
+同样也有：
+\begin{equation}
+\sqrt{\overline{\delta O^{2}}} / \bar{O} \simeq \sqrt{\delta O_{\mathrm{ME}}^{2}} / O_{\mathrm{ME}} \simeq 1 / \sqrt{V}
+\end{equation}
+由以上分析，我们可以理解，在本征热化假设成立的前提下，孤立系同局域算符的长时间平均等于热力学吉布斯平均（包括微正则、正则与巨正则系综）。那么本征热化假设有哪些成立的证据呢？目前来讲证据主要来自于格点系统的数值模拟。主要的模型包括硬核玻色子模型与自旋链模型以及二维横场伊辛模型\cite{}。我们挑选其中有代表性工作介绍，如图~\ref{ETHnum}~所示，展示了一维硬核玻色子与带纵场的横场伊辛模型的数值结果\cite{Kim2014testing}。可以看到对角元部分随着系统尺寸的增大局域算符的本征态期望值逐渐收敛到与能量有关的单值函数。
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1ETHnum.png}
+    \bicaption{局域算符的对角元随本征能量的分布。其中(a)为带纵场的横场伊辛模型。(b)为带有次近邻相互作用的硬核玻色子模型。 摘自\citep{Kim2014testing}}{Eigenstate expectation value of local operators vs eigen energy. (a) for TFIM with longitudinal filed and (b) for hard core bosons with next-nearest-neighbor interactions. Reprinted from\citep{Kim2014testing}}
+    \label{ETHnum}
+\end{figure}
+而对于非对角元部分的验证也有部分数值验证，不过还尚未成熟，可以参见\cite{}。
+
+本征热化假说（ETH）本身以及其数值证据，吸引着越来越多研究者的注意。但是与此同时，这一假说是个要求很强的假说。随着研究者对此认识的不断加深，越来越多的违背本征热化假说的系统被发现。其中以量子可积系统与多体局域化系统最为典型，这是fully ETH breaking。并且得到了实验的验证。
 
 
+随着实验手段的进步，最近在实验中出现了新的体系，weak ETH breaking 与 weak thermalization。
 
 
 

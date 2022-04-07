@@ -9,45 +9,55 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 10364 items from 5000.
 Database file #1: Biblio/ref.bib
-You've used 7 entries,
+Warning--I'm ignoring pitaevskii2003bose's extra "url" field
+--line 101 of file Biblio/ref.bib
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "pagano2015strongly"
+Warning--I didn't find a database entry for "hofer2015observation"
+Warning--I didn't find a database entry for "Andrei-Furuya-Lowenstein"
+Warning--I didn't find a database entry for "Sagi"
+Warning--empty journal in mahanmany
+You've used 144 entries,
             4948 wiz_defined-function locations,
-            1044 strings with 9028 characters,
-and the built_in function-call counts, 57017 in all, are:
-= -- 1464
-> -- 6401
-< -- 7757
-+ -- 2089
-- -- 544
-* -- 483
-:= -- 7992
-add.period$ -- 28
-call.type$ -- 7
-change.case$ -- 14
-chr.to.int$ -- 1917
-cite$ -- 7
-duplicate$ -- 145
-empty$ -- 762
-format.name$ -- 174
-if$ -- 14723
-int.to.chr$ -- 2
-int.to.str$ -- 8
+            2085 strings with 45263 characters,
+and the built_in function-call counts, 1323975 in all, are:
+= -- 37263
+> -- 147979
+< -- 176173
++ -- 47580
+- -- 14824
+* -- 12025
+:= -- 185732
+add.period$ -- 647
+call.type$ -- 144
+change.case$ -- 289
+chr.to.int$ -- 43549
+cite$ -- 145
+duplicate$ -- 3015
+empty$ -- 18298
+format.name$ -- 4212
+if$ -- 341149
+int.to.chr$ -- 7
+int.to.str$ -- 145
 missing$ -- 0
-newline$ -- 58
-num.names$ -- 21
-pop$ -- 2830
+newline$ -- 951
+num.names$ -- 432
+pop$ -- 61588
 preamble$ -- 1
-purify$ -- 7
+purify$ -- 144
 quote$ -- 0
-skip$ -- 6022
+skip$ -- 142686
 stack$ -- 0
-substring$ -- 3096
-swap$ -- 9
-text.length$ -- 104
+substring$ -- 75007
+swap$ -- 156
+text.length$ -- 2427
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 91
-warning$ -- 0
-while$ -- 133
+type$ -- 1860
+warning$ -- 1
+while$ -- 3043
 width$ -- 0
-write$ -- 128
+write$ -- 2503
+(There were 7 warnings)

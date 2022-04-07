@@ -17,15 +17,18 @@
 \setcounter{page}{1}% 开始页码
 \pagenumbering{Roman}% 页码符号
 
-本文是中国科学院大学学位论文模板ucasthesis的使用说明文档。主要内容为介绍\LaTeX{}文档类ucasthesis的用法，以及如何使用\LaTeX{}快速高效地撰写学位论文。
+冷原子物理因其实验方面制备、操控、测量的便捷和丰富而进展神速。目前的研究不仅在于冷原子实验体系自身特性的挖掘，而且可以作为量子模拟的实验平台来探索凝聚态物理中新奇概念。大量固体物理中的现象被冷原子模拟平台所实现，但故事并为结束。越来越多在固体物理中难以实现的模型、难以探索的区域在冷原子平台所实现。这些不曾被实现的模型正在表现越来越多未知的现象，对这些未知现象的理论解释与这些新奇现象紧密结合，相互促进，螺旋上升。
 
-\keywords{中国科学院大学，学位论文，\LaTeX{}模板}% 中文关键词
-%-
-%-> 英文摘要
-%-
+本文便沿着这样的思路，聚焦于最近冷原子实验平台所探索到的新区域来展开理论研究。在本文的第一章中我们简要介绍了基于近期实验进展的相关背景物理介绍，主要包括：少体体系、自旋交换相互作用体系、费米极化子体系、热化动力学体系。第二章我们用数值对角化的方法研究了带有自旋交换相互作用的一维少体杂质体系，通过研究两体与三体能谱揭示出反铁磁耦合下基态局域自旋的“屏蔽”现象。进一步我们发现了一系列upper branch，其中以铁磁branch最为特殊，其波函数已知且具有良好的自旋-电荷分离行为。借助目前的实验进展这一体系是可以被实验所制备的，其中的特殊关联可直接验证。在第三章，我们进入多体杂质体系——费米极化子体系。通过统一的变分波函数方法我们系统地研究了不同维度下极化子到分子的转变，发现了分子态的简并。验证了这一转变在三维与二维下存在，在一维下不存在。进一步采用局域密度近似讨论了有限温度有限密度下的单粒子实验可观测量，并与近期实验做了比较。在第四章我们从能谱静态性质来到了非平衡动力学特性。利用数值严格对角化研究了带有纵场的横场伊辛模型的热化相图，选取不同初态、不同参数区间做局域算符的时间演化平均与热力学平均对比来确定是否热化。发现了热化与非热化的相区以及分界。最后，在第五章，我们总结这一从少体到多体再到动力学的研究。并给出未来值得继续探索问题的思考。
+
+\keywords{杂质物理，少体，自旋交换，极化子，分子，热化，严格对角化}% 中文关键词
+
+
 \intobmk\chapter*{Abstract}% 显示在书签但不显示在目录
 
-This paper is a help documentation for the \LaTeX{} class ucasthesis, which is  a thesis template for the University of Chinese Academy of Sciences. The main content is about how to use the ucasthesis, as well as how to write thesis efficiently by using \LaTeX{}.
+Cold atom physics has made great progress due to the advantage on preparing, manipulating and measuring. Recent attention has not only been focus on intrinsic properties of cold atom systems, but also on quantum simulation for extoic concepts from condensed matter physics community. Many phenomena from solid state physics hase been observed on cold atom platform. However that's not the whole story. More and more model and parameter regions that cannot be explored experimentally in solid state physics have been successfully realized. These new experimental progress are showing more and more interesting results. Theoretical explanation for these progress and extension follows quickly. Both of them stimulates each other generously, which make the whole community flourishing.
 
-\KEYWORDS{University of Chinese Academy of Sciences (UCAS), Thesis, \LaTeX{} Template}% 英文关键词
+This thesis follows along this logic, which focus on recent experimental progress to get down research. In Chapter I we generally introduce some background and methos relating four hot systems, which include: few body system, spin exchange system, fermi polaron system and thermalization system. In Chapter II we use exact diagonalization to obtain whole spectrum of two body and three body system with spin exchange interaction in 1D. We found screening effect in anti-ferromagnetic coupling. We go on illustrate a series of upper branches, in which we highlight one special ferromagnetic branch. This ferromagnetic branch has exact wavefunction of spin and charge separation. This few body system can be realized directly and the special correlation coulde be measured. In chapter III we enter into many body impurity system: fermi polaron. We use unified variational wavefunction to systematically study polaron-molecule transition in different dimensions. We confirm the existence of this transition in 3D and 2D. Furthermore, we show huge degeneracy of molecule state. With the help of local density approximation we calculate single properties in realistic system with finite density and finite temperature. Comparison with experiment data is also shown. In chapter IV we consider non-equilibrium dynamics. By exact diagonalization we stufy thermalization phase diagram of TFIM with longitudinal field. Choosing different initial state and different parameters, we take comparison between long time average and thermal Gibbs average as justification of thermalization. We found different regions and boundaries. Finally, we summarize our works along this logic from few to many to dynamics and show our thought on direction worthy further investigation.
+
+\KEYWORDS{Impurity, Few Body Systems, Spin Exchange, Poalron, Molecule, Thermalization,Exact Diagonalization}% 英文关键词
 %---------------------------------------------------------------------------%

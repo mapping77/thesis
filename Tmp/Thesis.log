@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  30 MAR 2022 22:37
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  7 APR 2022 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2465,14 +2465,20 @@ Package: xeCJK-listings 2018/04/07 v3.7.0 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count351
 \l__xeCJK_listings_flag_int=\count352
 )
-(Tmp/Thesis.aux)
+(Tmp/Thesis.aux
+
+LaTeX Warning: Label `chap:kondo' multiply defined.
+
+
+LaTeX Warning: Label `chap:summaryandoutlook' multiply defined.
+
+)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 58.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 58
 .
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/omlntxmi.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 58.
@@ -2738,21 +2744,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.64714pt
 (hyperref)                replaced by space on input line 16.
 
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 20.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12.045> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 22.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.045pt on input line 22.
+(Font)              scaled to size 12.045pt on input line 24.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 26.
+(Font)              scaled to size 9.03374pt on input line 27.
 [1
 
 ] [2
 
-]) [3] [4
-
-]
+] [3]) [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.045pt
@@ -2763,70 +2765,189 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 12.64714pt on input line 1.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 10.84042pt on input line 2.
-)
+ [5
+
+
+])
 \tf@toc=\write5
 \openout5 = `Thesis.toc'.
 
- [5
-
-] [6
-
-] (Tmp/Thesis.lof
-
-LaTeX Font Warning: Font shape `TU/ntxtlf/bx/n' undefined
-(Font)              using `TU/ntxtlf/m/n' instead on input line 2.
-
+ [6] (Tmp/Thesis.lof
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 2.
-)
+ [7
+
+
+]
+
+LaTeX Font Warning: Font shape `TU/ntxtlf/bx/n' undefined
+(Font)              using `TU/ntxtlf/m/n' instead on input line 35.
+
+[8])
 \tf@lof=\write6
 \openout6 = `Thesis.lof'.
 
- [7
-
-] [8
+ [9] [10
 
 ] (Tmp/Thesis.lot)
 \tf@lot=\write7
 \openout7 = `Thesis.lot'.
 
- (./Tex/Prematter.tex [9
+ (./Tex/Prematter.tex [11
 
-] [10
+] [12
 
-] [11]) [12]
-(./Tex/Mainmatter.tex (./Tex/Chap_Polaron.tex
+] [13]) [14]
+(./Tex/Mainmatter.tex (./Tex/Chap_Intro.tex
 第1章
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 7.
+File: chap13dmol.png Graphic file (type bmp)
+<chap13dmol.png>
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 19.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
+e
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 19.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.53937pt on input line 19.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <7> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 19.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 7.0pt on input line 19.
 [1
 
 
-] [2]
+]
+File: chap1deter.png Graphic file (type bmp)
+<chap1deter.png>
+File: chap1ferminization.png Graphic file (type bmp)
+<chap1ferminization.png>
+File: chap1fermisea.png Graphic file (type bmp)
+<chap1fermisea.png>
+ [2] [3]
+File: chap1spinchain.png Graphic file (type bmp)
+<chap1spinchain.png>
+ [4] [5]
+File: chap1busch.png Graphic file (type bmp)
+<chap1busch.png>
+ [6]
+File: chap13fSv.png Graphic file (type bmp)
+<chap13fSv.png>
+ [7] [8]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 195.
+File: chap1duan.png Graphic file (type bmp)
+<chap1duan.png>
+File: chap1xiaji.png Graphic file (type bmp)
+<chap1xiaji.png>
+ [9] [10]
+File: chap11d3b.png Graphic file (type bmp)
+<chap11d3b.png>
+ [11] [12]
+File: chap1spinchainth.png Graphic file (type bmp)
+<chap1spinchainth.png>
+ [13]
+File: eg.png Graphic file (type bmp)
+<eg.png>
+ [14]
+File: egexp.png Graphic file (type bmp)
+<egexp.png>
+ [15]
+File: chap1spexd.png Graphic file (type bmp)
+<chap1spexd.png>
+File: chap1spexCIR.png Graphic file (type bmp)
+<chap1spexCIR.png>
+ [16] [17]
+[18]
+File: chap1fp.png Graphic file (type bmp)
+<chap1fp.png>
+File: chap1fpE.png Graphic file (type bmp)
+<chap1fpE.png>
+File: chap1fpZ.png Graphic file (type bmp)
+<chap1fpZ.png>
+ [19] [20]
+File: chap1upfp.png Graphic file (type bmp)
+<chap1upfp.png>
+File: chap12dfp.png Graphic file (type bmp)
+<chap12dfp.png>
+ [21] [22]
+File: chap1smooth.png Graphic file (type bmp)
+<chap1smooth.png>
+ [23]
+File: chap1fpspectrum.png Graphic file (type bmp)
+<chap1fpspectrum.png>
+File: chap1pmE.png Graphic file (type bmp)
+<chap1pmE.png>
+ [24]
+File: chap1MCeffectm.png Graphic file (type bmp)
+<chap1MCeffectm.png>
+ [25] [26]
+File: chap1fpRamseyParish.png Graphic file (type bmp)
+<chap1fpRamseyParish.png>
+ [27] [28]
+Overfull \hbox (15.03789pt too wide) detected at line 652
+[][][]
+ []
+
+[29]
+File: chap1ETHnum.png Graphic file (type bmp)
+<chap1ETHnum.png>
+) (./Tex/Chap_Kondo.tex [30] [31] [32
+
+]
+第2章
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 8.
+
+Package natbib Warning: Citation `pagano2015strongly' on page 33 undefined on i
+nput line 8.
+
+
+Package natbib Warning: Citation `hofer2015observation' on page 33 undefined on
+ input line 8.
+
+[33] [34] [35] [36] [37] [38]
+File: fig1.pdf Graphic file (type pdf)
+<use fig1.pdf>
+ [39] [40] [41]
+File: fig2.pdf Graphic file (type pdf)
+<use fig2.pdf>
+ [42] [43]
+File: fig3.pdf Graphic file (type pdf)
+<use fig3.pdf>
+ [44] [45] [46] [47]
+[48] [49] [50]
+File: fig4.pdf Graphic file (type pdf)
+<use fig4.pdf>
+
+
+Package natbib Warning: Citation `Andrei-Furuya-Lowenstein' on page 51 undefine
+d on input line 504.
+
+[51] [52] [53] [54]
+File: fig5.pdf Graphic file (type pdf)
+<use fig5.pdf>
+ [55] [56]) (./Tex/Chap_Polaron.tex [57] [58
+
+]
+第3章
+[59] [60]
 File: chap3illustration.pdf Graphic file (type pdf)
 <use chap3illustration.pdf>
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 28.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
-e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 28.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <7> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 7.0pt on input line 28.
- [3] [4] [5]
+ [61] [62] [63]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.045pt on input line 81.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 81.
- [6]
+ [64]
 
-LaTeX Warning: Reference `eq1' on page 7 undefined on input line 114.
+LaTeX Warning: Reference `eq1' on page 65 undefined on input line 114.
 
 
-LaTeX Warning: Reference `eq3' on page 7 undefined on input line 114.
+LaTeX Warning: Reference `eq3' on page 65 undefined on input line 114.
 
-[7]
+[65]
 Overfull \hbox (7.52377pt too wide) in paragraph at lines 138--139
 []\TU/FandolSong-Regular(0)/m/n/12.045 在 进 入 到 结 果 分 析 之 前，|  我 们 详 细 对 比 一 下 两
  个 变 分 波 函 数 $\OML/ntxmi/m/it/12.045 P[]\OT1/cmr/m/n/12.045 ([])$ \TU/FandolSon
@@ -2834,7 +2955,7 @@ g-Regular(0)/m/n/12.045 和 $\OML/ntxmi/m/it/12.045 M[]\OT1/cmr/m/n/12.045 ([][]
 $\TU/FandolSong-Regular(0)/m/n/12.045 。|
  []
 
-[8]
+[66]
 File: Img/./pol/fig2.pdf Graphic file (type pdf)
 <use Img/./pol/fig2.pdf>
 File: Img/./pol/fig3.pdf Graphic file (type pdf)
@@ -2843,16 +2964,16 @@ File: Img/./pol/fig3.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9] [10]
+[67] [68]
 File: Img/./pol/fig4.pdf Graphic file (type pdf)
 <use Img/./pol/fig4.pdf>
- [11]
+ [69]
 File: Img/./pol/fig5.pdf Graphic file (type pdf)
 <use Img/./pol/fig5.pdf>
- [12]
+ [70]
 File: Img/./pol/fig6.pdf Graphic file (type pdf)
 <use Img/./pol/fig6.pdf>
- [13]
+ [71]
 File: Img/./pol/fig7.pdf Graphic file (type pdf)
 <use Img/./pol/fig7.pdf>
 File: Img/./pol/fig8.pdf Graphic file (type pdf)
@@ -2861,7 +2982,77 @@ File: Img/./pol/fig8.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] [15])) [16] (./Tex/Appendix.tex
+File: Img/./pol/fig9.pdf Graphic file (type pdf)
+<use Img/./pol/fig9.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[72] [73] [74] [75]
+Overfull \hbox (19.15561pt too wide) in paragraph at lines 291--292
+[]\TU/FandolSong-Regular(0)/m/n/12.045 接 下 来 我 们 来 明 确 在 色 散 曲 线 上 划 分 极 化 子 与 
+玻 色 子。|  相 互 作 用 处 于 $\OT1/cmr/m/n/12.045 1/(\OML/ntxmi/m/it/12.045 k[]a[]\OT1/
+cmr/m/n/12.045 ) \LMS/ntxsy/m/n/12.045 2
+ []
+
+[76]
+Overfull \hbox (41.41226pt too wide) detected at line 327
+[]
+ []
+
+File: Img/./pol/fig10.pdf Graphic file (type pdf)
+<use Img/./pol/fig10.pdf>
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.0pt on input line 333.
+
+Package natbib Warning: Citation `Sagi' on page 77 undefined on input line 333.
+
+
+
+Package natbib Warning: Citation `Sagi' on page 77 undefined on input line 333.
+
+
+
+Package natbib Warning: Citation `Sagi' on page 77 undefined on input line 333.
+
+
+
+Package natbib Warning: Citation `Sagi' on page 77 undefined on input line 333.
+
+
+
+Package natbib Warning: Citation `Sagi' on page 77 undefined on input line 333.
+
+
+
+Package natbib Warning: Citation `Sagi' on page 77 undefined on input line 333.
+
+
+File: Img/./pol/fig11.pdf Graphic file (type pdf)
+<use Img/./pol/fig11.pdf>
+
+Package natbib Warning: Citation `Sagi' on page 77 undefined on input line 343.
+
+
+
+Package natbib Warning: Citation `Sagi' on page 77 undefined on input line 343.
+
+
+[77] [78] [79] [80]) (./Tex/Chap_Scar.tex [81
+
+] [82
+
+]
+第4章
+
+Package natbib Warning: Citation `' on page 83 undefined on input line 6.
+
+[83] [84] [85]) (./Tex/Chap_SummaryandOutlook.tex [86]
+第5章
+[87
+
+] [88])) [89] [90
+
+] (./Tex/Appendix.tex
 附录 A
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2929,29 +3120,49 @@ Overfull \hbox (24.63742pt too wide) in paragraph at lines 36--37
 []\T1/ntxtlf/m/n/12.045 mathcal: $[]$, math-scr: $[]$, boldsym-bol: $[]$. 
  []
 
-) [17
+) [91
+
+] [92
+
+] (Tmp/Thesis.bbl [93
 
 
-] [18
+] [94]
+Underfull \hbox (badness 2846) in paragraph at lines 272--278
+[]\T1/ntxtlf/m/n/10.53937 Pethick C J, Smith H.  Bose--einstein con-den-sa-tion
+ in di-lute gases [M/OL].
+ []
 
-] (Tmp/Thesis.bbl) (./Tex/Backmatter.tex [19
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--278
+\T1/ntxtlf/m/n/10.53937 Cam-bridge uni-ver-sity press, 2008.  [][]$https : / / 
+www . cambridge . org / core / books /
+ []
 
 
-] [20
+Underfull \hbox (badness 10000) in paragraph at lines 272--278
+\T1/ntxtlf/m/n/10.53937 boseeinstein-[]condensation-[]in-[]dilute-[]gases / D7E
+07AEF81EA0506217F196B02D13625$[][].
+ []
 
-] [21] [22
+[95] [96] [97] [98] [99] [100] [101] [102] [103] [104]) (./Tex/Backmatter.tex
+[105] [106
 
-] [23]
-[24
+] [107] [108
+
+] [109] [110
 
 ])
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
- (Tmp/Thesis.aux)
+(Tmp/Thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F52CE7A580CED44C5B6A3E27DD176AC0.
+(rerunfilecheck)             Checksum: 76927338A1EEDAD82E87DED3F96CBC68.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2963,14 +3174,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 42251 strings out of 492970
- 849414 string characters out of 6133938
- 908497 words of memory out of 5000000
- 45552 multiletter control sequences out of 15000+600000
- 648224 words of font info for 211 fonts, out of 8000000 for 9000
+ 43001 strings out of 492970
+ 871725 string characters out of 6133938
+ 926206 words of memory out of 5000000
+ 46256 multiletter control sequences out of 15000+600000
+ 653856 words of font info for 216 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 69i,22n,94p,10449b,2048s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,22n,94p,10449b,2488s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Tmp/Thesis.pdf (42 pages).
+Output written on Tmp/Thesis.pdf (130 pages).
