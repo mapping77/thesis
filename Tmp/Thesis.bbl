@@ -1,4 +1,4 @@
-\begin{thebibliography}{144}
+\begin{thebibliography}{17}
 \providecommand{\biband}{和}
 \providecommand{\bibetal}{等}
 \providecommand{\natexlab}[1]{#1}
@@ -13,144 +13,10 @@
   \let\eprint\href
 \fi
 
-\bibitem[St\"oferle {\bibetal}(2006)St\"oferle, Moritz, G\"unter, K\"ohl, and
-  Esslinger]{Esslinger3DMol}
-St\"oferle~T, Moritz~H, G\"unter~K, et~al.
-\newblock Molecules of fermionic atoms in an optical lattice [J/OL].
-\newblock Phys. Rev. Lett., 2006, 96: 030401.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.96.030401}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.96.030401}.
-
-\bibitem[Serwane {\bibetal}(2011)Serwane, Zürn, Lompe, Ottenstein, Wenz, and
-  Jochim]{SerwaneDeterministic}
-Serwane~F, Zürn~G, Lompe~T, et~al.
-\newblock Deterministic preparation of a tunable few-fermion system [J/OL].
-\newblock Science, 2011, 332\penalty0 (6027): 336-338.
-\newblock \url{https://www.science.org/doi/abs/10.1126/science.1201351}.
-\newblock DOI: \doi{https://doi.org/10.1126/science.1201351}.
-
-\bibitem[Z{\"u}rn {\bibetal}(2012)Z{\"u}rn, Serwane, Lompe, Wenz, Ries, Bohn,
-  and Jochim]{zurn2012fermionization}
-Z{\"u}rn~G, Serwane~F, Lompe~T, et~al.
-\newblock Fermionization of two distinguishable fermions [J/OL].
-\newblock Physical review letters, 2012, 108\penalty0 (7): 075303.
-\newblock
-  \url{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.108.075303}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.108.075303}.
-
-\bibitem[Wenz {\bibetal}(2013)Wenz, Zürn, Murmann, Brouzos, Lompe, and
-  Jochim]{WenzFermiSeaOnebyOne}
-Wenz~A~N, Zürn~G, Murmann~S, et~al.
-\newblock From few to many: Observing the formation of a fermi sea one atom at
-  a time [J/OL].
-\newblock Science, 2013, 342\penalty0 (6157): 457-460.
-\newblock \url{https://www.science.org/doi/abs/10.1126/science.1240516}.
-\newblock DOI: \doi{https://doi.org/10.1126/science.1240516}.
-
-\bibitem[Murmann {\bibetal}(2015{\natexlab{a}})Murmann, Deuretzbacher, Z\"urn,
-  Bjerlin, Reimann, Santos, Lompe, and Jochim]{MurmannSpinChain}
-Murmann~S, Deuretzbacher~F, Z\"urn~G, et~al.
-\newblock Antiferromagnetic heisenberg spin chain of a few cold atoms in a
-  one-dimensional trap [J/OL].
-\newblock Phys. Rev. Lett., 2015, 115: 215301.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.115.215301}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.115.215301}.
-
-\bibitem[Werner {\bibetal}(2006{\natexlab{a}})Werner and
-  Castin]{Fleix2006prlunitary3b}
-Werner~F, Castin~Y.
-\newblock Unitary quantum three-body problem in a harmonic trap [J/OL].
-\newblock Phys. Rev. Lett., 2006, 97: 150401.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.97.150401}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.97.150401}.
-
-\bibitem[Kestner {\bibetal}(2007)Kestner and Duan]{LmDuan2007levelcrossing}
-Kestner~J~P, Duan~L~M.
-\newblock Level crossing in the three-body problem for strongly interacting
-  fermions in a harmonic trap [J/OL].
-\newblock Phys. Rev. A, 2007, 76: 033611.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.76.033611}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.76.033611}.
-
-\bibitem[Liu {\bibetal}(2009)Liu, Hu, and Drummond]{Xiaji2009prl}
-Liu~X~J, Hu~H, Drummond~P~D.
-\newblock Virial expansion for a strongly correlated fermi gas [J/OL].
-\newblock Phys. Rev. Lett., 2009, 102: 160401.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.102.160401}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.102.160401}.
-
-\bibitem[D’Amico {\bibetal}(2014)D’Amico and Rontani]{d2014three}
-D’Amico~P, Rontani~M.
-\newblock Three interacting atoms in a one-dimensional trap: a benchmark system
-  for computational approaches [J/OL].
-\newblock Journal of Physics B: Atomic, Molecular and Optical Physics, 2014,
-  47\penalty0 (6): 065303.
-\newblock
-  \url{https://iopscience.iop.org/article/10.1088/0953-4075/47/6/065303/meta}.
-\newblock DOI: \doi{https://doi.org/10.1088/0953-4075/47/6/065303}.
-
-\bibitem[Deuretzbacher {\bibetal}(2014)Deuretzbacher, Becker, Bjerlin, Reimann,
-  and Santos]{Santos2014spinchain}
-Deuretzbacher~F, Becker~D, Bjerlin~J, et~al.
-\newblock Quantum magnetism without lattices in strongly interacting
-  one-dimensional spinor gases [J/OL].
-\newblock Phys. Rev. A, 2014, 90: 013611.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.90.013611}.
-
-\bibitem[Scazza {\bibetal}(2014)Scazza, Hofrichter, H{\"o}fer, De~Groot, Bloch,
-  and F{\"o}lling]{scazza2014observation}
-Scazza~F, Hofrichter~C, H{\"o}fer~M, et~al.
-\newblock Observation of two-orbital spin-exchange interactions with ultracold
-  su (n)-symmetric fermions [J/OL].
-\newblock Nature Physics, 2014, 10\penalty0 (10): 779-784.
-\newblock \url{https://www.nature.com/articles/nphys3061}.
-\newblock DOI: \doi{https://doi.org/10.1038/nphys3061}.
-
-\bibitem[Cappellini {\bibetal}(2014)Cappellini, Mancini, Pagano, Lombardi,
-  Livi, De~Cumis, Cancio, Pizzocaro, Calonico, Levi,
-  et~al.]{cappellini2014direct}
-Cappellini~G, Mancini~M, Pagano~G, et~al.
-\newblock Direct observation of coherent interorbital spin-exchange dynamics
-  [J/OL].
-\newblock Physical review letters, 2014, 113\penalty0 (12): 120402.
-\newblock
-  \url{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.120402}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.113.120402}.
-
-\bibitem[Riegger {\bibetal}(2018)Riegger, Oppong, H{\"o}fer, Fernandes, Bloch,
-  and F{\"o}lling]{riegger2018localized}
-Riegger~L, Oppong~N~D, H{\"o}fer~M, et~al.
-\newblock Localized magnetic moments with tunable spin exchange in a gas of
-  ultracold fermions [J/OL].
-\newblock Physical review letters, 2018, 120\penalty0 (14): 143601.
-\newblock
-  \url{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.143601}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.120.143601}.
-
-\bibitem[Zhang {\bibetal}(2020{\natexlab{a}})Zhang, Cheng, Zhang, and
-  Zhai]{zhang2020controlling}
-Zhang~R, Cheng~Y, Zhang~P, et~al.
-\newblock Controlling the interaction of ultracold alkaline-earth atoms [J/OL].
-\newblock Nature Reviews Physics, 2020, 2\penalty0 (4): 213-220.
-\newblock \url{https://www.nature.com/articles/s42254-020-0157-9}.
-\newblock DOI: \doi{https://doi.org/10.1038/s42254-020-0157-9}.
-
-\bibitem[Schirotzek {\bibetal}(2009)Schirotzek, Wu, Sommer, and
-  Zwierlein]{Schirotzekobservation}
-Schirotzek~A, Wu~C~H, Sommer~A, et~al.
-\newblock Observation of fermi polarons in a tunable fermi liquid of ultracold
-  atoms [J/OL].
-\newblock Phys. Rev. Lett., 2009, 102: 230402.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.102.230402}.
-
-\bibitem[Kohstall {\bibetal}(2012)Kohstall, Zaccanti, Jag, Trenkwalder,
-  Massignan, Bruun, Schreck, and Grimm]{kohstall2012metastability}
-Kohstall~C, Zaccanti~M, Jag~M, et~al.
-\newblock Metastability and coherence of repulsive polarons in a strongly
-  interacting fermi mixture [J/OL].
-\newblock Nature, 2012, 485\penalty0 (7400): 615-618.
-\newblock \url{https://www.nature.com/articles/nature11065}.
-\newblock DOI: \doi{https://doi.org/10.1038/nature11065}.
+\bibitem[Edwards(2013)]{edwards2013smooth}
+Edwards~D.
+\newblock A smooth polaron--molecule crossover in a fermi system [J].
+\newblock Journal of Physics: Condensed Matter, 2013, 25\penalty0 (42): 425602.
 
 \bibitem[Ness {\bibetal}(2020)Ness, Shkedrov, Florshaim, Diessel, von
   Milczewski, Schmidt, and Sagi]{Sagi2020}
@@ -159,23 +25,31 @@ Ness~G, Shkedrov~C, Florshaim~Y, et~al.
   fermi gas [J/OL].
 \newblock Phys. Rev. X, 2020, 10: 041019.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevX.10.041019}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevX.10.041019}.
 
-\bibitem[Massignan {\bibetal}(2014)Massignan, Zaccanti, and
-  Bruun]{massignan2014polarons}
-Massignan~P, Zaccanti~M, Bruun~G~M.
-\newblock Polarons, dressed molecules and itinerant ferromagnetism in ultracold
-  fermi gases [J/OL].
-\newblock Reports on Progress in Physics, 2014, 77\penalty0 (3): 034401.
-\newblock
-  \url{https://iopscience.iop.org/article/10.1088/0034-4885/77/3/034401/meta}.
-\newblock DOI: \doi{https://doi.org/10.1088/0034-4885/77/3/034401}.
-
-\bibitem[Punk {\bibetal}(2009)Punk, Dumitrescu, and Zwerger]{Punk_pm}
-Punk~M, Dumitrescu~P~T, Zwerger~W.
-\newblock Polaron-to-molecule transition in a strongly imbalanced fermi gas
+\bibitem[Cui(2020)]{Cui2020Fermi}
+Cui~X.
+\newblock Fermi polaron revisited: Polaron-molecule transition and coexistence
   [J/OL].
-\newblock Phys. Rev. A, 2009, 80: 053605.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.80.053605}.
+\newblock Phys. Rev. A, 2020, 102: 061301.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.102.061301}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.102.061301}.
+
+\bibitem[Peng {\bibetal}(2021)Peng, Liu, Zhang, and Cui]{Peng2021Nature}
+Peng~C, Liu~R, Zhang~W, et~al.
+\newblock Nature of the polaron-molecule transition in fermi polarons [J/OL].
+\newblock Phys. Rev. A, 2021, 103: 063312.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.103.063312}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.103.063312}.
+
+\bibitem[Shi {\bibetal}(2018)Shi, Demler, and Cirac]{shi2018variational}
+Shi~T, Demler~E, Cirac~J~I.
+\newblock Variational study of fermionic and bosonic systems with non-gaussian
+  states: Theory and applications [J/OL].
+\newblock Annals of Physics, 2018, 390: 245-302.
+\newblock
+  \url{https://www.sciencedirect.com/science/article/pii/S0003491617303251?via%3Dihub}.
+\newblock DOI: \doi{https://doi.org/10.1016/j.aop.2017.11.014}.
 
 \bibitem[Prokof'ev {\bibetal}(2008{\natexlab{a}})Prokof'ev and
   Svistunov]{Prokoffermi}
@@ -184,27 +58,49 @@ Prokof'ev~N, Svistunov~B.
   sign-alternating series [J/OL].
 \newblock Phys. Rev. B, 2008, 77: 020408.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.77.020408}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.77.020408}.
 
-\bibitem[Liu {\bibetal}(2019)Liu, Levinsen, and Parish]{Liu2019variational}
-Liu~W~E, Levinsen~J, Parish~M~M.
-\newblock Variational approach for impurity dynamics at finite temperature
+\bibitem[Prokof'ev {\bibetal}(2008{\natexlab{b}})Prokof'ev and
+  Svistunov]{Prokofbold}
+Prokof'ev~N~V, Svistunov~B~V.
+\newblock Bold diagrammatic monte carlo: A generic sign-problem tolerant
+  technique for polaron models and possibly interacting many-body problems
   [J/OL].
-\newblock Phys. Rev. Lett., 2019, 122: 205301.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.122.205301}.
+\newblock Phys. Rev. B, 2008, 77: 125101.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.77.125101}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.77.125101}.
 
-\bibitem[Kim {\bibetal}(2014)Kim, Ikeda, and Huse]{Kim2014testing}
-Kim~H, Ikeda~T~N, Huse~D~A.
-\newblock Testing whether all eigenstates obey the eigenstate thermalization
-  hypothesis [J/OL].
-\newblock Phys. Rev. E, 2014, 90: 052105.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevE.90.052105}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevE.90.052105}.
+\bibitem[Parish {\bibetal}(2013)Parish and Levinsen]{Parish2013highly}
+Parish~M~M, Levinsen~J.
+\newblock Highly polarized fermi gases in two dimensions [J/OL].
+\newblock Phys. Rev. A, 2013, 87: 033616.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.87.033616}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.87.033616}.
 
-\bibitem[Peng {\bibetal}(2021)Peng, Liu, Zhang, and Cui]{Peng2021Nature}
-Peng~C, Liu~R, Zhang~W, et~al.
-\newblock Nature of the polaron-molecule transition in fermi polarons [J/OL].
-\newblock Phys. Rev. A, 2021, 103: 063312.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.103.063312}.
+\bibitem[Vlietinck {\bibetal}(2014)Vlietinck, Ryckebusch, and
+  Van~Houcke]{Vlietinck2014diag}
+Vlietinck~J, Ryckebusch~J, Van~Houcke~K.
+\newblock Diagrammatic monte carlo study of the fermi polaron in two dimensions
+  [J/OL].
+\newblock Phys. Rev. B, 2014, 89: 085119.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.89.085119}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.89.085119}.
+
+\bibitem[Kroiss {\bibetal}(2014)Kroiss and Pollet]{Kriss2014diag}
+Kroiss~P, Pollet~L.
+\newblock Diagrammatic monte carlo study of quasi-two-dimensional fermi
+  polarons [J/OL].
+\newblock Phys. Rev. B, 2014, 90: 104510.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.90.104510}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.90.104510}.
+
+\bibitem[Bour {\bibetal}(2015)Bour, Lee, Hammer, and Mei\ss{}ner]{Bour2015ab}
+Bour~S, Lee~D, Hammer~H~W, et~al.
+\newblock Ab initio lattice results for fermi polarons in two dimensions
+  [J/OL].
+\newblock Phys. Rev. Lett., 2015, 115: 185301.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.115.185301}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.115.185301}.
 
 \bibitem[McGuire(1966)]{mcguire1966interacting}
 McGuire~J.
@@ -231,757 +127,13 @@ Gamayun~O, Lychkovskiy~O, Zvonarev~M~B.
 \newblock \url{https://scipost.org/10.21468/SciPostPhys.8.4.053}.
 \newblock DOI: \doi{https://doi.org/10.21468/SciPostPhys.8.4.053}.
 
-\bibitem[Anderson {\bibetal}(1995)Anderson, Ensher, Matthews, Wieman, and
-  Cornell]{anderson1995observation}
-Anderson~M~H, Ensher~J~R, Matthews~M~R, et~al.
-\newblock Observation of bose-einstein condensation in a dilute atomic vapor
-  [J/OL].
-\newblock science, 1995, 269\penalty0 (5221): 198-201.
-\newblock \url{https://www.science.org/doi/abs/10.1126/science.269.5221.198}.
-\newblock DOI: \doi{https://doi.org/10.1126/science.269.5221.198}.
-
-\bibitem[Davis {\bibetal}(1995)Davis, Mewes, Andrews, van Druten, Durfee, Kurn,
-  and Ketterle]{davis1995bose}
-Davis~K~B, Mewes~M~O, Andrews~M~R, et~al.
-\newblock Bose-einstein condensation in a gas of sodium atoms [J/OL].
-\newblock Phys. Rev. Lett., 1995, 75: 3969-3973.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.75.3969}.
-
-\bibitem[Bradley {\bibetal}(1995)Bradley, Sackett, Tollett, and
-  Hulet]{Bradley1995evidence}
-Bradley~C~C, Sackett~C~A, Tollett~J~J, et~al.
-\newblock Evidence of bose-einstein condensation in an atomic gas with
-  attractive interactions [J/OL].
-\newblock Phys. Rev. Lett., 1995, 75: 1687-1690.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.75.1687}.
-
-\bibitem[Dalfovo {\bibetal}(1999)Dalfovo, Giorgini, Pitaevskii, and
-  Stringari]{Dalfovo1999theory}
-Dalfovo~F, Giorgini~S, Pitaevskii~L~P, et~al.
-\newblock Theory of bose-einstein condensation in trapped gases [J/OL].
-\newblock Rev. Mod. Phys., 1999, 71: 463-512.
-\newblock \url{https://link.aps.org/doi/10.1103/RevModPhys.71.463}.
-
-\bibitem[Fetter(2009)]{Fetter2009rotating}
-Fetter~A~L.
-\newblock Rotating trapped bose-einstein condensates [J/OL].
-\newblock Rev. Mod. Phys., 2009, 81: 647-691.
-\newblock \url{https://link.aps.org/doi/10.1103/RevModPhys.81.647}.
-
-\bibitem[Pethick {\bibetal}(2008)Pethick and Smith]{pethick2008bose}
-Pethick~C~J, Smith~H.
-\newblock Bose--einstein condensation in dilute gases [M/OL].
-\newblock Cambridge university press, 2008.
-\newblock
-  \url{https://www.cambridge.org/core/books/boseeinstein-condensation-in-dilute-gases/D7E07AEF81EA0506217F196B02D13625}.
-\newblock DOI: \doi{https://doi.org/10.1017/CBO9780511755583}.
-
-\bibitem[Pitaevskii {\bibetal}(2003)Pitaevskii, P{\'\i}tajevsk{\'\i}j,
-  S.~Stringari, Stringari, Stringari, and Press]{pitaevskii2003bose}
-Pitaevskii~L, P{\'\i}tajevsk{\'\i}j~L, S.~Stringari~L, et~al.
-\newblock International series of monographs on physics: Bose-einstein
-  condensation [M/OL].
-\newblock Clarendon Press, 2003.
-\newblock \url{https://books.google.com.hk/books?id=rIobbOxC4j4C}.
-
-\bibitem[Giorgini {\bibetal}(2008)Giorgini, Pitaevskii, and
-  Stringari]{Giorgini2008theory}
-Giorgini~S, Pitaevskii~L~P, Stringari~S.
-\newblock Theory of ultracold atomic fermi gases [J/OL].
-\newblock Rev. Mod. Phys., 2008, 80: 1215-1274.
-\newblock \url{https://link.aps.org/doi/10.1103/RevModPhys.80.1215}.
-
-\bibitem[Bloch {\bibetal}(2008)Bloch, Dalibard, and Zwerger]{Bloch2008many}
-Bloch~I, Dalibard~J, Zwerger~W.
-\newblock Many-body physics with ultracold gases [J/OL].
-\newblock Rev. Mod. Phys., 2008, 80: 885-964.
-\newblock \url{https://link.aps.org/doi/10.1103/RevModPhys.80.885}.
-
-\bibitem[Chin {\bibetal}(2010)Chin, Grimm, Julienne, and
-  Tiesinga]{Chin2010feshbach}
-Chin~C, Grimm~R, Julienne~P, et~al.
-\newblock Feshbach resonances in ultracold gases [J/OL].
-\newblock Rev. Mod. Phys., 2010, 82: 1225-1286.
-\newblock \url{https://link.aps.org/doi/10.1103/RevModPhys.82.1225}.
-
-\bibitem[Cazalilla {\bibetal}(2011)Cazalilla, Citro, Giamarchi, Orignac, and
-  Rigol]{Cazalilla2011one}
-Cazalilla~M~A, Citro~R, Giamarchi~T, et~al.
-\newblock One dimensional bosons: From condensed matter systems to ultracold
-  gases [J/OL].
-\newblock Rev. Mod. Phys., 2011, 83: 1405-1466.
-\newblock \url{https://link.aps.org/doi/10.1103/RevModPhys.83.1405}.
-
-\bibitem[Guan {\bibetal}(2013)Guan, Batchelor, and Lee]{Guan2013fermi}
-Guan~X~W, Batchelor~M~T, Lee~C.
-\newblock Fermi gases in one dimension: From bethe ansatz to experiments
-  [J/OL].
-\newblock Rev. Mod. Phys., 2013, 85: 1633-1691.
-\newblock \url{https://link.aps.org/doi/10.1103/RevModPhys.85.1633}.
-
-\bibitem[Sowi{\'n}ski {\bibetal}(2019)Sowi{\'n}ski and
-  Garc{\'\i}a-March]{sowinski2019one}
-Sowi{\'n}ski~T, Garc{\'\i}a-March~M~{\'A}.
-\newblock One-dimensional mixtures of several ultracold atoms: a review [J/OL].
-\newblock Reports on Progress in Physics, 2019, 82\penalty0 (10): 104401.
-\newblock
-  \url{https://iopscience.iop.org/article/10.1088/1361-6633/ab3a80/meta}.
-\newblock DOI: \doi{https://doi.org/10.1088/1361-6633/ab3a80}.
-
-\bibitem[Blume(2012)]{blume2012few}
-Blume~D.
-\newblock Few-body physics with ultracold atomic and molecular systems in traps
-  [J/OL].
-\newblock Reports on Progress in Physics, 2012, 75\penalty0 (4): 046401.
-\newblock
-  \url{https://iopscience.iop.org/article/10.1088/0034-4885/75/4/046401}.
-\newblock DOI: \doi{https://doi.org/10.1088/0034-4885/75/4/046401}.
-
-\bibitem[Nielsen {\bibetal}(2001)Nielsen, Fedorov, Jensen, and
-  Garrido]{nielsen2001three}
-Nielsen~E, Fedorov~D~V, Jensen~A~S, et~al.
-\newblock The three-body problem with short-range interactions [J/OL].
-\newblock Physics Reports, 2001, 347\penalty0 (5): 373-459.
-\newblock
-  \url{https://www.sciencedirect.com/science/article/pii/S0370157300001071}.
-\newblock DOI: \doi{https://doi.org/10.1016/S0370-1573(00)00107-1}.
-
-\bibitem[Braaten {\bibetal}(2006)Braaten and Hammer]{braaten2006universality}
-Braaten~E, Hammer~H~W.
-\newblock Universality in few-body systems with large scattering length [J/OL].
-\newblock Physics Reports, 2006, 428\penalty0 (5-6): 259-390.
-\newblock
-  \url{https://www.sciencedirect.com/science/article/pii/S0370157306000822}.
-\newblock DOI: \doi{https://doi.org/10.1016/j.physrep.2006.03.001}.
-
-\bibitem[K\"ohler {\bibetal}(2006)K\"ohler, G\'oral, and
-  Julienne]{KohlerMolFRRMP}
-K\"ohler~T, G\'oral~K, Julienne~P~S.
-\newblock Production of cold molecules via magnetically tunable feshbach
-  resonances [J/OL].
-\newblock Rev. Mod. Phys., 2006, 78: 1311-1361.
-\newblock \url{https://link.aps.org/doi/10.1103/RevModPhys.78.1311}.
-
-\bibitem[Greiner {\bibetal}(2002)Greiner, Mandel, Esslinger, H{\"a}nsch, and
-  Bloch]{greiner2002quantum}
-Greiner~M, Mandel~O, Esslinger~T, et~al.
-\newblock Quantum phase transition from a superfluid to a mott insulator in a
-  gas of ultracold atoms [J/OL].
-\newblock nature, 2002, 415\penalty0 (6867): 39-44.
-\newblock \url{https://www.nature.com/articles/415039a}.
-\newblock DOI: \doi{https://doi.org/10.1038/415039a}.
-
-\bibitem[K\"ohl {\bibetal}(2005)K\"ohl, Moritz, St\"oferle, G\"unter, and
-  Esslinger]{EsslingerFermiSea}
-K\"ohl~M, Moritz~H, St\"oferle~T, et~al.
-\newblock Fermionic atoms in a three dimensional optical lattice: Observing
-  fermi surfaces, dynamics, and interactions [J/OL].
-\newblock Phys. Rev. Lett., 2005, 94: 080403.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.94.080403}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.94.080403}.
-
-\bibitem[Moritz {\bibetal}(2005)Moritz, St\"oferle, G\"unter, K\"ohl, and
-  Esslinger]{Esslinger1DMol}
-Moritz~H, St\"oferle~T, G\"unter~K, et~al.
-\newblock Confinement induced molecules in a 1d fermi gas [J/OL].
-\newblock Phys. Rev. Lett., 2005, 94: 210401.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.94.210401}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.94.210401}.
-
-\bibitem[Ospelkaus {\bibetal}(2006)Ospelkaus, Ospelkaus, Humbert, Ernst,
-  Sengstock, and Bongs]{Ospelkaus3DMol}
-Ospelkaus~C, Ospelkaus~S, Humbert~L, et~al.
-\newblock Ultracold heteronuclear molecules in a 3d optical lattice [J/OL].
-\newblock Phys. Rev. Lett., 2006, 97: 120402.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.97.120402}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.97.120402}.
-
-\bibitem[Thalhammer {\bibetal}(2006)Thalhammer, Winkler, Lang, Schmid, Grimm,
-  and Denschlag]{Hecker3DMol}
-Thalhammer~G, Winkler~K, Lang~F, et~al.
-\newblock Long-lived feshbach molecules in a three-dimensional optical lattice
-  [J/OL].
-\newblock Phys. Rev. Lett., 2006, 96: 050402.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.96.050402}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.96.050402}.
-
-\bibitem[Sala {\bibetal}(2013)Sala, Z\"urn, Lompe, Wenz, Murmann, Serwane,
-  Jochim, and Saenz]{SalaCIRMol}
-Sala~S, Z\"urn~G, Lompe~T, et~al.
-\newblock Coherent molecule formation in anharmonic potentials near
-  confinement-induced resonances [J/OL].
-\newblock Phys. Rev. Lett., 2013, 110: 203202.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.110.203202}.
-
-\bibitem[Z\"urn {\bibetal}(2013)Z\"urn, Wenz, Murmann, Bergschneider, Lompe,
-  and Jochim]{Zurn2013Pairing}
-Z\"urn~G, Wenz~A~N, Murmann~S, et~al.
-\newblock Pairing in few-fermion systems with attractive interactions [J/OL].
-\newblock Phys. Rev. Lett., 2013, 111: 175302.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.111.175302}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.111.175302}.
-
-\bibitem[Murmann {\bibetal}(2015{\natexlab{b}})Murmann, Bergschneider,
-  Klinkhamer, Z\"urn, Lompe, and Jochim]{MurmannTwoFermionDoubleWell}
-Murmann~S, Bergschneider~A, Klinkhamer~V~M, et~al.
-\newblock Two fermions in a double well: Exploring a fundamental building block
-  of the hubbard model [J/OL].
-\newblock Phys. Rev. Lett., 2015, 114: 080402.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.114.080402}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.114.080402}.
-
-\bibitem[Rontani(2012)]{RontaniTunneling}
-Rontani~M.
-\newblock Tunneling theory of two interacting atoms in a trap [J/OL].
-\newblock Phys. Rev. Lett., 2012, 108: 115302.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.108.115302}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.108.115302}.
-
-\bibitem[Olshanii {\bibetal}(2001)Olshanii and
-  Pricoupenko]{OlshaniiRigorous2001}
-Olshanii~M, Pricoupenko~L.
-\newblock Rigorous approach to the problem of ultraviolet divergencies in
-  dilute bose gases [J/OL].
-\newblock Phys. Rev. Lett., 2001, 88: 010402.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.88.010402}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.88.010402}.
-
-\bibitem[Petrov(2003)]{Petrov2003unitary3b}
-Petrov~D~S.
-\newblock Three-body problem in fermi gases with short-range interparticle
-  interaction [J/OL].
-\newblock Phys. Rev. A, 2003, 67: 010703.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.67.010703}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.67.010703}.
-
-\bibitem[Werner {\bibetal}(2006{\natexlab{b}})Werner and
-  Castin]{Felix2006praunitary3b}
-Werner~F, Castin~Y.
-\newblock Unitary gas in an isotropic harmonic trap: Symmetry properties and
-  applications [J/OL].
-\newblock Phys. Rev. A, 2006, 74: 053604.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.74.053604}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.74.053604}.
-
-\bibitem[Stetcu {\bibetal}(2007)Stetcu, Barrett, van Kolck, and
-  Vary]{Stetcu2007}
-Stetcu~I, Barrett~B~R, van Kolck~U, et~al.
-\newblock Effective theory for trapped few-fermion systems [J/OL].
-\newblock Phys. Rev. A, 2007, 76: 063613.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.76.063613}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.76.063613}.
-
-\bibitem[von Stecher {\bibetal}(2008)von Stecher, Greene, and Blume]{Blume2008}
-von Stecher~J, Greene~C~H, Blume~D.
-\newblock Energetics and structural properties of trapped two-component fermi
-  gases [J/OL].
-\newblock Phys. Rev. A, 2008, 77: 043619.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.77.043619}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.77.043619}.
-
-\bibitem[Daily {\bibetal}(2010)Daily and Blume]{Blume2010}
-Daily~K~M, Blume~D.
-\newblock Energy spectrum of harmonically trapped two-component fermi gases:
-  Three- and four-particle problem [J/OL].
-\newblock Phys. Rev. A, 2010, 81: 053615.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.81.053615}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.81.053615}.
-
-\bibitem[Liu {\bibetal}(2010)Liu, Hu, and Drummond]{Xiaji20103b}
-Liu~X~J, Hu~H, Drummond~P~D.
-\newblock Three attractively interacting fermions in a harmonic trap: Exact
-  solution, ferromagnetism, and high-temperature thermodynamics [J/OL].
-\newblock Phys. Rev. A, 2010, 82: 023619.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.82.023619}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.82.023619}.
-
-\bibitem[Rittenhouse {\bibetal}(2010)Rittenhouse, Mehta, and
-  Greene]{Rittenhouse2010green}
-Rittenhouse~S~T, Mehta~N~P, Greene~C~H.
-\newblock Green's functions and the adiabatic hyperspherical method [J/OL].
-\newblock Phys. Rev. A, 2010, 82: 022706.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.82.022706}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.82.022706}.
-
-\bibitem[Gharashi {\bibetal}(2012)Gharashi, Daily, and Blume]{blume2012}
-Gharashi~S~E, Daily~K~M, Blume~D.
-\newblock Three $s$-wave-interacting fermions under anisotropic harmonic
-  confinement: Dimensional crossover of energetics and virial coefficients
-  [J/OL].
-\newblock Phys. Rev. A, 2012, 86: 042702.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.86.042702}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.86.042702}.
-
-\bibitem[Loft {\bibetal}(2015)Loft, Dehkharghani, Mehta, Volosniev, and
-  Zinner]{loft2015variational}
-Loft~N~J~S, Dehkharghani~A~S, Mehta~N~P, et~al.
-\newblock A variational approach to repulsively interacting three-fermion
-  systems in a one-dimensional harmonic trap [J/OL].
-\newblock The European Physical Journal D, 2015, 69\penalty0 (3): 1-17.
-\newblock \url{https://link.springer.com/article/10.1140/epjd/e2015-50845-9}.
-\newblock DOI: \doi{https://doi.org/10.1140/epjd/e2015-50845-9}.
-
-\bibitem[Andersen {\bibetal}(2016)Andersen, Dehkharghani, Volosniev, Lindgren,
-  and Zinner]{andersen2016interpolatory}
-Andersen~M~E~S, Dehkharghani~A, Volosniev~A, et~al.
-\newblock An interpolatory ansatz captures the physics of one-dimensional
-  confined fermi systems [J/OL].
-\newblock Scientific reports, 2016, 6\penalty0 (1): 1-13.
-\newblock \url{https://www.nature.com/articles/srep28362}.
-\newblock DOI: \doi{https://doi.org/10.1038/srep28362}.
-
-\bibitem[Bellotti {\bibetal}(2017)Bellotti, Dehkharghani, and
-  Zinner]{bellotti2017comparing}
-Bellotti~F~F, Dehkharghani~A~S, Zinner~N~T.
-\newblock Comparing numerical and analytical approaches to strongly interacting
-  two-component mixtures in one dimensional traps [J/OL].
-\newblock The European Physical Journal D, 2017, 71\penalty0 (2): 1-10.
-\newblock \url{https://link.springer.com/article/10.1140/epjd/e2017-70650-8}.
-\newblock DOI: \doi{https://doi.org/10.1140/epjd/e2017-70650-8}.
-
-\bibitem[Guan {\bibetal}(2009)Guan, Chen, Wang, and Ma]{Guan2009exact}
-Guan~L, Chen~S, Wang~Y, et~al.
-\newblock Exact solution for infinitely strongly interacting fermi gases in
-  tight waveguides [J/OL].
-\newblock Phys. Rev. Lett., 2009, 102: 160402.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.102.160402}.
-
-\bibitem[Ma {\bibetal}(2009)Ma, Chen, Guan, and Wang]{ma2009mathematical}
-Ma~Z~Q, Chen~S, Guan~L, et~al.
-\newblock Mathematical calculation for exact solutions of infinitely strongly
-  interacting fermi gases in tight waveguides [J/OL].
-\newblock Journal of Physics A: Mathematical and Theoretical, 2009, 42\penalty0
-  (38): 385210.
-\newblock
-  \url{https://iopscience.iop.org/article/10.1088/1751-8113/42/38/385210}.
-\newblock DOI: \doi{https://doi.org/10.1088/1751-8113/42/38/385210}.
-
-\bibitem[Sowi\ifmmode~\acute{n}\else \'{n}\fi{}ski
-  {\bibetal}(2013)Sowi\ifmmode~\acute{n}\else \'{n}\fi{}ski, Grass, Dutta, and
-  Lewenstein]{Lewenstein2013spinchain}
-Sowi\ifmmode~\acute{n}\else \'{n}\fi{}ski~T, Grass~T, Dutta~O, et~al.
-\newblock Few interacting fermions in a one-dimensional harmonic trap [J/OL].
-\newblock Phys. Rev. A, 2013, 88: 033607.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.88.033607}.
-
-\bibitem[Volosniev {\bibetal}(2014)Volosniev, Fedorov, Jensen, Valiente, and
-  Zinner]{volosniev2014strongly}
-Volosniev~A, Fedorov~D~V, Jensen~A~S, et~al.
-\newblock Strongly interacting confined quantum systems in one dimension
-  [J/OL].
-\newblock Nature Communications, 2014, 5\penalty0 (1): 1-7.
-\newblock \url{https://www.nature.com/articles/ncomms6300}.
-\newblock DOI: \doi{https://doi.org/10.1038/ncomms6300}.
-
-\bibitem[Bugnion {\bibetal}(2013)Bugnion and Conduit]{Busch013spinchain}
-Bugnion~P~O, Conduit~G~J.
-\newblock Ferromagnetic spin correlations in a few-fermion system [J/OL].
-\newblock Phys. Rev. A, 2013, 87: 060502.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.87.060502}.
-
-\bibitem[Cui {\bibetal}(2014{\natexlab{a}})Cui and Ho]{CuiHo2014}
-Cui~X, Ho~T~L.
-\newblock Ground-state ferromagnetic transition in strongly repulsive
-  one-dimensional fermi gases [J/OL].
-\newblock Phys. Rev. A, 2014, 89: 023611.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.89.023611}.
-
-\bibitem[Yang {\bibetal}(2015)Yang, Guan, and Pu]{Puhan2015spinchain}
-Yang~L, Guan~L, Pu~H.
-\newblock Strongly interacting quantum gases in one-dimensional traps [J/OL].
-\newblock Phys. Rev. A, 2015, 91: 043634.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.91.043634}.
-
-\bibitem[Yang {\bibetal}(2016)Yang and Cui]{Yang2016effective}
-Yang~L, Cui~X.
-\newblock Effective spin-chain model for strongly interacting one-dimensional
-  atomic gases with an arbitrary spin [J/OL].
-\newblock Phys. Rev. A, 2016, 93: 013617.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.93.013617}.
-
-\bibitem[Gorshkov {\bibetal}(2010)Gorshkov, Hermele, Gurarie, Xu, Julienne, Ye,
-  Zoller, Demler, Lukin, and Rey]{gorshkov2010two}
-Gorshkov~A~V, Hermele~M, Gurarie~V, et~al.
-\newblock Two-orbital su (n) magnetism with ultracold alkaline-earth atoms
-  [J/OL].
-\newblock Nature physics, 2010, 6\penalty0 (4): 289-295.
-\newblock \url{https://www.nature.com/articles/nphys1535}.
-\newblock DOI: \doi{https://doi.org/10.1038/nphys1535}.
-
-\bibitem[Zhang {\bibetal}(2014)Zhang, Bishof, Bromley, Kraus, Safronova,
-  Zoller, Rey, and Ye]{zhang2014spectroscopic}
-Zhang~X, Bishof~M, Bromley~S~L, et~al.
-\newblock Spectroscopic observation of su(<i>n</i>)-symmetric interactions in
-  sr orbital magnetism [J/OL].
-\newblock Science, 2014, 345\penalty0 (6203): 1467-1473.
-\newblock \url{https://www.science.org/doi/abs/10.1126/science.1254978}.
-\newblock DOI: \doi{https://doi.org/10.1126/science.1254978}.
-
-\bibitem[Zhang {\bibetal}(2016)Zhang, Zhang, Cheng, Chen, Zhang, and
-  Zhai]{zhang2016kondo}
-Zhang~R, Zhang~D, Cheng~Y, et~al.
-\newblock Kondo effect in alkaline-earth-metal atomic gases with
-  confinement-induced resonances [J/OL].
-\newblock Physical Review A, 2016, 93\penalty0 (4): 043601.
-\newblock
-  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.93.043601}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.93.043601}.
-
-\bibitem[Cheng {\bibetal}(2017)Cheng, Zhang, Zhang, and
-  Zhai]{cheng2017enhancing}
-Cheng~Y, Zhang~R, Zhang~P, et~al.
-\newblock Enhancing kondo coupling in alkaline-earth-metal atomic gases with
-  confinement-induced resonances in mixed dimensions [J/OL].
-\newblock Physical Review A, 2017, 96\penalty0 (6): 063605.
-\newblock
-  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.96.063605}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.96.063605}.
-
-\bibitem[Zhang {\bibetal}(2018)Zhang and Zhang]{zhang2018control}
-Zhang~R, Zhang~P.
-\newblock Control of spin-exchange interaction between alkali-earth-metal atoms
-  via confinement-induced resonances in a quasi-(1+ 0)-dimensional system
-  [J/OL].
-\newblock Physical Review A, 2018, 98\penalty0 (4): 043627.
-\newblock
-  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.043627}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.98.043627}.
-
-\bibitem[Ji {\bibetal}(2018)Ji, Zhang, Zhang, and Zhang]{ji2018confinement}
-Ji~Q, Zhang~R, Zhang~X, et~al.
-\newblock Confinement-induced resonance of alkaline-earth-metal-like atoms in
-  anisotropic quasi-one-dimensional traps [J/OL].
-\newblock Physical Review A, 2018, 98\penalty0 (5): 053613.
-\newblock
-  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.053613}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.98.053613}.
-
-\bibitem[Zhang {\bibetal}(2020{\natexlab{b}})Zhang and Zhang]{zhang2020tight}
-Zhang~R, Zhang~P.
-\newblock Tight-binding kondo model and spin-exchange collision rate of
-  alkaline-earth-metal atoms in a mixed-dimensional optical lattice [J/OL].
-\newblock Physical Review A, 2020, 101\penalty0 (1): 013636.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.101.013636}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.101.013636}.
-
-\bibitem[Landau(1933)]{landau1933bewegung}
-Landau~L.
-\newblock {\"U}ber die bewegung der elektronen in kristalgitter [J].
-\newblock Phys. Z. Sowjetunion, 1933, 3: 644-645.
-
-\bibitem[Pekar(1946)]{pekar1946autolocalization}
-Pekar~S.
-\newblock Autolocalization of the electron in an inertially polarizable
-  dielectric medium [J].
-\newblock Zh. Eksp. Teor. Fiz, 1946, 16: 335.
-
-\bibitem[Fr{\"o}hlich {\bibetal}(1950)Fr{\"o}hlich, Pelzer, and
-  Zienau]{frohlich1950xx}
-Fr{\"o}hlich~H, Pelzer~H, Zienau~S.
-\newblock Xx. properties of slow electrons in polar materials [J/OL].
-\newblock The London, Edinburgh, and Dublin Philosophical Magazine and Journal
-  of Science, 1950, 41\penalty0 (314): 221-242.
-\newblock \url{https://www.tandfonline.com/doi/abs/10.1080/14786445008521794}.
-\newblock DOI: \doi{https://doi.org/10.1080/14786445008521794}.
-
-\bibitem[Fr{\"o}hlich(1954)]{frohlich1954electrons}
-Fr{\"o}hlich~H.
-\newblock Electrons in lattice fields [J/OL].
-\newblock Advances in Physics, 1954, 3\penalty0 (11): 325-361.
-\newblock \url{https://www.tandfonline.com/doi/abs/10.1080/00018735400101213}.
-\newblock DOI: \doi{https://doi.org/10.1080/00018735400101213}.
-
-\bibitem[Feynman(1955)]{feynman1955slow}
-Feynman~R~P.
-\newblock Slow electrons in a polar crystal [J/OL].
-\newblock Physical Review, 1955, 97\penalty0 (3): 660.
-\newblock \url{https://journals.aps.org/pr/abstract/10.1103/PhysRev.97.660}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRev.97.660}.
-
-\bibitem[Mahan(2000)]{mahanmany}
-Mahan~G.
-\newblock Many-particle physics, (kluwer academic/plenum publishers, new york,
-  2000). [J/OL].
-\newblock 2000.
-\newblock \url{https://link.springer.com/book/10.1007/978-1-4757-5714-9}.
-\newblock DOI: \doi{https://doi.org/10.1007/978-1-4757-5714-9}.
-
-\bibitem[Scazza {\bibetal}(2017)Scazza, Valtolina, Massignan, Recati, Amico,
-  Burchianti, Fort, Inguscio, Zaccanti, and Roati]{Scazzarepulsive}
-Scazza~F, Valtolina~G, Massignan~P, et~al.
-\newblock Repulsive fermi polarons in a resonant mixture of ultracold
-  $^{6}\mathrm{Li}$ atoms [J/OL].
-\newblock Phys. Rev. Lett., 2017, 118: 083602.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.118.083602}.
-
-\bibitem[Koschorreck {\bibetal}(2012)Koschorreck, Pertot, Vogt, Fr{\"o}hlich,
-  Feld, and K{\"o}hl]{koschorreck2012attractive}
-Koschorreck~M, Pertot~D, Vogt~E, et~al.
-\newblock Attractive and repulsive fermi polarons in two dimensions [J/OL].
-\newblock Nature, 2012, 485\penalty0 (7400): 619-622.
-\newblock \url{https://www.nature.com/articles/nature11151}.
-\newblock DOI: \doi{https://doi.org/10.1038/nature11151}.
-
-\bibitem[Cetina {\bibetal}(2015)Cetina, Jag, Lous, Walraven, Grimm,
-  Christensen, and Bruun]{Cetina2015decoherence}
-Cetina~M, Jag~M, Lous~R~S, et~al.
-\newblock Decoherence of impurities in a fermi sea of ultracold atoms [J/OL].
-\newblock Phys. Rev. Lett., 2015, 115: 135302.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.115.135302}.
-
-\bibitem[Cetina {\bibetal}(2016)Cetina, Jag, Lous, Fritsche, Walraven, Grimm,
-  Levinsen, Parish, Schmidt, Knap, et~al.]{cetina2016ultrafast}
-Cetina~M, Jag~M, Lous~R~S, et~al.
-\newblock Ultrafast many-body interferometry of impurities coupled to a fermi
-  sea [J/OL].
-\newblock Science, 2016, 354\penalty0 (6308): 96-99.
-\newblock \url{https://www.science.org/doi/full/10.1126/science.aaf5134}.
-\newblock DOI: \doi{https://doi.org/10.1126/science.aaf5134}.
-
-\bibitem[Yan {\bibetal}(2019)Yan, Patel, Mukherjee, Fletcher, Struck, and
-  Zwierlein]{YanBoiling}
-Yan~Z, Patel~P~B, Mukherjee~B, et~al.
-\newblock Boiling a unitary fermi liquid [J/OL].
-\newblock Phys. Rev. Lett., 2019, 122: 093401.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.122.093401}.
-
-\bibitem[Darkwah~Oppong {\bibetal}(2019)Darkwah~Oppong, Riegger, Bettermann,
-  H\"ofer, Levinsen, Parish, Bloch, and F\"olling]{Darkwah2019}
-Darkwah~Oppong~N, Riegger~L, Bettermann~O, et~al.
-\newblock Observation of coherent multiorbital polarons in a two-dimensional
-  fermi gas [J/OL].
-\newblock Phys. Rev. Lett., 2019, 122: 193604.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.122.193604}.
-
-\bibitem[Chevy(2006)]{chevy2006}
-Chevy~F.
-\newblock Universal phase diagram of a strongly interacting fermi gas with
-  unbalanced spin populations [J/OL].
-\newblock Phys. Rev. A, 2006, 74: 063628.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.74.063628}.
-
-\bibitem[Combescot {\bibetal}(2007)Combescot, Recati, Lobo, and
-  Chevy]{Combescot20071ph}
-Combescot~R, Recati~A, Lobo~C, et~al.
-\newblock Normal state of highly polarized fermi gases: Simple many-body
-  approaches [J/OL].
-\newblock Phys. Rev. Lett., 2007, 98: 180402.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.98.180402}.
-
-\bibitem[Combescot {\bibetal}(2008)Combescot and
-  Giraud]{Combescot20071ph008full}
-Combescot~R, Giraud~S.
-\newblock Normal state of highly polarized fermi gases: Full many-body
-  treatment [J/OL].
-\newblock Phys. Rev. Lett., 2008, 101: 050404.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.101.050404}.
-
-\bibitem[Mora {\bibetal}(2009)Mora and Chevy]{Mora_pm}
-Mora~C, Chevy~F.
-\newblock Ground state of a tightly bound composite dimer immersed in a fermi
-  sea [J/OL].
-\newblock Phys. Rev. A, 2009, 80: 033607.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.80.033607}.
-
-\bibitem[Combescot {\bibetal}(2010)Combescot, Giraud, and
-  Leyronas]{combescot2010analytical}
-Combescot~R, Giraud~S, Leyronas~X.
-\newblock Analytical theory of the dressed bound state in highly polarized
-  fermi gases [J/OL].
-\newblock EPL (Europhysics Letters), 2010, 88\penalty0 (6): 60007.
-\newblock \url{https://iopscience.iop.org/article/10.1209/0295-5075/88/60007}.
-\newblock DOI: \doi{https://doi.org/10.1209/0295-5075/88/60007}.
-
-\bibitem[Trefzger {\bibetal}(2012)Trefzger and Castin]{Trefzger2012Impurity}
-Trefzger~C, Castin~Y.
-\newblock Impurity in a fermi sea on a narrow feshbach resonance: A variational
-  study of the polaronic and dimeronic branches [J/OL].
-\newblock Phys. Rev. A, 2012, 85: 053612.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.85.053612}.
-
-\bibitem[Mathy {\bibetal}(2011)Mathy, Parish, and Huse]{Mathy2011trimers}
-Mathy~C~J~M, Parish~M~M, Huse~D~A.
-\newblock Trimers, molecules, and polarons in mass-imbalanced atomic fermi
-  gases [J/OL].
-\newblock Phys. Rev. Lett., 2011, 106: 166404.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.106.166404}.
-
-\bibitem[Pilati {\bibetal}(2008)Pilati and Giorgini]{Pilati2008phase}
-Pilati~S, Giorgini~S.
-\newblock Phase separation in a polarized fermi gas at zero temperature [J/OL].
-\newblock Phys. Rev. Lett., 2008, 100: 030401.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.100.030401}.
-
-\bibitem[Prokof'ev {\bibetal}(2008{\natexlab{b}})Prokof'ev and
-  Svistunov]{Prokofbold}
-Prokof'ev~N~V, Svistunov~B~V.
-\newblock Bold diagrammatic monte carlo: A generic sign-problem tolerant
-  technique for polaron models and possibly interacting many-body problems
-  [J/OL].
-\newblock Phys. Rev. B, 2008, 77: 125101.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.77.125101}.
-
-\bibitem[Vlietinck {\bibetal}(2013)Vlietinck, Ryckebusch, and
-  Van~Houcke]{VlietinckMC}
-Vlietinck~J, Ryckebusch~J, Van~Houcke~K.
-\newblock Quasiparticle properties of an impurity in a fermi gas [J/OL].
-\newblock Phys. Rev. B, 2013, 87: 115133.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.87.115133}.
-
-\bibitem[Conduit {\bibetal}(2009)Conduit, Green, and Simons]{Conduit2009Inhomo}
-Conduit~G~J, Green~A~G, Simons~B~D.
-\newblock Inhomogeneous phase formation on the border of itinerant
-  ferromagnetism [J/OL].
-\newblock Phys. Rev. Lett., 2009, 103: 207201.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.103.207201}.
-
-\bibitem[Pilati {\bibetal}(2010)Pilati, Bertaina, Giorgini, and
-  Troyer]{Pilati2010Itinerant}
-Pilati~S, Bertaina~G, Giorgini~S, et~al.
-\newblock Itinerant ferromagnetism of a repulsive atomic fermi gas: A quantum
-  monte carlo study [J/OL].
-\newblock Phys. Rev. Lett., 2010, 105: 030405.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.105.030405}.
-
-\bibitem[Chang {\bibetal}(2011)Chang, Randeria, and
-  Trivedi]{chang2011ferromagnetism}
-Chang~S~Y, Randeria~M, Trivedi~N.
-\newblock Ferromagnetism in the upper branch of the feshbach resonance and the
-  hard-sphere fermi gas [J/OL].
-\newblock Proceedings of the National Academy of Sciences, 2011, 108\penalty0
-  (1): 51-54.
-\newblock \url{https://www.pnas.org/doi/full/10.1073/pnas.1011990108}.
-\newblock DOI: \doi{https://doi.org/10.1073/pnas.1011990108}.
-
-\bibitem[Schmidt {\bibetal}(2011)Schmidt and Enss]{Schmidt2011excitation}
-Schmidt~R, Enss~T.
-\newblock Excitation spectra and rf response near the polaron-to-molecule
-  transition from the functional renormalization group [J/OL].
-\newblock Phys. Rev. A, 2011, 83: 063620.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.83.063620}.
-
-\bibitem[Massignan {\bibetal}(2008)Massignan, Bruun, and
-  Stoof]{Massignan2008Twin}
-Massignan~P, Bruun~G~M, Stoof~H~T~C.
-\newblock Twin peaks in rf spectra of fermi gases at unitarity [J/OL].
-\newblock Phys. Rev. A, 2008, 77: 031601.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.77.031601}.
-
 \bibitem[Z\"ollner {\bibetal}(2011)Z\"ollner, Bruun, and
   Pethick]{Zollner2011Polarons}
 Z\"ollner~S, Bruun~G~M, Pethick~C~J.
 \newblock Polarons and molecules in a two-dimensional fermi gas [J/OL].
 \newblock Phys. Rev. A, 2011, 83: 021603.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.83.021603}.
-
-\bibitem[Parish(2011)]{Parish2011pm}
-Parish~M~M.
-\newblock Polaron-molecule transitions in a two-dimensional fermi gas [J/OL].
-\newblock Phys. Rev. A, 2011, 83: 051603.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.83.051603}.
-
-\bibitem[Levinsen {\bibetal}(2012)Levinsen and
-  Baur]{Lewenstein2013spinchain012High}
-Levinsen~J, Baur~S~K.
-\newblock High-polarization limit of the quasi-two-dimensional fermi gas
-  [J/OL].
-\newblock Phys. Rev. A, 2012, 86: 041602.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.86.041602}.
-
-\bibitem[Schmidt {\bibetal}(2012)Schmidt, Enss, Pietil\"a, and
-  Demler]{Schmidt2012fermi}
-Schmidt~R, Enss~T, Pietil\"a~V, et~al.
-\newblock Fermi polarons in two dimensions [J/OL].
-\newblock Phys. Rev. A, 2012, 85: 021602.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.85.021602}.
-
-\bibitem[Ngampruetikorn {\bibetal}(2012)Ngampruetikorn, Levinsen, and
-  Parish]{Ngampruetikorn_2012}
-Ngampruetikorn~V, Levinsen~J, Parish~M~M.
-\newblock Repulsive polarons in two-dimensional fermi gases [J/OL].
-\newblock {EPL} (Europhysics Letters), 2012, 98\penalty0 (3): 30005.
-\newblock \url{https://doi.org/10.1209/0295-5075/98/30005}.
-
-\bibitem[McGuire(1965)]{mcguire1965interacting}
-McGuire~J~B.
-\newblock Interacting fermions in one dimension. i. repulsive potential [J/OL].
-\newblock Journal of Mathematical Physics, 1965, 6\penalty0 (3): 432-439.
-\newblock \url{https://aip.scitation.org/doi/abs/10.1063/1.1704291}.
-\newblock DOI: \doi{https://doi.org/10.1063/1.1704291}.
-
-\bibitem[Giraud {\bibetal}(2009)Giraud and Combescot]{Giraud2009highly}
-Giraud~S, Combescot~R.
-\newblock Highly polarized fermi gases: One-dimensional case [J/OL].
-\newblock Phys. Rev. A, 2009, 79: 043615.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.79.043615}.
-
-\bibitem[Leskinen {\bibetal}(2010)Leskinen, Nummi, Massel, and
-  Törmä]{Leskinen_2010}
-Leskinen~M~J, Nummi~O~H~T, Massel~F, et~al.
-\newblock Fermi-polaron-like effects in a one-dimensional (1d) optical lattice
-  [J/OL].
-\newblock New Journal of Physics, 2010, 12\penalty0 (7): 073044.
-\newblock \url{https://doi.org/10.1088/1367-2630/12/7/073044}.
-
-\bibitem[Astrakharchik {\bibetal}(2013)Astrakharchik and
-  Brouzos]{Astrakharchik2013trapped}
-Astrakharchik~G~E, Brouzos~I.
-\newblock Trapped one-dimensional ideal fermi gas with a single impurity
-  [J/OL].
-\newblock Phys. Rev. A, 2013, 88: 021602.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.88.021602}.
-
-\bibitem[Parish {\bibetal}(2016)Parish and Levinsen]{Parish2016quantum}
-Parish~M~M, Levinsen~J.
-\newblock Quantum dynamics of impurities coupled to a fermi sea [J/OL].
-\newblock Phys. Rev. B, 2016, 94: 184303.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.94.184303}.
-
-\bibitem[Tajima {\bibetal}(2018)Tajima and Uchino]{tajima2018many}
-Tajima~H, Uchino~S.
-\newblock Many fermi polarons at nonzero temperature [J/OL].
-\newblock New Journal of Physics, 2018, 20\penalty0 (7): 073048.
-\newblock \url{https://iopscience.iop.org/article/10.1088/1367-2630/aad1e7}.
-\newblock DOI: \doi{https://doi.org/10.1088/1367-2630/aad1e7}.
-
-\bibitem[Hu {\bibetal}(2018)Hu, Mulkerin, Wang, and Liu]{Hu2018attractive}
-Hu~H, Mulkerin~B~C, Wang~J, et~al.
-\newblock Attractive fermi polarons at nonzero temperatures with a finite
-  impurity concentration [J/OL].
-\newblock Phys. Rev. A, 2018, 98: 013626.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.98.013626}.
-
-\bibitem[Mulkerin {\bibetal}(2019)Mulkerin, Liu, and Hu]{mulkerin2019breakdown}
-Mulkerin~B~C, Liu~X~J, Hu~H.
-\newblock Breakdown of the fermi polaron description near fermi degeneracy at
-  unitarity [J/OL].
-\newblock Annals of Physics, 2019, 407: 29-45.
-\newblock
-  \url{https://www.sciencedirect.com/science/article/pii/S0003491619301149?via%3Dihub}.
-\newblock DOI: \doi{https://doi.org/10.1016/j.aop.2019.04.018}.
-
-\bibitem[Tajima {\bibetal}(2019)Tajima and Uchino]{Taylor2019thermal}
-Tajima~H, Uchino~S.
-\newblock Thermal crossover, transition, and coexistence in fermi polaronic
-  spectroscopies [J/OL].
-\newblock Phys. Rev. A, 2019, 99: 063606.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.99.063606}.
-
-\bibitem[Liu {\bibetal}(2020{\natexlab{a}})Liu, Shi, Levinsen, and
-  Parish]{Liu2020Radio}
-Liu~W~E, Shi~Z~Y, Levinsen~J, et~al.
-\newblock Radio-frequency response and contact of impurities in a quantum gas
-  [J/OL].
-\newblock Phys. Rev. Lett., 2020, 125: 065301.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.125.065301}.
-
-\bibitem[Liu {\bibetal}(2020{\natexlab{b}})Liu, Shi, Parish, and
-  Levinsen]{Liu2020theory}
-Liu~W~E, Shi~Z~Y, Parish~M~M, et~al.
-\newblock Theory of radio-frequency spectroscopy of impurities in quantum gases
-  [J/OL].
-\newblock Phys. Rev. A, 2020, 102: 023304.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.102.023304}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.83.021603}.
 
 \bibitem[Parish {\bibetal}(2021)Parish, Adlong, Liu, and
   Levinsen]{Parish2021thermodynamic}
@@ -990,145 +142,7 @@ Parish~M~M, Adlong~H~S, Liu~W~E, et~al.
   fermi gas [J/OL].
 \newblock Phys. Rev. A, 2021, 103: 023312.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.103.023312}.
-
-\bibitem[D'Alessio {\bibetal}(2016)D'Alessio, Kafri, Polkovnikov, and
-  Rigol]{d2016quantum}
-D'Alessio~L, Kafri~Y, Polkovnikov~A, et~al.
-\newblock From quantum chaos and eigenstate thermalization to statistical
-  mechanics and thermodynamics [J/OL].
-\newblock Advances in Physics, 2016, 65\penalty0 (3): 239-362.
-\newblock
-  \url{https://www.tandfonline.com/doi/full/10.1080/00018732.2016.1198134}.
-\newblock DOI: \doi{https://doi.org/10.1080/00018732.2016.1198134}.
-
-\bibitem[Deutsch(2018)]{deutsch2018eigenstate}
-Deutsch~J~M.
-\newblock Eigenstate thermalization hypothesis [J/OL].
-\newblock Reports on Progress in Physics, 2018, 81\penalty0 (8): 082001.
-\newblock \url{https://iopscience.iop.org/article/10.1088/1361-6633/aac9f1}.
-\newblock DOI: \doi{https://doi.org/10.1088/1361-6633/aac9f1}.
-
-\bibitem[Deutsch(1991)]{Deutsch1991quantum}
-Deutsch~J~M.
-\newblock Quantum statistical mechanics in a closed system [J/OL].
-\newblock Phys. Rev. A, 1991, 43: 2046-2049.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.43.2046}.
-
-\bibitem[Srednicki(1994)]{Srednicki1994chaos}
-Srednicki~M.
-\newblock Chaos and quantum thermalization [J/OL].
-\newblock Phys. Rev. E, 1994, 50: 888-901.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevE.50.888}.
-
-\bibitem[Srednicki(1999)]{srednicki1999approach}
-Srednicki~M.
-\newblock The approach to thermal equilibrium in quantized chaotic systems
-  [J/OL].
-\newblock Journal of Physics A: Mathematical and General, 1999, 32\penalty0
-  (7): 1163.
-\newblock
-  \url{https://iopscience.iop.org/article/10.1088/0305-4470/32/7/007/meta}.
-\newblock DOI: \doi{https://doi.org/10.1088/0305-4470/32/7/007}.
-
-\bibitem[Ono {\bibetal}(2019)Ono, Kobayashi, Amano, Sato, and
-  Takahashi]{ono2019antiferromagnetic}
-Ono~K, Kobayashi~J, Amano~Y, et~al.
-\newblock Antiferromagnetic interorbital spin-exchange interaction of
-  $^{171}\mathrm{Yb}$ [J/OL].
-\newblock Phys. Rev. A, 2019, 99: 032707.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.99.032707}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.99.032707}.
-
-\bibitem[Barber {\bibetal}(2008)Barber, Stalnaker, Lemke, Poli, Oates, Fortier,
-  Diddams, Hollberg, Hoyt, Taichenachev, et~al.]{barber2008optical}
-Barber~Z~W, Stalnaker~J~E, Lemke~N~D, et~al.
-\newblock Optical lattice induced light shifts in an yb atomic clock [J/OL].
-\newblock Physical Review Letters, 2008, 100\penalty0 (10): 103002.
-\newblock
-  \url{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.100.103002}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.100.103002}.
-
-\bibitem[Andrei {\bibetal}(1983)Andrei, Furuya, and
-  Lowenstein]{andrei1983solution}
-Andrei~N, Furuya~K, Lowenstein~J.
-\newblock Solution of the kondo problem [J/OL].
-\newblock Reviews of modern physics, 1983, 55\penalty0 (2): 331.
-\newblock
-  \url{https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.55.331}.
-\newblock DOI: \doi{https://doi.org/10.1103/RevModPhys.55.331}.
-
-\bibitem[Busch {\bibetal}(1998)Busch, Englert, Rza{\.z}ewski, and
-  Wilkens]{busch1998two}
-Busch~T, Englert~B~G, Rza{\.z}ewski~K, et~al.
-\newblock Two cold atoms in a harmonic trap [J/OL].
-\newblock Foundations of Physics, 1998, 28\penalty0 (4): 549-559.
-\newblock \url{https://link.springer.com/article/10.1023/A:1018705520999}.
-\newblock DOI: \doi{https://doi.org/10.1023/A:1018705520999}.
-
-\bibitem[Cui {\bibetal}(2014{\natexlab{b}})Cui and Ho]{cui2014ground}
-Cui~X, Ho~T~L.
-\newblock Ground-state ferromagnetic transition in strongly repulsive
-  one-dimensional fermi gases [J/OL].
-\newblock Physical Review A, 2014, 89\penalty0 (2): 023611.
-\newblock
-  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.89.023611}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.89.023611}.
-
-\bibitem[Yosida(1966)]{Yosida}
-Yosida~K.
-\newblock Bound state due to the $s\ensuremath{-}d$ exchange interaction
-  [J/OL].
-\newblock Phys. Rev., 1966, 147: 223-227.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRev.147.223}.
-
-\bibitem[Edwards(2013)]{edwards2013smooth}
-Edwards~D.
-\newblock A smooth polaron--molecule crossover in a fermi system [J].
-\newblock Journal of Physics: Condensed Matter, 2013, 25\penalty0 (42): 425602.
-
-\bibitem[Cui(2020)]{Cui2020Fermi}
-Cui~X.
-\newblock Fermi polaron revisited: Polaron-molecule transition and coexistence
-  [J/OL].
-\newblock Phys. Rev. A, 2020, 102: 061301.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.102.061301}.
-
-\bibitem[Shi {\bibetal}(2018)Shi, Demler, and Cirac]{shi2018variational}
-Shi~T, Demler~E, Cirac~J~I.
-\newblock Variational study of fermionic and bosonic systems with non-gaussian
-  states: Theory and applications [J/OL].
-\newblock Annals of Physics, 2018, 390: 245-302.
-\newblock
-  \url{https://www.sciencedirect.com/science/article/pii/S0003491617303251?via%3Dihub}.
-\newblock DOI: \doi{https://doi.org/10.1016/j.aop.2017.11.014}.
-
-\bibitem[Parish {\bibetal}(2013)Parish and Levinsen]{Parish2013highly}
-Parish~M~M, Levinsen~J.
-\newblock Highly polarized fermi gases in two dimensions [J/OL].
-\newblock Phys. Rev. A, 2013, 87: 033616.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.87.033616}.
-
-\bibitem[Vlietinck {\bibetal}(2014)Vlietinck, Ryckebusch, and
-  Van~Houcke]{Vlietinck2014diag}
-Vlietinck~J, Ryckebusch~J, Van~Houcke~K.
-\newblock Diagrammatic monte carlo study of the fermi polaron in two dimensions
-  [J/OL].
-\newblock Phys. Rev. B, 2014, 89: 085119.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.89.085119}.
-
-\bibitem[Kroiss {\bibetal}(2014)Kroiss and Pollet]{Kriss2014diag}
-Kroiss~P, Pollet~L.
-\newblock Diagrammatic monte carlo study of quasi-two-dimensional fermi
-  polarons [J/OL].
-\newblock Phys. Rev. B, 2014, 90: 104510.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.90.104510}.
-
-\bibitem[Bour {\bibetal}(2015)Bour, Lee, Hammer, and Mei\ss{}ner]{Bour2015ab}
-Bour~S, Lee~D, Hammer~H~W, et~al.
-\newblock Ab initio lattice results for fermi polarons in two dimensions
-  [J/OL].
-\newblock Phys. Rev. Lett., 2015, 115: 185301.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.115.185301}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.103.023312}.
 
 \bibitem[Lobo {\bibetal}(2006)Lobo, Recati, Giorgini, and
   Stringari]{Lobo2006normal}
@@ -1136,19 +150,6 @@ Lobo~C, Recati~A, Giorgini~S, et~al.
 \newblock Normal state of a polarized fermi gas at unitarity [J/OL].
 \newblock Phys. Rev. Lett., 2006, 97: 200403.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.97.200403}.
-
-\bibitem[Rigol {\bibetal}(2008)Rigol, Dunjko, and
-  Olshanii]{rigol2008thermalization}
-Rigol~M, Dunjko~V, Olshanii~M.
-\newblock Thermalization and its mechanism for generic isolated quantum systems
-  [J/OL].
-\newblock Nature, 2008, 452\penalty0 (7189): 854-858.
-\newblock \url{https://www.nature.com/articles/nature06838}.
-\newblock DOI: \doi{https://doi.org/10.1038/nature06838}.
-
-\bibitem[Basko {\bibetal}(2006)Basko, Aleiner, and Altshuler]{basko2006problem}
-Basko~D, Aleiner~I, Altshuler~B.
-\newblock On the problem of many-body localization [J].
-\newblock Problems of Condensed Matter Physics, 2006: 50-70.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.97.200403}.
 
 \end{thebibliography}

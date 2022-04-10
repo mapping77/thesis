@@ -67,21 +67,20 @@
 \tableofcontents% content catalog
 \intobmk*{\cleardoublepage}{\listfigurename}% add link to bookmark
 \listoffigures% figure catalog
-\intobmk*{\cleardoublepage}{\listtablename}% add link to bookmark
-\listoftables% table catalog
+%%%%%%%\intobmk*{\cleardoublepage}{\listtablename}% add link to bookmark
+%%%%%%%\listoftables% table catalog
 }
-\input{Tex/Prematter}% symbol list, preface content
-%-
-%-> Mainmatter
-%-
+
+%%%%%%%\input{Tex/Prematter}% symbol list, preface content
+
 \mainmatter% initialize the environment
 \input{Tex/Mainmatter}% main content
 %-
 %-> Appendix
 %-
-\cleardoublepage%
-\appendix% initialize the environment
-\input{Tex/Appendix}% appendix content
+%%%%%%%%\cleardoublepage%
+%%%%%%%%\appendix% initialize the environment
+%%%%%%%%\input{Tex/Appendix}% appendix content
 %-
 %-> Backmatter: bibliography, glossary, index
 %-
@@ -94,4 +93,3 @@
 }
 \input{Tex/Backmatter}% other information
 \end{document}
-%---------------------------------------------------------------------------%
