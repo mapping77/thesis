@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{18}
 \providecommand{\biband}{和}
 \providecommand{\bibetal}{等}
 \providecommand{\natexlab}[1]{#1}
@@ -13,143 +13,167 @@
   \let\eprint\href
 \fi
 
-\bibitem[Edwards(2013)]{edwards2013smooth}
-Edwards~D.
-\newblock A smooth polaron--molecule crossover in a fermi system [J].
-\newblock Journal of Physics: Condensed Matter, 2013, 25\penalty0 (42): 425602.
+\bibitem[Scazza {\bibetal}(2014)Scazza, Hofrichter, H{\"o}fer, De~Groot, Bloch,
+  and F{\"o}lling]{scazza2014observation}
+Scazza~F, Hofrichter~C, H{\"o}fer~M, et~al.
+\newblock Observation of two-orbital spin-exchange interactions with ultracold
+  su (n)-symmetric fermions [J/OL].
+\newblock Nature Physics, 2014, 10\penalty0 (10): 779-784.
+\newblock \url{https://www.nature.com/articles/nphys3061}.
+\newblock DOI: \doi{https://doi.org/10.1038/nphys3061}.
 
-\bibitem[Ness {\bibetal}(2020)Ness, Shkedrov, Florshaim, Diessel, von
-  Milczewski, Schmidt, and Sagi]{Sagi2020}
-Ness~G, Shkedrov~C, Florshaim~Y, et~al.
-\newblock Observation of a smooth polaron-molecule transition in a degenerate
-  fermi gas [J/OL].
-\newblock Phys. Rev. X, 2020, 10: 041019.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevX.10.041019}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevX.10.041019}.
-
-\bibitem[Cui(2020)]{Cui2020Fermi}
-Cui~X.
-\newblock Fermi polaron revisited: Polaron-molecule transition and coexistence
+\bibitem[Cappellini {\bibetal}(2014)Cappellini, Mancini, Pagano, Lombardi,
+  Livi, De~Cumis, Cancio, Pizzocaro, Calonico, Levi,
+  et~al.]{cappellini2014direct}
+Cappellini~G, Mancini~M, Pagano~G, et~al.
+\newblock Direct observation of coherent interorbital spin-exchange dynamics
   [J/OL].
-\newblock Phys. Rev. A, 2020, 102: 061301.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.102.061301}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.102.061301}.
-
-\bibitem[Peng {\bibetal}(2021)Peng, Liu, Zhang, and Cui]{Peng2021Nature}
-Peng~C, Liu~R, Zhang~W, et~al.
-\newblock Nature of the polaron-molecule transition in fermi polarons [J/OL].
-\newblock Phys. Rev. A, 2021, 103: 063312.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.103.063312}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.103.063312}.
-
-\bibitem[Shi {\bibetal}(2018)Shi, Demler, and Cirac]{shi2018variational}
-Shi~T, Demler~E, Cirac~J~I.
-\newblock Variational study of fermionic and bosonic systems with non-gaussian
-  states: Theory and applications [J/OL].
-\newblock Annals of Physics, 2018, 390: 245-302.
+\newblock Physical review letters, 2014, 113\penalty0 (12): 120402.
 \newblock
-  \url{https://www.sciencedirect.com/science/article/pii/S0003491617303251?via%3Dihub}.
-\newblock DOI: \doi{https://doi.org/10.1016/j.aop.2017.11.014}.
+  \url{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.120402}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.113.120402}.
 
-\bibitem[Prokof'ev {\bibetal}(2008{\natexlab{a}})Prokof'ev and
-  Svistunov]{Prokoffermi}
-Prokof'ev~N, Svistunov~B.
-\newblock Fermi-polaron problem: Diagrammatic monte carlo method for divergent
-  sign-alternating series [J/OL].
-\newblock Phys. Rev. B, 2008, 77: 020408.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.77.020408}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.77.020408}.
+\bibitem[Zhang {\bibetal}(2014)Zhang, Bishof, Bromley, Kraus, Safronova,
+  Zoller, Rey, and Ye]{zhang2014spectroscopic}
+Zhang~X, Bishof~M, Bromley~S~L, et~al.
+\newblock Spectroscopic observation of su(<i>n</i>)-symmetric interactions in
+  sr orbital magnetism [J/OL].
+\newblock Science, 2014, 345\penalty0 (6203): 1467-1473.
+\newblock \url{https://www.science.org/doi/abs/10.1126/science.1254978}.
+\newblock DOI: \doi{https://doi.org/10.1126/science.1254978}.
 
-\bibitem[Prokof'ev {\bibetal}(2008{\natexlab{b}})Prokof'ev and
-  Svistunov]{Prokofbold}
-Prokof'ev~N~V, Svistunov~B~V.
-\newblock Bold diagrammatic monte carlo: A generic sign-problem tolerant
-  technique for polaron models and possibly interacting many-body problems
+\bibitem[Ono {\bibetal}(2019)Ono, Kobayashi, Amano, Sato, and
+  Takahashi]{ono2019antiferromagnetic}
+Ono~K, Kobayashi~J, Amano~Y, et~al.
+\newblock Antiferromagnetic interorbital spin-exchange interaction of
+  $^{171}\mathrm{Yb}$ [J/OL].
+\newblock Phys. Rev. A, 2019, 99: 032707.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.99.032707}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.99.032707}.
+
+\bibitem[Zhang {\bibetal}(2016)Zhang, Zhang, Cheng, Chen, Zhang, and
+  Zhai]{zhang2016kondo}
+Zhang~R, Zhang~D, Cheng~Y, et~al.
+\newblock Kondo effect in alkaline-earth-metal atomic gases with
+  confinement-induced resonances [J/OL].
+\newblock Physical Review A, 2016, 93\penalty0 (4): 043601.
+\newblock
+  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.93.043601}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.93.043601}.
+
+\bibitem[Cheng {\bibetal}(2017)Cheng, Zhang, Zhang, and
+  Zhai]{cheng2017enhancing}
+Cheng~Y, Zhang~R, Zhang~P, et~al.
+\newblock Enhancing kondo coupling in alkaline-earth-metal atomic gases with
+  confinement-induced resonances in mixed dimensions [J/OL].
+\newblock Physical Review A, 2017, 96\penalty0 (6): 063605.
+\newblock
+  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.96.063605}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.96.063605}.
+
+\bibitem[Zhang {\bibetal}(2018)Zhang and Zhang]{zhang2018control}
+Zhang~R, Zhang~P.
+\newblock Control of spin-exchange interaction between alkali-earth-metal atoms
+  via confinement-induced resonances in a quasi-(1+ 0)-dimensional system
   [J/OL].
-\newblock Phys. Rev. B, 2008, 77: 125101.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.77.125101}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.77.125101}.
+\newblock Physical Review A, 2018, 98\penalty0 (4): 043627.
+\newblock
+  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.043627}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.98.043627}.
 
-\bibitem[Parish {\bibetal}(2013)Parish and Levinsen]{Parish2013highly}
-Parish~M~M, Levinsen~J.
-\newblock Highly polarized fermi gases in two dimensions [J/OL].
-\newblock Phys. Rev. A, 2013, 87: 033616.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.87.033616}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.87.033616}.
+\bibitem[Ji {\bibetal}(2018)Ji, Zhang, Zhang, and Zhang]{ji2018confinement}
+Ji~Q, Zhang~R, Zhang~X, et~al.
+\newblock Confinement-induced resonance of alkaline-earth-metal-like atoms in
+  anisotropic quasi-one-dimensional traps [J/OL].
+\newblock Physical Review A, 2018, 98\penalty0 (5): 053613.
+\newblock
+  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.053613}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.98.053613}.
 
-\bibitem[Vlietinck {\bibetal}(2014)Vlietinck, Ryckebusch, and
-  Van~Houcke]{Vlietinck2014diag}
-Vlietinck~J, Ryckebusch~J, Van~Houcke~K.
-\newblock Diagrammatic monte carlo study of the fermi polaron in two dimensions
+\bibitem[Zhang {\bibetal}(2020{\natexlab{a}})Zhang and Zhang]{zhang2020tight}
+Zhang~R, Zhang~P.
+\newblock Tight-binding kondo model and spin-exchange collision rate of
+  alkaline-earth-metal atoms in a mixed-dimensional optical lattice [J/OL].
+\newblock Physical Review A, 2020, 101\penalty0 (1): 013636.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.101.013636}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.101.013636}.
+
+\bibitem[Zhang {\bibetal}(2020{\natexlab{b}})Zhang, Cheng, Zhang, and
+  Zhai]{zhang2020controlling}
+Zhang~R, Cheng~Y, Zhang~P, et~al.
+\newblock Controlling the interaction of ultracold alkaline-earth atoms [J/OL].
+\newblock Nature Reviews Physics, 2020, 2\penalty0 (4): 213-220.
+\newblock \url{https://www.nature.com/articles/s42254-020-0157-9}.
+\newblock DOI: \doi{https://doi.org/10.1038/s42254-020-0157-9}.
+
+\bibitem[Riegger {\bibetal}(2018)Riegger, Oppong, H{\"o}fer, Fernandes, Bloch,
+  and F{\"o}lling]{riegger2018localized}
+Riegger~L, Oppong~N~D, H{\"o}fer~M, et~al.
+\newblock Localized magnetic moments with tunable spin exchange in a gas of
+  ultracold fermions [J/OL].
+\newblock Physical review letters, 2018, 120\penalty0 (14): 143601.
+\newblock
+  \url{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.143601}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.120.143601}.
+
+\bibitem[Barber {\bibetal}(2008)Barber, Stalnaker, Lemke, Poli, Oates, Fortier,
+  Diddams, Hollberg, Hoyt, Taichenachev, et~al.]{barber2008optical}
+Barber~Z~W, Stalnaker~J~E, Lemke~N~D, et~al.
+\newblock Optical lattice induced light shifts in an yb atomic clock [J/OL].
+\newblock Physical Review Letters, 2008, 100\penalty0 (10): 103002.
+\newblock
+  \url{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.100.103002}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.100.103002}.
+
+\bibitem[Andrei {\bibetal}(1983)Andrei, Furuya, and
+  Lowenstein]{andrei1983solution}
+Andrei~N, Furuya~K, Lowenstein~J.
+\newblock Solution of the kondo problem [J/OL].
+\newblock Reviews of modern physics, 1983, 55\penalty0 (2): 331.
+\newblock
+  \url{https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.55.331}.
+\newblock DOI: \doi{https://doi.org/10.1103/RevModPhys.55.331}.
+
+\bibitem[Z{\"u}rn {\bibetal}(2012)Z{\"u}rn, Serwane, Lompe, Wenz, Ries, Bohn,
+  and Jochim]{zurn2012fermionization}
+Z{\"u}rn~G, Serwane~F, Lompe~T, et~al.
+\newblock Fermionization of two distinguishable fermions [J/OL].
+\newblock Physical review letters, 2012, 108\penalty0 (7): 075303.
+\newblock
+  \url{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.108.075303}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.108.075303}.
+
+\bibitem[Busch {\bibetal}(1998)Busch, Englert, Rza{\.z}ewski, and
+  Wilkens]{busch1998two}
+Busch~T, Englert~B~G, Rza{\.z}ewski~K, et~al.
+\newblock Two cold atoms in a harmonic trap [J/OL].
+\newblock Foundations of Physics, 1998, 28\penalty0 (4): 549-559.
+\newblock \url{https://link.springer.com/article/10.1023/A:1018705520999}.
+\newblock DOI: \doi{https://doi.org/10.1023/A:1018705520999}.
+
+\bibitem[Mahan(2000)]{mahanmany}
+Mahan~G.
+\newblock Many-particle physics, (kluwer academic/plenum publishers, new york,
+  2000). [J/OL].
+\newblock 2000.
+\newblock \url{https://link.springer.com/book/10.1007/978-1-4757-5714-9}.
+\newblock DOI: \doi{https://doi.org/10.1007/978-1-4757-5714-9}.
+
+\bibitem[Cui {\bibetal}(2014)Cui and Ho]{cui2014ground}
+Cui~X, Ho~T~L.
+\newblock Ground-state ferromagnetic transition in strongly repulsive
+  one-dimensional fermi gases [J/OL].
+\newblock Physical Review A, 2014, 89\penalty0 (2): 023611.
+\newblock
+  \url{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.89.023611}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.89.023611}.
+
+\bibitem[Yosida(1966)]{Yosida}
+Yosida~K.
+\newblock Bound state due to the $s\ensuremath{-}d$ exchange interaction
   [J/OL].
-\newblock Phys. Rev. B, 2014, 89: 085119.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.89.085119}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.89.085119}.
-
-\bibitem[Kroiss {\bibetal}(2014)Kroiss and Pollet]{Kriss2014diag}
-Kroiss~P, Pollet~L.
-\newblock Diagrammatic monte carlo study of quasi-two-dimensional fermi
-  polarons [J/OL].
-\newblock Phys. Rev. B, 2014, 90: 104510.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.90.104510}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.90.104510}.
-
-\bibitem[Bour {\bibetal}(2015)Bour, Lee, Hammer, and Mei\ss{}ner]{Bour2015ab}
-Bour~S, Lee~D, Hammer~H~W, et~al.
-\newblock Ab initio lattice results for fermi polarons in two dimensions
-  [J/OL].
-\newblock Phys. Rev. Lett., 2015, 115: 185301.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.115.185301}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.115.185301}.
-
-\bibitem[McGuire(1966)]{mcguire1966interacting}
-McGuire~J.
-\newblock Interacting fermions in one dimension. ii. attractive potential
-  [J/OL].
-\newblock Journal of Mathematical Physics, 1966, 7\penalty0 (1): 123-132.
-\newblock \url{https://aip.scitation.org/doi/abs/10.1063/1.1704798}.
-\newblock DOI: \doi{https://doi.org/10.1063/1.1704798}.
-
-\bibitem[Guan(2012)]{guan2012polaron}
-Guan~X~W.
-\newblock Polaron, molecule and pairing in one-dimensional spin-1/2 fermi gas
-  with an attractive delta-function interaction [J/OL].
-\newblock Frontiers of Physics, 2012, 7\penalty0 (1): 8-15.
-\newblock \url{https://link.springer.com/article/10.1007/s11467-011-0213-0}.
-\newblock DOI: \doi{https://doi.org/10.1007/s11467-011-0213-0}.
-
-\bibitem[Gamayun {\bibetal}(2020)Gamayun, Lychkovskiy, and
-  Zvonarev]{Oleksandr2020zero}
-Gamayun~O, Lychkovskiy~O, Zvonarev~M~B.
-\newblock {Zero temperature momentum distribution of an impurity in a polaron
-  state of one-dimensional Fermi and Tonks-Girardeau gases} [J/OL].
-\newblock SciPost Phys., 2020, 8: 53.
-\newblock \url{https://scipost.org/10.21468/SciPostPhys.8.4.053}.
-\newblock DOI: \doi{https://doi.org/10.21468/SciPostPhys.8.4.053}.
-
-\bibitem[Z\"ollner {\bibetal}(2011)Z\"ollner, Bruun, and
-  Pethick]{Zollner2011Polarons}
-Z\"ollner~S, Bruun~G~M, Pethick~C~J.
-\newblock Polarons and molecules in a two-dimensional fermi gas [J/OL].
-\newblock Phys. Rev. A, 2011, 83: 021603.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.83.021603}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.83.021603}.
-
-\bibitem[Parish {\bibetal}(2021)Parish, Adlong, Liu, and
-  Levinsen]{Parish2021thermodynamic}
-Parish~M~M, Adlong~H~S, Liu~W~E, et~al.
-\newblock Thermodynamic signatures of the polaron-molecule transition in a
-  fermi gas [J/OL].
-\newblock Phys. Rev. A, 2021, 103: 023312.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.103.023312}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.103.023312}.
-
-\bibitem[Lobo {\bibetal}(2006)Lobo, Recati, Giorgini, and
-  Stringari]{Lobo2006normal}
-Lobo~C, Recati~A, Giorgini~S, et~al.
-\newblock Normal state of a polarized fermi gas at unitarity [J/OL].
-\newblock Phys. Rev. Lett., 2006, 97: 200403.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.97.200403}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.97.200403}.
+\newblock Phys. Rev., 1966, 147: 223-227.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRev.147.223}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRev.147.223}.
 
 \end{thebibliography}

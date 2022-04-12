@@ -652,7 +652,7 @@ O_{m m} \approx O(\langle E\rangle)+\left.\left(E_{m}-\langle E\rangle\right) \f
 \begin{equation}
 \sqrt{\overline{\delta O^{2}}} / \bar{O} \simeq \sqrt{\delta O_{\mathrm{ME}}^{2}} / O_{\mathrm{ME}} \simeq 1 / \sqrt{V}
 \end{equation}
-由以上分析，我们可以理解，在本征热化假设成立的前提下，孤立系同局域算符的长时间平均等于热力学吉布斯平均（包括微正则、正则与巨正则系综）。那么本征热化假设有哪些成立的证据呢？目前来讲证据主要来自于格点系统的数值模拟。主要的模型包括硬核玻色子模型与自旋链模型以及二维横场伊辛模型\cite{}。我们挑选其中有代表性工作介绍，如图~\ref{ETHnum}~所示，展示了一维硬核玻色子与带纵场的横场伊辛模型的数值结果\cite{Kim2014testing}。可以看到对角元部分随着系统尺寸的增大局域算符的本征态期望值逐渐收敛到与能量有关的单值函数。
+由以上分析，我们可以理解，在本征热化假设成立的前提下，孤立系同局域算符的长时间平均等于热力学吉布斯平均（包括微正则、正则与巨正则系综）。那么本征热化假设有哪些成立的证据呢？目前来讲证据主要来自于格点系统的数值模拟。主要的模型包括硬核玻色子模型\cite{rigol2008thermalization,Santos2010Localization,Rigol2009Breakdown,Rigol2010Quantum,Neuenhahn2012Thermalization,Steinigeweg2013Eigenstate,Kim2014testing,beugeling2014finite,Steinigeweg2014Pushing,Khodja2015Relevance,Beugeling2015Off-diagonal,}以及横场伊辛模型\cite{Fratus2015Eigenstate,Mondaini2016Eigenstate,Mondaini2017Eigenstate,blass2016test,basko2006problem,Serbyn2013local,}。我们挑选其中有代表性工作介绍，如图~\ref{ETHnum}~所示，展示了一维硬核玻色子与带纵场的横场伊辛模型的数值结果\cite{Kim2014testing}。可以看到对角元部分随着系统尺寸的增大局域算符的本征态期望值逐渐收敛到与能量有关的单值函数。
 
 \begin{figure}[!htbp]
     \centering
@@ -660,14 +660,26 @@ O_{m m} \approx O(\langle E\rangle)+\left.\left(E_{m}-\langle E\rangle\right) \f
     \bicaption{局域算符的对角元随本征能量的分布。其中(a)为带纵场的横场伊辛模型。(b)为带有次近邻相互作用的硬核玻色子模型。 摘自\citep{Kim2014testing}}{Eigenstate expectation value of local operators vs eigen energy. (a) for TFIM with longitudinal filed and (b) for hard core bosons with next-nearest-neighbor interactions. Reprinted from\citep{Kim2014testing}}
     \label{ETHnum}
 \end{figure}
-而对于非对角元部分的验证也有部分数值验证，不过还尚未成熟，可以参见\cite{}。
+而对于非对角元部分的验证也有部分数值验证，不过还尚未成熟，可以参见\cite{Beugeling2015Off-diagonal,Mondaini2017Eigenstate}。
 
-本征热化假说（ETH）本身以及其数值证据，吸引着越来越多研究者的注意。但是与此同时，这一假说是个要求很强的假说。随着研究者对此认识的不断加深，越来越多的违背本征热化假说的系统被发现。其中以量子可积系统与多体局域化系统最为典型，这是fully ETH breaking。并且得到了实验的验证。
-
-
-随着实验手段的进步，最近在实验中出现了新的体系，weak ETH breaking 与 weak thermalization。
+本征热化假说（ETH）本身以及其数值证据，吸引着越来越多研究者的注意。但这一假说是个要求很强的假说。随着研究者对此认识的不断加深，越来越多的违背本征热化假说的系统被发现。其中以量子可积系统\cite{kinoshita2006quantum,Rigol2007Relaxation,Calabrese2011Quantum,essler2016quench,vidmar2016generalized}与多体局域化系统\cite{basko2006metal,Serbyn2013local,Huse2014Phenomenology}最为典型，这两种体系是完全的本征热化假说破缺的体系，并且得到了实验的验证。
 
 
+除了这种完全违背本征热化假说的系统，随着实验手段的进步，最近在实验中发现了弱违背本征热化假说的体系，其中以量子多体伤痕为典型例子。量子多体伤痕最早来源于里德堡原子的实验，在51个原子的一维链中，观测到$|Z_2\rangle$初态出发的反常动力学，其长时间震荡行为与长时间平均值均表明非热化的发生\cite{bernien2017probing}。如图所示~\ref{scar}~。
 
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{chap1scar.png}
+    \bicaption{里德堡实验平台观察到的量子多体伤痕动力学，以及后续通过与$|2\rangle$做投影筛选得到非热化子空间。摘自\citep{bernien2017probing,serbyn2021quantum}}{Many body scar dynamics from Rydberg atoms simulation and non-thermalized sub Hilbert space obtained from overlap with $|2\rangle$. Reprinted from\citep{bernien2017probing,serbyn2021quantum}}
+    \label{scar}
+\end{figure}
+这一实验的引发的理论研究表明，反常动力学存在的原因为本征态希尔伯特空间中近似分立的子空间，其维度正比于链长。这一子空间在可以通过与初态$|Z_2\rangle$做投影，或者计算局域算符的本征态期望值，或者计算本征态的半链纠缠熵挑选出来\cite{turner2018weak,Turner2018quantum,Ho2019periodic,Choi2019emergent,Michailidis2020slow,serbyn2021quantum}，如图~\ref{scar}~所示。
+
+
+围绕着本征热化假说的成立与否，孤立体系的热化原理被逐步揭开。伴随着量子模拟实验技术的进步，我们对于热化的了解也越来越多，但是同样的未知也在增多，这仍是一个在蓬勃发展的领域。
+
+
+\section{本文安排}
+在接下来的章节中，我们首先在第二章中从相对简单的少体杂质体系出发，考虑一维下局域自旋与两个巡游费米子之间在自旋交换相互作用影响下的能谱结构，揭示少体体系的基态与激发态中蕴藏的特殊少体关联行为。然后转入第三章，我们从少体杂质体系来到多体杂质的研究。我们考虑典型的费米极化子杂质体系，采用统一的变分波函数研究其基态从极化子到分子的转变，揭示这一转变的本质在于基态从零动量到费米动量的转移，讨论维度与费米禁闭机制在这一转变中发挥的作用。并且基于转变点附近的极化子分子共存原理讨论了实验体系中有限温度和有限密度对单粒子观测量的连续化影响。在第四章中我们从能谱的静态行为转变到动力学行为研究。系统地靠察带有纵场的横场伊辛模型中，从固定初态出发，选取不同的耦合参数计算局域算符的时间平均与热力学系综平均得到热化的相图。这一从少体到多体再到动力学的研究脉络有助于我们理解量子体系新奇的物理特性。
 
 

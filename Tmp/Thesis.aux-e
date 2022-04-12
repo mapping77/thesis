@@ -17,96 +17,79 @@
 \providecommand*\HyPL@Entry[1]{}
 \HyPL@Entry{0<</S/r>>}
 \HyPL@Entry{6<</S/R>>}
+\citation{scazza2014observation,cappellini2014direct}
+\citation{zhang2014spectroscopic}
+\citation{ono2019antiferromagnetic}
+\citation{zhang2016kondo,cheng2017enhancing,zhang2018control,ji2018confinement,zhang2020tight,zhang2020controlling,riegger2018localized}
+\citation{riegger2018localized,barber2008optical}
 \HyPL@Entry{14<</S/D>>}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第1章\hspace  {.3em}}极化子-分子转变的本质}{1}{chapter.1}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第1章\hspace  {.3em}}自旋交换相互作用体系少体精确解}{1}{chapter.1}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\newlabel{chap2polaron}{{1}{1}{极化子-分子转变的本质}{chapter.1}{}}
+\newlabel{chap:kondo}{{1}{1}{自旋交换相互作用体系少体精确解}{chapter.1}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.1}引言}{1}{section.1.1}}
-\citation{edwards2013smooth}
-\citation{Sagi2020}
-\citation{Cui2020Fermi}
-\citation{edwards2013smooth}
-\citation{Peng2021Nature}
-\citation{Peng2021Nature}
-\citation{Peng2021Nature}
-\citation{Peng2021Nature}
-\citation{shi2018variational}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces  极化子-分子转变的示意图，其中$\delimiter "3223379 $原子为杂质，$\delimiter "3222378 $原子为背景。在弱的相互作用区间，基态处于零动量极化子，物理图像为零动量的杂质被背景费米海上的粒子空穴激发多修饰。到了强相互作用区间，体系基态从$\boldsymbol  {Q}=0$变为了$|\boldsymbol  {Q}|=k_F$，背景费米面上的一个原子与杂质配对形成$M(0)$的分子态，这个原子可以是费米面上任意方向的原子，因此带来了整个费米面的简并度。此时变分波函数$M_{2n}(0)$对应了这一简并中的一个对称破却态。摘自\citep  {Peng2021Nature} \relax }}{4}{figure.caption.9}}
+\newlabel{sec:spex-intro}{{1.1}{1}{引言}{section.1.1}{}}
+\citation{andrei1983solution}
+\newlabel{eq:sp-ex}{{1.1}{2}{引言}{equation.1.1.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}模型与计算}{3}{section.1.2}}
+\newlabel{sec:spex-model}{{1.2}{3}{模型与计算}{section.1.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}1+N体系哈密顿量}{3}{subsection.1.2.1}}
+\newlabel{eq:spex-hamiltonian}{{1.2}{3}{1+N体系哈密顿量}{equation.1.2.2}{}}
+\newlabel{eq:spex-field}{{1.3}{3}{1+N体系哈密顿量}{equation.1.2.3}{}}
+\newlabel{eq:H2}{{1.5}{3}{1+N体系哈密顿量}{equation.1.2.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}一个杂质与一个费米子}{4}{subsection.1.2.2}}
+\newlabel{eq_t}{{1.11}{4}{一个杂质与一个费米子}{equation.1.2.11}{}}
+\newlabel{eq_s}{{1.13}{5}{一个杂质与一个费米子}{equation.1.2.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.3}一个杂质与两个费米子}{5}{subsection.1.2.3}}
+\newlabel{eq:wv3}{{1.15}{5}{一个杂质与两个费米子}{equation.1.2.15}{}}
+\newlabel{eq:eq_3b}{{1.17}{5}{一个杂质与两个费米子}{equation.1.2.17}{}}
+\newlabel{F}{{1.18}{6}{一个杂质与两个费米子}{equation.1.2.18}{}}
+\newlabel{tF}{{1.19}{6}{一个杂质与两个费米子}{equation.1.2.19}{}}
+\newlabel{final_eq}{{1.24}{6}{一个杂质与两个费米子}{equation.1.2.24}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}结果}{7}{section.1.3}}
+\newlabel{sec:spex-result}{{1.3}{7}{结果}{section.1.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}一个杂质与一个费米子}{7}{subsection.1.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces 一个杂质与一个费米子的1+1体系在$S_{tot,z}=0$子希尔伯特空间的能谱随自旋交换相互作用强度的变化。蓝色虚线（红色散点线）代表自旋三重态（自旋单重态）通道中的本征解。绿色实线代表强相互作用附近的微扰论渐近行为。其横纵坐标$E$与$J$的量纲为$\omega $与$\sqrt  {\omega /M}$。\relax }}{8}{figure.caption.9}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{polaronillustration}{{1.1}{4}{极化子-分子转变的示意图，其中$\downarrow $原子为杂质，$\uparrow $原子为背景。在弱的相互作用区间，基态处于零动量极化子，物理图像为零动量的杂质被背景费米海上的粒子空穴激发多修饰。到了强相互作用区间，体系基态从$\Vector {Q}=0$变为了$|\Vector {Q}|=k_F$，背景费米面上的一个原子与杂质配对形成$M(0)$的分子态，这个原子可以是费米面上任意方向的原子，因此带来了整个费米面的简并度。此时变分波函数$M_{2n}(0)$对应了这一简并中的一个对称破却态。摘自\citep {Peng2021Nature} \relax }{figure.caption.9}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.2}模型}{5}{section.1.2}}
-\newlabel{chap3eq:H}{{1.2}{5}{模型}{equation.1.2.2}{}}
-\newlabel{eq0}{{1.9}{7}{模型}{equation.1.2.9}{}}
-\newlabel{wf_m}{{1.16}{7}{模型}{equation.1.2.14}{}}
-\newlabel{relation}{{1.20}{8}{模型}{equation.1.2.20}{}}
-\newlabel{corr1}{{1.21}{8}{模型}{equation.1.2.21}{}}
-\newlabel{corr2}{{1.22}{8}{模型}{equation.1.2.22}{}}
-\citation{Cui2020Fermi}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}结果}{9}{section.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}3D}{9}{subsection.1.3.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces 三维下单杂质极化子能量，能量平移两体束缚能$E_{2b}=-1/(ma_s^2)$。\relax }}{9}{figure.caption.10}}
-\newlabel{fig_mol_3D}{{1.2}{9}{三维下单杂质极化子能量，能量平移两体束缚能$E_{2b}=-1/(ma_s^2)$。\relax }{figure.caption.10}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces 不同相互作用下变分波函数的角度分布。我们用($|{\boldsymbol  {k} }|,\theta _k,\phi _k$)表征${\boldsymbol  {k} }$，其中$\theta _k$取值范围是$[0,\pi )$，$\phi _k$取值范围是$[0,2\pi )$。在图例中我们选取 ${\boldsymbol  {k} }=(1.32k_F, 0.53, 0.44),\ {\boldsymbol  {k'} } = (2.64k_F, 0.53, 0.44),\ {\boldsymbol  {q'} }= (k_F, 0, 0.44)$, and ${\boldsymbol  {q} } = (k_F,\theta _q,0.44)$ in $\alpha _{\boldsymbol  {k}\boldsymbol  {q}}\equiv \psi _{\boldsymbol  {k}\boldsymbol  {q}}/\psi _0 $ and $\alpha _{ \boldsymbol  {k}\boldsymbol  {k}'\boldsymbol  {q} \boldsymbol  {q}' }\equiv \psi _{\boldsymbol  {k}\boldsymbol  {k}'\boldsymbol  {q} \boldsymbol  {q}' }/\psi _0$.。 \relax }}{10}{figure.caption.11}}
-\newlabel{fig_wf}{{1.3}{10}{不同相互作用下变分波函数的角度分布。我们用($|{\Vector {k} }|,\theta _k,\phi _k$)表征${\Vector {k} }$，其中$\theta _k$取值范围是$[0,\pi )$，$\phi _k$取值范围是$[0,2\pi )$。在图例中我们选取 ${\Vector {k} }=(1.32k_F, 0.53, 0.44),\ {\Vector {k'} } = (2.64k_F, 0.53, 0.44),\ {\Vector {q'} }= (k_F, 0, 0.44)$, and ${\Vector {q} } = (k_F,\theta _q,0.44)$ in $\alpha _{\Vector {k}\Vector {q}}\equiv \psi _{\Vector {k}\Vector {q}}/\psi _0 $ and $\alpha _{ \Vector {k}\Vector {k}'\Vector {q} \Vector {q}' }\equiv \psi _{\Vector {k}\Vector {k}'\Vector {q} \Vector {q}' }/\psi _0$.。 \relax }{figure.caption.11}{}}
-\citation{Cui2020Fermi}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces (a) 为三维不同相互作用下，$P_5(\boldsymbol  {Q})$(实线)的色散关系。从上到下依次为$1/(k_Fa_s)=0.2,\ 0.5,\ 0.55,\ 0.6,\ 0.7,\ 0.8,\ 0.9,\ 1.2$，能量偏移$E_{\boldsymbol  {Q}=0}$。方形散点描述的是能量的极大值。黑色圆点代表的是$M_4({\boldsymbol  {Q} }_{\rm  M})$解出的能量，其中动量平移了$k_F$。 \relax }}{11}{figure.caption.12}}
-\newlabel{fig_transition_3D}{{1.4}{11}{(a) 为三维不同相互作用下，$P_5(\Vector {Q})$(实线)的色散关系。从上到下依次为$1/(k_Fa_s)=0.2,\ 0.5,\ 0.55,\ 0.6,\ 0.7,\ 0.8,\ 0.9,\ 1.2$，能量偏移$E_{\Vector {Q}=0}$。方形散点描述的是能量的极大值。黑色圆点代表的是$M_4({\Vector {Q} }_{\rm M})$解出的能量，其中动量平移了$k_F$。 \relax }{figure.caption.12}{}}
-\newlabel{E_M}{{1.24}{11}{3D}{equation.1.3.24}{}}
-\citation{Prokoffermi,Prokofbold}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces V-1ph与V-2ph得到的不同动量态的准粒子留数$Z$随相互作用的变化。\relax }}{12}{figure.caption.13}}
-\newlabel{fig_z}{{1.5}{12}{V-1ph与V-2ph得到的不同动量态的准粒子留数$Z$随相互作用的变化。\relax }{figure.caption.13}{}}
-\citation{Peng2021Nature}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.2}2D}{13}{subsection.1.3.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces 二维下V-2ph与V-1ph得到的能量。为了展示差异我们将能量大小平移二体束缚能$E_{2b}=-1/(ma_{2d}^2)$。\relax }}{13}{figure.caption.14}}
-\newlabel{2d_1}{{1.6}{13}{二维下V-2ph与V-1ph得到的能量。为了展示差异我们将能量大小平移二体束缚能$E_{2b}=-1/(ma_{2d}^2)$。\relax }{figure.caption.14}{}}
-\citation{Parish2013highly}
-\citation{Vlietinck2014diag,Kriss2014diag}
-\citation{Bour2015ab}
-\citation{Bour2015ab}
-\citation{mcguire1966interacting,guan2012polaron,Oleksandr2020zero}
-\citation{mcguire1966interacting,guan2012polaron,Oleksandr2020zero}
-\citation{mcguire1966interacting,guan2012polaron,Oleksandr2020zero}
-\citation{mcguire1966interacting,guan2012polaron,Oleksandr2020zero}
-\citation{mcguire1966interacting,guan2012polaron,Oleksandr2020zero}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.3}1D}{14}{subsection.1.3.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces (a)为二维下不同相互作用下$P_5(\boldsymbol  {Q})$（实线）本征能量的色散关系。自上而下$\qopname  \relax o{ln}(k_Fa_{2d})=-0.8,-0.9,-1.0,-1.1,-1.2$。能量偏移$\boldsymbol  {Q}=0$时的能量。黑色小点代表$M_4({\boldsymbol  {Q} }_{\rm  M})$变分波函数得到的能量。其动量关系为$|{\boldsymbol  {Q} }_{\rm  M}|$。(b)为V-Gph得到色散关系。从上到下相互作用强度为$\qopname  \relax o{ln}(k_Fa_{2d})=-0.5, -0.6, -0.7, -0.8, -0.9, -1.0$。同样能量平移$\boldsymbol  {Q}=0$时的能量。其中$Q=|{\boldsymbol  {Q} }|$。 \relax }}{15}{figure.caption.15}}
-\newlabel{2d_2}{{1.7}{15}{(a)为二维下不同相互作用下$P_5(\Vector {Q})$（实线）本征能量的色散关系。自上而下$\ln (k_Fa_{2d})=-0.8,-0.9,-1.0,-1.1,-1.2$。能量偏移$\Vector {Q}=0$时的能量。黑色小点代表$M_4({\Vector {Q} }_{\rm M})$变分波函数得到的能量。其动量关系为$|{\Vector {Q} }_{\rm M}|$。(b)为V-Gph得到色散关系。从上到下相互作用强度为$\ln (k_Fa_{2d})=-0.5, -0.6, -0.7, -0.8, -0.9, -1.0$。同样能量平移$\Vector {Q}=0$时的能量。其中$Q=|{\Vector {Q} }|$。 \relax }{figure.caption.15}{}}
-\citation{Zollner2011Polarons}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces V-2ph与V-Gph变分波函数得到的$Q=0$与$Q=k_F$基态能量的随耦合常常数的变化。能量以$E_{2b}=-1/(ma_{2d}^2)$ 为原点。\relax }}{16}{figure.caption.16}}
-\newlabel{2d_3}{{1.8}{16}{V-2ph与V-Gph变分波函数得到的$Q=0$与$Q=k_F$基态能量的随耦合常常数的变化。能量以$E_{2b}=-1/(ma_{2d}^2)$ 为原点。\relax }{figure.caption.16}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.9}{\ignorespaces 一维情况下不同相互作用的色散关系。(a)为$k_Fa_{1d}=1$，(b)为$k_Fa_{1d}=0.2$。实线代表V-2ph的结果。虚线代表贝特假设的结果\cite  {mcguire1966interacting,guan2012polaron,Oleksandr2020zero}，能量以$E_{2b}=-1/(ma_{1d}^2)$为原点。 \relax }}{17}{figure.caption.17}}
-\newlabel{fig:1d_dis}{{1.9}{17}{一维情况下不同相互作用的色散关系。(a)为$k_Fa_{1d}=1$，(b)为$k_Fa_{1d}=0.2$。实线代表V-2ph的结果。虚线代表贝特假设的结果\cite {mcguire1966interacting,guan2012polaron,Oleksandr2020zero}，能量以$E_{2b}=-1/(ma_{1d}^2)$为原点。 \relax }{figure.caption.17}{}}
-\citation{Cui2020Fermi}
-\citation{Parish2021thermodynamic}
-\citation{Sagi2020}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.4}实际体系中的极化子-分子共存}{18}{subsection.1.3.4}}
-\citation{Sagi2020,Lobo2006normal}
-\citation{Sagi2020}
-\citation{Sagi2020}
-\citation{Sagi}
-\citation{Sagi}
-\citation{Sagi}
-\citation{Sagi2020}
-\citation{Sagi}
-\citation{Sagi}
-\citation{Sagi}
-\citation{Sagi2020}
-\citation{Sagi2020}
-\citation{Sagi}
-\citation{Sagi2020}
-\citation{Sagi}
-\newlabel{local_n}{{1.27}{19}{实际体系中的极化子-分子共存}{equation.1.3.27}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.10}{\ignorespaces 准粒子留数$\mathaccentV {bar}B16{Z}$(a)，contact$\mathaccentV {bar}B16{C}$(b)，以及极化子能量$\mathaccentV {bar}B16{E}_p$(c)随着相互作用变化的实验与LDA结果比较。蓝色方点以及误差来自实验数据来自\cite  {Sagi2020}。黑色虚点线为实验中的理论预测，基于$P_3(0)$与$M_2(0)$，但是没有考虑分子态简并。橘色圆点为我们LDA的结果。其中$k_F$为势阱中心的费米动量。 \relax }}{21}{figure.caption.18}}
-\newlabel{ZEC}{{1.10}{21}{准粒子留数$\bar {Z}$(a)，contact$\bar {C}$(b)，以及极化子能量$\bar {E}_p$(c)随着相互作用变化的实验与LDA结果比较。蓝色方点以及误差来自实验数据来自\cite {Sagi2020}。黑色虚点线为实验中的理论预测，基于$P_3(0)$与$M_2(0)$，但是没有考虑分子态简并。橘色圆点为我们LDA的结果。其中$k_F$为势阱中心的费米动量。 \relax }{figure.caption.18}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.11}{\ignorespaces 不同变分波函数（V-1ph与V-2ph）与不同归类机制（是否考虑$SO(3)$兼并）下得到的准粒子留数$\mathaccentV {bar}B16{Z}$。蓝色方点来自实验数据\cite  {Sagi2020}。\relax }}{22}{figure.caption.19}}
-\newlabel{Z_supple}{{1.11}{22}{不同变分波函数（V-1ph与V-2ph）与不同归类机制（是否考虑$SO(3)$兼并）下得到的准粒子留数$\bar {Z}$。蓝色方点来自实验数据\cite {Sagi2020}。\relax }{figure.caption.19}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}小结与展望}{23}{section.1.4}}
+\newlabel{fig:fig1}{{1.1}{8}{一个杂质与一个费米子的1+1体系在$S_{tot,z}=0$子希尔伯特空间的能谱随自旋交换相互作用强度的变化。蓝色虚线（红色散点线）代表自旋三重态（自旋单重态）通道中的本征解。绿色实线代表强相互作用附近的微扰论渐近行为。其横纵坐标$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }{figure.caption.9}{}}
+\citation{zurn2012fermionization}
+\citation{busch1998two}
+\newlabel{asymptotic}{{1.31}{10}{一个杂质与一个费米子}{equation.1.3.31}{}}
+\newlabel{asymptotic_wf}{{1.32}{10}{一个杂质与一个费米子}{equation.1.3.32}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.2}一个杂质与两个费米子}{10}{subsection.1.3.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces 一个杂质与两个个费米子的1+2体系在$S_{tot,z}=1/2$子希尔伯特空间的能谱随自旋交换相互作用与无自旋交换的接触相互作用强度的变化。a（1）代表的是带自旋交换相互作用1+2体系。我们用红色的点来标记其中特殊的$S_{tot=3/2}$的铁磁态。剩下的态都是$S_{tot}=1/2$的态。a（2）代表的是带纯接触势的1+2体系的能谱。其中$E$与$J$的量纲为$\omega $与$\sqrt  {\omega /M}$。\relax }}{11}{figure.caption.10}}
+\newlabel{fig:fig2}{{1.2}{11}{一个杂质与两个个费米子的1+2体系在$S_{tot,z}=1/2$子希尔伯特空间的能谱随自旋交换相互作用与无自旋交换的接触相互作用强度的变化。a（1）代表的是带自旋交换相互作用1+2体系。我们用红色的点来标记其中特殊的$S_{tot=3/2}$的铁磁态。剩下的态都是$S_{tot}=1/2$的态。a（2）代表的是带纯接触势的1+2体系的能谱。其中$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }{figure.caption.10}{}}
+\citation{mahanmany}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces 铁磁（$J<0$）与反铁磁（$J>0$）耦合下整个体系平移对应的自旋单重态与自旋三重态能量后的能谱。其中a（1）代表能谱减掉$\frac  {-9J^2}{8}$后的行为，b（1）代表了a（1）中灰色区域的放大。a（2）代表能谱减掉$\frac  {-J^2}{8}$后的行为，可以看到基态依然随着$|J|$增大而能量越来越低，不再饱和到某一有限值。b（2）代表了a（2）中灰色区域的放大，从第一激发态开始，能量最终饱和在有限值。其中$E$与$J$的量纲为$\omega $与$\sqrt  {\omega /M}$。\relax }}{13}{figure.caption.11}}
+\newlabel{fig:fig3}{{1.3}{13}{铁磁（$J<0$）与反铁磁（$J>0$）耦合下整个体系平移对应的自旋单重态与自旋三重态能量后的能谱。其中a（1）代表能谱减掉$\frac {-9J^2}{8}$后的行为，b（1）代表了a（1）中灰色区域的放大。a（2）代表能谱减掉$\frac {-J^2}{8}$后的行为，可以看到基态依然随着$|J|$增大而能量越来越低，不再饱和到某一有限值。b（2）代表了a（2）中灰色区域的放大，从第一激发态开始，能量最终饱和在有限值。其中$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }{figure.caption.11}{}}
+\newlabel{eq:free1+2}{{1.35}{14}{一个杂质与两个费米子}{equation.1.3.35}{}}
+\citation{cui2014ground}
+\newlabel{E3m}{{1.46}{17}{一个杂质与两个费米子}{equation.1.3.46}{}}
+\newlabel{eq2}{{1.48}{17}{一个杂质与两个费米子}{equation.1.3.48}{}}
+\newlabel{infcond}{{1.49}{17}{一个杂质与两个费米子}{equation.1.3.49}{}}
+\newlabel{kappam}{{1.50}{18}{一个杂质与两个费米子}{equation.1.3.50}{}}
+\newlabel{kappammid}{{1.53}{18}{一个杂质与两个费米子}{equation.1.3.53}{}}
+\newlabel{kappammat}{{1.57}{19}{一个杂质与两个费米子}{equation.1.3.57}{}}
+\citation{Andrei-Furuya-Lowenstein}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces 能量$E=5\omega $附近三支repulsive branch的能量对比。其中蓝色散点图代表数值严格对角化的结果，黑色虚线代表$1/J=0$附近微扰论的结果。其中能量$E$与相互作用强度$J$的量纲为$\omega $和$\sqrt  {\omega /M}$。\relax }}{20}{figure.caption.12}}
+\newlabel{fig:fig4}{{1.4}{20}{能量$E=5\omega $附近三支repulsive branch的能量对比。其中蓝色散点图代表数值严格对角化的结果，黑色虚线代表$1/J=0$附近微扰论的结果。其中能量$E$与相互作用强度$J$的量纲为$\omega $和$\sqrt {\omega /M}$。\relax }{figure.caption.12}{}}
+\citation{Yosida}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.3}多体扩展}{21}{subsection.1.3.3}}
+\citation{riegger2018localized}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}实验观测}{22}{section.1.4}}
+\citation{ono2019antiferromagnetic,zhang2016kondo,cheng2017enhancing,zhang2018control,ji2018confinement,zhang2020tight}
+\citation{scazza2014observation,cappellini2014direct,ono2019antiferromagnetic}
+\newlabel{H_U}{{1.67}{23}{实验观测}{equation.1.4.67}{}}
+\newlabel{eff_gamma}{{1.69}{23}{实验观测}{equation.1.4.69}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces 一个杂质与两个费米子在自旋交换相互作用与纯接触相互作用共同影响下体系的能谱结构变化。我们取$\frac  {U}{J}=-0.4,-0.5,-0.6$作为示例说明。分别对应图（a，b，c）。其中能量$E$与相互作用强度$J$的量纲为$\omega $和$\sqrt  {\omega /M}$。\relax }}{25}{figure.caption.13}}
+\newlabel{fig5}{{1.5}{25}{一个杂质与两个费米子在自旋交换相互作用与纯接触相互作用共同影响下体系的能谱结构变化。我们取$\frac {U}{J}=-0.4,-0.5,-0.6$作为示例说明。分别对应图（a，b，c）。其中能量$E$与相互作用强度$J$的量纲为$\omega $和$\sqrt {\omega /M}$。\relax }{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.5}小结与展望}{26}{section.1.5}}
+\newlabel{sec:spex-summary}{{1.5}{26}{小结与展望}{section.1.5}{}}
 \bibdata{Biblio/ref}
-\@writefile{toc}{\contentsline {chapter}{参考文献}{25}{section*.20}}
-\@writefile{toc}{\contentsline {chapter}{致谢}{25}{chapter*.21}}
+\@writefile{toc}{\contentsline {chapter}{参考文献}{27}{section*.14}}
+\@writefile{toc}{\contentsline {chapter}{致谢}{27}{chapter*.15}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{27}{chapter*.22}}
+\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{29}{chapter*.16}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
