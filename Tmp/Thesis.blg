@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Tmp/Thesis.aux
+The style file: Biblio/gbt7714-numerical.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 150 items from 100.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 11264 items from 5000.
+Database file #1: Biblio/ref.bib
+Warning--I didn't find a database entry for "Sagi"
+Warning--empty journal in mahanmany
+You've used 173 entries,
+            4948 wiz_defined-function locations,
+            2276 strings with 54041 characters,
+and the built_in function-call counts, 1650063 in all, are:
+= -- 49398
+> -- 182741
+< -- 215325
++ -- 58109
+- -- 19956
+* -- 15881
+:= -- 231662
+add.period$ -- 851
+call.type$ -- 173
+change.case$ -- 347
+chr.to.int$ -- 53239
+cite$ -- 174
+duplicate$ -- 3622
+empty$ -- 24383
+format.name$ -- 5006
+if$ -- 424651
+int.to.chr$ -- 10
+int.to.str$ -- 174
+missing$ -- 0
+newline$ -- 1213
+num.names$ -- 519
+pop$ -- 76436
+preamble$ -- 1
+purify$ -- 173
+quote$ -- 0
+skip$ -- 177139
+stack$ -- 0
+substring$ -- 96794
+swap$ -- 191
+text.length$ -- 2890
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 2237
+warning$ -- 1
+while$ -- 3621
+width$ -- 0
+write$ -- 3146
+(There were 2 warnings)

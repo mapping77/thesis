@@ -1,11 +1,11 @@
-\chapter{极化子-分子转变的本质}\label{chap2polaron}
+\chapter{费米极化子中极化子-分子转变的本质}\label{chap:polaron}
 
-在论文的绪论部分我们介绍了费米极化子的理论与实验研究脉络。其中三维和二维下普遍认为存在极化子到分子的转变。一直以来这一转变的证据来自于两个分立的变分波函数。在我们最新的工作中，我们用一个截止到2对粒子-空穴对激发的统一变分波函数V-2ph来研究极化子-分子的转变。我们证实在三维和二维下确实存在极化子到分子的一阶转变。通过这一统一的变分波函数我们给出这一转变的本质在于不同总动量$\Vector{Q}=0$和$|\Vector{Q}|=k_F$和的转变。这里的$\Vector{Q}$指的是总动量相对于费米海的动量。之前研究中广泛使用的分子态变分波函数是我们V-2ph变分波函数$|\Vector{Q}|=k_F$在强相互作用下的渐近极限，并因此带来很大的$SO(3)$（三维是$SO(3)$，二维是$SO(2)$）基态简并。这一简并的发现导致了态密度的变化，这一变化改变了有限温度和有限密度下分子态的占据数。我们与实验观测到的结果进行比较，可以在弱耦合和共振区间得到较好的符合。我们进一步在二维下采用了高斯态的变分办法，验证了我们提出的极化子到分子的转变的本质在于动量的转变。在一维下变分法给出没有一阶转变，与贝特假设严格解的结果一致。最终发现极化子-分子的转变存在性由费米紧闭机制和维度带来的量子涨落共同决定。
+在论文的绪论~\ref{1sec:polaron}~节中我们介绍了费米极化子的理论与实验研究脉络。其中三维和二维下普遍认为存在极化子到分子的转变。一直以来这一转变的证据来自于两个分立的变分波函数，不过也有一些不同观点。在我们最新的工作中，我们用一个截止到2对粒子-空穴对激发的统一变分波函数V-2ph来研究极化子-分子的转变。我们证实在三维和二维下确实存在极化子到分子的一阶转变。通过这一统一的变分波函数我们给出这一转变的本质在于不同总动量$\Vector{Q}=0$和$|\Vector{Q}|=k_F$和的转变。这里的$\Vector{Q}$指的是总动量相对于费米海的动量。之前研究中广泛使用的分子态变分波函数是我们V-2ph变分波函数$|\Vector{Q}|=k_F$在强相互作用下的渐近极限，并因此带来很大的$SO(3)$（三维是$SO(3)$，二维是$SO(2)$）基态简并。这一简并的发现导致了态密度的变化，这一变化改变了有限温度和有限密度下分子态的占据数。我们与实验观测到的结果进行比较，可以在弱耦合和共振区间得到较好的符合。我们进一步在二维下采用了高斯态的变分办法，验证了我们提出的极化子到分子的转变的本质在于动量的转变。在一维下变分法给出没有一阶转变，与贝特假设严格解的结果一致。最终发现极化子-分子的转变存在性由费米紧闭机制和维度带来的量子涨落共同决定。
 
-本章安排如下我们在第一节中介绍研究的动机，更加详细的极化子研究背景可以参考第一章第三节。第二节我们给出用来处理费米极化子的两个变分法的数值算法：一种算法是截止到2对粒子空穴对激发的V-2ph，另一种算法是可以有选择挑选出高阶粒子空穴对激发的V-Gph。在第三节我们给出单杂质系统两种算法处理下不同维度极化子到分子转变的结果，并对维度对于这一转变存在的影响做分析。在第四节我们用得到的单杂质结果计算三维情况下有限温度和有限密度下极化子分子连续转变以及转变区间的共存问题。并与实验结果做细致的比较。最终第五节我们总结我们的结果并做展望。
+本章安排如下我们在~\ref{3sec:intro}~节中介绍研究的动机，在~\ref{3sec:method}~节我们给出用来处理费米极化子的两个变分法的数值算法：一种算法是截止到2对粒子空穴对激发的V-2ph，另一种算法是可以有选择挑选出高阶粒子空穴对激发的V-Gph。在~\ref{3sec:result}~节我们给出单杂质系统两种算法处理下不同维度极化子到分子转变的结果，并讨论维度对这一转变存在性的影响。在~\ref{3sec:LDA}~节我们用得到的单杂质结果计算三维情况下有限温度和有限密度下极化子分子连续转变以及转变区间的共存问题。并与实验结果做细致的比较。最终~\ref{3sec:sum}~节我们总结我们的结果并做展望。
 
-\section{引言}
-在论文的开始部分我们梳理了极化子理论与实验研究的进展。其中我们提到对于高维的情况，随着杂质原子与背景费米海之间相互作用的增强，系统基态发生极化子到分子的转变。相应的物理图像也很直观，当相互作用不那么强的时候杂质的运动被背景费米海的粒子空穴对激发所修饰，单粒子性质被重整化。一旦相互作用越过临界点，一个杂质可以与背景费米海的一个原子结合在一起形成服从玻色统计的分子态，不过这个分子态是有费米海存在的分子态，并不是真空的分子态。通常用两个独立的变分波函数来表征：
+\section{引言}\label{3sec:intro}
+在论文的~\ref{1sec:polaron}~节我们简要梳理了费米极化子理论与实验研究的进展。其中我们提到对于高维的情况，随着杂质原子与背景费米海之间相互作用的增强，系统基态发生极化子到分子的转变。相应的物理图像也很直观，当相互作用不那么强的时候杂质的运动被背景费米海的粒子空穴对激发所修饰，单粒子性质被重整化。一旦相互作用越过临界点，一个杂质可以与背景费米海的一个原子结合在一起形成服从玻色统计的分子态，不过这个分子态是有费米海存在的分子态，并不是真空的分子态。通常用两个独立的变分波函数来表征：
 \begin{equation}
 \begin{aligned}
 &P_{2 n+1}(0) =\left[\psi_{0} c_{\Vector{0}_{\downarrow}}^{\dagger}+\sum_{l=1}^{n} \sum_{\Vector{k}_{i} \Vector{q}_{j}} \psi_{\Vector{k}_{\Vector{q}_{j}}} c_{\Vector{P} \downarrow}^{\dagger} \prod_{i=1}^{l} c_{\Vector{k}_{i} \uparrow}^{\dagger} \prod_{j=1}^{l} c_{\Vector{q}_{j} \uparrow}\right]|\mathrm{FS}\rangle_{N}\\
@@ -16,9 +16,9 @@
 
 而在实验这边，实验解析到的准粒子留数是连续地趋向于零，并没有出现跳变。尤其是最近的实验通过动量分辨的Raman谱直接解析到不同物理量在转变前后连续的变化\cite{Sagi2020}。再一次印证了变分波函数下极化子到分子的转变需要谨慎对待。
 
-基于上面理论与实验方面的动机，在最近的研究中，我们通过统一的变分波函数来研究极化子与分子\cite{Cui2020Fermi}。通过统一的变分波函数V-1ph：$P_3(\Vector{Q})$，即将动量扩展到非零动量来研究三维极化子。我们这里的$\Vector{Q}$指的是系统总的动量减掉费米海$|FS\rangle_N$的动量。当$|\Vector{Q}|=k_F$的时候，$P_3(\Vector{Q})$的变分空间包含了$M_2(0)$，其中$k_F$为背景原子的费米动量，因此$M_2(0)$变分空间得到的基态能量是不低于$P_3(k_F)$的。而且在强相互作用区间$M_2(0)$是$P_3(k_F)$渐近行为。在V-1ph近似的程度下，极化子到分子的转变其实本质在于$P_3(0)$与$P_3(k_F)$哪个动量态得到的能量更低的竞争。用这样一个统一的V-ph变分波函数，理清了两个变分波函数相互包含\cite{edwards2013smooth}的问题。因为这个时候基态是在同一个变分波函数下不同总动量空间去求解的。更有趣的是，在转变点附近，可以看到$P_3(\Vector{Q})$的色散关系是一个双极小值结构。这一结构证实了极化子分子转变为一阶转变，并且实际体系在转变点附近存在两者的共存，并且对最近的实验做了对比。
+基于上面理论与实验方面的动机，在最近的研究中，通过统一的变分波函数来研究极化子与分子\cite{Cui2020Fermi}。通过统一的变分波函数V-1ph：$P_3(\Vector{Q})$，即将动量扩展到非零动量来研究三维极化子。这里的$\Vector{Q}$指的是系统总的动量减掉费米海$|FS\rangle_N$的动量。当$|\Vector{Q}|=k_F$的时候，$P_3(\Vector{Q})$的变分空间包含了$M_2(0)$，其中$k_F$为背景原子的费米动量，因此$M_2(0)$变分空间得到的基态能量是不低于$P_3(k_F)$的。而且在强相互作用区间$M_2(0)$是$P_3(k_F)$渐近行为。在V-1ph近似的程度下，极化子到分子的转变其实本质在于$P_3(0)$与$P_3(k_F)$哪个动量态得到的能量更低的竞争。用这样一个统一的V-ph变分波函数，理清了两个变分波函数相互包含\cite{edwards2013smooth}的问题。因为这个时候基态是在同一个变分波函数下不同总动量空间去求解的。更有趣的是，在转变点附近，可以看到$P_3(\Vector{Q})$的色散关系是一个双极小值结构。这一结构证实了极化子分子转变为一阶转变，并且实际体系在转变点附近存在两者的共存，并且对最近的实验做了对比。
 
-为了进一步地验证上述结果，我们将V-1ph扩展到V-2ph，用统一的变分波函数$P_5(\Vector{Q})$来研究整个相互作用区间的基态解，并且系统的研究了极化子中维度的效应。通过$P_5(\Vector{Q})$的计算，我们证实了三维和二维情况下存在极化子到分子的转变。这一转变的本质在于不同总动量$\Vector{Q}=0$和$|\Vector{Q}|=k_F$的竞争。相比较V-1ph的$P_3(\Vector{Q})$，主要的不同点在于V-2ph得到的相变点和共存区域会向弱相互作用区间偏离。因此在与实际实验观测物理量比较的时候我们得到了比V-1ph在弱相互作用区间和共振点处更好的一致性。而在共存区间以及强相互作用区间我们强调了发现的基态简并（三维下$SO(3)$，二维下$SO(2)$），这一简并导致了实际体系中共存区分子态占据几率的增大，进一步降低最终解离出的准粒子剩余。在图~\ref{polaronillustration}~展示了这一极化子到分子的转变本质一起分子态简并的起源。
+为了进一步地验证上述结果，我们在本章中将V-1ph扩展到V-2ph，用统一的变分波函数$P_5(\Vector{Q})$来研究整个相互作用区间的基态解，并且系统的研究了极化子中维度的效应。通过$P_5(\Vector{Q})$的计算，我们证实了三维和二维情况下存在极化子到分子的转变。这一转变的本质在于不同总动量$\Vector{Q}=0$和$|\Vector{Q}|=k_F$的竞争。相比较V-1ph的$P_3(\Vector{Q})$，主要的不同点在于V-2ph得到的相变点和共存区域会向弱相互作用区间偏离。因此在与实际实验观测物理量比较的时候我们得到了比V-1ph在弱相互作用区间和共振点处更好的一致性。而在共存区间以及强相互作用区间我们强调了发现的基态简并（三维下$SO(3)$，二维下$SO(2)$），这一简并导致了实际体系中共存区分子态占据几率的增大，进一步降低最终解离出的准粒子剩余。在图~\ref{polaronillustration}~展示了这一极化子到分子的转变本质一起分子态简并的起源。
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{chap3illustration.pdf}
@@ -27,11 +27,11 @@
 \end{figure}
 为了进一步地考察维度在分子极化子转变的过程中起到的作用，除了V-2ph的结果，在二维下还用了一种高斯态变分波函数V-Gph\cite{shi2018variational}，得到了相同的结论，即二维下存在极化子到分子的转变。在一维下，V-2ph预测没有一阶的转变，基态动量一直为$\Vector{Q}=0$，这一结论与贝特假设严格解的结果相一致。这些不同计算方法进一步确认了我们V-2ph变分波函数的有效性。
 
-\section{模型}
+\section{模型}\label{3sec:method}
 我们考虑如下的N+1多体哈密顿量，一个杂质与N个背景费米子：
 \begin{equation}
 \label{chap3eq:H}
-H=\sum_{\Vector{k}\sigma} \epsilon_{\Vector{k},\sigma} c_{\Vector{k} \sigma}^{\dagger} c_{\Vector{k} \sigma}+g/L^d \sum_{\Vector{Q}, \Vector{k}, \Vector{k}^{\prime}} c_{\Vector{Q}-\Vector{k}, \uparrow}^{\dagger} c_{\Vector{k}, \downarrow}^{\dagger} c_{\Vector{k}^{\prime}, \downarrow} c_{\Vector{Q}-\Vector{k}^{\prime}, \uparrow}
+\hat{H}=\sum_{\Vector{k}\sigma} \epsilon_{\Vector{k},\sigma} c_{\Vector{k} \sigma}^{\dagger} c_{\Vector{k} \sigma}+g/L^d \sum_{\Vector{Q}, \Vector{k}, \Vector{k}^{\prime}} c_{\Vector{Q}-\Vector{k}, \uparrow}^{\dagger} c_{\Vector{k}, \downarrow}^{\dagger} c_{\Vector{k}^{\prime}, \downarrow} c_{\Vector{Q}-\Vector{k}^{\prime}, \uparrow}
 \end{equation}
 其中$\epsilon_{\Vector{k}}=\Vector{k}^2/(2m)$，$d$是系统的维度。$g$ 是裸的不同费米子之间s波相互作用常数，在二维和三维的时候需要做重整化来消除模型引入的短程紫外发散。对于三维情况下我们将裸的$g$与s波散射长度$a_S$相关联。有重整化关系：
 \begin{equation}
@@ -85,19 +85,11 @@ E^{(2)}_{ \Vector{k}\Vector{k}'\Vector{q}\Vector{q}'} &= \epsilon_{\Vector{Q}+\V
 \end{split}
 \end{equation}
 得到：
-
 \begin{eqnarray}
-\label{eq0}
--\frac{1}{g}(E-E^{(0)}_{\Vector{Q}})\psi _0&=&\sum_{\Vector{kq}}\psi _{\Vector{kq}};\\
-%\label{eq1}
--\frac{1}{g}(E-E^{(1)}_{\Vector{kq}})\psi _{\Vector{kq}}&=&\psi _0+ \sum_{\Vector{K}} \psi _{\Vector{Kq}}-
-\sum_{\Vector{q}'} \psi _{\Vector{kq'}}-\sum_{\Vector{Kq'}}\psi _{\Vector{kKqq'}};\\
-%\label{eq2}
--\frac{1}{g}(E-E^{(2)}_{\Vector{kk}'\Vector{qq}'})\psi _{\Vector{kk}'\Vector{qq}'}&=&-\psi _{\Vector{kq}}-\psi _{\Vector{k}'\Vector{q}'}+\psi _{\Vector{k}\Vector{q}'}+\psi _{\Vector{k}'\Vector{q}}+ \sum_{K} \psi _{\Vector{Kk}'\Vector{qq}'}\\
-\quad \quad &&+\sum_{\Vector{K}} \psi _{\Vector{kKqq}'} -\sum_{\Vector{Q'}} \psi _{\Vector{kk}'\Vector{Q'q}'}-\sum_{\Vector{Q'}} \psi _{\Vector{kk}'\Vector{qQ'}} \nonumber\\
+E &=& \epsilon_{\Vector{Q} } + \sum_{\Vector{q}} A_{\Vector{q} };  \label{eq1}\\
+{\alpha}_{\Vector{k} \Vector{q} } &=& \frac{ {A}_{\Vector{q}} -\sum_{\Vector{q}'} {G}(\Vector{k},\Vector{q},\Vector{q}') }{E-E^{(1)}_{\Vector{k} \Vector{q}}} ; \label{eq2}\\
+{G}(\Vector{k},\Vector{q},\Vector{q}') &=& \frac{ {\alpha}_{\Vector{k} \Vector{q}'} - {\alpha}_{\Vector{k} \Vector{q} }  - \sum_{\Vector{k}'} \frac{ {G}(\Vector{k}',\Vector{q},\Vector{q}') }{ E-E^{(2)}_{\Vector{k}\Vector{k}'\Vector{q}\Vector{q}'} } }{h(\Vector{k},\Vector{q},\Vector{q}')}, \label{eq3}
 \end{eqnarray}
-
-
 其中我们引入辅助变量：
 \begin{equation}
 \begin{split}
@@ -107,7 +99,10 @@ h(\Vector{q}) &= \frac{1}{g} - \sum_{\Vector{k}} \frac{1}{E-E^{(1)}_{\Vector{k} 
 h(\Vector{k},\Vector{q},\Vector{q}') &= \frac{1}{g} - \sum_{\Vector{k}'} \frac{1}{E-E^{(2)}_{\Vector{k}\Vector{k}'\Vector{q}\Vector{q}'}}, %=  \frac{m}{4\pi a_s} - \sum_{\Vector{k}} \frac{1}{2\epsilon_{\Vector{k}} } - \sum_{\Vector{k}} \frac{1}{E-E^{(2)}_{\Vector{k}\Vector{k}'\Vector{q}\Vector{q}'}}
 \end{split}
 \end{equation}
-其中我们定义${\alpha}_{\Vector{k}\Vector{q}} = \psi_{\Vector{k}\Vector{q}}/ \psi_0$，${A}_{\Vector{q}} = g (1+\sum_{\Vector{k} }{\alpha}_{\Vector{k}\Vector{q}})$。
+其中我们定义${\alpha}_{\Vector{k}\Vector{q}} = \psi_{\Vector{k}\Vector{q}}/ \psi_0$，${A}_{\Vector{q}} = g (1+\sum_{\Vector{k} }{\alpha}_{\Vector{k}\Vector{q}})$，得到最终的迭代方程：
+
+
+
 由于$\Vector{Q}$的旋转对称性，我们选取$\Vector{Q}$沿z轴正方向来求解。与之前文章讨论的$\Vector{Q}=0$情况下的解相比，此时会引入更大的计算量。因此我们采用的是迭代求解的办法来求解。用方程~\ref{eq1}~来更新本征能量$E$，用~\ref{eq3}~来更新${G}(\Vector{k}',\Vector{q},\Vector{q}')$。并且我们采用渐近式弛豫迭代来保证收敛。
 
 介绍完$P_5(\Vector{Q})$的求解后，作为参考我们介绍$M_4(\Vector{Q}_m)$的求解，这一变分波函数描述的是一个两体分子态受到费米面的修饰：
@@ -152,7 +147,7 @@ M_{4}({\Vector{Q}}_{\rm M})&=&\left[\sum_{{\Vector{k} }}\phi_{{\Vector{k} }} c^{
 
 基于上面两点我们知道，不同动量态之间是没有交叠的。因此我们提出用扩展到有限动量的$P_5(\Vector{Q})$来作为统一变分波函数研究极化子到分子的转变。
 
-\section{结果}
+\section{结果}\label{3sec:result}
 在这一章我们给出统一变分波函数观点下的不同维度下单杂质极化子分子转变研究。作为对照我们会在二维下采用V-Gph变分波函数做比较，在一维下采用贝特假设的结果做比较。我们取动量指标的上限为$30k_F$。
 
 \subsection{三维}
@@ -280,8 +275,8 @@ E_M=E_{2b}-E_F+c_d E_F(2E_F/|E_{2b}|)^{(d-2)/2},
 
 进一步，我们知道，随着系统维度的降低，粒子空穴激发带来的涨落变得越来越重要，这一点我们可以从不同维度下$M_2(0)$与$M_4(0)$的能量差就可以看到。在三维下增加一阶粒子空穴激发仅仅降低了很小的能量。但是在二维下可以看到能量降低了约$2E_F$（强耦合极限）。仅在考虑更高一阶的粒子空穴激发（$M_4(0)$）下，在强耦合极限才能给出渐近的能量行为$E_M=E_{2b}-E_F$。这是可以从物理图像上可以想象到最低的能量了。因此在二维和三维下极化子到分子的转变是存在的。在一维下，$\Vector{Q}=0$的能量在强耦合极限下趋近于$E_{2b}-E_F$，$|\Vector{Q}|=k_F$的能量在强耦合极限下趋近于$E_{2b}-E_F/2$，因此在一维下系统的基态一直在$\Vector{Q}=0$上，因此没有极化子到分子的转变。
 
-\subsection{实际体系中的极化子-分子共存}
-在我们之前的工作中\cite{Cui2020Fermi}，我们用V-1ph结果定性讨论了实际实验体系中由于有限密度和有限温度导致的转变连续化。最近理论研究\cite{Parish2021thermodynamic}将V-1ph扩展到有限温度和有限密度来解释实验观测到的连续变化。在本节中我们基于V-2ph以及考虑局域密度近似来系统地研究实验上观测到的单粒子观测量连续化，并与最近的实验做详细对比\cite{Sagi2020}。
+\section{实际体系中的极化子-分子共存}\label{3sec:LDA}
+在之前的工作中\cite{Cui2020Fermi}，利用V-1ph结果定性讨论了实际实验体系中由于有限密度和有限温度导致的转变连续化。最近理论研究\cite{Parish2021thermodynamic}将V-1ph扩展到有限温度和有限密度来解释实验观测到的连续变化。在本节中我们基于V-2ph以及考虑局域密度近似来系统地研究实验上观测到的单粒子观测量连续化，并与最近的实验做详细对比\cite{Sagi2020}。
 
 在图~\ref{fig_transition_3D}~中我们可以清楚地看到双极小值结构决定了在转变点附近极化子与分子的共存事实。我们忽略背景费米海的有限温度形变。忽略杂质之间的相互作用（这在低密度极限下是成立的）。我们主要考虑两种态的占据：一种是$\Vector{Q}=0$动量附近的极化子，服从费米分布。另一种是$|\Vector{Q}|=k_F$附近的分子态，服从玻色统计。
 
@@ -292,7 +287,7 @@ E_M=E_{2b}-E_F+c_d E_F(2E_F/|E_{2b}|)^{(d-2)/2},
 	n_{\uparrow}(\Vector{r}) = \frac{1}{6\pi^2} \left( 2m [\mu_{\uparrow} - V(\Vector{r})]\right)^{\frac{3}{2}},
 \end{equation}
 其中$V(\Vector{r})=m\omega^2{\Vector{r} }^2/2$为谐振子势阱。$\mu_{\uparrow}=k^2_{F{\uparrow}}(0)/(2m)  = (6 N_{\uparrow})^{1/3} \omega$为背景原子在势阱中心处的化学势。在L局域密度近似下，势阱各处背景原子的密度不同，因此对应的局域背景费米动量也不同，与密度的关系为：
-$k_{F\uparrow}(\Vector{r}) = (6\pi^2n_{\uparrow}(\Vector{r}))^{1/3}$，在空间中各个微小体积元内，我们近似地认为这一维小体积与为费米动量为$k_{F\uparrow}(\Vector{r})$的热力学均与体系。$k_{F\uparrow}(\Vector{r})$决定了此处的极化子与分子的占据状态。
+$k_{F\uparrow}(\Vector{r}) = (6\pi^2n_{\uparrow}(\Vector{r}))^{1/3}$，在空间中各个微小体积元内，我们近似地认为这一微小体积与为费米动量为$k_{F\uparrow}(\Vector{r})$的热力学均匀体系。$k_{F\uparrow}(\Vector{r})$决定了此处的极化子与分子的占据状态。
 
 基于上面的假设，我们杂质的空间密度分布为（$\theta(x)$为阶跃函数）：
 \begin{eqnarray}
@@ -305,7 +300,7 @@ $k_{F\uparrow}(\Vector{r}) = (6\pi^2n_{\uparrow}(\Vector{r}))^{1/3}$，在空间
 \begin{equation}
 \langle \frac{n_{\downarrow}}{n_{\uparrow}}\rangle=\frac{ \int d^3\Vector{r} n_\downarrow(\Vector{r}) \cdot \frac{n_\downarrow(\Vector{r})}{n_\uparrow(\Vector{r})} }{\int d^3\Vector{r} n_\downarrow(\Vector{r})},
 \end{equation}
-固定$\langle \frac{n_{\downarrow}}{n_{\uparrow}}\rangle=0.15$。这个约束可以给出$\mu_{\downarrow}$。有了$\mu_{\downarrow}$就可以取计算势阱均的极化子能量、留数与contact：
+固定$\langle \frac{n_{\downarrow}}{n_{\uparrow}}\rangle=0.15$。这个约束可以给出$\mu_{\downarrow}$。有了$\mu_{\downarrow}$就可以取计算势阱均匀后的极化子能量、留数与Tan contact：
 \begin{equation}
 \begin{split}
 \bar{Z} &= \frac{ \int d^3{\Vector{r} } n_\downarrow({\Vector{r} }) Z({\Vector{r}}) }{\int d^3r n_\downarrow({\Vector{r} })},\\
@@ -349,7 +344,7 @@ $k_{F\uparrow}(\Vector{r}) = (6\pi^2n_{\uparrow}(\Vector{r}))^{1/3}$，在空间
 值得一提的是在强耦合区间我们的预测与实验偏差较大，我们预测的$\bar{Z}$要低很多。我们对此一个解释为实验的数据并非是原始数据，而是经过V-1ph在不考虑分子简并的近似下得到的Raman谱拟合模型去拟合得到。因此偏差可能来自于此，如果考虑分子简并的V-1ph理论来推导Raman光谱拟合模型的话，我们预期会得到更加接近的对比结果。
 
 
-\section{小结与展望}
+\section{小结与展望}\label{3sec:sum}
 在这篇工作中，我们基于统一的变分波函数系统地研究了不同维度下极化子到分子的转变，并且与V-Gph变分波函数以及贝特假设做了比较，得到了一致的结论。
 
 在三维和二维下随着吸引相互作用变强存在极化子到分子的一阶转变。这一转变的本质在于基态处于不同总动量$\Vector{Q}=0$和$|\Vector{Q}|=k_F$的转变。基于我们V-2ph的结果，三维下转变点在$1/k_Fa_S=0.91$，二维下在$\ln(k_Fa_{2d})= -0.97$。一维下没有这一转变，基态动量一直为$\Vector{Q}=0$。这一转变为泡利禁闭机制与粒子空穴激发共同导致。
