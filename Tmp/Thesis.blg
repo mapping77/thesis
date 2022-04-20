@@ -9,49 +9,49 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11264 items from 5000.
+Reallocated field_info (elt_size=4) to 11192 items from 5000.
 Database file #1: Biblio/ref.bib
 Warning--I didn't find a database entry for "Sagi"
 Warning--empty journal in mahanmany
-You've used 173 entries,
+You've used 171 entries,
             4948 wiz_defined-function locations,
-            2276 strings with 54041 characters,
-and the built_in function-call counts, 1650063 in all, are:
-= -- 49398
-> -- 182741
-< -- 215325
-+ -- 58109
-- -- 19956
-* -- 15881
-:= -- 231662
-add.period$ -- 851
-call.type$ -- 173
-change.case$ -- 347
-chr.to.int$ -- 53239
-cite$ -- 174
-duplicate$ -- 3622
-empty$ -- 24383
-format.name$ -- 5006
-if$ -- 424651
-int.to.chr$ -- 10
-int.to.str$ -- 174
+            2267 strings with 53739 characters,
+and the built_in function-call counts, 1636012 in all, are:
+= -- 49156
+> -- 181070
+< -- 213229
++ -- 57537
+- -- 19868
+* -- 15801
+:= -- 229707
+add.period$ -- 843
+call.type$ -- 171
+change.case$ -- 343
+chr.to.int$ -- 52723
+cite$ -- 172
+duplicate$ -- 3582
+empty$ -- 24293
+format.name$ -- 4946
+if$ -- 421003
+int.to.chr$ -- 9
+int.to.str$ -- 172
 missing$ -- 0
-newline$ -- 1213
-num.names$ -- 519
-pop$ -- 76436
+newline$ -- 1201
+num.names$ -- 513
+pop$ -- 75674
 preamble$ -- 1
-purify$ -- 173
+purify$ -- 171
 quote$ -- 0
-skip$ -- 177139
+skip$ -- 175664
 stack$ -- 0
-substring$ -- 96794
-swap$ -- 191
-text.length$ -- 2890
+substring$ -- 96201
+swap$ -- 187
+text.length$ -- 2860
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2237
+type$ -- 2211
 warning$ -- 1
-while$ -- 3621
+while$ -- 3585
 width$ -- 0
-write$ -- 3146
+write$ -- 3118
 (There were 2 warnings)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{173}
+\begin{thebibliography}{171}
 \providecommand{\biband}{和}
 \providecommand{\bibetal}{等}
 \providecommand{\natexlab}[1]{#1}
@@ -1446,19 +1446,5 @@ Chen~F, Sun~Z~H, Gong~M, et~al.
 \newblock Phys. Rev. Lett., 2021, 127: 020602.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.127.020602}.
 \newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.127.020602}.
-
-\bibitem[Liu {\bibetal}(2022{\natexlab{a}})Liu, Peng, and Cui]{RuijinUniversal}
-Liu~R, Peng~C, Cui~X.
-\newblock Universal tetramer and pentamer in two-dimensional fermionic mixtures
-  [J/OL].
-\newblock arXiv:2202.01437, 2022.
-\newblock \url{https://arxiv.org/abs/2202.01437}.
-
-\bibitem[Liu {\bibetal}(2022{\natexlab{b}})Liu, Peng, and Cui]{RuijinEmergence}
-Liu~R, Peng~C, Cui~X.
-\newblock Emergence of crystalline few-body correlations in mass-imbalanced
-  fermi polarons [J/OL].
-\newblock arXiv:2202.01437, 2022.
-\newblock \url{https://arxiv.org/abs/2202.01437}.
 
 \end{thebibliography}

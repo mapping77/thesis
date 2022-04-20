@@ -101,8 +101,8 @@
 \citation{scazza2014observation,cappellini2014direct}
 \citation{scazza2014observation,cappellini2014direct}
 \citation{zhang2014spectroscopic}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces 图a代表单原子与双原子初态到末态的跃迁。图B代表末态的能谱。摘自\citep  {scazza2014observation}\relax }}{11}{figure.caption.15}}
-\newlabel{egexp}{{1.7}{11}{图a代表单原子与双原子初态到末态的跃迁。图B代表末态的能谱。摘自\citep {scazza2014observation}\relax }{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces 图a代表单原子与双原子初态到末态的跃迁。图b代表末态的能谱。摘自\citep  {scazza2014observation}\relax }}{11}{figure.caption.15}}
+\newlabel{egexp}{{1.7}{11}{图a代表单原子与双原子初态到末态的跃迁。图b代表末态的能谱。摘自\citep {scazza2014observation}\relax }{figure.caption.15}{}}
 \citation{zhang2016kondo,cheng2017enhancing,zhang2018control,ji2018confinement,zhang2020tight,zhang2020controlling}
 \citation{riegger2018localized}
 \citation{riegger2018localized,zhang2020controlling}
@@ -133,8 +133,8 @@
 \newlabel{consistentEQ}{{1.35}{13}{费米极化子物理}{equation.1.4.35}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.9}{\ignorespaces 单粒子空穴近似下的吸引极化子与排斥极化子能量。绿色对应吸引极化子，红色对应排斥极化子的解，中间灰色区域对应分子态。摘自\citep  {massignan2014polarons}\relax }}{14}{figure.caption.17}}
 \newlabel{fpchevyE}{{1.9}{14}{单粒子空穴近似下的吸引极化子与排斥极化子能量。绿色对应吸引极化子，红色对应排斥极化子的解，中间灰色区域对应分子态。摘自\citep {massignan2014polarons}\relax }{figure.caption.17}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.10}{\ignorespaces 极化子-分子转变。其中蓝色实线代表一对粒子-空穴激发近似下的零动量极化子。红色实线代表考虑一对粒子空穴激发修饰的分子能量，橘黄色虚线代表费米面存在在裸的分子态能量。散点为蒙特卡洛的结果。摘自\citep  {Punk_pm}\relax }}{14}{figure.caption.18}}
-\newlabel{pmE}{{1.10}{14}{极化子-分子转变。其中蓝色实线代表一对粒子-空穴激发近似下的零动量极化子。红色实线代表考虑一对粒子空穴激发修饰的分子能量，橘黄色虚线代表费米面存在在裸的分子态能量。散点为蒙特卡洛的结果。摘自\citep {Punk_pm}\relax }{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.10}{\ignorespaces 极化子-分子转变。其中蓝色实线代表一对粒子-空穴激发近似下的零动量极化子。红色实线代表考虑一对粒子空穴激发修饰的分子能量，橘黄色虚线代表费米面存在裸的分子态能量。散点为蒙特卡洛的结果。摘自\citep  {Punk_pm}\relax }}{14}{figure.caption.18}}
+\newlabel{pmE}{{1.10}{14}{极化子-分子转变。其中蓝色实线代表一对粒子-空穴激发近似下的零动量极化子。红色实线代表考虑一对粒子空穴激发修饰的分子能量，橘黄色虚线代表费米面存在裸的分子态能量。散点为蒙特卡洛的结果。摘自\citep {Punk_pm}\relax }{figure.caption.18}{}}
 \citation{Cui2010Stability}
 \citation{Combescot20071ph}
 \citation{Combescot20071ph008full}
@@ -216,9 +216,9 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}1+N体系哈密顿量}{27}{subsection.2.2.1}}
 \newlabel{eq:spex-hamiltonian}{{2.2}{27}{1+N体系哈密顿量}{equation.2.2.2}{}}
 \newlabel{eq:spex-field}{{2.3}{27}{1+N体系哈密顿量}{equation.2.2.3}{}}
-\newlabel{eq:H2}{{2.5}{27}{1+N体系哈密顿量}{equation.2.2.5}{}}
+\newlabel{eq:H2}{{2.5}{28}{1+N体系哈密顿量}{equation.2.2.5}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}一个杂质与一个费米子}{28}{subsection.2.2.2}}
-\newlabel{eq_t}{{2.11}{28}{一个杂质与一个费米子}{equation.2.2.11}{}}
+\newlabel{eq_t}{{2.11}{29}{一个杂质与一个费米子}{equation.2.2.11}{}}
 \newlabel{eq_s}{{2.13}{29}{一个杂质与一个费米子}{equation.2.2.13}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}一个杂质与两个费米子}{29}{subsection.2.2.3}}
 \newlabel{eq:wv3}{{2.15}{29}{一个杂质与两个费米子}{equation.2.2.15}{}}
@@ -236,8 +236,8 @@
 \newlabel{asymptotic}{{2.31}{34}{一个杂质与一个费米子}{equation.2.3.31}{}}
 \newlabel{asymptotic_wf}{{2.32}{34}{一个杂质与一个费米子}{equation.2.3.32}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}一个杂质与两个费米子}{34}{subsection.2.3.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces 一个杂质与两个个费米子的1+2体系在$S_{tot,z}=1/2$子希尔伯特空间的能谱随自旋交换相互作用与无自旋交换的接触相互作用强度的变化。a（1）代表的是带自旋交换相互作用1+2体系。我们用红色的点来标记其中特殊的$S_{tot=3/2}$的铁磁态。剩下的态都是$S_{tot}=1/2$的态。a（2）代表的是带纯接触势的1+2体系的能谱。其中$E$与$J$的量纲为$\omega $与$\sqrt  {\omega /M}$。\relax }}{35}{figure.caption.27}}
-\newlabel{fig:fig2}{{2.2}{35}{一个杂质与两个个费米子的1+2体系在$S_{tot,z}=1/2$子希尔伯特空间的能谱随自旋交换相互作用与无自旋交换的接触相互作用强度的变化。a（1）代表的是带自旋交换相互作用1+2体系。我们用红色的点来标记其中特殊的$S_{tot=3/2}$的铁磁态。剩下的态都是$S_{tot}=1/2$的态。a（2）代表的是带纯接触势的1+2体系的能谱。其中$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }{figure.caption.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces 一个杂质与两个费米子的1+2体系在$S_{tot,z}=1/2$子希尔伯特空间的能谱随自旋交换相互作用与无自旋交换的接触相互作用强度的变化。a（1）代表的是带自旋交换相互作用1+2体系。我们用红色的点来标记其中特殊的$S_{tot=3/2}$的铁磁态。剩下的态都是$S_{tot}=1/2$的态。a（2）代表的是带纯接触势的1+2体系的能谱。其中$E$与$J$的量纲为$\omega $与$\sqrt  {\omega /M}$。\relax }}{35}{figure.caption.27}}
+\newlabel{fig:fig2}{{2.2}{35}{一个杂质与两个费米子的1+2体系在$S_{tot,z}=1/2$子希尔伯特空间的能谱随自旋交换相互作用与无自旋交换的接触相互作用强度的变化。a（1）代表的是带自旋交换相互作用1+2体系。我们用红色的点来标记其中特殊的$S_{tot=3/2}$的铁磁态。剩下的态都是$S_{tot}=1/2$的态。a（2）代表的是带纯接触势的1+2体系的能谱。其中$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }{figure.caption.27}{}}
 \citation{mahanmany}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces 铁磁（$J<0$）与反铁磁（$J>0$）耦合下整个体系平移对应的自旋单重态与自旋三重态能量后的能谱。其中a（1）代表能谱减掉$\frac  {-9J^2}{8}$后的行为，b（1）代表了a（1）中灰色区域的放大。a（2）代表能谱减掉$\frac  {-J^2}{8}$后的行为，可以看到基态依然随着$|J|$增大而能量越来越低，不再饱和到某一有限值。b（2）代表了a（2）中灰色区域的放大，从第一激发态开始，能量最终饱和在有限值。其中$E$与$J$的量纲为$\omega $与$\sqrt  {\omega /M}$。\relax }}{37}{figure.caption.28}}
 \newlabel{fig:fig3}{{2.3}{37}{铁磁（$J<0$）与反铁磁（$J>0$）耦合下整个体系平移对应的自旋单重态与自旋三重态能量后的能谱。其中a（1）代表能谱减掉$\frac {-9J^2}{8}$后的行为，b（1）代表了a（1）中灰色区域的放大。a（2）代表能谱减掉$\frac {-J^2}{8}$后的行为，可以看到基态依然随着$|J|$增大而能量越来越低，不再饱和到某一有限值。b（2）代表了a（2）中灰色区域的放大，从第一激发态开始，能量最终饱和在有限值。其中$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }{figure.caption.28}{}}
@@ -279,8 +279,8 @@
 \citation{Peng2021Nature}
 \citation{Peng2021Nature}
 \citation{shi2018variational}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces  极化子-分子转变的示意图，其中$\delimiter "3223379 $原子为杂质，$\delimiter "3222378 $原子为背景。在弱的相互作用区间，基态处于零动量极化子，物理图像为零动量的杂质被背景费米海上的粒子空穴激发多修饰。到了强相互作用区间，体系基态从$\boldsymbol  {Q}=0$变为了$|\boldsymbol  {Q}|=k_F$，背景费米面上的一个原子与杂质配对形成$M(0)$的分子态，这个原子可以是费米面上任意方向的原子，因此带来了整个费米面的简并度。此时变分波函数$M_{2n}(0)$对应了这一简并中的一个对称破却态。摘自\citep  {Peng2021Nature} \relax }}{54}{figure.caption.31}}
-\newlabel{polaronillustration}{{3.1}{54}{极化子-分子转变的示意图，其中$\downarrow $原子为杂质，$\uparrow $原子为背景。在弱的相互作用区间，基态处于零动量极化子，物理图像为零动量的杂质被背景费米海上的粒子空穴激发多修饰。到了强相互作用区间，体系基态从$\Vector {Q}=0$变为了$|\Vector {Q}|=k_F$，背景费米面上的一个原子与杂质配对形成$M(0)$的分子态，这个原子可以是费米面上任意方向的原子，因此带来了整个费米面的简并度。此时变分波函数$M_{2n}(0)$对应了这一简并中的一个对称破却态。摘自\citep {Peng2021Nature} \relax }{figure.caption.31}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces  极化子-分子转变的示意图，其中$\delimiter "3223379 $原子为杂质，$\delimiter "3222378 $原子为背景。在弱的相互作用区间，基态处于零动量极化子，物理图像为零动量的杂质被背景费米海上的粒子空穴激发所修饰。到了强相互作用区间，体系基态从$\boldsymbol  {Q}=0$变为了$|\boldsymbol  {Q}|=k_F$，背景费米面上的一个原子与杂质配对形成$M(0)$的分子态，这个原子可以是费米面上任意方向的原子，因此带来了整个费米面的简并度。此时变分波函数$M_{2n}(0)$对应了这一简并中的一个对称破却态。摘自\citep  {Peng2021Nature} \relax }}{54}{figure.caption.31}}
+\newlabel{polaronillustration}{{3.1}{54}{极化子-分子转变的示意图，其中$\downarrow $原子为杂质，$\uparrow $原子为背景。在弱的相互作用区间，基态处于零动量极化子，物理图像为零动量的杂质被背景费米海上的粒子空穴激发所修饰。到了强相互作用区间，体系基态从$\Vector {Q}=0$变为了$|\Vector {Q}|=k_F$，背景费米面上的一个原子与杂质配对形成$M(0)$的分子态，这个原子可以是费米面上任意方向的原子，因此带来了整个费米面的简并度。此时变分波函数$M_{2n}(0)$对应了这一简并中的一个对称破却态。摘自\citep {Peng2021Nature} \relax }{figure.caption.31}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}模型}{55}{section.3.2}}
 \newlabel{3sec:method}{{3.2}{55}{模型}{section.3.2}{}}
 \newlabel{chap3eq:H}{{3.2}{55}{模型}{equation.3.2.2}{}}
@@ -320,8 +320,8 @@
 \citation{mcguire1966interacting,guan2012polaron,Oleksandr2020zero}
 \citation{mcguire1966interacting,guan2012polaron,Oleksandr2020zero}
 \citation{mcguire1966interacting,guan2012polaron,Oleksandr2020zero}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces V-2ph与V-Gph变分波函数得到的$Q=0$与$Q=k_F$基态能量的随耦合常常数的变化。能量以$E_{2b}=-1/(ma_{2d}^2)$ 为原点。\relax }}{65}{figure.caption.38}}
-\newlabel{2d_3}{{3.8}{65}{V-2ph与V-Gph变分波函数得到的$Q=0$与$Q=k_F$基态能量的随耦合常常数的变化。能量以$E_{2b}=-1/(ma_{2d}^2)$ 为原点。\relax }{figure.caption.38}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces V-2ph与V-Gph变分波函数得到的$Q=0$与$Q=k_F$基态能量的随耦合常数的变化。能量以$E_{2b}=-1/(ma_{2d}^2)$ 为原点。\relax }}{65}{figure.caption.38}}
+\newlabel{2d_3}{{3.8}{65}{V-2ph与V-Gph变分波函数得到的$Q=0$与$Q=k_F$基态能量的随耦合常数的变化。能量以$E_{2b}=-1/(ma_{2d}^2)$ 为原点。\relax }{figure.caption.38}{}}
 \citation{mcguire1966interacting,guan2012polaron,Oleksandr2020zero}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}一维}{66}{subsection.3.3.3}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces 一维情况下不同相互作用的色散关系。(a)为$k_Fa_{1d}=1$，(b)为$k_Fa_{1d}=0.2$。实线代表V-2ph的结果。虚线代表贝特假设的结果\cite  {mcguire1966interacting,guan2012polaron,Oleksandr2020zero}，能量以$E_{2b}=-1/(ma_{1d}^2)$为原点。 \relax }}{66}{figure.caption.39}}
@@ -348,8 +348,8 @@
 \citation{Sagi}
 \citation{Sagi2020}
 \citation{Sagi}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces 准粒子留数$\mathaccentV {bar}B16{Z}$(a)，contact$\mathaccentV {bar}B16{C}$(b)，以及极化子能量$\mathaccentV {bar}B16{E}_p$(c)随着相互作用变化的实验与LDA结果比较。蓝色方点以及误差来自实验数据来自\cite  {Sagi2020}。黑色虚点线为实验中的理论预测，基于$P_3(0)$与$M_2(0)$，但是没有考虑分子态简并。橘色圆点为我们LDA的结果。其中$k_F$为势阱中心的费米动量。 \relax }}{71}{figure.caption.40}}
-\newlabel{ZEC}{{3.10}{71}{准粒子留数$\bar {Z}$(a)，contact$\bar {C}$(b)，以及极化子能量$\bar {E}_p$(c)随着相互作用变化的实验与LDA结果比较。蓝色方点以及误差来自实验数据来自\cite {Sagi2020}。黑色虚点线为实验中的理论预测，基于$P_3(0)$与$M_2(0)$，但是没有考虑分子态简并。橘色圆点为我们LDA的结果。其中$k_F$为势阱中心的费米动量。 \relax }{figure.caption.40}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces 准粒子留数$\mathaccentV {bar}B16{Z}$(a)，contact$\mathaccentV {bar}B16{C}$(b)，以及极化子能量$\mathaccentV {bar}B16{E}_p$(c)随着相互作用变化的实验与LDA结果比较。蓝色方点以及误差来自实验数据，摘自\cite  {Sagi2020}。黑色虚点线为实验中的理论预测，基于$P_3(0)$与$M_2(0)$，但是没有考虑分子态简并。橘色圆点为我们LDA的结果。其中$k_F$为势阱中心的费米动量。 \relax }}{71}{figure.caption.40}}
+\newlabel{ZEC}{{3.10}{71}{准粒子留数$\bar {Z}$(a)，contact$\bar {C}$(b)，以及极化子能量$\bar {E}_p$(c)随着相互作用变化的实验与LDA结果比较。蓝色方点以及误差来自实验数据，摘自\cite {Sagi2020}。黑色虚点线为实验中的理论预测，基于$P_3(0)$与$M_2(0)$，但是没有考虑分子态简并。橘色圆点为我们LDA的结果。其中$k_F$为势阱中心的费米动量。 \relax }{figure.caption.40}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces 不同变分波函数（V-1ph与V-2ph）与不同归类机制（是否考虑$SO(3)$兼并）下得到的准粒子留数$\mathaccentV {bar}B16{Z}$。蓝色方点来自实验数据\cite  {Sagi2020}。\relax }}{72}{figure.caption.41}}
 \newlabel{Z_supple}{{3.11}{72}{不同变分波函数（V-1ph与V-2ph）与不同归类机制（是否考虑$SO(3)$兼并）下得到的准粒子留数$\bar {Z}$。蓝色方点来自实验数据\cite {Sagi2020}。\relax }{figure.caption.41}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.5}小结与展望}{73}{section.3.5}}
@@ -380,40 +380,29 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}时间平均与系综平均}{78}{subsection.4.2.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.3}相图与分析}{79}{section.4.3}}
 \newlabel{4sec:result}{{4.3}{79}{相图与分析}{section.4.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 初态为$|Z_2\delimiter "526930B $的局域算符时间平均期望值$\mathaccentV {bar}B16{L}_{DE}$与吉布斯系综平均期望值$\mathaccentV {bar}B16{L}_{th}$之差。选取不同的链长L=10，12，14，16，18，我们做有限尺寸修正，然后对两种平均的期望值做差取绝对值后再画在10为底的对数坐标下。我们选取截断$\Delta =0.03$作为临界值，绝对值低于临界值的我们在图中用白色表示。绿色的点标记$J=\frac  {h}{2}$。\relax }}{79}{figure.caption.42}}
-\newlabel{scarphasediag}{{4.1}{79}{初态为$|Z_2\rangle $的局域算符时间平均期望值$\bar {L}_{DE}$与吉布斯系综平均期望值$\bar {L}_{th}$之差。选取不同的链长L=10，12，14，16，18，我们做有限尺寸修正，然后对两种平均的期望值做差取绝对值后再画在10为底的对数坐标下。我们选取截断$\Delta =0.03$作为临界值，绝对值低于临界值的我们在图中用白色表示。绿色的点标记$J=\frac {h}{2}$。\relax }{figure.caption.42}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 初态为$|Z_2\delimiter "526930B $的局域算符时间平均期望值与吉布斯系综平均期望值之差。选取不同的链长L=10，12，14，16，18，我们做有限尺寸修正，然后对两种平均的期望值做差取绝对值后再画在10为底的对数坐标下。我们选取截断$\Delta =0.03$作为临界值，绝对值低于临界值的我们在图中用白色表示。绿色的点标记$J=\frac  {h}{2}$。\relax }}{79}{figure.caption.42}}
+\newlabel{scarphasediag}{{4.1}{79}{初态为$|Z_2\rangle $的局域算符时间平均期望值与吉布斯系综平均期望值之差。选取不同的链长L=10，12，14，16，18，我们做有限尺寸修正，然后对两种平均的期望值做差取绝对值后再画在10为底的对数坐标下。我们选取截断$\Delta =0.03$作为临界值，绝对值低于临界值的我们在图中用白色表示。绿色的点标记$J=\frac {h}{2}$。\relax }{figure.caption.42}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Many body scar区域}{80}{subsection.4.3.1}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces 图（a）为沿$J=h/2$特殊比例下局域算符$\mathaccentV {hat}B5E{L}=\mathaccentV {hat}B5E{\sigma }_1^z\mathaccentV {hat}B5E{\sigma }_2^z$时间平均（圆点）与系综平均（方点），其中蓝色点为$L=14$，橘色点为$L=18$，绿色点为有限尺寸修正结果，带有线性拟合的误差。图（b）为$J=0.3$（蓝色），$J=0.6$（橘色），$J=2.5$（绿色）下的有限尺寸修正，圆点代表时间平均，方点代表吉布斯系综平均。\relax }}{81}{figure.caption.43}}
 \newlabel{scar1_2}{{4.2}{81}{图（a）为沿$J=h/2$特殊比例下局域算符$\hat {L}=\hat {\sigma }_1^z\hat {\sigma }_2^z$时间平均（圆点）与系综平均（方点），其中蓝色点为$L=14$，橘色点为$L=18$，绿色点为有限尺寸修正结果，带有线性拟合的误差。图（b）为$J=0.3$（蓝色），$J=0.6$（橘色），$J=2.5$（绿色）下的有限尺寸修正，圆点代表时间平均，方点代表吉布斯系综平均。\relax }{figure.caption.43}{}}
 \citation{Yao2022quantum}
 \citation{vidmar2016generalized}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces 不同参数下的本征态到初态投影、半链纠缠熵、演化动力学。其中（a，d）对应$J=0.3$，（b,e）对应$J=0.6$，（c，f）对应$J=2.5$。橘黄色虚线代表有限尺寸修正后的$L=16$下的热力学平均。\relax }}{82}{figure.caption.44}}
-\newlabel{scar1_2_detail}{{4.3}{82}{不同参数下的本征态到初态投影、半链纠缠熵、演化动力学。其中（a，d）对应$J=0.3$，（b,e）对应$J=0.6$，（c，f）对应$J=2.5$。橘黄色虚线代表有限尺寸修正后的$L=16$下的热力学平均。\relax }{figure.caption.44}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces 图（a）为$h=0$下$\mathaccentV {hat}B5E{L}=\mathaccentV {hat}B5E{\sigma }_1^z\mathaccentV {hat}B5E{\sigma }_2^z$的时间平均与热力学平均。图（b）为$h=4$下的时间平均与热力学平均。圆点代表有限尺寸修正下的时间平均，方点代表有限尺寸修正下的热力学平均。图（c）为$h=0,J=1$的动力学，图（d）为$h=5.4,J=2.5$下的动力学。图（b，c）中橘黄色虚线代表$J=h/2$，图（d）橘黄色虚线代表有限尺寸修正后的$L=16$下的热力学平均。 \relax }}{83}{figure.caption.45}}
-\newlabel{h04}{{4.4}{83}{图（a）为$h=0$下$\hat {L}=\hat {\sigma }_1^z\hat {\sigma }_2^z$的时间平均与热力学平均。图（b）为$h=4$下的时间平均与热力学平均。圆点代表有限尺寸修正下的时间平均，方点代表有限尺寸修正下的热力学平均。图（c）为$h=0,J=1$的动力学，图（d）为$h=5.4,J=2.5$下的动力学。图（b，c）中橘黄色虚线代表$J=h/2$，图（d）橘黄色虚线代表有限尺寸修正后的$L=16$下的热力学平均。 \relax }{figure.caption.45}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces 不同参数$J$下的本征态到初态投影权重、半链纠缠熵、演化动力学。其中（a，d）对应$J=0.3$，（b,e）对应$J=0.6$，（c，f）对应$J=2.5$。图（a，b，c）中散点代表与初态的投影权重，颜色代表半链纠缠熵。图（d，e，f）代表不同$J$下从初态为$|Z_2\delimiter "526930B $出发的局域算符动力学。橘黄色虚线代表有限尺寸修正后$\mathaccentV {hat}B5E{L}$的热力学吉布斯正则系综平均。\relax }}{82}{figure.caption.44}}
+\newlabel{scar1_2_detail}{{4.3}{82}{不同参数$J$下的本征态到初态投影权重、半链纠缠熵、演化动力学。其中（a，d）对应$J=0.3$，（b,e）对应$J=0.6$，（c，f）对应$J=2.5$。图（a，b，c）中散点代表与初态的投影权重，颜色代表半链纠缠熵。图（d，e，f）代表不同$J$下从初态为$|Z_2\rangle $出发的局域算符动力学。橘黄色虚线代表有限尺寸修正后$\hat {L}$的热力学吉布斯正则系综平均。\relax }{figure.caption.44}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}弱热化区域}{83}{subsection.4.3.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 图（a）为$J=2.3,h=1.1$下初态为$|Z_2\delimiter "526930B $的动力学演化。可以看到局域算符期望值长时间震荡的行为。图（b）为第一个格点的纠缠熵随时间的变化。我们选取此时链长为$L=16$。橘黄色虚线代表有限尺寸修正后的$L=16$下的热力学平均。 \relax }}{84}{figure.caption.46}}
-\newlabel{weak}{{4.5}{84}{图（a）为$J=2.3,h=1.1$下初态为$|Z_2\rangle $的动力学演化。可以看到局域算符期望值长时间震荡的行为。图（b）为第一个格点的纠缠熵随时间的变化。我们选取此时链长为$L=16$。橘黄色虚线代表有限尺寸修正后的$L=16$下的热力学平均。 \relax }{figure.caption.46}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}小结与展望}{84}{section.4.4}}
-\newlabel{4sec:sum}{{4.4}{84}{小结与展望}{section.4.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 图（a）为$J=0.9,h=0.8$下初态为$|Z_2\delimiter "526930B $的动力学演化。此时仍然可以看到局域算符期望值长时间震荡的行为。图（b）为第一个格点的约化密度矩阵随时间的变化。图（c）为$J=,h=$下初态为$|Y-\delimiter "526930B $的动力学演化。此时仍然可以看到局域算符期望值长时间震荡的行为。图（d）为第一个格点的约化密度矩阵随时间的变化，初态为$|Y-\delimiter "526930B $。我们选取此时链长为$L=16$。 橘黄色虚线代表有限尺寸修正后的$L=16$下的热力学平均。\relax }}{85}{figure.caption.47}}
-\newlabel{midweak}{{4.6}{85}{图（a）为$J=0.9,h=0.8$下初态为$|Z_2\rangle $的动力学演化。此时仍然可以看到局域算符期望值长时间震荡的行为。图（b）为第一个格点的约化密度矩阵随时间的变化。图（c）为$J=,h=$下初态为$|Y-\rangle $的动力学演化。此时仍然可以看到局域算符期望值长时间震荡的行为。图（d）为第一个格点的约化密度矩阵随时间的变化，初态为$|Y-\rangle $。我们选取此时链长为$L=16$。 橘黄色虚线代表有限尺寸修正后的$L=16$下的热力学平均。\relax }{figure.caption.47}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第5章\hspace  {.3em}}总结与展望}{87}{chapter.5}}
-\@writefile{lof}{\addvspace {10.0pt}}
-\@writefile{lot}{\addvspace {10.0pt}}
-\newlabel{chap:sum}{{5}{87}{总结与展望}{chapter.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}总结}{87}{section.5.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}展望}{88}{section.5.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}少体物理}{88}{subsection.5.2.1}}
-\citation{RuijinUniversal}
-\citation{RuijinEmergence}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}极化子}{89}{subsection.5.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}热化动力学}{89}{subsection.5.2.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces 图（a）为$h=0$下$\mathaccentV {hat}B5E{L}=\mathaccentV {hat}B5E{\sigma }_1^z\mathaccentV {hat}B5E{\sigma }_2^z$的时间平均与热力学吉布斯正则系综平均。图（b）为$h=4$下的时间平均与热力学吉布斯正则系综平均。圆点代表有限尺寸修正下的时间平均，方点代表有限尺寸修正下的热力学吉布斯正则系综平均。图（c）三角点为沿$h=4$局域算符$\mathaccentV {hat}B5E{L}$的有限尺寸修正后时间平均与吉布斯系综平均的差值。图（b，c）中橘黄色虚线代表$J=h/2$处。图（d）为$L=16,J=2.4,h=4$下的局域算符期望值动力学演化。图（d）中橘黄色虚线代表有限尺寸修正后的热力学吉布斯正则系综平均。\relax }}{84}{figure.caption.45}}
+\newlabel{h04}{{4.4}{84}{图（a）为$h=0$下$\hat {L}=\hat {\sigma }_1^z\hat {\sigma }_2^z$的时间平均与热力学吉布斯正则系综平均。图（b）为$h=4$下的时间平均与热力学吉布斯正则系综平均。圆点代表有限尺寸修正下的时间平均，方点代表有限尺寸修正下的热力学吉布斯正则系综平均。图（c）三角点为沿$h=4$局域算符$\hat {L}$的有限尺寸修正后时间平均与吉布斯系综平均的差值。图（b，c）中橘黄色虚线代表$J=h/2$处。图（d）为$L=16,J=2.4,h=4$下的局域算符期望值动力学演化。图（d）中橘黄色虚线代表有限尺寸修正后的热力学吉布斯正则系综平均。\relax }{figure.caption.45}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 图（a）为$J=2.3,h=1.1$下初态为$|Z_2\delimiter "526930B $的动力学演化。图（b）为第一个格点的纠缠熵随时间的变化。我们选取此时链长为$L=16$。橘黄色虚线代表有限尺寸修正后下的热力学吉布斯正则系综平均。\relax }}{85}{figure.caption.46}}
+\newlabel{weak}{{4.5}{85}{图（a）为$J=2.3,h=1.1$下初态为$|Z_2\rangle $的动力学演化。图（b）为第一个格点的纠缠熵随时间的变化。我们选取此时链长为$L=16$。橘黄色虚线代表有限尺寸修正后下的热力学吉布斯正则系综平均。\relax }{figure.caption.46}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}小结与展望}{86}{section.4.4}}
+\newlabel{4sec:sum}{{4.4}{86}{小结与展望}{section.4.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 图（a，b）为$J=0.9,h=0.8,L=16$下初态为$|Z_2\delimiter "526930B $的局域算符$\mathaccentV {hat}B5E{L}=\mathaccentV {hat}B5E{\sigma }_1^z\mathaccentV {hat}B5E{\sigma }_2^z$动力学演化（a）与第一格点纠缠熵的动力学演化（b）。图（c，d）为同参数下初态为$|Y-\delimiter "526930B $的局域算符$\mathaccentV {hat}B5E{L}=\mathaccentV {hat}B5E{\sigma }_1^z\mathaccentV {hat}B5E{\sigma }_2^z$动力学演化（a）与第一格点纠缠熵的动力学演化（b）。橘黄色虚线代表有限尺寸修正后的热力学吉布斯正则系综平均。\relax }}{87}{figure.caption.47}}
+\newlabel{midweak}{{4.6}{87}{图（a，b）为$J=0.9,h=0.8,L=16$下初态为$|Z_2\rangle $的局域算符$\hat {L}=\hat {\sigma }_1^z\hat {\sigma }_2^z$动力学演化（a）与第一格点纠缠熵的动力学演化（b）。图（c，d）为同参数下初态为$|Y-\rangle $的局域算符$\hat {L}=\hat {\sigma }_1^z\hat {\sigma }_2^z$动力学演化（a）与第一格点纠缠熵的动力学演化（b）。橘黄色虚线代表有限尺寸修正后的热力学吉布斯正则系综平均。\relax }{figure.caption.47}{}}
 \bibdata{Biblio/ref}
-\@writefile{toc}{\contentsline {chapter}{参考文献}{91}{section*.48}}
-\@writefile{toc}{\contentsline {chapter}{致谢}{91}{chapter*.49}}
+\@writefile{toc}{\contentsline {chapter}{参考文献}{89}{section*.48}}
+\@writefile{toc}{\contentsline {chapter}{致谢}{89}{chapter*.49}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{93}{chapter*.50}}
+\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{91}{chapter*.50}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
