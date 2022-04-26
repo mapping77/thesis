@@ -15,7 +15,7 @@
 \contentsline {figure}{\numberline {1.14}{\ignorespaces 图a（弱）与b（强）为不同rf场强下测到的吸收谱。可以清楚地看到吸引极化子与排斥极化子两支解，在中间伴有分子态。\citep {kohstall2012metastability}\relax }}{17}{figure.caption.22}
 \contentsline {figure}{\numberline {1.15}{\ignorespaces 拟合Raman谱得到的准粒子剩余$Z$，其中散点代表实验观测数据，实线代表LDA近似的结果，点线代表单杂质在$T =0$下的准粒子剩余。摘自\citep {Sagi2020}\relax }}{18}{figure.caption.23}
 \contentsline {figure}{\numberline {1.16}{\ignorespaces 局域算符的对角元随本征能量的分布。其中(a)为带纵场的横场伊辛模型。(b)为带有次近邻相互作用的硬核玻色子模型。 摘自\citep {Kim2014testing}\relax }}{22}{figure.caption.24}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces 里德堡实验平台观察到的量子多体伤痕动力学，以及后续通过与$|2\delimiter "526930B $做投影筛选得到非热化子空间。摘自\citep {bernien2017probing,serbyn2021quantum}\relax }}{22}{figure.caption.25}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces 图a为里德堡实验平台观察到的量子多体伤痕动力学，图b为后续通过与$|Z_2\delimiter "526930B $做投影筛选得到非热化子空间。摘自\citep {bernien2017probing,serbyn2021quantum}\relax }}{23}{figure.caption.25}
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces 一个杂质与一个费米子的1+1体系在$S_{tot,z}=0$子希尔伯特空间的能谱随自旋交换相互作用强度的变化。蓝色虚线（红色散点线）代表自旋三重态（自旋单重态）通道中的本征解。绿色实线代表强相互作用附近的微扰论渐近行为。其横纵坐标$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }}{32}{figure.caption.26}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces 一个杂质与两个费米子的1+2体系在$S_{tot,z}=1/2$子希尔伯特空间的能谱随自旋交换相互作用与无自旋交换的接触相互作用强度的变化。a（1）代表的是带自旋交换相互作用1+2体系。我们用红色的点来标记其中特殊的$S_{tot=3/2}$的铁磁态。剩下的态都是$S_{tot}=1/2$的态。a（2）代表的是带纯接触势的1+2体系的能谱。其中$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }}{35}{figure.caption.27}
@@ -37,9 +37,10 @@
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces 初态为$|Z_2\delimiter "526930B $的局域算符时间平均期望值与吉布斯系综平均期望值之差。选取不同的链长L=10，12，14，16，18，我们做有限尺寸修正，然后对两种平均的期望值做差取绝对值后再画在10为底的对数坐标下。我们选取截断$\Delta =0.03$作为临界值，绝对值低于临界值的我们在图中用白色表示。绿色的点标记$J=\frac {h}{2}$。\relax }}{79}{figure.caption.42}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces 图（a）为沿$J=h/2$特殊比例下局域算符$\mathaccentV {hat}B5E{L}=\mathaccentV {hat}B5E{\sigma }_1^z\mathaccentV {hat}B5E{\sigma }_2^z$时间平均（圆点）与系综平均（方点），其中蓝色点为$L=14$，橘色点为$L=18$，绿色点为有限尺寸修正结果，带有线性拟合的误差。图（b）为$J=0.3$（蓝色），$J=0.6$（橘色），$J=2.5$（绿色）下的有限尺寸修正，圆点代表时间平均，方点代表吉布斯系综平均。\relax }}{81}{figure.caption.43}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 不同参数$J$下的本征态到初态投影权重、半链纠缠熵、演化动力学。其中（a，d）对应$J=0.3$，（b,e）对应$J=0.6$，（c，f）对应$J=2.5$。图（a，b，c）中散点代表与初态的投影权重，颜色代表半链纠缠熵。图（d，e，f）代表不同$J$下从初态为$|Z_2\delimiter "526930B $出发的局域算符动力学。橘黄色虚线代表有限尺寸修正后$\mathaccentV {hat}B5E{L}$的热力学吉布斯正则系综平均。\relax }}{82}{figure.caption.44}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 不同参数$J$下的本征态到初态投影权重、半链纠缠熵、演化动力学。其中（a，d）对应$J=0.3$，（b,e）对应$J=0.6$，（c，f）对应$J=2.5$。图（a，b，c）中散点代表与初态的投影权重，颜色代表半链纠缠熵。图（d，e，f）代表不同$J$下从初态为$|Z_2\delimiter "526930B $出发的局域算符动力学。橘黄色虚线代表有限尺寸修正后$\mathaccentV {hat}B5E{L}$的热力学吉布斯正则系综平均。我们取$L=16$\relax }}{82}{figure.caption.44}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces 图（a）为$h=0$下$\mathaccentV {hat}B5E{L}=\mathaccentV {hat}B5E{\sigma }_1^z\mathaccentV {hat}B5E{\sigma }_2^z$的时间平均与热力学吉布斯正则系综平均。图（b）为$h=4$下的时间平均与热力学吉布斯正则系综平均。圆点代表有限尺寸修正下的时间平均，方点代表有限尺寸修正下的热力学吉布斯正则系综平均。图（c）三角点为沿$h=4$局域算符$\mathaccentV {hat}B5E{L}$的有限尺寸修正后时间平均与吉布斯系综平均的差值。图（b，c）中橘黄色虚线代表$J=h/2$处。图（d）为$L=16,J=2.4,h=4$下的局域算符期望值动力学演化。图（d）中橘黄色虚线代表有限尺寸修正后的热力学吉布斯正则系综平均。\relax }}{84}{figure.caption.45}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces 图（a）代表初态为$|Z_2\delimiter "526930B $的动力学演化。图（b）为第一个格点的纠缠熵随时间的变化。我们选取此时链长为$L=16$。橘黄色虚线代表有限尺寸修正后下的热力学吉布斯正则系综平均。我们选取$L=16, J=2.3, h=1.1$。\relax }}{85}{figure.caption.46}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces 图（a，b）为$J=0.9,h=0.8,L=16$下初态为$|Z_2\delimiter "526930B $的局域算符$\mathaccentV {hat}B5E{L}=\mathaccentV {hat}B5E{\sigma }_1^z\mathaccentV {hat}B5E{\sigma }_2^z$动力学演化（a）与第一格点纠缠熵的动力学演化（b）。图（c，d）为同参数下初态为$|Y-\delimiter "526930B $的局域算符$\mathaccentV {hat}B5E{L}=\mathaccentV {hat}B5E{\sigma }_1^z\mathaccentV {hat}B5E{\sigma }_2^z$动力学演化（a）与第一格点纠缠熵的动力学演化（b）。橘黄色虚线代表有限尺寸修正后的热力学吉布斯正则系综平均。\relax }}{87}{figure.caption.47}
+\addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

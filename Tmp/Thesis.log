@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  20 APR 2022 14:20
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  26 APR 2022 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,53 +984,66 @@ File: ctex-cs4size.clo 2018/01/28 v2.4.12 cs4size option (CTEX)
 . Defining command \CTeX with sig. '' on line 1430.
 .................................................
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.
-def
-File: ctex-fontset-fandol.def 2018/01/28 v2.4.12 Fandol fonts definition (CTEX)
-
-
-*************************************************
-* fontspec warning: "script-not-exist"
-* 
-* Font 'FandolSong-Regular' does not contain script 'CJK'.
-*************************************************
-\g__fontspec_family_FandolSong-Regular_int=\count198
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-adobe.d
+ef
+File: ctex-fontset-adobe.def 2018/01/28 v2.4.12 Adobe fonts definition (CTEX)
+\g__fontspec_family_AdobeSongStd-Light_int=\count198
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "AdobeKaitiStd-Regular/B" (it probably doesn't
+. exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "AdobeHeitiStd-Regular/I" (it probably doesn't
+. exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "AdobeSongStd-Light/BI" (it probably doesn't exist).
+.................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'FandolSong-Regular(0)' created for font 'FandolSong-Regular'
+. Font family 'AdobeSongStd-Light(0)' created for font 'AdobeSongStd-Light'
 . with options
-. [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold},ItalicFont={FandolK
-ai-Regular}].
+. [Script={CJK},BoldFont={AdobeHeitiStd-Regular},ItalicFont={AdobeKaitiStd-Regu
+lar}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"[FandolSong-Regular.otf]/OT"
+. - 'normal' (m/n) with NFSS spec.:
+. <->"AdobeSongStd-Light/OT:script=hani;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->"[FandolSong-Bold.otf]/OT"
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"AdobeHeitiStd-Regular/OT:script=hani;language=DFLT;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.: <->"[FandolKai-Regular.otf]/OT"
+. - 'italic' (m/it) with NFSS spec.:
+. <->"AdobeKaitiStd-Regular/OT:script=hani;language=DFLT;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: 
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \songti with sig. '' on line 114.
+. Defining command \songti with sig. '' on line 99.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \heiti with sig. '' on line 115.
+. Defining command \heiti with sig. '' on line 100.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fangsong with sig. '' on line 116.
+. Defining command \fangsong with sig. '' on line 101.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kaishu with sig. '' on line 117.
+. Defining command \kaishu with sig. '' on line 102.
 .................................................
 )) (/usr/local/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2018/01/28 v2.4.12 Configuration file (CTEX)
@@ -1385,6 +1398,64 @@ LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 189.
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
 (Font)                  U/cmsy/m/n --> U/cmsy/b/n on input line 190.
 )
+*************************************************
+* xeCJK warning: "CJKfamily-redef"
+* 
+* Redefining CJKfamily `\CJKrmdefault' (AdobeSongStd-Light(0)).
+*************************************************
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "AdobeKaitiStd-Regular/B" (it probably doesn't
+. exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "AdobeSongStd-Light/I" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "AdobeSongStd-Light/BI" (it probably doesn't exist).
+.................................................
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 44
+2.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
+File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 442.
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'AdobeSongStd-Light(1)' created for font 'AdobeSongStd-Light'
+. with options
+. [Script={CJK},AutoFakeBold={2.5},ItalicFont={AdobeKaitiStd-Regular}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"AdobeSongStd-Light/OT:script=hani;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"AdobeSongStd-Light/OT:script=hani;language=DFLT;embolden=2.5;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'italic' (m/it) with NFSS spec.:
+. <->"AdobeKaitiStd-Regular/OT:script=hani;language=DFLT;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+.................................................
+
+*************************************************
+* xeCJK warning: "CJKfamily-redef"
+* 
+* Redefining CJKfamily `\CJKsfdefault' (AdobeHeitiStd-Regular).
+*************************************************
+*************************************************
+* xeCJK warning: "CJKfamily-redef"
+* 
+* Redefining CJKfamily `\CJKttdefault' (AdobeFangsongStd-Regular).
+*************************************************
 (/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip68
@@ -2315,15 +2386,6 @@ stry (CN)
 \mhchem@option@minustextsidebearingright=\dimen314
 ))
 (./Tex/Frontinfo.tex)
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 58
-.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
-File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
-)
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 58.
-
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
@@ -2627,14 +2689,27 @@ e
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 26.09749pt on input line 8.
-
-*************************************************
-* fontspec warning: "script-not-exist"
-* 
-* Font 'FandolHei-Regular' does not contain script 'CJK'.
-*************************************************
-\g__fontspec_family_FandolHei-Regular_int=\count357
+\g__fontspec_family_AdobeHeitiStd-Regular_int=\count357
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "AdobeHeitiStd-Regular/I" (it probably doesn't
+. exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "AdobeHeitiStd-Regular/BI" (it probably doesn't
+. exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "AdobeHeitiStd-Regular/I" (it probably doesn't
+. exist).
+.................................................
 LaTeX Font Info:    Try loading font information for T1+qhv on input line 8.
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
@@ -2645,14 +2720,16 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'FandolHei-Regular(0)' created for font 'FandolHei-Regular' with
-. options [Script={CJK},Extension={.otf},BoldFont={FandolHei-Bold}].
+. Font family 'AdobeHeitiStd-Regular(0)' created for font
+. 'AdobeHeitiStd-Regular' with options [Script={CJK},AutoFakeBold={2.5}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"[FandolHei-Regular.otf]/OT"
+. - 'normal' (m/n) with NFSS spec.:
+. <->"AdobeHeitiStd-Regular/OT:script=hani;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->"[FandolHei-Bold.otf]/OT"
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"AdobeHeitiStd-Regular/OT:script=hani;language=DFLT;embolden=2.5;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <26.09749> not available
@@ -2806,8 +2883,8 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <7> not available
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 7.0pt on input line 34.
 
-Overfull \hbox (2.44643pt too wide) in paragraph at lines 29--38
-[]\T1/ntxtlf/m/n/12.045 Serwane F \TU/FandolSong-Regular(0)/m/n/12.045 及 合 作 者 
+Overfull \hbox (3.19322pt too wide) in paragraph at lines 29--38
+[]\T1/ntxtlf/m/n/12.045 Serwane F \TU/AdobeSongStd-Light(1)/m/n/12.045 及 合 作 者 
 首 先 发 明 了 一 种 可 以 确 定 性 制 备 不 同 原 子 数 目 的 手 段$[]$，|
  []
 
@@ -2862,11 +2939,7 @@ File: Img/./intro/chap1ETHnum.png Graphic file (type bmp)
 [20]
 File: Img/./intro/chap1scar.png Graphic file (type bmp)
 <Img/./intro/chap1scar.png>
- [21] [22]
-
-LaTeX Warning: Reference `chap:sum' on page 23 undefined on input line 724.
-
-) (./Tex/Chap_Kondo.tex [23] [24
+ [21] [22]) (./Tex/Chap_Kondo.tex [23] [24
 
 ]
 第2章
@@ -2902,11 +2975,11 @@ File: chap3illustration.pdf Graphic file (type pdf)
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.045pt on input line 78.
  [56] [57]
-Overfull \hbox (7.52377pt too wide) in paragraph at lines 130--131
-[]\TU/FandolSong-Regular(0)/m/n/12.045 在 进 入 到 结 果 分 析 之 前，|  我 们 详 细 对 比 一 下 两
- 个 变 分 波 函 数 $\OML/ntxmi/m/it/12.045 P[]\OT1/cmr/m/n/12.045 ([])$ \TU/FandolSon
-g-Regular(0)/m/n/12.045 和 $\OML/ntxmi/m/it/12.045 M[]\OT1/cmr/m/n/12.045 ([][])
-$\TU/FandolSong-Regular(0)/m/n/12.045 。|
+Overfull \hbox (8.15012pt too wide) in paragraph at lines 132--133
+[]\TU/AdobeSongStd-Light(1)/m/n/12.045 在 进 入 到 结 果 分 析 之 前，|  我 们 详 细 对 比 一 下 两
+ 个 变 分 波 函 数 $\OML/ntxmi/m/it/12.045 P[]\OT1/cmr/m/n/12.045 ([])$ \TU/AdobeSong
+Std-Light(1)/m/n/12.045 和 $\OML/ntxmi/m/it/12.045 M[]\OT1/cmr/m/n/12.045 ([][])
+$\TU/AdobeSongStd-Light(1)/m/n/12.045 。|
  []
 
 File: Img/./pol/fig2.pdf Graphic file (type pdf)
@@ -2939,53 +3012,53 @@ File: Img/./pol/fig8.pdf Graphic file (type pdf)
 File: Img/./pol/fig9.pdf Graphic file (type pdf)
 <use Img/./pol/fig9.pdf>
  [65] [66] [67]
-Overfull \hbox (19.15561pt too wide) in paragraph at lines 283--284
-[]\TU/FandolSong-Regular(0)/m/n/12.045 接 下 来 我 们 来 明 确 在 色 散 曲 线 上 划 分 极 化 子 与 
+Overfull \hbox (19.15561pt too wide) in paragraph at lines 285--286
+[]\TU/AdobeSongStd-Light(1)/m/n/12.045 接 下 来 我 们 来 明 确 在 色 散 曲 线 上 划 分 极 化 子 与 
 玻 色 子。|  相 互 作 用 处 于 $\OT1/cmr/m/n/12.045 1/(\OML/ntxmi/m/it/12.045 k[]a[]\OT1/
 cmr/m/n/12.045 ) \LMS/ntxsy/m/n/12.045 2
  []
 
 [68]
-Overfull \hbox (41.41226pt too wide) detected at line 319
+Overfull \hbox (41.41226pt too wide) detected at line 321
 []
  []
 
 File: Img/./pol/fig10.pdf Graphic file (type pdf)
 <use Img/./pol/fig10.pdf>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 325.
+(Font)              scaled to size 7.0pt on input line 327.
 
-Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 325.
-
-
-
-Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 325.
+Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 327.
 
 
 
-Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 325.
+Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 327.
 
 
 
-Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 325.
+Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 327.
 
 
 
-Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 325.
+Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 327.
 
 
 
-Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 325.
+Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 327.
+
+
+
+Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 327.
 
 
 File: Img/./pol/fig11.pdf Graphic file (type pdf)
 <use Img/./pol/fig11.pdf>
 
-Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 335.
+Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 337.
 
 
 
-Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 335.
+Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 337.
 
 
 [69] [70] [71] [72]) (./Tex/Chap_Scar.tex [73
@@ -3033,9 +3106,15 @@ File: Img/./scar/scar6.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [86
+) (./Tex/Chap_SummaryandOutlook.tex [86
 
 ] [87] [88
+
+]
+第5章
+Missing character: There is no 简 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 并 in font [lmroman12-regular]:mapping=tex-text;!
+[89] [90])) [91] [92
 
 ] (Tmp/Thesis.bbl
 Underfull \hbox (badness 2846) in paragraph at lines 58--64
@@ -3055,15 +3134,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--64
 07AEF81EA0506217F196B02D13625$[][].
  []
 
-[89
+[93
 
 
-] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102]
-[103] [104]) (./Tex/Backmatter.tex [105] [106
+] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106]
+[107] [108]) (./Tex/Backmatter.tex [109] [110
 
-] [107] [108] [109
+] [111] [112] [113
 
-] [110])
+] [114])
 
 Package natbib Warning: There were undefined citations.
 
@@ -3073,7 +3152,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 95.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 627E3C7A5F6707829921974DED3A6087.
+(rerunfilecheck)             Checksum: 9C795FDDD0F2BA7F42C1B686393B2598.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3083,19 +3162,16 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 43042 strings out of 492970
- 876242 string characters out of 6133938
- 931954 words of memory out of 5000000
- 46312 multiletter control sequences out of 15000+600000
- 648893 words of font info for 212 fonts, out of 8000000 for 9000
+ 43082 strings out of 492970
+ 879024 string characters out of 6133938
+ 933511 words of memory out of 5000000
+ 46348 multiletter control sequences out of 15000+600000
+ 648909 words of font info for 214 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,22n,94p,10449b,2560s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Tmp/Thesis.pdf (126 pages).
+Output written on Tmp/Thesis.pdf (130 pages).

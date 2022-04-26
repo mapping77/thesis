@@ -1,6 +1,6 @@
-\chapter{热化中的反常动力学}\label{chap:ETH}
+\chapter{连接量子多体伤痕与非热化严格可解极限}\label{chap:ETH}
 
-孤立系统的热化在理解宏观系统的量子统计描述中扮演重要的角色。对于仅有局域相互作用的哈密顿量，本征热化假说被提出用来给出孤立系统热化的解释。目前为止对此假说的论证主要集中于数值模拟。但是人们目前还不严格清楚其适用的范围。有趣的的是在一些特殊体系中，本征热化假说完全失效，称为强违背本征热化假说体系，其中以量子可积系统与多体局域化系统最为典型。随着认识的不断加强，依赖于初态选取的弱违背本征热化假说体系被发现：从某些初态出发会热化，但是从某些初态出发则不会热化。在本章中，我们选择固定的初态如$|Z_2\rangle$出发，探索整个参数区间下带有纵场的横场伊辛模型的热化相图，并讨论发现的不同热化区域及其背后的物理解释。我们在~\ref{4sec:intro}~节中给出此研究的动机，~\ref{4sec:method}~节中讨论涉及的模型和方法，~\ref{4sec:result}~节中针对得到的热化相图做分析，我们主要发现了整个many body scar区域的非热化行为，并于严格可解极限做了联系，最后我们还发现了基态附近的弱热化行为。在~\ref{4sec:sum}~节我们总结目前的结果并做简要的小结。
+孤立系统的热化在理解宏观系统的量子统计描述中扮演重要的角色。对于仅有局域相互作用的哈密顿量，本征热化假说被提出用来给出孤立系统热化的解释。目前为止对此假说的论证主要集中于数值模拟。但是人们目前还不严格清楚其适用的范围。有趣的的是在一些特殊体系中，本征热化假说完全失效，称为强违背本征热化假说体系，其中以量子可积系统与多体局域化系统最为典型。随着认识的不断加强，依赖于初态选取的弱违背本征热化假说体系被发现：从某些初态出发会热化，但是从某些初态出发则不会热化。在本章中，我们选择固定的初态如$|Z_2\rangle$出发，探索整个参数区间下带有纵场的横场伊辛模型的热化相图，并讨论发现的不同热化区域及其背后的物理解释。我们在~\ref{4sec:intro}~节中给出此研究的动机，~\ref{4sec:method}~节中讨论涉及的模型和方法，~\ref{4sec:result}~节中针对得到的热化相图做分析，我们主要发现了整个many body scar区域的非热化行为，并与严格可解极限做了联系，最后我们还发现了基态附近的弱热化行为。在~\ref{4sec:sum}~节我们总结目前的结果并做简要的小结。
 
 \section{引言}\label{4sec:intro}
 在热力学平衡态的角度，量子统计力学给出了宏观物体的热力学描述。仅用几个参数就可以描述处于热力学平衡态的宏观数目自由度的体系。而量子统计力学中一个关键原理即是等概率原理——具有相同能量的微观量子态在热力学平衡态分布中出现的几率相同。基于此原理，我们引入微正则系综来描述平衡态分布，为了与实验体系方便比较，我们又引入了在热力学极限下与之等价的正则系综与巨正则系综。但是在另一个角度，根据量子力学基本定律，我们知道孤立量子体系的演化为幺正的。如果我们准备一个孤立系统处于初态$|\psi(t=0)\rangle$，初态在不同本征态上的投影几率为$\langle E_\alpha|\psi(t=0)\rangle$，这一几率在幺正时间演化下是不变的。对于一个系统的长时间平均测量，其观测值似乎在初态决定的时候就已经决定了，看似是初态依赖的，这与统计力学中假设的时间平均等价于等概率系综平均乍一看是矛盾的。为了解决这一矛盾，Deutsch J M\cite{Deutsch1991quantum}与Srednicki M\cite{Srednicki1994chaos}分别独立地提出了本征热化假说（ETH），其核心思想为当我们观测一个孤立系统的局域可观测量时，系统的剩余部分作为这个局域自由度的热库，这一热接触的温度由系统总的能量给出。这一假说在后续很多体系的数值试验中得到验证。具有很强的普适性，局域算符的可观测量仅由能量决定。更加形式化的讨论以及数值证据可以参见我们~\ref{1sec:ETH}~节中给出的介绍。但大自然总是奇妙的，这一假说很快就被发现在某些体系里面完全失效，其中以量子可积系统\cite{kinoshita2006quantum,Rigol2007Relaxation,Calabrese2011Quantum,essler2016quench,vidmar2016generalized}与多体局域化系统最为典型\cite{basko2006metal,Serbyn2013local,Huse2014Phenomenology}，其完全失效的原因目前仍没有确切定论，这种体系被称为完全违背本征热化假说体系。
@@ -41,7 +41,7 @@
 	\hat{I}^{-1}\hat{H}_{Ising}\hat{I} = \hat{H}_{Ising}\\
 \end{equation}
 
-不巧的是$\hat{K}$ 与 $\hat{I}$并不对易。但是在某些动量态比如$K_i=0$ 与 $K_i=\pi$子空间中，反演算符与$\hat{K}$与$\hat{I}$是对易的，此时我们可以进一步将空间划分为宇称为$+$与$-$的子空间。
+不巧的是$\hat{K}$ 与 $\hat{I}$并不对易。但是在某些动量态比如$K_i=0$ 与 $K_i=\pi$子空间中，反演算符与$\hat{K}$与$\hat{I}$是对易的，此时我们可以进一步将空间划分为宇称为$+1$与$-1$的子空间。
 \begin{comment}
 在做了如上所述的块对角化之后，我们将要严格对角化的矩阵维度最大为动量宇称$KP=0+$
 子空间的维度$L=18,KP=0+$，此时$D=7685$。
@@ -141,7 +141,7 @@
 \begin{figure}[h]
 \centering
 \includegraphics[width=1.2\textwidth]{./scar/scar3.pdf}
-\bicaption{不同参数$J$下的本征态到初态投影权重、半链纠缠熵、演化动力学。其中（a，d）对应$J=0.3$，（b,e）对应$J=0.6$，（c，f）对应$J=2.5$。图（a，b，c）中散点代表与初态的投影权重，颜色代表半链纠缠熵。图（d，e，f）代表不同$J$下从初态为$|Z_2\rangle$出发的局域算符动力学。橘黄色虚线代表有限尺寸修正后$\hat{L}$的热力学吉布斯正则系综平均。}{Overlap between initail state and eigenstate, entanglement entropy of half chain and local operator dynamics under different J: (a, d)$J=0.3$, (b, e) for $J=0.6$, (c, f) for $J=2.5$. In Fig (a, b, c) scatterd dots for overlap and color bar for entanglement entropy of half chain. Fig (d, e, f) for dynamics of $\hat{L}=\hat{\sigma}_1^z\hat{\sigma}_2^z$ under different J starting from $|Z_2\rangle$. Orange dashed lines for Gibbs conanical ensemble average of $\hat{L}$ after finite size scaling.}
+\bicaption{不同参数$J$下的本征态到初态投影权重、半链纠缠熵、演化动力学。其中（a，d）对应$J=0.3$，（b,e）对应$J=0.6$，（c，f）对应$J=2.5$。图（a，b，c）中散点代表与初态的投影权重，颜色代表半链纠缠熵。图（d，e，f）代表不同$J$下从初态为$|Z_2\rangle$出发的局域算符动力学。橘黄色虚线代表有限尺寸修正后$\hat{L}$的热力学吉布斯正则系综平均。我们取$L=16$}{Overlap between initail state and eigenstate, entanglement entropy of half chain and local operator dynamics under different J: (a, d)$J=0.3$, (b, e) for $J=0.6$, (c, f) for $J=2.5$. In Fig (a, b, c) scatterd dots for overlap and color bar for entanglement entropy of half chain. Fig (d, e, f) for dynamics of $\hat{L}=\hat{\sigma}_1^z\hat{\sigma}_2^z$ under different J starting from $|Z_2\rangle$. Orange dashed lines for Gibbs conanical ensemble average of $\hat{L}$ after finite size scaling. We take $L=16$.}
 \label{scar1_2_detail}
 \end{figure}
 %***********************************

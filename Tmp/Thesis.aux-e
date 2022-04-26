@@ -194,8 +194,8 @@
 \citation{turner2018weak,Turner2018quantum,Ho2019periodic,Choi2019emergent,Michailidis2020slow,serbyn2021quantum}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.16}{\ignorespaces 局域算符的对角元随本征能量的分布。其中(a)为带纵场的横场伊辛模型。(b)为带有次近邻相互作用的硬核玻色子模型。 摘自\citep  {Kim2014testing}\relax }}{22}{figure.caption.24}}
 \newlabel{ETHnum}{{1.16}{22}{局域算符的对角元随本征能量的分布。其中(a)为带纵场的横场伊辛模型。(b)为带有次近邻相互作用的硬核玻色子模型。 摘自\citep {Kim2014testing}\relax }{figure.caption.24}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.17}{\ignorespaces 里德堡实验平台观察到的量子多体伤痕动力学，以及后续通过与$|2\delimiter "526930B $做投影筛选得到非热化子空间。摘自\citep  {bernien2017probing,serbyn2021quantum}\relax }}{22}{figure.caption.25}}
-\newlabel{scar}{{1.17}{22}{里德堡实验平台观察到的量子多体伤痕动力学，以及后续通过与$|2\rangle $做投影筛选得到非热化子空间。摘自\citep {bernien2017probing,serbyn2021quantum}\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.17}{\ignorespaces 图a为里德堡实验平台观察到的量子多体伤痕动力学，图b为后续通过与$|Z_2\delimiter "526930B $做投影筛选得到非热化子空间。摘自\citep  {bernien2017probing,serbyn2021quantum}\relax }}{22}{figure.caption.25}}
+\newlabel{scar}{{1.17}{22}{图a为里德堡实验平台观察到的量子多体伤痕动力学，图b为后续通过与$|Z_2\rangle $做投影筛选得到非热化子空间。摘自\citep {bernien2017probing,serbyn2021quantum}\relax }{figure.caption.25}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.6}本文安排}{23}{section.1.6}}
 \newlabel{1sec:sum}{{1.6}{23}{本文安排}{section.1.6}{}}
 \citation{scazza2014observation,cappellini2014direct}
@@ -264,13 +264,19 @@
 \newlabel{fig5}{{2.5}{49}{一个杂质与两个费米子在自旋交换相互作用与纯接触相互作用共同影响下体系的能谱结构变化。我们取$\frac {U}{J}=-0.4,-0.5,-0.6$作为示例说明。分别对应图（a，b，c）。其中能量$E$与相互作用强度$J$的量纲为$\omega $和$\sqrt {\omega /M}$。\relax }{figure.caption.30}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.5}小结与展望}{50}{section.2.5}}
 \newlabel{2sec:spex-summary}{{2.5}{50}{小结与展望}{section.2.5}{}}
+\citation{Prokoffermi,combescot2010analytical,Punk_pm,Zollner2011Polarons,Schmidt2012fermi,Trefzger2012Impurity,Parish2011pm,Parish2013highly,Vlietinck2014diag,Kriss2014diag}
+\citation{chevy2006,Combescot20071ph,Combescot20071ph008full,combescot2010analytical,Punk_pm,Zollner2011Polarons,Schmidt2012fermi,Trefzger2012Impurity,Mathy2011trimers,Zollner2011Polarons,Parish2011pm,Parish2013highly,Cui2010Stability,Ngampruetikorn_2012}
 \@writefile{toc}{\contentsline {chapter}{\numberline {第3章\hspace  {.3em}}费米极化子中极化子-分子转变的本质}{51}{chapter.3}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
 \newlabel{chap:polaron}{{3}{51}{费米极化子中极化子-分子转变的本质}{chapter.3}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}引言}{51}{section.3.1}}
 \newlabel{3sec:intro}{{3.1}{51}{引言}{section.3.1}{}}
+\citation{combescot2010analytical,Punk_pm,Zollner2011Polarons,Schmidt2012fermi,Trefzger2012Impurity}
+\citation{Parish2011pm,Parish2013highly}
+\citation{Prokoffermi,Vlietinck2014diag,Kriss2014diag}
 \citation{edwards2013smooth}
+\citation{Schirotzekobservation,koschorreck2012attractive}
 \citation{Sagi2020}
 \citation{Cui2020Fermi}
 \citation{edwards2013smooth}
@@ -281,17 +287,22 @@
 \citation{shi2018variational}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces  极化子-分子转变的示意图，其中$\delimiter "3223379 $原子为杂质，$\delimiter "3222378 $原子为背景。在弱的相互作用区间，基态处于零动量极化子，物理图像为零动量的杂质被背景费米海上的粒子空穴激发所修饰。到了强相互作用区间，体系基态从$\boldsymbol  {Q}=0$变为了$|\boldsymbol  {Q}|=k_F$，背景费米面上的一个原子与杂质配对形成$M(0)$的分子态，这个原子可以是费米面上任意方向的原子，因此带来了整个费米面的简并度。此时变分波函数$M_{2n}(0)$对应了这一简并中的一个对称破却态。摘自\citep  {Peng2021Nature} \relax }}{54}{figure.caption.31}}
 \newlabel{polaronillustration}{{3.1}{54}{极化子-分子转变的示意图，其中$\downarrow $原子为杂质，$\uparrow $原子为背景。在弱的相互作用区间，基态处于零动量极化子，物理图像为零动量的杂质被背景费米海上的粒子空穴激发所修饰。到了强相互作用区间，体系基态从$\Vector {Q}=0$变为了$|\Vector {Q}|=k_F$，背景费米面上的一个原子与杂质配对形成$M(0)$的分子态，这个原子可以是费米面上任意方向的原子，因此带来了整个费米面的简并度。此时变分波函数$M_{2n}(0)$对应了这一简并中的一个对称破却态。摘自\citep {Peng2021Nature} \relax }{figure.caption.31}{}}
+\citation{Combescot20071ph008full,combescot2010analytical}
+\citation{Parish2013highly}
+\citation{Giraud2009highly}
+\citation{combescot2010analytical,Punk_pm,Mora_pm}
+\citation{Parish2011pm,Parish2013highly}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}模型}{55}{section.3.2}}
 \newlabel{3sec:method}{{3.2}{55}{模型}{section.3.2}{}}
 \newlabel{chap3eq:H}{{3.2}{55}{模型}{equation.3.2.2}{}}
 \newlabel{eq1}{{3.9}{56}{模型}{equation.3.2.9}{}}
 \newlabel{eq2}{{3.10}{56}{模型}{equation.3.2.9}{}}
 \newlabel{eq3}{{3.11}{56}{模型}{equation.3.2.9}{}}
-\newlabel{wf_m}{{3.15}{57}{模型}{equation.3.2.13}{}}
+\newlabel{wf_m}{{3.13}{57}{模型}{equation.3.2.13}{}}
 \citation{Cui2020Fermi}
-\newlabel{relation}{{3.19}{58}{模型}{equation.3.2.19}{}}
-\newlabel{corr1}{{3.20}{58}{模型}{equation.3.2.20}{}}
-\newlabel{corr2}{{3.21}{58}{模型}{equation.3.2.21}{}}
+\newlabel{relation}{{3.17}{58}{模型}{equation.3.2.17}{}}
+\newlabel{corr1}{{3.18}{58}{模型}{equation.3.2.18}{}}
+\newlabel{corr2}{{3.19}{58}{模型}{equation.3.2.19}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}结果}{58}{section.3.3}}
 \newlabel{3sec:result}{{3.3}{58}{结果}{section.3.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}三维}{59}{subsection.3.3.1}}
@@ -303,7 +314,7 @@
 \citation{Prokoffermi,Prokofbold}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces (a) 为三维不同相互作用下，$P_5(\boldsymbol  {Q})$(实线)的色散关系。从上到下依次为$1/(k_Fa_s)=0.2,\ 0.5,\ 0.55,\ 0.6,\ 0.7,\ 0.8,\ 0.9,\ 1.2$，能量偏移$E_{\boldsymbol  {Q}=0}$。方形散点描述的是能量的极大值。黑色圆点代表的是$M_4({\boldsymbol  {Q} }_{\rm  M})$解出的能量，其中动量平移了$k_F$。 \relax }}{61}{figure.caption.34}}
 \newlabel{fig_transition_3D}{{3.4}{61}{(a) 为三维不同相互作用下，$P_5(\Vector {Q})$(实线)的色散关系。从上到下依次为$1/(k_Fa_s)=0.2,\ 0.5,\ 0.55,\ 0.6,\ 0.7,\ 0.8,\ 0.9,\ 1.2$，能量偏移$E_{\Vector {Q}=0}$。方形散点描述的是能量的极大值。黑色圆点代表的是$M_4({\Vector {Q} }_{\rm M})$解出的能量，其中动量平移了$k_F$。 \relax }{figure.caption.34}{}}
-\newlabel{E_M}{{3.23}{61}{三维}{equation.3.3.23}{}}
+\newlabel{E_M}{{3.21}{61}{三维}{equation.3.3.21}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces V-1ph与V-2ph得到的不同动量态的准粒子留数$Z$随相互作用的变化。\relax }}{62}{figure.caption.35}}
 \newlabel{fig_z}{{3.5}{62}{V-1ph与V-2ph得到的不同动量态的准粒子留数$Z$随相互作用的变化。\relax }{figure.caption.35}{}}
 \citation{Peng2021Nature}
@@ -334,7 +345,7 @@
 \newlabel{3sec:LDA}{{3.4}{67}{实际体系中的极化子-分子共存}{section.3.4}{}}
 \citation{Sagi2020,Lobo2006normal}
 \citation{Sagi2020}
-\newlabel{local_n}{{3.26}{68}{实际体系中的极化子-分子共存}{equation.3.4.26}{}}
+\newlabel{local_n}{{3.24}{68}{实际体系中的极化子-分子共存}{equation.3.4.24}{}}
 \citation{Sagi2020}
 \citation{Sagi}
 \citation{Sagi}
@@ -358,10 +369,10 @@
 \citation{Srednicki1994chaos}
 \citation{kinoshita2006quantum,Rigol2007Relaxation,Calabrese2011Quantum,essler2016quench,vidmar2016generalized}
 \citation{basko2006metal,Serbyn2013local,Huse2014Phenomenology}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第4章\hspace  {.3em}}热化中的反常动力学}{75}{chapter.4}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第4章\hspace  {.3em}}连接量子多体伤痕与非热化严格可解极限}{75}{chapter.4}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\newlabel{chap:ETH}{{4}{75}{热化中的反常动力学}{chapter.4}{}}
+\newlabel{chap:ETH}{{4}{75}{连接量子多体伤痕与非热化严格可解极限}{chapter.4}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.1}引言}{75}{section.4.1}}
 \newlabel{4sec:intro}{{4.1}{75}{引言}{section.4.1}{}}
 \citation{bernien2017probing}
@@ -386,23 +397,34 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces 图（a）为沿$J=h/2$特殊比例下局域算符$\mathaccentV {hat}B5E{L}=\mathaccentV {hat}B5E{\sigma }_1^z\mathaccentV {hat}B5E{\sigma }_2^z$时间平均（圆点）与系综平均（方点），其中蓝色点为$L=14$，橘色点为$L=18$，绿色点为有限尺寸修正结果，带有线性拟合的误差。图（b）为$J=0.3$（蓝色），$J=0.6$（橘色），$J=2.5$（绿色）下的有限尺寸修正，圆点代表时间平均，方点代表吉布斯系综平均。\relax }}{81}{figure.caption.43}}
 \newlabel{scar1_2}{{4.2}{81}{图（a）为沿$J=h/2$特殊比例下局域算符$\hat {L}=\hat {\sigma }_1^z\hat {\sigma }_2^z$时间平均（圆点）与系综平均（方点），其中蓝色点为$L=14$，橘色点为$L=18$，绿色点为有限尺寸修正结果，带有线性拟合的误差。图（b）为$J=0.3$（蓝色），$J=0.6$（橘色），$J=2.5$（绿色）下的有限尺寸修正，圆点代表时间平均，方点代表吉布斯系综平均。\relax }{figure.caption.43}{}}
 \citation{Yao2022quantum}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces 不同参数$J$下的本征态到初态投影权重、半链纠缠熵、演化动力学。其中（a，d）对应$J=0.3$，（b,e）对应$J=0.6$，（c，f）对应$J=2.5$。图（a，b，c）中散点代表与初态的投影权重，颜色代表半链纠缠熵。图（d，e，f）代表不同$J$下从初态为$|Z_2\delimiter "526930B $出发的局域算符动力学。橘黄色虚线代表有限尺寸修正后$\mathaccentV {hat}B5E{L}$的热力学吉布斯正则系综平均。我们取$L=16$\relax }}{82}{figure.caption.44}}
+\newlabel{scar1_2_detail}{{4.3}{82}{不同参数$J$下的本征态到初态投影权重、半链纠缠熵、演化动力学。其中（a，d）对应$J=0.3$，（b,e）对应$J=0.6$，（c，f）对应$J=2.5$。图（a，b，c）中散点代表与初态的投影权重，颜色代表半链纠缠熵。图（d，e，f）代表不同$J$下从初态为$|Z_2\rangle $出发的局域算符动力学。橘黄色虚线代表有限尺寸修正后$\hat {L}$的热力学吉布斯正则系综平均。我们取$L=16$\relax }{figure.caption.44}{}}
 \citation{vidmar2016generalized}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces 不同参数$J$下的本征态到初态投影权重、半链纠缠熵、演化动力学。其中（a，d）对应$J=0.3$，（b,e）对应$J=0.6$，（c，f）对应$J=2.5$。图（a，b，c）中散点代表与初态的投影权重，颜色代表半链纠缠熵。图（d，e，f）代表不同$J$下从初态为$|Z_2\delimiter "526930B $出发的局域算符动力学。橘黄色虚线代表有限尺寸修正后$\mathaccentV {hat}B5E{L}$的热力学吉布斯正则系综平均。\relax }}{82}{figure.caption.44}}
-\newlabel{scar1_2_detail}{{4.3}{82}{不同参数$J$下的本征态到初态投影权重、半链纠缠熵、演化动力学。其中（a，d）对应$J=0.3$，（b,e）对应$J=0.6$，（c，f）对应$J=2.5$。图（a，b，c）中散点代表与初态的投影权重，颜色代表半链纠缠熵。图（d，e，f）代表不同$J$下从初态为$|Z_2\rangle $出发的局域算符动力学。橘黄色虚线代表有限尺寸修正后$\hat {L}$的热力学吉布斯正则系综平均。\relax }{figure.caption.44}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}弱热化区域}{83}{subsection.4.3.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces 图（a）为$h=0$下$\mathaccentV {hat}B5E{L}=\mathaccentV {hat}B5E{\sigma }_1^z\mathaccentV {hat}B5E{\sigma }_2^z$的时间平均与热力学吉布斯正则系综平均。图（b）为$h=4$下的时间平均与热力学吉布斯正则系综平均。圆点代表有限尺寸修正下的时间平均，方点代表有限尺寸修正下的热力学吉布斯正则系综平均。图（c）三角点为沿$h=4$局域算符$\mathaccentV {hat}B5E{L}$的有限尺寸修正后时间平均与吉布斯系综平均的差值。图（b，c）中橘黄色虚线代表$J=h/2$处。图（d）为$L=16,J=2.4,h=4$下的局域算符期望值动力学演化。图（d）中橘黄色虚线代表有限尺寸修正后的热力学吉布斯正则系综平均。\relax }}{84}{figure.caption.45}}
 \newlabel{h04}{{4.4}{84}{图（a）为$h=0$下$\hat {L}=\hat {\sigma }_1^z\hat {\sigma }_2^z$的时间平均与热力学吉布斯正则系综平均。图（b）为$h=4$下的时间平均与热力学吉布斯正则系综平均。圆点代表有限尺寸修正下的时间平均，方点代表有限尺寸修正下的热力学吉布斯正则系综平均。图（c）三角点为沿$h=4$局域算符$\hat {L}$的有限尺寸修正后时间平均与吉布斯系综平均的差值。图（b，c）中橘黄色虚线代表$J=h/2$处。图（d）为$L=16,J=2.4,h=4$下的局域算符期望值动力学演化。图（d）中橘黄色虚线代表有限尺寸修正后的热力学吉布斯正则系综平均。\relax }{figure.caption.45}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 图（a）为$J=2.3,h=1.1$下初态为$|Z_2\delimiter "526930B $的动力学演化。图（b）为第一个格点的纠缠熵随时间的变化。我们选取此时链长为$L=16$。橘黄色虚线代表有限尺寸修正后下的热力学吉布斯正则系综平均。\relax }}{85}{figure.caption.46}}
-\newlabel{weak}{{4.5}{85}{图（a）为$J=2.3,h=1.1$下初态为$|Z_2\rangle $的动力学演化。图（b）为第一个格点的纠缠熵随时间的变化。我们选取此时链长为$L=16$。橘黄色虚线代表有限尺寸修正后下的热力学吉布斯正则系综平均。\relax }{figure.caption.46}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 图（a）代表初态为$|Z_2\delimiter "526930B $的动力学演化。图（b）为第一个格点的纠缠熵随时间的变化。我们选取此时链长为$L=16$。橘黄色虚线代表有限尺寸修正后下的热力学吉布斯正则系综平均。我们选取$L=16, J=2.3, h=1.1$。\relax }}{85}{figure.caption.46}}
+\newlabel{weak}{{4.5}{85}{图（a）代表初态为$|Z_2\rangle $的动力学演化。图（b）为第一个格点的纠缠熵随时间的变化。我们选取此时链长为$L=16$。橘黄色虚线代表有限尺寸修正后下的热力学吉布斯正则系综平均。我们选取$L=16, J=2.3, h=1.1$。\relax }{figure.caption.46}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.4}小结与展望}{86}{section.4.4}}
 \newlabel{4sec:sum}{{4.4}{86}{小结与展望}{section.4.4}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 图（a，b）为$J=0.9,h=0.8,L=16$下初态为$|Z_2\delimiter "526930B $的局域算符$\mathaccentV {hat}B5E{L}=\mathaccentV {hat}B5E{\sigma }_1^z\mathaccentV {hat}B5E{\sigma }_2^z$动力学演化（a）与第一格点纠缠熵的动力学演化（b）。图（c，d）为同参数下初态为$|Y-\delimiter "526930B $的局域算符$\mathaccentV {hat}B5E{L}=\mathaccentV {hat}B5E{\sigma }_1^z\mathaccentV {hat}B5E{\sigma }_2^z$动力学演化（a）与第一格点纠缠熵的动力学演化（b）。橘黄色虚线代表有限尺寸修正后的热力学吉布斯正则系综平均。\relax }}{87}{figure.caption.47}}
 \newlabel{midweak}{{4.6}{87}{图（a，b）为$J=0.9,h=0.8,L=16$下初态为$|Z_2\rangle $的局域算符$\hat {L}=\hat {\sigma }_1^z\hat {\sigma }_2^z$动力学演化（a）与第一格点纠缠熵的动力学演化（b）。图（c，d）为同参数下初态为$|Y-\rangle $的局域算符$\hat {L}=\hat {\sigma }_1^z\hat {\sigma }_2^z$动力学演化（a）与第一格点纠缠熵的动力学演化（b）。橘黄色虚线代表有限尺寸修正后的热力学吉布斯正则系综平均。\relax }{figure.caption.47}{}}
-\bibdata{Biblio/ref}
-\@writefile{toc}{\contentsline {chapter}{参考文献}{89}{section*.48}}
-\@writefile{toc}{\contentsline {chapter}{致谢}{89}{chapter*.49}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第5章\hspace  {.3em}}总结与展望}{89}{chapter.5}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{91}{chapter*.50}}
+\newlabel{chap:sum}{{5}{89}{总结与展望}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}总结}{89}{section.5.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}展望}{90}{section.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}少体物理}{90}{subsection.5.2.1}}
+\citation{RuijinUniversal}
+\citation{RuijinEmergence}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}极化子}{91}{subsection.5.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}热化动力学}{91}{subsection.5.2.3}}
+\bibdata{Biblio/ref}
+\@writefile{toc}{\contentsline {chapter}{参考文献}{93}{section*.48}}
+\@writefile{toc}{\contentsline {chapter}{致谢}{93}{chapter*.49}}
+\@writefile{lof}{\addvspace {10.0pt}}
+\@writefile{lot}{\addvspace {10.0pt}}
+\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{95}{chapter*.50}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}

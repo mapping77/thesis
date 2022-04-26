@@ -1,4 +1,4 @@
-\begin{thebibliography}{171}
+\begin{thebibliography}{175}
 \providecommand{\biband}{和}
 \providecommand{\bibetal}{等}
 \providecommand{\natexlab}[1]{#1}
@@ -1149,10 +1149,50 @@ Yosida~K.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRev.147.223}.
 \newblock DOI: \doi{https://doi.org/10.1103/PhysRev.147.223}.
 
+\bibitem[Parish {\bibetal}(2013)Parish and Levinsen]{Parish2013highly}
+Parish~M~M, Levinsen~J.
+\newblock Highly polarized fermi gases in two dimensions [J/OL].
+\newblock Phys. Rev. A, 2013, 87: 033616.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.87.033616}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.87.033616}.
+
+\bibitem[Vlietinck {\bibetal}(2014)Vlietinck, Ryckebusch, and
+  Van~Houcke]{Vlietinck2014diag}
+Vlietinck~J, Ryckebusch~J, Van~Houcke~K.
+\newblock Diagrammatic monte carlo study of the fermi polaron in two dimensions
+  [J/OL].
+\newblock Phys. Rev. B, 2014, 89: 085119.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.89.085119}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.89.085119}.
+
+\bibitem[Kroiss {\bibetal}(2014)Kroiss and Pollet]{Kriss2014diag}
+Kroiss~P, Pollet~L.
+\newblock Diagrammatic monte carlo study of quasi-two-dimensional fermi
+  polarons [J/OL].
+\newblock Phys. Rev. B, 2014, 90: 104510.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.90.104510}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.90.104510}.
+
+\bibitem[Mathy {\bibetal}(2011)Mathy, Parish, and Huse]{Mathy2011trimers}
+Mathy~C~J~M, Parish~M~M, Huse~D~A.
+\newblock Trimers, molecules, and polarons in mass-imbalanced atomic fermi
+  gases [J/OL].
+\newblock Phys. Rev. Lett., 2011, 106: 166404.
+\newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.106.166404}.
+\newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.106.166404}.
+
 \bibitem[Edwards(2013)]{edwards2013smooth}
 Edwards~D.
 \newblock A smooth polaron--molecule crossover in a fermi system [J].
 \newblock Journal of Physics: Condensed Matter, 2013, 25\penalty0 (42): 425602.
+
+\bibitem[Koschorreck {\bibetal}(2012)Koschorreck, Pertot, Vogt, Fr{\"o}hlich,
+  Feld, and K{\"o}hl]{koschorreck2012attractive}
+Koschorreck~M, Pertot~D, Vogt~E, et~al.
+\newblock Attractive and repulsive fermi polarons in two dimensions [J/OL].
+\newblock Nature, 2012, 485\penalty0 (7400): 619-622.
+\newblock \url{https://www.nature.com/articles/nature11151}.
+\newblock DOI: \doi{https://doi.org/10.1038/nature11151}.
 
 \bibitem[Cui(2020)]{Cui2020Fermi}
 Cui~X.
@@ -1177,30 +1217,6 @@ Shi~T, Demler~E, Cirac~J~I.
 \newblock
   \url{https://www.sciencedirect.com/science/article/pii/S0003491617303251?via%3Dihub}.
 \newblock DOI: \doi{https://doi.org/10.1016/j.aop.2017.11.014}.
-
-\bibitem[Parish {\bibetal}(2013)Parish and Levinsen]{Parish2013highly}
-Parish~M~M, Levinsen~J.
-\newblock Highly polarized fermi gases in two dimensions [J/OL].
-\newblock Phys. Rev. A, 2013, 87: 033616.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevA.87.033616}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevA.87.033616}.
-
-\bibitem[Vlietinck {\bibetal}(2014)Vlietinck, Ryckebusch, and
-  Van~Houcke]{Vlietinck2014diag}
-Vlietinck~J, Ryckebusch~J, Van~Houcke~K.
-\newblock Diagrammatic monte carlo study of the fermi polaron in two dimensions
-  [J/OL].
-\newblock Phys. Rev. B, 2014, 89: 085119.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.89.085119}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.89.085119}.
-
-\bibitem[Kroiss {\bibetal}(2014)Kroiss and Pollet]{Kriss2014diag}
-Kroiss~P, Pollet~L.
-\newblock Diagrammatic monte carlo study of quasi-two-dimensional fermi
-  polarons [J/OL].
-\newblock Phys. Rev. B, 2014, 90: 104510.
-\newblock \url{https://link.aps.org/doi/10.1103/PhysRevB.90.104510}.
-\newblock DOI: \doi{https://doi.org/10.1103/PhysRevB.90.104510}.
 
 \bibitem[Bour {\bibetal}(2015)Bour, Lee, Hammer, and Mei\ss{}ner]{Bour2015ab}
 Bour~S, Lee~D, Hammer~H~W, et~al.
@@ -1446,5 +1462,19 @@ Chen~F, Sun~Z~H, Gong~M, et~al.
 \newblock Phys. Rev. Lett., 2021, 127: 020602.
 \newblock \url{https://link.aps.org/doi/10.1103/PhysRevLett.127.020602}.
 \newblock DOI: \doi{https://doi.org/10.1103/PhysRevLett.127.020602}.
+
+\bibitem[Liu {\bibetal}(2022{\natexlab{a}})Liu, Peng, and Cui]{RuijinUniversal}
+Liu~R, Peng~C, Cui~X.
+\newblock Universal tetramer and pentamer in two-dimensional fermionic mixtures
+  [J/OL].
+\newblock arXiv:2202.01437, 2022.
+\newblock \url{https://arxiv.org/abs/2202.01437}.
+
+\bibitem[Liu {\bibetal}(2022{\natexlab{b}})Liu, Peng, and Cui]{RuijinEmergence}
+Liu~R, Peng~C, Cui~X.
+\newblock Emergence of crystalline few-body correlations in mass-imbalanced
+  fermi polarons [J/OL].
+\newblock arXiv:2202.01437, 2022.
+\newblock \url{https://arxiv.org/abs/2202.01437}.
 
 \end{thebibliography}

@@ -26,7 +26,7 @@
 \contentsline {subsection}{\numberline {3.3.3}一维}{66}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}实际体系中的极化子-分子共存}{67}{section.3.4}
 \contentsline {section}{\numberline {3.5}小结与展望}{73}{section.3.5}
-\contentsline {chapter}{\numberline {第4章\hspace {.3em}}热化中的反常动力学}{75}{chapter.4}
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}连接量子多体伤痕与非热化严格可解极限}{75}{chapter.4}
 \contentsline {section}{\numberline {4.1}引言}{75}{section.4.1}
 \contentsline {section}{\numberline {4.2}模型与方法}{77}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}对称性}{77}{subsection.4.2.1}
@@ -35,6 +35,12 @@
 \contentsline {subsection}{\numberline {4.3.1}Many body scar区域}{80}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}弱热化区域}{83}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4}小结与展望}{86}{section.4.4}
-\contentsline {chapter}{参考文献}{89}{section*.48}
-\contentsline {chapter}{致谢}{107}{chapter*.50}
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{109}{chapter*.51}
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}}总结与展望}{89}{chapter.5}
+\contentsline {section}{\numberline {5.1}总结}{89}{section.5.1}
+\contentsline {section}{\numberline {5.2}展望}{90}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}少体物理}{90}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}极化子}{91}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}热化动力学}{91}{subsection.5.2.3}
+\contentsline {chapter}{参考文献}{93}{section*.48}
+\contentsline {chapter}{致谢}{111}{chapter*.50}
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{113}{chapter*.51}
