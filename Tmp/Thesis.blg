@@ -15,43 +15,43 @@ Warning--I didn't find a database entry for "Sagi"
 Warning--empty journal in mahanmany
 You've used 175 entries,
             4948 wiz_defined-function locations,
-            2289 strings with 54596 characters,
-and the built_in function-call counts, 1672309 in all, are:
-= -- 49997
-> -- 185258
+            1954 strings with 38414 characters,
+and the built_in function-call counts, 1461314 in all, are:
+= -- 24504
+> -- 175160
 < -- 218329
-+ -- 58916
-- -- 20201
-* -- 16077
-:= -- 234775
-add.period$ -- 861
++ -- 58751
+- -- 10436
+* -- 7799
+:= -- 200833
+add.period$ -- 525
 call.type$ -- 175
 change.case$ -- 351
 chr.to.int$ -- 53982
 cite$ -- 176
-duplicate$ -- 3664
-empty$ -- 24666
+duplicate$ -- 3325
+empty$ -- 9451
 format.name$ -- 5075
-if$ -- 430375
+if$ -- 379575
 int.to.chr$ -- 10
 int.to.str$ -- 176
 missing$ -- 0
-newline$ -- 1227
+newline$ -- 891
 num.names$ -- 525
-pop$ -- 77460
+pop$ -- 77292
 preamble$ -- 1
 purify$ -- 175
 quote$ -- 0
-skip$ -- 179567
+skip$ -- 156267
 stack$ -- 0
-substring$ -- 98054
+substring$ -- 66638
 swap$ -- 193
-text.length$ -- 2928
+text.length$ -- 2592
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 2263
 warning$ -- 1
-while$ -- 3668
+while$ -- 3332
 width$ -- 0
-write$ -- 3183
+write$ -- 2511
 (There were 2 warnings)

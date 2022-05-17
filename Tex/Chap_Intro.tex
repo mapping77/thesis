@@ -2,17 +2,18 @@
 
 
 
-\section{冷原子概述}
+\section{概述}
 
-自1995年在实验室中首次在冷原子系统中观测到玻色-爱因斯坦凝聚\cite{anderson1995observation,davis1995bose,Bradley1995evidence}以来，冷原子物理的研究已经成长为凝聚态物理中枝繁叶茂的研究领域。将束缚的稀薄原子气体冷却到其德布罗意波长与粒子平均距离可以比拟的时候，系统的量子力学效应显现。玻色子体系经历相变进入玻色爱因斯坦凝聚。与${}^4$He超流不同的是原子气体之间相互作用很弱，可以用基于微观散射长度表征的有效理论来研究\cite{Dalfovo1999theory,Fetter2009rotating,pethick2008bose,pitaevskii2003bose}。进一步超冷费米气体在实验中制备成功，围绕超冷费米气体研究多体物理量子模拟掀起了又一次的研究热潮\cite{Giorgini2008theory}。这其中涌现了两个关键技术光晶格\cite{Bloch2008many}与Feshbah共振调节原子级有效相互作用\cite{Chin2010feshbach}，极大地丰富了实验体系的制备与调节。使得很多固体物理中难以实现的体系可以人工地制造出来（如低维体系\cite{Cazalilla2011one,Guan2013fermi}），更广泛的参数区间可以得到探索。在本文中我们将围绕以下介绍的实验体系展开相关背景研究介绍，我们首先在~\ref{1sec:fewbody}~节介绍冷原子中的少体物理研究，结合~\ref{1sec:spin-exchange}~节中最近碱土金属实现的自旋交换相互作用，为探索带有自旋交换相互作用杂磁性质少体体系的研究做好铺垫。然后我们从杂质少体关联延伸到多体非磁性杂质体系——极化子物理，我们在~\ref{1sec:polaron}~节回顾了费米极化子在冷原子物理中的理论与实验进展。然后我们从能谱的静态信息来到了热化动力学的研究，我们在~\ref{1sec:ETH}~节给出了本征热化假说的介绍，这是后续讨论热化中的反常动力学的基础，最后我们在~\ref{1sec:sum}~节概述本文的行文安排。
+自1995年实验中首次在冷原子系统中观测到玻色-爱因斯坦凝聚\cite{anderson1995observation,davis1995bose,Bradley1995evidence}以来，冷原子物理已经成长为凝聚态物理中枝繁叶茂的研究领域。当束缚的稀薄原子气体冷却到其德布罗意波长与粒子平均距离可以比拟，系统的量子力学效应显现，玻色子体系经历相变发生玻色-爱因斯坦凝聚。与${}^4$He超流不同的是原子气体之间相互作用很弱，理论上可以用微观散射长度来表征\cite{Dalfovo1999theory,Fetter2009rotating,pethick2008bose,pitaevskii2003bose}。随后超冷费米气体在实验中制备成功，围绕超冷费米气体研究多体物理量子模拟掀起了又一次的研究热潮\cite{Giorgini2008theory}。这其中涌现了两个关键技术：光晶格\cite{Bloch2008many}与Feshbach共振调节原子间有效相互作用\cite{Chin2010feshbach}，极大地丰富了实验体系的制备与调节。这些技术使得很多固体物理中的体系可以被人工地制造出来（如低维体系\cite{Cazalilla2011one,Guan2013fermi}），结合冷原子测量的便捷探索新的物理。
+
+在本文中我们将围绕以下介绍的实验体系展开相关背景研究介绍，我们首先在~\ref{1sec:fewbody}~节介绍冷原子中的少体物理研究，结合~\ref{1sec:spin-exchange}~节中最近碱土金属实现的自旋交换相互作用，为探索带有自旋交换相互作用磁性杂质少体体系的研究做好铺垫。然后我们从杂质少体关联延伸到多体非磁性杂质多体体系——费米极化子物理，我们在~\ref{1sec:polaron}~节回顾了费米极化子在冷原子物理中的理论与实验进展。最后我们从能谱的静态信息来到了热化动力学的研究，我们在~\ref{1sec:ETH}~节给出了本征热化假说的介绍，这是后续讨论热化中的反常动力学的基础，最后我们在~\ref{1sec:sum}~节概述本文的行文安排。
 
 
 
 
 
 \section{少体物理}\label{1sec:fewbody}
-伴随着冷原子平台实验技术的进步，少体物理的研究领域有了较大进展。这得益于实验中少量原子体系的
-制备、调控与测量，少体物理中很多概念诸如少体束缚态、费米化等理论概念不断地在冷原子实验中被观测到，并进而引发了冷原子特性平台下相关少体物理的理论研究。实际的冷原子少体体系中几个原子（1-10）被束缚在势阱中，因此我们的内容也主要限制在束缚势阱中的少体体系实验与理论研究进展，以期为接下来的研究提供启发，更细致全面的综述可推荐\cite{sowinski2019one,blume2012few}，本章不会涉及Efimov物理，相关综述参见\cite{nielsen2001three,braaten2006universality,KohlerMolFRRMP}。束缚的原子数可控程度越来越高，体系的维度可以通过各向异性的势阱或光晶格实现，原子之间的相互作用均可以调节，从极弱到极强，从吸引到排斥。进一步选取不同的混合原子体系带来质量比的可调节性，这些丰富的可调节实验技术为少体体系研究带来丰富的可能性。
+伴随着冷原子平台实验技术的进步，少体物理的研究有了较大进展，少体物理中很多概念诸如少体束缚态、费米化等理论概念不断地在冷原子实验中被观测到，进而引发了冷原子特性平台下相关少体物理的理论研究。实际的冷原子少体体系中几个原子被束缚在势阱中，因此我们这一部分内容也主要集中在束缚势阱中少体体系实验与理论研究进展，以期为接下来的研究提供启发，更细致全面的综述可推荐\cite{sowinski2019one,blume2012few}，本章不涉及Efimov物理，相关综述参见\cite{nielsen2001three,braaten2006universality,KohlerMolFRRMP}。随着实验技术的进步，体系的维度可以通过各向异性的势阱或光晶格实现，束缚原子数的可控程度越来越高，原子之间的相互作用可以调节，从极弱到极强，从吸引到排斥，进一步选取不同的混合原子体系带来质量比的可调节性，以上这些丰富的实验技术手段为少体体系研究带来极大的便捷。
 \begin{comment}
 实验中最早制备出费米子少体体系可以追溯到2005年，在较深的光晶格体系中,进入到莫特绝缘体区域，制备少体体系\cite{greiner2002quantum,EsslingerFermiSea,Esslinger1DMol,Esslinger3DMol,Ospelkaus3DMol,Hecker3DMol,SalaCIRMol}。如图~\ref{3dmol}~所示，
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -26,17 +27,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{comment}
 
-Serwane F及合作者首先发明了一种可以确定性制备不同原子数目的手段\cite{SerwaneDeterministic}，这一思路启发了后续精确制备少体体系并探测量子关联的研究\cite{zurn2012fermionization,WenzFermiSeaOnebyOne,Zurn2013Pairing,MurmannSpinChain,MurmannTwoFermionDoubleWell,RontaniTunneling}。利用能级间距较大的微观束缚阱（mircotrap）与两分量${}^6$Li原子热库接触到热平衡，制备$T/T_F\sim0.08$含有600多个原子的费米球。然后在微观束缚阱内施加磁场梯度，使得阱内一端势能降低，从而原子可以漏出。然后绝热地改变微观束缚阱的深度，便可使得原子不断漏出，最终制备了只含有几个原子的少体体系。如图~\ref{deter}~所示。
+Serwane F及合作者首先发明了一种可以确定性制备不同原子数目的手段\cite{SerwaneDeterministic}，这一思路启发了后续精确制备少体体系并探测量子关联的研究\cite{zurn2012fermionization,WenzFermiSeaOnebyOne,Zurn2013Pairing,MurmannSpinChain,MurmannTwoFermionDoubleWell,RontaniTunneling}。研究者利用能级间距较大的微观束缚阱（mircotrap）与两分量${}^6$Li原子热库接触到热平衡，制备$T/T_F\sim0.08$含有600多个原子的费米球。然后在微观束缚阱内施加磁场梯度，使得阱内一端势能降低，然后绝热地改变微观束缚阱的深度，便可使得原子不断漏出，最终制备了只含有几个原子的少体实际物理体系。如图~\ref{deter}~所示。
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.5\textwidth]{./intro/chap1deter.png}
-    \bicaption{图A表示降低一侧势阱深度使原子漏出来制备少体的示意图。图B为实验测到的少体体系平均粒子数与方差。 摘自 \citep{SerwaneDeterministic} }{Fig A for illustration of spilling. Fig B for measured mean density and variance. Reprinted from\citep{SerwaneDeterministic} }
+    \bicaption{图A表示降低一侧势阱深度使原子漏出来制备少体体系的示意图。图B为实验测到的少体体系平均粒子数与方差。 摘自 \citep{SerwaneDeterministic} }{Fig A for illustration of spilling. Fig B for measured mean density and variance. Reprinted from\citep{SerwaneDeterministic} }
     \label{deter}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-然后，借助上面精确制备少体体系的方法，研究者研究了不同自旋费米子（$\uparrow\downarrow$）之间在强相互作用下发生费米化的过程\cite{zurn2012fermionization}。在准一维束缚阱中制备两体少体体系，调节不同自旋费米子之间的相互作用。通过少体体系隧穿几率反映两体体系的能量。最终得到隧穿几率如图~\ref{ferminization}~
+借助上面精确制备少体体系的方法，研究者研究了不同自旋费米子（$\uparrow\downarrow$）之间在强相互作用下发生费米化的过程\cite{zurn2012fermionization}。在准一维束缚阱中制备两体少体体系，调节不同自旋费米子之间的相互作用，通过少体体系隧穿几率反映两体体系的能量。最终得到隧穿几率如图~\ref{ferminization}~
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[!htbp]
     \centering
@@ -47,7 +48,7 @@ Serwane F及合作者首先发明了一种可以确定性制备不同原子数�
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 所示，同自旋费米子之间无相互作用，调节磁场后两体能级没有变化。但是不同费米子之间相互作用导致散射长度在共振点处发散，对应能量与无相互作用费米子能量相同，体系发生费米化。
 
-进一步地，可以利用类似的制备方法，研究从少体到多体的过渡\cite{WenzFermiSeaOnebyOne}。基本模型是谐振子势阱下N+1的一维极化子物理。相互作用只存在于少数原子与多数原子之间，并且可以通过Feshbach共振调节。从1到5增加多数原子的数目，用射频脉冲测量不同相互作用下极化子的能量，通过与理论计算的1+1与1+$\infty$体系的能量密度进行比较，可以发现在粒子数为5的时候能量密度就很接近多体体系了。如图~\ref{fermisea}~所示。
+进一步地，基于类似的少体制备方法，实验研究者逐步增加粒子数，研究从少体到多体的过渡\cite{WenzFermiSeaOnebyOne}。相关的基本模型为谐振子势阱下N+1的一维极化子物理。相互作用只存在于少数原子与多数原子之间，并且可以通过Feshbach共振调节。从1到5增加多数原子的数目，用射频脉冲测量不同相互作用下极化子的能量，通过与理论计算的1+1与1+$\infty$体系的能量密度进行比较，可以发现在粒子数为5的时候能量密度就很接近多体体系了。如图~\ref{fermisea}~所示。
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[!htbp]
     \centering
@@ -57,13 +58,13 @@ Serwane F及合作者首先发明了一种可以确定性制备不同原子数�
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-少体物理之所以重要是因为可以在理论方面提供一个可理解的物理图像，甚至在某些特殊极限下甚至存在严格解。这些少体图像构成了我们理解实验的基石。在冷原子领域，有两个经典的两体图像，分别是：自由空间s波散射图像与谐振子势场下s波接触相互作用两体能谱图像。其中前者用来有效地描述相互作用，后者来理解相互作用较强时候系统的能谱与波函数。
+少体物理之所以重要是因为能够在理论方面提供一个可理解的物理图像，在某些特殊极限下甚至存在严格解。这些少体图像构成了我们理解物理的基石。在冷原子领域，有两个经典的两体图像，分别是：自由空间s波散射图像与谐振子势场下s波接触相互作用两体能谱图像。其中前者用来有效地描述相互作用，后者来理解相互作用较强时候系统的能谱与波函数。
 
 1998年， Busch T给出了一个两体体系严格解\cite{busch1998two}：任意维度下两个全同玻色子在谐振子势场下的能谱。虽然是玻色子体系，但是这个严格解同样适用于可分辨费米子。三维情况下，可分辨两体全同费米子位于谐振子外势下，系统的哈密顿量可以写为：
 \begin{equation}
-\hat{H}=-\frac{1}{2} \nabla_{1}^{2}-\frac{1}{2} \nabla_{2}^{2}+\frac{1}{2} r_{1}^{2}+\frac{1}{2} r_{2}^{2}+4 \pi a_{0} \delta_{r e g}^{(3)}\left(\Vector{r}_{1}-\Vector{r}_{2}\right)
+\hat{H}=-\frac{1}{2} \nabla_{1}^{2}-\frac{1}{2} \nabla_{2}^{2}+\frac{1}{2} r_{1}^{2}+\frac{1}{2} r_{2}^{2}+4 \pi a_{0} \delta^{(3)}_{reg}\left(\Vector{r}_{1}-\Vector{r}_{2}\right)
 \end{equation}
-能量量纲为$\hbar\omega$，长度量纲为$\sqrt{\hbar}{m\omega}$，$a_0$代表散射长度。其中$m$为全同玻色子的质量，$\omega$为谐振子势场的特征频率。分离质心运动$\Vector{R}=\sqrt{1 / 2}\left(\Vector{r}_{1}+\Vector{r}_{2}\right)$与相对运动$\Vector{r}=\sqrt{1 / 2}\left(\Vector{r}_{1}-\Vector{r}_{2}\right)$
+能量量纲为$\hbar\omega$，长度量纲为$\sqrt{\hbar}{m\omega}$，$a_0$代表散射长度。其中$m$为粒子质量，$\omega$为谐振子势场的特征频率，$\delta_{reg}^{(3)}(\Vector{r}) \equiv \delta^{(3)}(\Vector{r})(\partial / \partial r) r$。分离质心运动$\Vector{R}=\sqrt{1 / 2}\left(\Vector{r}_{1}+\Vector{r}_{2}\right)$与相对运动$\Vector{r}=\sqrt{1 / 2}\left(\Vector{r}_{1}-\Vector{r}_{2}\right)$
 得到：
 \begin{equation}
 \begin{aligned}
@@ -71,9 +72,9 @@ Serwane F及合作者首先发明了一种可以确定性制备不同原子数�
 &\hat{H}_{rel}=-\frac{1}{2} \nabla_{r}^{2}+\frac{1}{2} \Vector{r}^{2}+\sqrt{2} \pi a_{0} \delta^{(3)}(\Vector{r}) \frac{\partial}{\partial r} r\\
 \end{aligned}
 \end{equation}
-质心运动的部分是自由谐振子。只剩相对运动部分，满足的薛定谔方程为：
+质心运动的部分是自由谐振子，剩余相对运动部分满足的薛定谔方程为：
 \begin{equation}
-\left(H_{o s c}+\sqrt{2} \pi a_{0} \delta^{(3)}(\Vector{r}) \frac{\partial}{\partial r} r\right) \Psi(\Vector{r})=E \Psi(\Vector{r})
+\left(\hat{H}_{o s c}+\sqrt{2} \pi a_{0} \delta^{(3)}(\Vector{r}) \frac{\partial}{\partial r} r\right) \Psi(\Vector{r})=E \Psi(\Vector{r})
 \end{equation}
 相对运动部分的$l\neq0$空间不受相互作用影响，仍为自由谐振子，只考虑$l=0$子空间。波函数展开在谐振子基矢下：
 相应的本征波函数为：
@@ -96,7 +97,7 @@ c_{n}=A \frac{\varphi_{n}^{*}(0)}{E_{n}-E}
 \begin{equation}
 \Psi(\Vector{r})=\frac{1}{2} \pi^{-3} / 2 A e^{-r^{2} / 2} \Gamma(-v) U\left(-v, \frac{3}{2}, r^{2}\right)
 \end{equation}
-其能谱随着散射长度如图~\ref{chap1busch}~所示：
+其能谱随着散射长度变化如图~\ref{chap1busch}~所示：
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[!htbp]
     \centering
@@ -105,18 +106,16 @@ c_{n}=A \frac{\varphi_{n}^{*}(0)}{E_{n}-E}
     \label{chap1busch}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-其中当$a_0\to \infty$时候，基态能量渐近行为是$E_g\propto - 1/a_0^2$，称为lower branch。其余的随着$a_0\to\infty$本征能量饱和在奇数谐振子能量的态称为upper branch。这个少体体系的严格解在后续的实验与理论发展中起了很重要的做用。
+当$a_0\to \infty$时候，基态能量渐近行为是$E_g\propto - 1/a_0^2$，称为低能支(lower branch)；其余的随着$a_0\to\infty$本征能量饱和在奇数谐振子能量的态称为高能支(upper branch)。这个少体体系的严格解在后续的实验与理论发展中起了很重要的作用。
 
-自然地，一维以及二维的结果也可用上述求解过程给出。其中一维的能量方程与三维相同，不同在于仅满足偶宇称的解受到相互作用影响。二维下能量方程则有很大不同：
+类似地，一维以及二维的结果也可用上述求解过程给出。其中一维的能量方程与三维相同，不同在于仅满足偶宇称的解受到相互作用影响。二维下能量方程则有很大不同：
 \begin{equation}
 \psi(-E / 2+1 / 2)=\log \left(\frac{1}{2 a_{0}^{2}}\right)
 \end{equation}
 
 后续对这个体系的严格解有了一些扩展，主要是各向异性的谐振子外势求解，以及动力学研究，更多详细内容请参见\cite{blume2012few}。
 
-而对于再增加一个粒子成为三体体系则没有解析解，只能通过数值手段去求解。我们以$\uparrow\downarrow\uparrow$的费米子三体体系为例，仅在不同自旋费米子之间有s波散射相互作用\cite{OlshaniiRigorous2001,Petrov2003unitary3b,Fleix2006prlunitary3b,Felix2006praunitary3b,LmDuan2007levelcrossing,Stetcu2007,Blume2008,Blume2010,Xiaji2009prl,Xiaji20103b,Rittenhouse2010green}。
-
-我们用Bethe-Peierls条件代替相互作用：
+如果再增加一个粒子，这个三体体系则没有解析解，只能通过数值手段去求解。我们以$\uparrow\downarrow\uparrow$的费米子三体体系为例，仅在不同自旋费米子之间有s波散射相互作用\cite{OlshaniiRigorous2001,Petrov2003unitary3b,Fleix2006prlunitary3b,Felix2006praunitary3b,LmDuan2007levelcrossing,Stetcu2007,Blume2008,Blume2010,Xiaji2009prl,Xiaji20103b,Rittenhouse2010green}。我们用Bethe-Peierls条件代替相互作用：
 \begin{equation}
 \psi\left(\Vector{r}_{1}, \Vector{r}_{2}, \Vector{r}_{3}\right)=\left(\frac{1}{r_{i j}}-\frac{1}{a}\right) A\left(\Vector{R}_{i j}, \Vector{r}_{k}\right)+O\left(r_{i j}\right)
 \end{equation}
@@ -212,7 +211,7 @@ A_{\lambda \lambda^{\prime}}=\int \frac{d \Vector{r}_{\perp}}{4 \pi d^{3} \hbar 
 \end{figure}
 \end{comment}
 
-这个三体体系的求解利用两体本征波函数作为基矢展开\cite{Xiaji2009prl}，三体波函数为：
+三体体系的求解用到两体本征波函数作为基矢\cite{Xiaji2009prl}，三体波函数为：
 \begin{equation}
 \begin{split}
 \psi_{3 b}^{\mathrm{rel}}(\Vector{r}, \rho)&=\left(1-\mathcal{P}_{13}\right) \chi(\Vector{r}, \rho)\\
@@ -286,7 +285,7 @@ A_{\lambda \lambda^{\prime}}=\int \frac{d \Vector{r}_{\perp}}{4 \pi d^{3} \hbar 
 实验上通过让边缘处的粒子漏出，来测量自旋分布。漏出的几率由初态能量与末态能量决定。通过与理论自旋链模型的漏出几率对比，可以确认制备到反铁磁自旋链。如图~\ref{chap1spinchainexp}~所示。
 \end{comment}
 
-理论方面对于无限大相互作用的自旋1/2费米子体系，受到Girardeau处理玻色子的启发，研究者求解了带有自旋费米子体系的严格解\cite{Guan2009exact}。其中基态简并是一重要特征。定义N个费米子在一维顺序自旋排布$\xi_{1}, \xi_{2}, \ldots, \xi_{N}$态为：
+理论方面，对于无限大相互作用的自旋1/2费米子体系的研究则受到Girardeau处理玻色子的启发，研究者求解了带有自旋费米子体系的严格解\cite{Guan2009exact}，其中基态简并是一重要特征。定义N个费米子在一维顺序自旋排布$\xi_{1}, \xi_{2}, \ldots, \xi_{N}$态为：
 \begin{equation}
 \left|\left\{\xi_{1}, \xi_{2}, \ldots, \xi_{N}\right\}\right\rangle \equiv|\vec{\xi}\rangle
 \end{equation}
@@ -316,7 +315,7 @@ A_{\lambda \lambda^{\prime}}=\int \frac{d \Vector{r}_{\perp}}{4 \pi d^{3} \hbar 
 &\quad\quad =\prod_{i<j}\left(x_{i}-x_{j}\right) F\left(x_{1}, x_{2}, \ldots, x_{N}\right)\\
 \end{split}
 \end{equation}
-其中$\phi_F$由N个不同谐振子能级波构成。一旦相互作用不在共振处，这些简并的能级就会打开简并，其打开简并的方式恰好可以被自旋链模型所描述。
+其中$\phi_F$由N个不同谐振子能级构成。一旦相互作用不在共振处，这些简并的能级就会打开简并，其打开简并的方式恰好可以被自旋链模型所描述。
 \begin{equation}
 \hat{H}_{\mathrm{eff}}=\sum_{l} \frac{J_{l}}{g}\left(\Vector{s}_{l} \cdot \Vector{s}_{l+1}-\frac{1}{4}\right)
 \end{equation}
@@ -400,7 +399,7 @@ U_{eg^\pm} = g_{eg^\pm} \int \mathrm{d}^{3} \Vector{r} w_e^2(\Vector{r})w_g^2(\V
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{./intro/egexp.png}
-    \bicaption{图a代表单原子与双原子初态到末态的跃迁。图b代表末态的能谱。摘自\citep{scazza2014observation}}{Fig b for transition from initail state to final state under laser field. Fig b for energy spectrum of final state. Reprinted from \citep{scazza2014observation}}
+    \bicaption{图a代表单原子与双原子初态到末态的跃迁。图b代表末态的能谱。摘自\citep{scazza2014observation}}{Fig a for transition from initial state to final state under laser field. Fig b for energy spectrum of final state. Reprinted from \citep{scazza2014observation}}
     \label{egexp}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -503,7 +502,7 @@ E=\sum_{q<k_{F}} \frac{1}{\sum_{k>k_{F}}\left(\frac{1}{\epsilon_{\boldsymbol{k}}
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{./intro/chap1pmE.png}
-    \bicaption{极化子-分子转变。其中蓝色实线代表一对粒子-空穴激发近似下的零动量极化子。红色实线代表考虑一对粒子空穴激发修饰的分子能量，橘黄色虚线代表费米面存在裸的分子态能量。散点为蒙特卡洛的结果。摘自\citep{Punk_pm}}{Polaron-molecule transition. Blue solid line for zero momentum attractive polaron branch under 1 p-h excitation approximation, red solid line for dreesed molecule under 1 p-h excitation approximation, yellow dashed line for bare molecule with fermi sea. Scatterd points for result from Monte Carlo. Reprinted from\citep{Punk_pm}}
+    \bicaption{极化子-分子转变。其中蓝色实线代表一对粒子-空穴激发近似下的零动量极化子。红色实线代表考虑一对粒子空穴激发修饰的分子能量，橘黄色虚线代表费米面存在裸的分子态能量。散点为蒙特卡洛的结果。摘自\citep{Punk_pm}}{Polaron-molecule transition. Blue solid line for zero momentum attractive polaron branch under 1 p-h excitation approximation, red solid line for dreesed molecule under 1 p-h excitation approximation, yellow dashed line for bare molecule with fermi sea. Scatterd points for result from MC. Reprinted from\citep{Punk_pm}}
     \label{pmE}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -559,7 +558,7 @@ E=\sum_{q<k_{F}} \frac{1}{\sum_{k>k_{F}}\left(\frac{1}{\epsilon_{\boldsymbol{k}}
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.6\textwidth]{./intro/chap1upfp.png}
-    \bicaption{图a（弱）与b（强）为不同rf场强下测到的吸收谱。可以清楚地看到吸引极化子与排斥极化子两支解，在中间伴有分子态。\citep{kohstall2012metastability}}{Fig(a) and Fig(b) for transition spectrum measured under weak and strong rf power. There are attractive polaron branch, repulsive polaron branch ang molecule branch. Reprinted from \citep{kohstall2012metastability}}
+    \bicaption{图a（弱）与b（强）为不同rf场强下测到的吸收谱。可以清楚地看到吸引极化子与排斥极化子两支解，在中间伴有分子态。\citep{kohstall2012metastability}}{Fig a and Fig b for transition spectrum measured under weak and strong rf power. There are attractive polaron branch, repulsive polaron branch ang molecule branch. Reprinted from \citep{kohstall2012metastability}}
     \label{upfp}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -629,7 +628,7 @@ G(\boldsymbol{r},\boldsymbol{r}^{\prime},t,t^{\prime}) = -\mathrm{i} \theta\left
 \begin{equation}
 |\psi(t)\rangle=\sum_{m} C_{m} \mathrm{e}^{-i E_{m} t}|m\rangle
 \end{equation}
-其中$C_m = \langle m | \psi_I\rangle$，出于方便我们取$\hbar=1$。对某个局域算法可观测量$\hat{O}$来说，t时刻观测期望值为：
+其中$C_m = \langle m | \psi_I\rangle$，出于方便我们取$\hbar=1$。对某个局域算符可观测量$\hat{O}$来说，t时刻观测期望值为：
 \begin{equation}
 \begin{aligned}
 O(t) & \equiv\langle\psi(t)|\hat{O}| \psi(t)\rangle=\sum_{m, n} C_{m}^{*} C_{n} e^{i\left(E_{m}-E_{n}\right) t} O_{m n} \\
@@ -689,12 +688,12 @@ O_{m m} \approx O(\langle E\rangle)+\left.\left(E_{m}-\langle E\rangle\right) \f
 \begin{equation}
 \sqrt{\overline{\delta O^{2}}} / \bar{O} \simeq \sqrt{\delta O_{\mathrm{ME}}^{2}} / O_{\mathrm{ME}} \simeq 1 / \sqrt{V}
 \end{equation}
-由以上分析，我们可以理解，在本征热化假设成立的前提下，孤立系同局域算符的长时间平均等于热力学吉布斯平均（包括微正则、正则与巨正则系综）。那么本征热化假设有哪些成立的证据呢？目前来讲证据主要来自于格点系统的数值模拟。主要的模型包括硬核玻色子模型\cite{rigol2008thermalization,Santos2010Localization,Rigol2009Breakdown,Rigol2010Quantum,Neuenhahn2012Thermalization,Steinigeweg2013Eigenstate,Kim2014testing,beugeling2014finite,Steinigeweg2014Pushing,Khodja2015Relevance,Beugeling2015Off-diagonal}以及横场伊辛模型\cite{Fratus2015Eigenstate,Mondaini2016Eigenstate,Mondaini2017Eigenstate,blass2016test,Serbyn2013local}。我们挑选其中有代表性工作介绍，如图~\ref{ETHnum}~所示，展示了一维硬核玻色子与带纵场的横场伊辛模型的数值结果\cite{Kim2014testing}。可以看到对角元部分随着系统尺寸的增大局域算符的本征态期望值逐渐收敛到与能量有关的单值函数。
+由以上分析，我们可以理解，在本征热化假设成立的前提下，孤立系统局域算符的长时间平均等于热力学吉布斯平均（包括微正则、正则与巨正则系综）。那么本征热化假设有哪些成立的证据呢？目前来讲证据主要来自于格点系统的数值模拟。主要的模型包括硬核玻色子模型\cite{rigol2008thermalization,Santos2010Localization,Rigol2009Breakdown,Rigol2010Quantum,Neuenhahn2012Thermalization,Steinigeweg2013Eigenstate,Kim2014testing,beugeling2014finite,Steinigeweg2014Pushing,Khodja2015Relevance,Beugeling2015Off-diagonal}以及横场伊辛模型\cite{Fratus2015Eigenstate,Mondaini2016Eigenstate,Mondaini2017Eigenstate,blass2016test,Serbyn2013local}。我们挑选其中有代表性工作介绍，如图~\ref{ETHnum}~所示，展示了一维硬核玻色子与带纵场的横场伊辛模型的数值结果\cite{Kim2014testing}。可以看到对角元部分随着系统尺寸的增大局域算符的本征态期望值逐渐收敛到与能量有关的单值函数。
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{./intro/chap1ETHnum.png}
-    \bicaption{局域算符的对角元随本征能量的分布。其中(a)为带纵场的横场伊辛模型。(b)为带有次近邻相互作用的硬核玻色子模型。 摘自\citep{Kim2014testing}}{Eigenstate expectation value of local operators vs eigen energy. (a) for TFIM with longitudinal filed and (b) for hard core bosons with next-nearest-neighbor interactions. Reprinted from\citep{Kim2014testing}}
+    \bicaption{局域算符的对角元随本征能量的分布。其中(a)为带纵场的横场伊辛模型。(b)为带有次近邻相互作用的硬核玻色子模型。 摘自\citep{Kim2014testing}}{Eigenstate expectation value of local operators vs eigen energy. Fig (a) for TFIM with longitudinal filed and Fig (b) for hard core bosons with next-nearest-neighbor interaction. Reprinted from\citep{Kim2014testing}}
     \label{ETHnum}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -712,15 +711,15 @@ O_{m m} \approx O(\langle E\rangle)+\left.\left(E_{m}-\langle E\rangle\right) \f
     \label{scar}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-这一实验的引发的理论研究表明，反常动力学存在的原因为本征态希尔伯特空间中近似分立的子空间，其维度正比于链长。这一子空间在可以通过与初态$|Z_2\rangle$做投影，或者计算局域算符的本征态期望值，或者计算本征态的半链纠缠熵挑选出来\cite{turner2018weak,Turner2018quantum,Ho2019periodic,Choi2019emergent,Michailidis2020slow,serbyn2021quantum}，如图~\ref{scar}~所示。
+对这一实验的理论研究表明，反常动力学存在的原因为本征态希尔伯特空间中近似分立的子空间，其维度正比于链长。这一子空间在可以通过与初态$|Z_2\rangle$做投影，或者计算局域算符的本征态期望值，或者计算本征态的半链纠缠熵挑选出来\cite{turner2018weak,Turner2018quantum,Ho2019periodic,Choi2019emergent,Michailidis2020slow,serbyn2021quantum}，如图~\ref{scar}~所示。
 
-围绕着本征热化假说的成立与否，孤立体系的热化原理被逐步揭开。伴随着量子模拟实验技术的进步，我们对于热化的了解也越来越多，但是同样的未知也在增多，这仍是一个在蓬勃发展的领域。
+围绕着本征热化假说，孤立体系的热化的神秘面纱被逐步揭开。伴随着量子模拟实验技术的进步，我们对于热化的了解也会越来越深入下去，但是同样的未知也在逐步增多，这仍是一个在蓬勃发展的领域。
 
 
 
 
 
 \section{本文安排}\label{1sec:sum}
-在接下来的章节中，我们首先在第~\ref{chap:kondo}~章中从相对简单的少体磁性杂质体系出发，考虑一维下局域自旋与两个巡游费米子之间在自旋交换相互作用影响下的能谱结构，揭示少体体系的基态与激发态中蕴藏的特殊少体关联行为。然后转入第~\ref{chap:polaron}~章，我们从少体杂质体系来到多体杂质的研究。我们考虑典型的费米极化子杂质体系，采用统一的变分波函数研究其基态从极化子到分子的转变，揭示这一转变的本质在于基态从零动量到费米动量的转移，讨论维度与费米禁闭机制在这一转变中发挥的作用。并且基于转变点附近的极化子分子共存原理讨论了实验体系中有限温度和有限密度对单粒子观测量的连续化影响。在第~\ref{chap:ETH}~章我们从能谱的静态行为转变到动力学行为研究，系统地考察带有纵场的横场伊辛模型中，从固定初态出发，选取不同的耦合参数计算局域算符的时间平均与热力学系综平均得到热化的相图。在第~\ref{chap:sum}~章总结并展望这一从少体到多体再到动力学的研究脉络，这有助于我们对量子体系新奇物理特性理解更进一步。
+在接下来的章节中，我们首先在第~\ref{chap:kondo}~章中从相对简单的少体磁性杂质体系出发，考虑一维下局域自旋与两个巡游费米子之间在自旋交换相互作用影响下的能谱结构，揭示少体体系的基态与激发态中蕴藏的特殊少体关联行为。然后转入第~\ref{chap:polaron}~章，我们从少体杂质体系来到多体杂质的研究。我们考虑典型的费米极化子物理，采用统一的变分波函数研究基态从极化子到分子的转变，揭示这一转变的本质在于基态从零动量到费米动量的转移，讨论维度与泡利禁闭机制在这一转变中发挥的作用。并且基于转变点附近的极化子与分子共存机制讨论了实验体系中有限温度和有限密度对单粒子观测量的连续化影响。在第~\ref{chap:ETH}~章我们从能谱的静态行为转变到动力学行为研究，系统地考察带有纵场的横场伊辛模型中，从固定初态出发，选取不同的耦合参数计算局域算符的时间平均与热力学系综平均得到热化的相图。在第~\ref{chap:sum}~章总结并展望这一从少体到多体再到动力学的研究脉络，这有助于我们对量子体系新奇物理特性理解的深入。
 
 

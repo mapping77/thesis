@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  26 APR 2022 14:58
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  17 MAY 2022 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2857,6 +2857,15 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 LaTeX Font Warning: Font shape `TU/ntxtlf/bx/n' undefined
 (Font)              using `TU/ntxtlf/m/n' instead on input line 26.
 
+
+Overfull \hbox (24.38162pt too wide) in paragraph at lines 29--29
+ [][] [][][]\TU/AdobeHeitiStd-Regular(0)/m/n/12.045 三 维 不 同 相 互 作 用 下，| $\OML/n
+txmi/m/it/12.045 P[]\OT1/cmr/m/n/12.045 ([])$\T1/qhv/m/n/12.045 (\TU/AdobeHeiti
+Std-Regular(0)/m/n/12.045 实 线\T1/qhv/m/n/12.045 ) \TU/AdobeHeitiStd-Regular(0)/
+m/n/12.045 的 色 散 关 系。|  从 上 到 下 依 次 为 $\OT1/cmr/m/n/12.045 1/(\OML/ntxmi/m/it/1
+2.045 k[]a[]\OT1/cmr/m/n/12.045 ) = 
+ []
+
 [8] [9])
 \tf@lof=\write6
 \openout6 = `Thesis.lof'.
@@ -2872,18 +2881,18 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 File: Img/./intro/chap1deter.png Graphic file (type bmp)
 <Img/./intro/chap1deter.png>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 34.
+(Font)              scaled to size 10.53937pt on input line 35.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 34.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 34.
+(Font)              scaled to size 10.53937pt on input line 35.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <7> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 34.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 7.0pt on input line 34.
+(Font)              scaled to size 7.0pt on input line 35.
 
-Overfull \hbox (3.19322pt too wide) in paragraph at lines 29--38
+Overfull \hbox (3.19322pt too wide) in paragraph at lines 30--39
 []\T1/ntxtlf/m/n/12.045 Serwane F \TU/AdobeSongStd-Light(1)/m/n/12.045 及 合 作 者 
 首 先 发 明 了 一 种 可 以 确 定 性 制 备 不 同 原 子 数 目 的 手 段$[]$，|
  []
@@ -2900,7 +2909,7 @@ File: Img/./intro/chap1xiaji.png Graphic file (type bmp)
 <Img/./intro/chap1xiaji.png>
  [6]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 303.
+(Font)              scaled to size 6.0pt on input line 302.
  [7]
 File: Img/./intro/chap1spinchainth.png Graphic file (type bmp)
 <Img/./intro/chap1spinchainth.png>
@@ -2930,7 +2939,7 @@ File: Img/./intro/chap1smooth.png Graphic file (type bmp)
 <Img/./intro/chap1smooth.png>
 
 [18] [19]
-Overfull \hbox (15.03789pt too wide) detected at line 683
+Overfull \hbox (15.03789pt too wide) detected at line 682
 [][][]
  []
 
@@ -2957,18 +2966,17 @@ File: fig3.pdf Graphic file (type pdf)
 File: fig4.pdf Graphic file (type pdf)
 <use fig4.pdf>
  [43] [44] [45] [46]
-Overfull \hbox (12.3445pt too wide) detected at line 585
+Overfull \hbox (12.3445pt too wide) detected at line 582
 [] [] [] \OT1/cmr/m/n/12.045 = [] []
  []
 
-[47]
 File: fig5.pdf Graphic file (type pdf)
 <use fig5.pdf>
- [48] [49]) (./Tex/Chap_Polaron.tex [50]
-第3章
-[51
+[47] [48]) (./Tex/Chap_Polaron.tex [49] [50
 
-] [52]
+]
+第3章
+[51] [52]
 File: chap3illustration.pdf Graphic file (type pdf)
 <use chap3illustration.pdf>
  [53] [54] [55]
@@ -3011,14 +3019,7 @@ File: Img/./pol/fig8.pdf Graphic file (type pdf)
 <use Img/./pol/fig8.pdf>
 File: Img/./pol/fig9.pdf Graphic file (type pdf)
 <use Img/./pol/fig9.pdf>
- [65] [66] [67]
-Overfull \hbox (19.15561pt too wide) in paragraph at lines 285--286
-[]\TU/AdobeSongStd-Light(1)/m/n/12.045 接 下 来 我 们 来 明 确 在 色 散 曲 线 上 划 分 极 化 子 与 
-玻 色 子。|  相 互 作 用 处 于 $\OT1/cmr/m/n/12.045 1/(\OML/ntxmi/m/it/12.045 k[]a[]\OT1/
-cmr/m/n/12.045 ) \LMS/ntxsy/m/n/12.045 2
- []
-
-[68]
+ [65] [66] [67] [68]
 Overfull \hbox (41.41226pt too wide) detected at line 321
 []
  []
@@ -3053,14 +3054,6 @@ Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 327.
 
 File: Img/./pol/fig11.pdf Graphic file (type pdf)
 <use Img/./pol/fig11.pdf>
-
-Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 337.
-
-
-
-Package natbib Warning: Citation `Sagi' on page 69 undefined on input line 337.
-
-
 [69] [70] [71] [72]) (./Tex/Chap_Scar.tex [73
 
 ] [74
@@ -3076,7 +3069,7 @@ File: Img/./scar/scar2.pdf Graphic file (type pdf)
 File: Img/./scar/scar3.pdf Graphic file (type pdf)
 <use Img/./scar/scar3.pdf>
 
-Overfull \hbox (83.4222pt too wide) in paragraph at lines 143--144
+Overfull \hbox (83.4222pt too wide) in paragraph at lines 145--146
  [][] 
  []
 
@@ -3095,54 +3088,30 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [81] [82]
 File: Img/./scar/scar5.pdf Graphic file (type pdf)
 <use Img/./scar/scar5.pdf>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[83] [84] [85]
+ [83] [84]
 File: Img/./scar/scar6.pdf Graphic file (type pdf)
 <use Img/./scar/scar6.pdf>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./Tex/Chap_SummaryandOutlook.tex [86
-
-] [87] [88
-
-]
+) (./Tex/Chap_SummaryandOutlook.tex [85] [86]
 第5章
 Missing character: There is no 简 in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no 并 in font [lmroman12-regular]:mapping=tex-text;!
-[89] [90])) [91] [92
+[87
 
-] (Tmp/Thesis.bbl
-Underfull \hbox (badness 2846) in paragraph at lines 58--64
-[]\T1/ntxtlf/m/n/10.53937 Pethick C J, Smith H.  Bose--einstein con-den-sa-tion
- in di-lute gases [M/OL].
- []
+] [88])) [89] [90
+
+] (Tmp/Thesis.bbl [91
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--64
-\T1/ntxtlf/m/n/10.53937 Cam-bridge uni-ver-sity press, 2008.  [][]$https : / / 
-www . cambridge . org / core / books /
- []
+] [92] [93] [94] [95] [96] [97]
+[98] [99] [100]) (./Tex/Backmatter.tex [101] [102
 
+] [103] [104] [105
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--64
-\T1/ntxtlf/m/n/10.53937 boseeinstein-[]condensation-[]in-[]dilute-[]gases / D7E
-07AEF81EA0506217F196B02D13625$[][].
- []
-
-[93
-
-
-] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106]
-[107] [108]) (./Tex/Backmatter.tex [109] [110
-
-] [111] [112] [113
-
-] [114])
+] [106])
 
 Package natbib Warning: There were undefined citations.
 
@@ -3152,7 +3121,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 95.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9C795FDDD0F2BA7F42C1B686393B2598.
+(rerunfilecheck)             Checksum: 317EEB5AAB8A272F4E512905BE54D241.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3166,12 +3135,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 43082 strings out of 492970
- 879024 string characters out of 6133938
- 933511 words of memory out of 5000000
- 46348 multiletter control sequences out of 15000+600000
+ 43095 strings out of 492970
+ 880135 string characters out of 6133938
+ 933428 words of memory out of 5000000
+ 46361 multiletter control sequences out of 15000+600000
  648909 words of font info for 214 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 69i,22n,94p,10449b,2560s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,22n,94p,10449b,2541s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Tmp/Thesis.pdf (130 pages).
+Output written on Tmp/Thesis.pdf (122 pages).
