@@ -21,7 +21,7 @@
 \hat{H}_{Ising} = \sum_i\hat{\sigma}^x_i + J\sum_{i}\hat{\sigma}^z_i\sigma^z_{i+1} + h\sum_{i}\hat{\sigma}^z_i 
 \label{Ising}
 \end{equation}
-选取周期性边界条件，选取$|\downarrow\rangle=|0\rangle$，$|\uparrow\rangle=|1\rangle$，其中$\sigma_i^{x,y,z}$为泡利算符。
+选取周期性边界条件，选取$|\downarrow\rangle=|0\rangle$，$|\uparrow\rangle=|1\rangle$，其中$\hat{\sigma}_i^{x,y,z}$为泡利算符。
 
 \subsection{对称性}
 哈密顿量拥有晶格平移对称性以及空间反演对称性。对于晶格平移对称性，我们定义平移算符$\hat{T}$：
@@ -94,7 +94,7 @@
 	\bar{L}_{th} = Tr(\hat{\rho}_{th}\hat{L})
 \end{equation}
 
-为了消除严格对角化中尺寸的效应，我们对两种平均都做了有限尺寸修正。
+为了消除严格对角化中y有限尺寸的效应，我们对两种平均都做了有限尺寸修正。
 
 \section{相图与分析}\label{4sec:result}
 我们主要的数值模拟结果可以总结在下面的相图里面，对于固定的哈密顿量，参数为$J,h$，我们从初态$|Z_2\rangle$出发，我们考虑局域算符$\hat{L}=\hat{\sigma}_1^z\hat{\sigma}_2^z$，比对由对角系综求得的长时间平均以及正则系综平均得到吉布斯平均，我们画出有限尺寸修正后的结果：
