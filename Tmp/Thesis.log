@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  24 MAY 2022 20:26
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  24 MAY 2022 20:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2857,7 +2857,7 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 LaTeX Font Warning: Font shape `TU/ntxtlf/bx/n' undefined
 (Font)              using `TU/ntxtlf/m/n' instead on input line 26.
 
-
+[8]
 Overfull \hbox (24.38162pt too wide) in paragraph at lines 29--29
  [][] [][][]\TU/AdobeHeitiStd-Regular(0)/m/n/12.045 三 维 不 同 相 互 作 用 下，| $\OML/n
 txmi/m/it/12.045 P[]\OT1/cmr/m/n/12.045 ([])$\T1/qhv/m/n/12.045 (\TU/AdobeHeiti
@@ -2866,7 +2866,22 @@ m/n/12.045 的 色 散 关 系。|  从 上 到 下 依 次 为 $\OT1/cmr/m/n/12
 2.045 k[]a[]\OT1/cmr/m/n/12.045 ) = 
  []
 
-[8] [9])
+
+Overfull \hbox (63.7644pt too wide) in paragraph at lines 32--32
+ \OML/ntxmi/m/it/12.045 P[]\OT1/cmr/m/n/12.045 ([])$ |\TU/AdobeHeitiStd-Regular
+(0)/m/n/12.045 （实 线）|  本 征 能 量 的 色 散 关 系。|  自 上 而 下 $[]\OT1/cmr/m/n/12.045 (\OM
+L/ntxmi/m/it/12.045 k[]a[]\OT1/cmr/m/n/12.045 ) = \LMS/ntxsy/m/n/12.045 ^^@\OT1
+/cmr/m/n/12.045 0\OML/ntxmi/m/it/12.045 :\OT1/cmr/m/n/12.045 8\OML/ntxmi/m/it/1
+2.045 ; \LMS/ntxsy/m/n/12.045 ^^@\OT1/cmr/m/n/12.045 0\OML/ntxmi/m/it/12.045 :\
+OT1/cmr/m/n/12.045 9\OML/ntxmi/m/it/12.045 ; \LMS/ntxsy/m/n/12.045 ^^@\OT1/cmr/
+m/n/12.045 1\OML/ntxmi/m/it/12.045 :\OT1/cmr/m/n/12.045 0\OML/ntxmi/m/it/12.045
+ ; \LMS/ntxsy/m/n/12.045 ^^@\OT1/cmr/m/n/12.045 1\OML/ntxmi/m/it/12.045 :\OT1/c
+mr/m/n/12.045 1\OML/ntxmi/m/it/12.045 ; \LMS/ntxsy/m/n/12.045 ^^@\OT1/cmr/m/n/1
+2.045 1\OML/ntxmi/m/it/12.045 :\OT1/cmr/m/n/12.045 2$\TU/AdobeHeitiStd-Regular(
+0)/m/n/12.045 。| 
+ []
+
+[9])
 \tf@lof=\write6
 \openout6 = `Thesis.lof'.
 
@@ -3137,7 +3152,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  43095 strings out of 492970
  880135 string characters out of 6133938
- 933420 words of memory out of 5000000
+ 933519 words of memory out of 5000000
  46361 multiletter control sequences out of 15000+600000
  648909 words of font info for 214 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
