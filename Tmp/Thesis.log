@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  18 MAY 2022 22:50
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.17)  24 MAY 2022 20:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2934,10 +2934,10 @@ File: Img/./intro/chap1fp.png Graphic file (type bmp)
 <Img/./intro/chap1fp.png>
 File: Img/./intro/chap1upfp.png Graphic file (type bmp)
 <Img/./intro/chap1upfp.png>
- [16] [17]
+ [16]
 File: Img/./intro/chap1smooth.png Graphic file (type bmp)
 <Img/./intro/chap1smooth.png>
-
+ [17]
 [18] [19]
 Overfull \hbox (15.03789pt too wide) detected at line 682
 [][][]
@@ -2945,10 +2945,10 @@ Overfull \hbox (15.03789pt too wide) detected at line 682
 
 File: Img/./intro/chap1ETHnum.png Graphic file (type bmp)
 <Img/./intro/chap1ETHnum.png>
-[20]
+[20] [21]
 File: Img/./intro/chap1scar.png Graphic file (type bmp)
 <Img/./intro/chap1scar.png>
- [21] [22]) (./Tex/Chap_Kondo.tex [23] [24
+ [22]) (./Tex/Chap_Kondo.tex [23] [24
 
 ]
 第2章

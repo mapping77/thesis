@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {1.3}自旋交换相互作用}{9}{section.1.3}
 \contentsline {section}{\numberline {1.4}费米极化子物理}{12}{section.1.4}
 \contentsline {section}{\numberline {1.5}本征热化假说}{18}{section.1.5}
-\contentsline {section}{\numberline {1.6}本文安排}{23}{section.1.6}
+\contentsline {section}{\numberline {1.6}本文安排}{22}{section.1.6}
 \contentsline {chapter}{\numberline {第2章\hspace {.3em}}自旋交换相互作用体系少体精确解}{25}{chapter.2}
 \contentsline {section}{\numberline {2.1}引言}{25}{section.2.1}
 \contentsline {section}{\numberline {2.2}模型与计算}{26}{section.2.2}
