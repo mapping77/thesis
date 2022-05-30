@@ -15,7 +15,7 @@ Warning--I didn't find a database entry for "Sagi"
 Warning--empty journal in mahanmany
 You've used 175 entries,
             4948 wiz_defined-function locations,
-            1954 strings with 38414 characters,
+            1945 strings with 38289 characters,
 and the built_in function-call counts, 1461314 in all, are:
 = -- 24504
 > -- 175160

@@ -49,14 +49,14 @@
 \citation{WenzFermiSeaOnebyOne}
 \citation{WenzFermiSeaOnebyOne}
 \citation{WenzFermiSeaOnebyOne}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces 图A表示降低一侧势阱深度使原子漏出来制备少体体系的示意图。图B为实验测到的少体体系平均粒子数与方差。 摘自 \citep  {SerwaneDeterministic} \relax }}{2}{figure.caption.9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces 少体体系制备。图A表示降低势阱的示意图，研究者降低一侧势阱深度使原子漏出来制备少体体系。图B为实验测到的少体体系平均粒子数与方差。 摘自 \citep  {SerwaneDeterministic} \relax }}{2}{figure.caption.9}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{deter}{{1.1}{2}{图A表示降低一侧势阱深度使原子漏出来制备少体体系的示意图。图B为实验测到的少体体系平均粒子数与方差。 摘自 \citep {SerwaneDeterministic} \relax }{figure.caption.9}{}}
+\newlabel{deter}{{1.1}{2}{少体体系制备。图A表示降低势阱的示意图，研究者降低一侧势阱深度使原子漏出来制备少体体系。图B为实验测到的少体体系平均粒子数与方差。 摘自 \citep {SerwaneDeterministic} \relax }{figure.caption.9}{}}
 \citation{busch1998two}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces 不同的有效一维相互作用下两体费米子隧穿几率。谐振子势阱中两体体系的能量决定了隧穿几率。其中在共振点处相互作用费米子$\delimiter "3222378 \delimiter "3223379 $能量等于无相互作用全同费米子$\delimiter "3222378 \delimiter "3222378 $能量，发生费米化。 摘自 \citep  {zurn2012fermionization} \relax }}{3}{figure.caption.10}}
 \newlabel{ferminization}{{1.2}{3}{不同的有效一维相互作用下两体费米子隧穿几率。谐振子势阱中两体体系的能量决定了隧穿几率。其中在共振点处相互作用费米子$\uparrow \downarrow $能量等于无相互作用全同费米子$\uparrow \uparrow $能量，发生费米化。 摘自 \citep {zurn2012fermionization} \relax }{figure.caption.10}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces  图A为谐振子势阱中1+N体系能谱示意图。图B为实验测得的射频脉冲谱。图C为能量密度。摘自 \citep  {WenzFermiSeaOnebyOne} \relax }}{4}{figure.caption.11}}
-\newlabel{fermisea}{{1.3}{4}{图A为谐振子势阱中1+N体系能谱示意图。图B为实验测得的射频脉冲谱。图C为能量密度。摘自 \citep {WenzFermiSeaOnebyOne} \relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces  少体极化子到多体极化子的过渡。图A为谐振子势阱中1+N体系能谱示意图。图B为实验测得的射频脉冲谱。图C为能量密度。摘自 \citep  {WenzFermiSeaOnebyOne} \relax }}{4}{figure.caption.11}}
+\newlabel{fermisea}{{1.3}{4}{少体极化子到多体极化子的过渡。图A为谐振子势阱中1+N体系能谱示意图。图B为实验测得的射频脉冲谱。图C为能量密度。摘自 \citep {WenzFermiSeaOnebyOne} \relax }{figure.caption.11}{}}
 \citation{busch1998two}
 \citation{busch1998two}
 \citation{busch1998two}
@@ -75,10 +75,10 @@
 \citation{Xiaji2009prl}
 \citation{Xiaji2009prl}
 \citation{Xiaji20103b}
-\citation{blume2012}
-\citation{Rittenhouse2010green,d2014three,loft2015variational,andersen2016interpolatory,bellotti2017comparing}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces 三维下三费米子体系（$\delimiter "3222378 \delimiter "3223379 \delimiter "3222378 $）的能谱。摘自\citep  {Xiaji2009prl}\relax }}{6}{figure.caption.13}}
 \newlabel{xiaji3d}{{1.5}{6}{三维下三费米子体系（$\uparrow \downarrow \uparrow $）的能谱。摘自\citep {Xiaji2009prl}\relax }{figure.caption.13}{}}
+\citation{blume2012}
+\citation{Rittenhouse2010green,d2014three,loft2015variational,andersen2016interpolatory,bellotti2017comparing}
 \citation{Blume2010,blume2012few}
 \citation{Guan2009exact,ma2009mathematical,Lewenstein2013spinchain,volosniev2014strongly,Busch013spinchain,CuiHo2014,Santos2014spinchain,Puhan2015spinchain,Yang2016effective}
 \citation{MurmannSpinChain}
@@ -101,8 +101,8 @@
 \citation{scazza2014observation,cappellini2014direct}
 \citation{scazza2014observation,cappellini2014direct}
 \citation{zhang2014spectroscopic}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces 图a代表单原子与双原子初态到末态的跃迁。图b代表末态的能谱。摘自\citep  {scazza2014observation}\relax }}{11}{figure.caption.15}}
-\newlabel{egexp}{{1.7}{11}{图a代表单原子与双原子初态到末态的跃迁。图b代表末态的能谱。摘自\citep {scazza2014observation}\relax }{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces 自旋交换相互作用体系探测。图a代表单原子与双原子初态到末态的跃迁。图b代表末态的能谱。摘自\citep  {scazza2014observation}\relax }}{11}{figure.caption.15}}
+\newlabel{egexp}{{1.7}{11}{自旋交换相互作用体系探测。图a代表单原子与双原子初态到末态的跃迁。图b代表末态的能谱。摘自\citep {scazza2014observation}\relax }{figure.caption.15}{}}
 \citation{zhang2016kondo,cheng2017enhancing,zhang2018control,ji2018confinement,zhang2020tight,zhang2020controlling}
 \citation{riegger2018localized}
 \citation{riegger2018localized,zhang2020controlling}
@@ -110,8 +110,8 @@
 \citation{riegger2018localized,zhang2020controlling}
 \citation{riegger2018localized,zhang2020controlling}
 \citation{landau1933bewegung,pekar1946autolocalization,frohlich1950xx,frohlich1954electrons,feynman1955slow,mahanmany}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces 图a代表准一维体系z方向上自旋相关的晶格制造巡游费米子与局域费米子。图b代表自旋交换发生的过程。图c，d分别代表实验测量与理论预测的束缚诱导增强下的自旋交换动力学。摘自\citep  {riegger2018localized,zhang2020controlling}\relax }}{12}{figure.caption.16}}
-\newlabel{CIRspexexp}{{1.8}{12}{图a代表准一维体系z方向上自旋相关的晶格制造巡游费米子与局域费米子。图b代表自旋交换发生的过程。图c，d分别代表实验测量与理论预测的束缚诱导增强下的自旋交换动力学。摘自\citep {riegger2018localized,zhang2020controlling}\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces 束缚诱导共振调节的自旋交换相互作用。图a代表准一维体系z方向上自旋相关的晶格制造巡游费米子与局域费米子。图b代表自旋交换发生的过程。图c，d分别代表实验测量与理论预测的束缚诱导增强下的自旋交换动力学。摘自\citep  {riegger2018localized,zhang2020controlling}\relax }}{12}{figure.caption.16}}
+\newlabel{CIRspexexp}{{1.8}{12}{束缚诱导共振调节的自旋交换相互作用。图a代表准一维体系z方向上自旋相关的晶格制造巡游费米子与局域费米子。图b代表自旋交换发生的过程。图c，d分别代表实验测量与理论预测的束缚诱导增强下的自旋交换动力学。摘自\citep {riegger2018localized,zhang2020controlling}\relax }{figure.caption.16}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.4}费米极化子物理}{12}{section.1.4}}
 \newlabel{1sec:polaron}{{1.4}{12}{费米极化子物理}{section.1.4}{}}
 \citation{chevy2006}
@@ -155,27 +155,27 @@
 \citation{kohstall2012metastability}
 \citation{kohstall2012metastability}
 \citation{Scazzarepulsive}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.12}{\ignorespaces 准粒子剩余随着相互作用与密度的变化。摘自\citep  {Schirotzekobservation}\relax }}{16}{figure.caption.20}}
+\newlabel{fpZ}{{1.12}{16}{准粒子剩余随着相互作用与密度的变化。摘自\citep {Schirotzekobservation}\relax }{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.13}{\ignorespaces 费米极化子到分子转变的示意图。相互作用从弱变强依次从极化子变到分子。摘自\citep  {Schirotzekobservation}\relax }}{16}{figure.caption.21}}
+\newlabel{fp}{{1.13}{16}{费米极化子到分子转变的示意图。相互作用从弱变强依次从极化子变到分子。摘自\citep {Schirotzekobservation}\relax }{figure.caption.21}{}}
 \citation{Zollner2011Polarons,Parish2011pm,Lewenstein2013spinchain012High}
 \citation{Schmidt2012fermi,Ngampruetikorn_2012}
 \citation{mcguire1965interacting,mcguire1966interacting}
 \citation{Giraud2009highly,Leskinen_2010,Astrakharchik2013trapped}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.12}{\ignorespaces 准粒子剩余随着相互作用与密度的变化。摘自\citep  {Schirotzekobservation}\relax }}{16}{figure.caption.20}}
-\newlabel{fpZ}{{1.12}{16}{准粒子剩余随着相互作用与密度的变化。摘自\citep {Schirotzekobservation}\relax }{figure.caption.20}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.13}{\ignorespaces 费米极化子的示意图。相互作用从弱变强依次从极化子变到分子。摘自\citep  {Schirotzekobservation}\relax }}{16}{figure.caption.21}}
-\newlabel{fp}{{1.13}{16}{费米极化子的示意图。相互作用从弱变强依次从极化子变到分子。摘自\citep {Schirotzekobservation}\relax }{figure.caption.21}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.14}{\ignorespaces 图a（弱）与b（强）为不同rf场强下测到的吸收谱。可以清楚地看到吸引极化子与排斥极化子两支解，在中间伴有分子态。\citep  {kohstall2012metastability}\relax }}{17}{figure.caption.22}}
-\newlabel{upfp}{{1.14}{17}{图a（弱）与b（强）为不同rf场强下测到的吸收谱。可以清楚地看到吸引极化子与排斥极化子两支解，在中间伴有分子态。\citep {kohstall2012metastability}\relax }{figure.caption.22}{}}
 \citation{Sagi2020}
 \citation{Sagi2020}
 \citation{Sagi2020}
 \citation{Sagi2020}
 \citation{Sagi2020}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.14}{\ignorespaces  极化子测量得到的射频谱。图a（弱）与b（强）为不同rf场强下测到的吸收谱。可以清楚地看到吸引极化子与排斥极化子两支解，在中间伴有分子态。\citep  {kohstall2012metastability}\relax }}{17}{figure.caption.22}}
+\newlabel{upfp}{{1.14}{17}{极化子测量得到的射频谱。图a（弱）与b（强）为不同rf场强下测到的吸收谱。可以清楚地看到吸引极化子与排斥极化子两支解，在中间伴有分子态。\citep {kohstall2012metastability}\relax }{figure.caption.22}{}}
 \citation{d2016quantum,deutsch2018eigenstate}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.15}{\ignorespaces 拟合Raman谱得到的准粒子剩余$Z$，其中散点代表实验观测数据，实线代表LDA近似的结果，点线代表单杂质在$T =0$下的准粒子剩余。摘自\citep  {Sagi2020}\relax }}{18}{figure.caption.23}}
-\newlabel{fpsmooth}{{1.15}{18}{拟合Raman谱得到的准粒子剩余$Z$，其中散点代表实验观测数据，实线代表LDA近似的结果，点线代表单杂质在$T =0$下的准粒子剩余。摘自\citep {Sagi2020}\relax }{figure.caption.23}{}}
+\citation{Deutsch1991quantum,Srednicki1994chaos,srednicki1999approach}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.15}{\ignorespaces Raman谱实验得到的平均准粒子剩余$Z$。其中散点代表实验观测数据，实线代表LDA近似的结果，点线代表单杂质在$T =0$下的准粒子剩余。摘自\citep  {Sagi2020}\relax }}{18}{figure.caption.23}}
+\newlabel{fpsmooth}{{1.15}{18}{Raman谱实验得到的平均准粒子剩余$Z$。其中散点代表实验观测数据，实线代表LDA近似的结果，点线代表单杂质在$T =0$下的准粒子剩余。摘自\citep {Sagi2020}\relax }{figure.caption.23}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.5}本征热化假说}{18}{section.1.5}}
 \newlabel{1sec:ETH}{{1.5}{18}{本征热化假说}{section.1.5}{}}
-\citation{Deutsch1991quantum,Srednicki1994chaos,srednicki1999approach}
 \citation{rigol2008thermalization,Santos2010Localization,Rigol2009Breakdown,Rigol2010Quantum,Neuenhahn2012Thermalization,Steinigeweg2013Eigenstate,Kim2014testing,beugeling2014finite,Steinigeweg2014Pushing,Khodja2015Relevance,Beugeling2015Off-diagonal}
 \citation{Fratus2015Eigenstate,Mondaini2016Eigenstate,Mondaini2017Eigenstate,blass2016test,Serbyn2013local}
 \citation{Kim2014testing}
@@ -186,16 +186,16 @@
 \citation{Beugeling2015Off-diagonal,Mondaini2017Eigenstate}
 \citation{kinoshita2006quantum,Rigol2007Relaxation,Calabrese2011Quantum,essler2016quench,vidmar2016generalized}
 \citation{basko2006metal,Serbyn2013local,Huse2014Phenomenology}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.16}{\ignorespaces 局域算符的对角元随本征能量的分布。其中(a)为带纵场的横场伊辛模型。(b)为带有次近邻相互作用的硬核玻色子模型。 摘自\citep  {Kim2014testing}\relax }}{21}{figure.caption.24}}
+\newlabel{ETHnum}{{1.16}{21}{局域算符的对角元随本征能量的分布。其中(a)为带纵场的横场伊辛模型。(b)为带有次近邻相互作用的硬核玻色子模型。 摘自\citep {Kim2014testing}\relax }{figure.caption.24}{}}
 \citation{bernien2017probing}
 \citation{bernien2017probing,serbyn2021quantum}
 \citation{bernien2017probing,serbyn2021quantum}
 \citation{bernien2017probing,serbyn2021quantum}
 \citation{bernien2017probing,serbyn2021quantum}
 \citation{turner2018weak,Turner2018quantum,Ho2019periodic,Choi2019emergent,Michailidis2020slow,serbyn2021quantum}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.16}{\ignorespaces 局域算符的对角元随本征能量的分布。其中(a)为带纵场的横场伊辛模型。(b)为带有次近邻相互作用的硬核玻色子模型。 摘自\citep  {Kim2014testing}\relax }}{22}{figure.caption.24}}
-\newlabel{ETHnum}{{1.16}{22}{局域算符的对角元随本征能量的分布。其中(a)为带纵场的横场伊辛模型。(b)为带有次近邻相互作用的硬核玻色子模型。 摘自\citep {Kim2014testing}\relax }{figure.caption.24}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.17}{\ignorespaces 图a为里德堡实验平台观察到的量子多体伤痕动力学，图b为后续通过与$|Z_2\delimiter "526930B $做投影筛选得到非热化子空间。摘自\citep  {bernien2017probing,serbyn2021quantum}\relax }}{22}{figure.caption.25}}
-\newlabel{scar}{{1.17}{22}{图a为里德堡实验平台观察到的量子多体伤痕动力学，图b为后续通过与$|Z_2\rangle $做投影筛选得到非热化子空间。摘自\citep {bernien2017probing,serbyn2021quantum}\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.17}{\ignorespaces 多体伤痕物理。图a为里德堡实验平台观察到的量子多体伤痕动力学，图b为后续通过与$|Z_2\delimiter "526930B $做投影筛选得到非热化子空间。摘自\citep  {bernien2017probing,serbyn2021quantum}\relax }}{22}{figure.caption.25}}
+\newlabel{scar}{{1.17}{22}{多体伤痕物理。图a为里德堡实验平台观察到的量子多体伤痕动力学，图b为后续通过与$|Z_2\rangle $做投影筛选得到非热化子空间。摘自\citep {bernien2017probing,serbyn2021quantum}\relax }{figure.caption.25}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.6}本文安排}{23}{section.1.6}}
 \newlabel{1sec:sum}{{1.6}{23}{本文安排}{section.1.6}{}}
 \citation{scazza2014observation,cappellini2014direct}
@@ -234,13 +234,13 @@
 \citation{zurn2012fermionization}
 \citation{busch1998two}
 \newlabel{asymptotic}{{2.31}{33}{一个杂质与一个费米子}{equation.2.3.31}{}}
-\newlabel{asymptotic_wf}{{2.32}{33}{一个杂质与一个费米子}{equation.2.3.32}{}}
+\newlabel{asymptotic_wf}{{2.32}{34}{一个杂质与一个费米子}{equation.2.3.32}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}一个杂质与两个费米子}{34}{subsection.2.3.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces 一个杂质与两个费米子的1+2体系在$S_{tot,z}=1/2$子希尔伯特空间的能谱随自旋交换相互作用与无自旋交换的接触相互作用强度的变化。（a1）代表的是带自旋交换相互作用1+2体系。我们用红色的点来标记其中特殊的$S_{tot=3/2}$的铁磁态。剩下的态都是$S_{tot}=1/2$的态。（a2）代表的是带纯接触势的1+2体系的能谱。其中$E$与$J$的量纲为$\omega $与$\sqrt  {\omega /M}$。\relax }}{35}{figure.caption.27}}
 \newlabel{fig:fig2}{{2.2}{35}{一个杂质与两个费米子的1+2体系在$S_{tot,z}=1/2$子希尔伯特空间的能谱随自旋交换相互作用与无自旋交换的接触相互作用强度的变化。（a1）代表的是带自旋交换相互作用1+2体系。我们用红色的点来标记其中特殊的$S_{tot=3/2}$的铁磁态。剩下的态都是$S_{tot}=1/2$的态。（a2）代表的是带纯接触势的1+2体系的能谱。其中$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }{figure.caption.27}{}}
 \citation{mahanmany}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces 铁磁（$J<0$）与反铁磁（$J>0$）耦合下整个体系平移对应的自旋单重态与自旋三重态能量后的能谱。其中（a1）代表能谱减掉$\frac  {-9J^2}{8}$后的行为，（b1）代表了（a1）中灰色区域的放大。（a2）代表能谱减掉$\frac  {-J^2}{8}$后的行为，可以看到基态依然随着$|J|$增大而能量越来越低，不再饱和到某一有限值。（b2）代表了（a2）中灰色区域的放大，从第一激发态开始，能量最终饱和在有限值。其中$E$与$J$的量纲为$\omega $与$\sqrt  {\omega /M}$。\relax }}{37}{figure.caption.28}}
-\newlabel{fig:fig3}{{2.3}{37}{铁磁（$J<0$）与反铁磁（$J>0$）耦合下整个体系平移对应的自旋单重态与自旋三重态能量后的能谱。其中（a1）代表能谱减掉$\frac {-9J^2}{8}$后的行为，（b1）代表了（a1）中灰色区域的放大。（a2）代表能谱减掉$\frac {-J^2}{8}$后的行为，可以看到基态依然随着$|J|$增大而能量越来越低，不再饱和到某一有限值。（b2）代表了（a2）中灰色区域的放大，从第一激发态开始，能量最终饱和在有限值。其中$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces 屏蔽效应。铁磁（$J<0$）与反铁磁（$J>0$）耦合下整个体系平移对应的自旋单重态与自旋三重态能量后的能谱。其中（a1）代表能谱减掉$\frac  {-9J^2}{8}$后的行为，（b1）代表了（a1）中灰色区域的放大。（a2）代表能谱减掉$\frac  {-J^2}{8}$后的行为，可以看到基态依然随着$|J|$增大而能量越来越低，不再饱和到某一有限值。（b2）代表了（a2）中灰色区域的放大，从第一激发态开始，能量最终饱和在有限值。其中$E$与$J$的量纲为$\omega $与$\sqrt  {\omega /M}$。\relax }}{37}{figure.caption.28}}
+\newlabel{fig:fig3}{{2.3}{37}{屏蔽效应。铁磁（$J<0$）与反铁磁（$J>0$）耦合下整个体系平移对应的自旋单重态与自旋三重态能量后的能谱。其中（a1）代表能谱减掉$\frac {-9J^2}{8}$后的行为，（b1）代表了（a1）中灰色区域的放大。（a2）代表能谱减掉$\frac {-J^2}{8}$后的行为，可以看到基态依然随着$|J|$增大而能量越来越低，不再饱和到某一有限值。（b2）代表了（a2）中灰色区域的放大，从第一激发态开始，能量最终饱和在有限值。其中$E$与$J$的量纲为$\omega $与$\sqrt {\omega /M}$。\relax }{figure.caption.28}{}}
 \newlabel{eq:free1+2}{{2.35}{38}{一个杂质与两个费米子}{equation.2.3.35}{}}
 \citation{cui2014ground}
 \newlabel{E3m}{{2.46}{41}{一个杂质与两个费米子}{equation.2.3.46}{}}
@@ -249,8 +249,8 @@
 \newlabel{kappam}{{2.50}{41}{一个杂质与两个费米子}{equation.2.3.50}{}}
 \newlabel{kappammid}{{2.53}{42}{一个杂质与两个费米子}{equation.2.3.53}{}}
 \newlabel{kappammat}{{2.57}{42}{一个杂质与两个费米子}{equation.2.3.57}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces 能量$E=5\omega $附近三支upper branch的能量对比。其中蓝色散点图代表数值严格对角化的结果，黑色虚线代表$1/J=0$附近微扰论的结果。其中能量$E$与相互作用强度$J$的量纲为$\omega $和$\sqrt  {\omega /M}$。\relax }}{43}{figure.caption.29}}
-\newlabel{fig:fig4}{{2.4}{43}{能量$E=5\omega $附近三支upper branch的能量对比。其中蓝色散点图代表数值严格对角化的结果，黑色虚线代表$1/J=0$附近微扰论的结果。其中能量$E$与相互作用强度$J$的量纲为$\omega $和$\sqrt {\omega /M}$。\relax }{figure.caption.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces 能量$E=5\omega $附近三支排斥高能支能量对比。其中蓝色散点图代表数值严格对角化的结果，黑色虚线代表$1/J=0$附近微扰论的结果。其中能量$E$与相互作用强度$J$的量纲为$\omega $和$\sqrt  {\omega /M}$。\relax }}{43}{figure.caption.29}}
+\newlabel{fig:fig4}{{2.4}{43}{能量$E=5\omega $附近三支排斥高能支能量对比。其中蓝色散点图代表数值严格对角化的结果，黑色虚线代表$1/J=0$附近微扰论的结果。其中能量$E$与相互作用强度$J$的量纲为$\omega $和$\sqrt {\omega /M}$。\relax }{figure.caption.29}{}}
 \citation{andrei1983solution,tsvelick1982exact}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}多体扩展}{44}{subsection.2.3.3}}
 \citation{Yosida}
@@ -322,8 +322,8 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}二维}{63}{subsection.3.3.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces 二维下V-2ph与V-1ph得到的能量。为了展示差异我们将能量大小平移二体束缚能$E_{2b}=-1/(ma_{2d}^2)$。\relax }}{63}{figure.caption.36}}
 \newlabel{2d_1}{{3.6}{63}{二维下V-2ph与V-1ph得到的能量。为了展示差异我们将能量大小平移二体束缚能$E_{2b}=-1/(ma_{2d}^2)$。\relax }{figure.caption.36}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces (a)为二维下不同相互作用下$P_5(\boldsymbol  {Q})$（实线）本征能量的色散关系。自上而下$\qopname  \relax o{ln}(k_Fa_{2d})=-0.8,-0.9,-1.0,-1.1,-1.2$。能量偏移$\boldsymbol  {Q}=0$时的能量。黑色小点代表$M_4({\boldsymbol  {Q} }_{\rm  M})$变分波函数得到的能量。其动量关系为$|{\boldsymbol  {Q} }_{\rm  M}|$。(b)为V-Gph得到色散关系。从上到下相互作用强度为$\qopname  \relax o{ln}(k_Fa_{2d})=-0.5, -0.6, -0.7, -0.8, -0.9, -1.0$。同样能量平移$\boldsymbol  {Q}=0$时的能量。其中$Q=|{\boldsymbol  {Q} }|$。 \relax }}{64}{figure.caption.37}}
-\newlabel{2d_2}{{3.7}{64}{(a)为二维下不同相互作用下$P_5(\Vector {Q})$（实线）本征能量的色散关系。自上而下$\ln (k_Fa_{2d})=-0.8,-0.9,-1.0,-1.1,-1.2$。能量偏移$\Vector {Q}=0$时的能量。黑色小点代表$M_4({\Vector {Q} }_{\rm M})$变分波函数得到的能量。其动量关系为$|{\Vector {Q} }_{\rm M}|$。(b)为V-Gph得到色散关系。从上到下相互作用强度为$\ln (k_Fa_{2d})=-0.5, -0.6, -0.7, -0.8, -0.9, -1.0$。同样能量平移$\Vector {Q}=0$时的能量。其中$Q=|{\Vector {Q} }|$。 \relax }{figure.caption.37}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces 二维极化子色散关系与双极小值结构。(a)为二维下不同相互作用下$P_5(\boldsymbol  {Q})$（实线）本征能量的色散关系。自上而下$\qopname  \relax o{ln}(k_Fa_{2d})=-0.8,-0.9,-1.0,-1.1,-1.2$。能量偏移$\boldsymbol  {Q}=0$时的能量。黑色小点代表$M_4({\boldsymbol  {Q} }_{\rm  M})$变分波函数得到的能量。其动量关系为$|{\boldsymbol  {Q} }_{\rm  M}|$。(b)为V-Gph得到色散关系。从上到下相互作用强度为$\qopname  \relax o{ln}(k_Fa_{2d})=-0.5, -0.6, -0.7, -0.8, -0.9, -1.0$。同样能量平移$\boldsymbol  {Q}=0$时的能量。其中$Q=|{\boldsymbol  {Q} }|$。 \relax }}{64}{figure.caption.37}}
+\newlabel{2d_2}{{3.7}{64}{二维极化子色散关系与双极小值结构。(a)为二维下不同相互作用下$P_5(\Vector {Q})$（实线）本征能量的色散关系。自上而下$\ln (k_Fa_{2d})=-0.8,-0.9,-1.0,-1.1,-1.2$。能量偏移$\Vector {Q}=0$时的能量。黑色小点代表$M_4({\Vector {Q} }_{\rm M})$变分波函数得到的能量。其动量关系为$|{\Vector {Q} }_{\rm M}|$。(b)为V-Gph得到色散关系。从上到下相互作用强度为$\ln (k_Fa_{2d})=-0.5, -0.6, -0.7, -0.8, -0.9, -1.0$。同样能量平移$\Vector {Q}=0$时的能量。其中$Q=|{\Vector {Q} }|$。 \relax }{figure.caption.37}{}}
 \citation{Vlietinck2014diag,Kriss2014diag}
 \citation{Bour2015ab}
 \citation{Bour2015ab}
